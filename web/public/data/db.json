@@ -1,7 +1,8 @@
 {
- "generatedAt": "2026-11-23T14:25:08+00:00",
+ "generatedAt": "2026-11-23T14:34:45+00:00",
  "sources": [
-  "Brawlify"
+  "Brawlify",
+  "API officielle Brawl Stars (4353 parties classées)"
  ],
  "brawlers": [
   {
@@ -1365,6 +1366,11 @@
    ]
   },
   {
+   "id": "belle-s-rock",
+   "name": "Belle's Rock",
+   "mode": "Hors-jeu"
+  },
+  {
    "id": "belles-rock",
    "name": "Belles Rock",
    "mode": "Hors-jeu"
@@ -2694,8 +2700,10033 @@
   }
  ],
  "activeMaps": [],
- "mapStats": {},
- "matchups": {},
- "synergies": {},
+ "mapStats": {
+  "bridge-too-far": {
+   "bonnie": {
+    "winRate": 42.86,
+    "useRate": 4.14,
+    "n": 7
+   },
+   "finx": {
+    "winRate": 100.0,
+    "useRate": 0.59,
+    "n": 1
+   },
+   "carl": {
+    "winRate": 75.0,
+    "useRate": 4.73,
+    "n": 8
+   },
+   "starr-nova": {
+    "winRate": 100.0,
+    "useRate": 2.37,
+    "n": 4
+   },
+   "larry-lawrie": {
+    "winRate": 100.0,
+    "useRate": 0.59,
+    "n": 1
+   },
+   "nori": {
+    "winRate": 52.27,
+    "useRate": 26.04,
+    "n": 44
+   },
+   "chuck": {
+    "winRate": 53.33,
+    "useRate": 8.88,
+    "n": 15
+   },
+   "dynamike": {
+    "winRate": 25.0,
+    "useRate": 2.37,
+    "n": 4
+   },
+   "8-bit": {
+    "winRate": 64.47,
+    "useRate": 44.97,
+    "n": 76
+   },
+   "amber": {
+    "winRate": 44.74,
+    "useRate": 22.49,
+    "n": 38
+   },
+   "piper": {
+    "winRate": 46.43,
+    "useRate": 33.14,
+    "n": 56
+   },
+   "gale": {
+    "winRate": 100.0,
+    "useRate": 1.18,
+    "n": 2
+   },
+   "colette": {
+    "winRate": 63.16,
+    "useRate": 44.97,
+    "n": 76
+   },
+   "bibi": {
+    "winRate": 100.0,
+    "useRate": 0.59,
+    "n": 1
+   },
+   "r-t": {
+    "winRate": 80.0,
+    "useRate": 2.96,
+    "n": 5
+   },
+   "berry": {
+    "winRate": 50.0,
+    "useRate": 3.55,
+    "n": 6
+   },
+   "sirius": {
+    "winRate": 0.0,
+    "useRate": 0.59,
+    "n": 1
+   },
+   "vince": {
+    "winRate": 0.0,
+    "useRate": 4.73,
+    "n": 8
+   },
+   "mr-p": {
+    "winRate": 100.0,
+    "useRate": 1.18,
+    "n": 2
+   },
+   "el-primo": {
+    "winRate": 33.33,
+    "useRate": 1.78,
+    "n": 3
+   },
+   "cordelius": {
+    "winRate": 0.0,
+    "useRate": 2.37,
+    "n": 4
+   },
+   "brock": {
+    "winRate": 48.15,
+    "useRate": 47.93,
+    "n": 81
+   },
+   "eve": {
+    "winRate": 71.43,
+    "useRate": 4.14,
+    "n": 7
+   },
+   "surge": {
+    "winRate": 100.0,
+    "useRate": 1.18,
+    "n": 2
+   },
+   "crow": {
+    "winRate": 33.33,
+    "useRate": 5.33,
+    "n": 9
+   },
+   "shelly": {
+    "winRate": 100.0,
+    "useRate": 1.18,
+    "n": 2
+   },
+   "colt": {
+    "winRate": 52.29,
+    "useRate": 64.5,
+    "n": 109
+   },
+   "penny": {
+    "winRate": 40.0,
+    "useRate": 2.96,
+    "n": 5
+   },
+   "belle": {
+    "winRate": 47.83,
+    "useRate": 13.61,
+    "n": 23
+   },
+   "bull": {
+    "winRate": 66.67,
+    "useRate": 5.33,
+    "n": 9
+   },
+   "bo": {
+    "winRate": 44.44,
+    "useRate": 5.33,
+    "n": 9
+   },
+   "wendy": {
+    "winRate": 66.67,
+    "useRate": 1.78,
+    "n": 3
+   },
+   "bea": {
+    "winRate": 40.0,
+    "useRate": 2.96,
+    "n": 5
+   },
+   "pierce": {
+    "winRate": 51.35,
+    "useRate": 21.89,
+    "n": 37
+   },
+   "charlie": {
+    "winRate": 66.67,
+    "useRate": 1.78,
+    "n": 3
+   },
+   "mico": {
+    "winRate": 63.16,
+    "useRate": 11.24,
+    "n": 19
+   },
+   "nita": {
+    "winRate": 0.0,
+    "useRate": 1.18,
+    "n": 2
+   },
+   "shade": {
+    "winRate": 33.33,
+    "useRate": 1.78,
+    "n": 3
+   },
+   "spike": {
+    "winRate": 42.86,
+    "useRate": 8.28,
+    "n": 14
+   },
+   "gigi": {
+    "winRate": 60.0,
+    "useRate": 2.96,
+    "n": 5
+   },
+   "mandy": {
+    "winRate": 38.71,
+    "useRate": 18.34,
+    "n": 31
+   },
+   "cosmo": {
+    "winRate": 20.0,
+    "useRate": 2.96,
+    "n": 5
+   },
+   "jessie": {
+    "winRate": 29.41,
+    "useRate": 10.06,
+    "n": 17
+   },
+   "squeak": {
+    "winRate": 0.0,
+    "useRate": 0.59,
+    "n": 1
+   },
+   "nani": {
+    "winRate": 25.0,
+    "useRate": 14.2,
+    "n": 24
+   },
+   "lola": {
+    "winRate": 63.64,
+    "useRate": 6.51,
+    "n": 11
+   },
+   "melodie": {
+    "winRate": 47.73,
+    "useRate": 26.04,
+    "n": 44
+   },
+   "meg": {
+    "winRate": 0.0,
+    "useRate": 0.59,
+    "n": 1
+   },
+   "angelo": {
+    "winRate": 48.94,
+    "useRate": 27.81,
+    "n": 47
+   },
+   "alli": {
+    "winRate": 66.67,
+    "useRate": 1.78,
+    "n": 3
+   },
+   "kaze": {
+    "winRate": 39.02,
+    "useRate": 24.26,
+    "n": 41
+   },
+   "otis": {
+    "winRate": 42.86,
+    "useRate": 4.14,
+    "n": 7
+   },
+   "najia": {
+    "winRate": 0.0,
+    "useRate": 1.18,
+    "n": 2
+   },
+   "gus": {
+    "winRate": 33.33,
+    "useRate": 3.55,
+    "n": 6
+   },
+   "max": {
+    "winRate": 60.0,
+    "useRate": 2.96,
+    "n": 5
+   },
+   "glowy": {
+    "winRate": 100.0,
+    "useRate": 2.37,
+    "n": 4
+   },
+   "rico": {
+    "winRate": 50.0,
+    "useRate": 4.73,
+    "n": 8
+   },
+   "lou": {
+    "winRate": 28.57,
+    "useRate": 4.14,
+    "n": 7
+   },
+   "byron": {
+    "winRate": 36.36,
+    "useRate": 6.51,
+    "n": 11
+   },
+   "edgar": {
+    "winRate": 50.0,
+    "useRate": 10.65,
+    "n": 18
+   },
+   "emz": {
+    "winRate": 50.0,
+    "useRate": 3.55,
+    "n": 6
+   },
+   "trunk": {
+    "winRate": 100.0,
+    "useRate": 1.18,
+    "n": 2
+   },
+   "tara": {
+    "winRate": 0.0,
+    "useRate": 0.59,
+    "n": 1
+   },
+   "griff": {
+    "winRate": 0.0,
+    "useRate": 0.59,
+    "n": 1
+   },
+   "frank": {
+    "winRate": 0.0,
+    "useRate": 1.18,
+    "n": 2
+   }
+  },
+  "open-business": {
+   "finx": {
+    "winRate": 0.0,
+    "useRate": 1.17,
+    "n": 2
+   },
+   "lumi": {
+    "winRate": 25.0,
+    "useRate": 7.02,
+    "n": 12
+   },
+   "tick": {
+    "winRate": 50.0,
+    "useRate": 8.19,
+    "n": 14
+   },
+   "fang": {
+    "winRate": 44.44,
+    "useRate": 5.26,
+    "n": 9
+   },
+   "carl": {
+    "winRate": 66.67,
+    "useRate": 3.51,
+    "n": 6
+   },
+   "gray": {
+    "winRate": 53.85,
+    "useRate": 7.6,
+    "n": 13
+   },
+   "poco": {
+    "winRate": 60.0,
+    "useRate": 5.85,
+    "n": 10
+   },
+   "starr-nova": {
+    "winRate": 50.0,
+    "useRate": 5.85,
+    "n": 10
+   },
+   "larry-lawrie": {
+    "winRate": 66.67,
+    "useRate": 3.51,
+    "n": 6
+   },
+   "nori": {
+    "winRate": 50.0,
+    "useRate": 3.51,
+    "n": 6
+   },
+   "dynamike": {
+    "winRate": 100.0,
+    "useRate": 2.34,
+    "n": 4
+   },
+   "chuck": {
+    "winRate": 30.77,
+    "useRate": 7.6,
+    "n": 13
+   },
+   "stu": {
+    "winRate": 60.0,
+    "useRate": 14.62,
+    "n": 25
+   },
+   "8-bit": {
+    "winRate": 0.0,
+    "useRate": 2.34,
+    "n": 4
+   },
+   "amber": {
+    "winRate": 43.94,
+    "useRate": 38.6,
+    "n": 66
+   },
+   "maisie": {
+    "winRate": 0.0,
+    "useRate": 1.17,
+    "n": 2
+   },
+   "doug": {
+    "winRate": 0.0,
+    "useRate": 1.75,
+    "n": 3
+   },
+   "gale": {
+    "winRate": 45.95,
+    "useRate": 21.64,
+    "n": 37
+   },
+   "colette": {
+    "winRate": 46.15,
+    "useRate": 7.6,
+    "n": 13
+   },
+   "ruffs": {
+    "winRate": 50.0,
+    "useRate": 2.34,
+    "n": 4
+   },
+   "buster": {
+    "winRate": 0.0,
+    "useRate": 1.17,
+    "n": 2
+   },
+   "buzz": {
+    "winRate": 50.0,
+    "useRate": 2.34,
+    "n": 4
+   },
+   "pearl": {
+    "winRate": 20.0,
+    "useRate": 2.92,
+    "n": 5
+   },
+   "bibi": {
+    "winRate": 12.5,
+    "useRate": 4.68,
+    "n": 8
+   },
+   "clancy": {
+    "winRate": 40.0,
+    "useRate": 2.92,
+    "n": 5
+   },
+   "berry": {
+    "winRate": 51.72,
+    "useRate": 16.96,
+    "n": 29
+   },
+   "sirius": {
+    "winRate": 53.33,
+    "useRate": 8.77,
+    "n": 15
+   },
+   "mortis": {
+    "winRate": 52.78,
+    "useRate": 21.05,
+    "n": 36
+   },
+   "vince": {
+    "winRate": 32.0,
+    "useRate": 14.62,
+    "n": 25
+   },
+   "el-primo": {
+    "winRate": 66.67,
+    "useRate": 3.51,
+    "n": 6
+   },
+   "mr-p": {
+    "winRate": 50.0,
+    "useRate": 9.36,
+    "n": 16
+   },
+   "cordelius": {
+    "winRate": 33.33,
+    "useRate": 1.75,
+    "n": 3
+   },
+   "brock": {
+    "winRate": 25.0,
+    "useRate": 2.34,
+    "n": 4
+   },
+   "ash": {
+    "winRate": 87.5,
+    "useRate": 4.68,
+    "n": 8
+   },
+   "surge": {
+    "winRate": 51.92,
+    "useRate": 30.41,
+    "n": 52
+   },
+   "crow": {
+    "winRate": 33.33,
+    "useRate": 3.51,
+    "n": 6
+   },
+   "shelly": {
+    "winRate": 0.0,
+    "useRate": 1.17,
+    "n": 2
+   },
+   "colt": {
+    "winRate": 30.77,
+    "useRate": 7.6,
+    "n": 13
+   },
+   "penny": {
+    "winRate": 46.15,
+    "useRate": 7.6,
+    "n": 13
+   },
+   "bull": {
+    "winRate": 50.0,
+    "useRate": 2.34,
+    "n": 4
+   },
+   "bo": {
+    "winRate": 55.93,
+    "useRate": 34.5,
+    "n": 59
+   },
+   "pierce": {
+    "winRate": 69.23,
+    "useRate": 7.6,
+    "n": 13
+   },
+   "lily": {
+    "winRate": 50.0,
+    "useRate": 3.51,
+    "n": 6
+   },
+   "charlie": {
+    "winRate": 33.33,
+    "useRate": 1.75,
+    "n": 3
+   },
+   "mico": {
+    "winRate": 0.0,
+    "useRate": 0.58,
+    "n": 1
+   },
+   "ollie": {
+    "winRate": 66.67,
+    "useRate": 1.75,
+    "n": 3
+   },
+   "draco": {
+    "winRate": 42.86,
+    "useRate": 4.09,
+    "n": 7
+   },
+   "kenji": {
+    "winRate": 55.56,
+    "useRate": 5.26,
+    "n": 9
+   },
+   "hank": {
+    "winRate": 56.25,
+    "useRate": 9.36,
+    "n": 16
+   },
+   "shade": {
+    "winRate": 20.0,
+    "useRate": 5.85,
+    "n": 10
+   },
+   "spike": {
+    "winRate": 51.72,
+    "useRate": 16.96,
+    "n": 29
+   },
+   "gigi": {
+    "winRate": 40.0,
+    "useRate": 2.92,
+    "n": 5
+   },
+   "janet": {
+    "winRate": 40.0,
+    "useRate": 2.92,
+    "n": 5
+   },
+   "cosmo": {
+    "winRate": 66.67,
+    "useRate": 1.75,
+    "n": 3
+   },
+   "mina": {
+    "winRate": 50.0,
+    "useRate": 12.87,
+    "n": 22
+   },
+   "juju": {
+    "winRate": 100.0,
+    "useRate": 1.17,
+    "n": 2
+   },
+   "squeak": {
+    "winRate": 63.16,
+    "useRate": 11.11,
+    "n": 19
+   },
+   "meg": {
+    "winRate": 33.33,
+    "useRate": 1.75,
+    "n": 3
+   },
+   "melodie": {
+    "winRate": 57.14,
+    "useRate": 8.19,
+    "n": 14
+   },
+   "sandy": {
+    "winRate": 0.0,
+    "useRate": 0.58,
+    "n": 1
+   },
+   "kaze": {
+    "winRate": 100.0,
+    "useRate": 1.17,
+    "n": 2
+   },
+   "otis": {
+    "winRate": 20.0,
+    "useRate": 2.92,
+    "n": 5
+   },
+   "chester": {
+    "winRate": 58.14,
+    "useRate": 25.15,
+    "n": 43
+   },
+   "jae-yong": {
+    "winRate": 33.33,
+    "useRate": 1.75,
+    "n": 3
+   },
+   "max": {
+    "winRate": 33.33,
+    "useRate": 8.77,
+    "n": 15
+   },
+   "gus": {
+    "winRate": 36.36,
+    "useRate": 6.43,
+    "n": 11
+   },
+   "glowy": {
+    "winRate": 46.15,
+    "useRate": 7.6,
+    "n": 13
+   },
+   "meeple": {
+    "winRate": 33.33,
+    "useRate": 3.51,
+    "n": 6
+   },
+   "rico": {
+    "winRate": 20.0,
+    "useRate": 2.92,
+    "n": 5
+   },
+   "sprout": {
+    "winRate": 0.0,
+    "useRate": 1.17,
+    "n": 2
+   },
+   "lou": {
+    "winRate": 63.33,
+    "useRate": 17.54,
+    "n": 30
+   },
+   "willow": {
+    "winRate": 14.29,
+    "useRate": 4.09,
+    "n": 7
+   },
+   "emz": {
+    "winRate": 68.42,
+    "useRate": 22.22,
+    "n": 38
+   },
+   "edgar": {
+    "winRate": 62.5,
+    "useRate": 14.04,
+    "n": 24
+   },
+   "barley": {
+    "winRate": 85.71,
+    "useRate": 8.19,
+    "n": 14
+   },
+   "trunk": {
+    "winRate": 66.67,
+    "useRate": 1.75,
+    "n": 3
+   },
+   "tara": {
+    "winRate": 20.0,
+    "useRate": 2.92,
+    "n": 5
+   },
+   "griff": {
+    "winRate": 54.9,
+    "useRate": 29.82,
+    "n": 51
+   },
+   "frank": {
+    "winRate": 50.0,
+    "useRate": 2.34,
+    "n": 4
+   }
+  },
+  "kaboom-canyon": {
+   "bonnie": {
+    "winRate": 0.0,
+    "useRate": 1.28,
+    "n": 2
+   },
+   "finx": {
+    "winRate": 72.73,
+    "useRate": 7.05,
+    "n": 11
+   },
+   "lumi": {
+    "winRate": 0.0,
+    "useRate": 2.56,
+    "n": 4
+   },
+   "fang": {
+    "winRate": 0.0,
+    "useRate": 0.64,
+    "n": 1
+   },
+   "poco": {
+    "winRate": 0.0,
+    "useRate": 0.64,
+    "n": 1
+   },
+   "carl": {
+    "winRate": 62.07,
+    "useRate": 18.59,
+    "n": 29
+   },
+   "starr-nova": {
+    "winRate": 0.0,
+    "useRate": 3.21,
+    "n": 5
+   },
+   "chuck": {
+    "winRate": 50.0,
+    "useRate": 11.54,
+    "n": 18
+   },
+   "nori": {
+    "winRate": 57.14,
+    "useRate": 31.41,
+    "n": 49
+   },
+   "stu": {
+    "winRate": 0.0,
+    "useRate": 0.64,
+    "n": 1
+   },
+   "8-bit": {
+    "winRate": 55.77,
+    "useRate": 33.33,
+    "n": 52
+   },
+   "amber": {
+    "winRate": 33.33,
+    "useRate": 30.77,
+    "n": 48
+   },
+   "maisie": {
+    "winRate": 40.0,
+    "useRate": 3.21,
+    "n": 5
+   },
+   "darryl": {
+    "winRate": 60.0,
+    "useRate": 3.21,
+    "n": 5
+   },
+   "doug": {
+    "winRate": 0.0,
+    "useRate": 1.92,
+    "n": 3
+   },
+   "piper": {
+    "winRate": 55.56,
+    "useRate": 11.54,
+    "n": 18
+   },
+   "gale": {
+    "winRate": 63.64,
+    "useRate": 7.05,
+    "n": 11
+   },
+   "colette": {
+    "winRate": 54.41,
+    "useRate": 43.59,
+    "n": 68
+   },
+   "ruffs": {
+    "winRate": 0.0,
+    "useRate": 1.28,
+    "n": 2
+   },
+   "buzz": {
+    "winRate": 0.0,
+    "useRate": 1.28,
+    "n": 2
+   },
+   "damian": {
+    "winRate": 0.0,
+    "useRate": 0.64,
+    "n": 1
+   },
+   "pearl": {
+    "winRate": 100.0,
+    "useRate": 1.28,
+    "n": 2
+   },
+   "bibi": {
+    "winRate": 50.0,
+    "useRate": 2.56,
+    "n": 4
+   },
+   "clancy": {
+    "winRate": 66.67,
+    "useRate": 1.92,
+    "n": 3
+   },
+   "moe": {
+    "winRate": 0.0,
+    "useRate": 0.64,
+    "n": 1
+   },
+   "r-t": {
+    "winRate": 100.0,
+    "useRate": 1.28,
+    "n": 2
+   },
+   "berry": {
+    "winRate": 60.0,
+    "useRate": 3.21,
+    "n": 5
+   },
+   "sirius": {
+    "winRate": 40.0,
+    "useRate": 3.21,
+    "n": 5
+   },
+   "mortis": {
+    "winRate": 33.33,
+    "useRate": 1.92,
+    "n": 3
+   },
+   "vince": {
+    "winRate": 28.57,
+    "useRate": 4.49,
+    "n": 7
+   },
+   "mr-p": {
+    "winRate": 0.0,
+    "useRate": 2.56,
+    "n": 4
+   },
+   "cordelius": {
+    "winRate": 37.5,
+    "useRate": 5.13,
+    "n": 8
+   },
+   "brock": {
+    "winRate": 37.1,
+    "useRate": 39.74,
+    "n": 62
+   },
+   "eve": {
+    "winRate": 30.0,
+    "useRate": 6.41,
+    "n": 10
+   },
+   "crow": {
+    "winRate": 27.27,
+    "useRate": 7.05,
+    "n": 11
+   },
+   "surge": {
+    "winRate": 33.33,
+    "useRate": 3.85,
+    "n": 6
+   },
+   "shelly": {
+    "winRate": 100.0,
+    "useRate": 1.28,
+    "n": 2
+   },
+   "colt": {
+    "winRate": 55.84,
+    "useRate": 49.36,
+    "n": 77
+   },
+   "penny": {
+    "winRate": 64.71,
+    "useRate": 10.9,
+    "n": 17
+   },
+   "belle": {
+    "winRate": 0.0,
+    "useRate": 1.28,
+    "n": 2
+   },
+   "bull": {
+    "winRate": 36.36,
+    "useRate": 7.05,
+    "n": 11
+   },
+   "bo": {
+    "winRate": 50.0,
+    "useRate": 5.13,
+    "n": 8
+   },
+   "pierce": {
+    "winRate": 50.0,
+    "useRate": 11.54,
+    "n": 18
+   },
+   "bolt": {
+    "winRate": 0.0,
+    "useRate": 0.64,
+    "n": 1
+   },
+   "jacky": {
+    "winRate": 0.0,
+    "useRate": 1.28,
+    "n": 2
+   },
+   "mico": {
+    "winRate": 54.29,
+    "useRate": 22.44,
+    "n": 35
+   },
+   "nita": {
+    "winRate": 25.0,
+    "useRate": 2.56,
+    "n": 4
+   },
+   "shade": {
+    "winRate": 25.0,
+    "useRate": 2.56,
+    "n": 4
+   },
+   "spike": {
+    "winRate": 21.05,
+    "useRate": 12.18,
+    "n": 19
+   },
+   "gigi": {
+    "winRate": 28.57,
+    "useRate": 4.49,
+    "n": 7
+   },
+   "mandy": {
+    "winRate": 30.77,
+    "useRate": 8.33,
+    "n": 13
+   },
+   "mina": {
+    "winRate": 0.0,
+    "useRate": 0.64,
+    "n": 1
+   },
+   "juju": {
+    "winRate": 100.0,
+    "useRate": 1.28,
+    "n": 2
+   },
+   "jessie": {
+    "winRate": 61.54,
+    "useRate": 8.33,
+    "n": 13
+   },
+   "squeak": {
+    "winRate": 0.0,
+    "useRate": 1.92,
+    "n": 3
+   },
+   "lola": {
+    "winRate": 50.0,
+    "useRate": 2.56,
+    "n": 4
+   },
+   "nani": {
+    "winRate": 66.67,
+    "useRate": 1.92,
+    "n": 3
+   },
+   "melodie": {
+    "winRate": 60.0,
+    "useRate": 25.64,
+    "n": 40
+   },
+   "meg": {
+    "winRate": 100.0,
+    "useRate": 1.28,
+    "n": 2
+   },
+   "angelo": {
+    "winRate": 58.82,
+    "useRate": 21.79,
+    "n": 34
+   },
+   "alli": {
+    "winRate": 72.22,
+    "useRate": 11.54,
+    "n": 18
+   },
+   "kaze": {
+    "winRate": 44.44,
+    "useRate": 17.31,
+    "n": 27
+   },
+   "otis": {
+    "winRate": 55.56,
+    "useRate": 5.77,
+    "n": 9
+   },
+   "chester": {
+    "winRate": 33.33,
+    "useRate": 5.77,
+    "n": 9
+   },
+   "max": {
+    "winRate": 62.5,
+    "useRate": 5.13,
+    "n": 8
+   },
+   "gus": {
+    "winRate": 100.0,
+    "useRate": 1.28,
+    "n": 2
+   },
+   "glowy": {
+    "winRate": 81.82,
+    "useRate": 7.05,
+    "n": 11
+   },
+   "rico": {
+    "winRate": 80.0,
+    "useRate": 3.21,
+    "n": 5
+   },
+   "lou": {
+    "winRate": 50.0,
+    "useRate": 5.13,
+    "n": 8
+   },
+   "byron": {
+    "winRate": 57.14,
+    "useRate": 4.49,
+    "n": 7
+   },
+   "emz": {
+    "winRate": 60.0,
+    "useRate": 3.21,
+    "n": 5
+   },
+   "edgar": {
+    "winRate": 50.0,
+    "useRate": 12.82,
+    "n": 20
+   },
+   "trunk": {
+    "winRate": 100.0,
+    "useRate": 0.64,
+    "n": 1
+   },
+   "griff": {
+    "winRate": 76.92,
+    "useRate": 8.33,
+    "n": 13
+   },
+   "frank": {
+    "winRate": 100.0,
+    "useRate": 1.28,
+    "n": 2
+   }
+  },
+  "ring-of-fire": {
+   "bonnie": {
+    "winRate": 0.0,
+    "useRate": 1.05,
+    "n": 2
+   },
+   "finx": {
+    "winRate": 63.16,
+    "useRate": 10.0,
+    "n": 19
+   },
+   "lumi": {
+    "winRate": 75.0,
+    "useRate": 4.21,
+    "n": 8
+   },
+   "fang": {
+    "winRate": 73.33,
+    "useRate": 7.89,
+    "n": 15
+   },
+   "poco": {
+    "winRate": 45.45,
+    "useRate": 5.79,
+    "n": 11
+   },
+   "carl": {
+    "winRate": 33.33,
+    "useRate": 1.58,
+    "n": 3
+   },
+   "tick": {
+    "winRate": 16.67,
+    "useRate": 3.16,
+    "n": 6
+   },
+   "gray": {
+    "winRate": 57.14,
+    "useRate": 3.68,
+    "n": 7
+   },
+   "starr-nova": {
+    "winRate": 42.86,
+    "useRate": 7.37,
+    "n": 14
+   },
+   "nori": {
+    "winRate": 47.62,
+    "useRate": 11.05,
+    "n": 21
+   },
+   "dynamike": {
+    "winRate": 50.0,
+    "useRate": 1.05,
+    "n": 2
+   },
+   "chuck": {
+    "winRate": 70.0,
+    "useRate": 10.53,
+    "n": 20
+   },
+   "stu": {
+    "winRate": 42.11,
+    "useRate": 10.0,
+    "n": 19
+   },
+   "8-bit": {
+    "winRate": 37.84,
+    "useRate": 19.47,
+    "n": 37
+   },
+   "amber": {
+    "winRate": 59.62,
+    "useRate": 27.37,
+    "n": 52
+   },
+   "darryl": {
+    "winRate": 33.33,
+    "useRate": 3.16,
+    "n": 6
+   },
+   "doug": {
+    "winRate": 25.0,
+    "useRate": 2.11,
+    "n": 4
+   },
+   "gale": {
+    "winRate": 36.59,
+    "useRate": 21.58,
+    "n": 41
+   },
+   "piper": {
+    "winRate": 40.0,
+    "useRate": 5.26,
+    "n": 10
+   },
+   "colette": {
+    "winRate": 59.46,
+    "useRate": 19.47,
+    "n": 37
+   },
+   "ruffs": {
+    "winRate": 37.5,
+    "useRate": 4.21,
+    "n": 8
+   },
+   "buster": {
+    "winRate": 0.0,
+    "useRate": 0.53,
+    "n": 1
+   },
+   "buzz": {
+    "winRate": 66.67,
+    "useRate": 1.58,
+    "n": 3
+   },
+   "pearl": {
+    "winRate": 60.0,
+    "useRate": 2.63,
+    "n": 5
+   },
+   "damian": {
+    "winRate": 100.0,
+    "useRate": 1.05,
+    "n": 2
+   },
+   "bibi": {
+    "winRate": 50.0,
+    "useRate": 1.05,
+    "n": 2
+   },
+   "berry": {
+    "winRate": 46.15,
+    "useRate": 6.84,
+    "n": 13
+   },
+   "mortis": {
+    "winRate": 55.56,
+    "useRate": 18.95,
+    "n": 36
+   },
+   "pam": {
+    "winRate": 100.0,
+    "useRate": 1.05,
+    "n": 2
+   },
+   "vince": {
+    "winRate": 47.37,
+    "useRate": 10.0,
+    "n": 19
+   },
+   "mr-p": {
+    "winRate": 66.67,
+    "useRate": 7.89,
+    "n": 15
+   },
+   "cordelius": {
+    "winRate": 0.0,
+    "useRate": 1.05,
+    "n": 2
+   },
+   "brock": {
+    "winRate": 55.56,
+    "useRate": 4.74,
+    "n": 9
+   },
+   "surge": {
+    "winRate": 64.52,
+    "useRate": 16.32,
+    "n": 31
+   },
+   "crow": {
+    "winRate": 37.5,
+    "useRate": 4.21,
+    "n": 8
+   },
+   "colt": {
+    "winRate": 25.0,
+    "useRate": 4.21,
+    "n": 8
+   },
+   "penny": {
+    "winRate": 36.84,
+    "useRate": 20.0,
+    "n": 38
+   },
+   "belle": {
+    "winRate": 57.14,
+    "useRate": 3.68,
+    "n": 7
+   },
+   "bull": {
+    "winRate": 100.0,
+    "useRate": 1.05,
+    "n": 2
+   },
+   "bo": {
+    "winRate": 52.44,
+    "useRate": 43.16,
+    "n": 82
+   },
+   "pierce": {
+    "winRate": 42.0,
+    "useRate": 26.32,
+    "n": 50
+   },
+   "bea": {
+    "winRate": 100.0,
+    "useRate": 1.58,
+    "n": 3
+   },
+   "lily": {
+    "winRate": 50.0,
+    "useRate": 1.05,
+    "n": 2
+   },
+   "charlie": {
+    "winRate": 33.33,
+    "useRate": 1.58,
+    "n": 3
+   },
+   "bolt": {
+    "winRate": 0.0,
+    "useRate": 1.05,
+    "n": 2
+   },
+   "mico": {
+    "winRate": 50.0,
+    "useRate": 1.05,
+    "n": 2
+   },
+   "grom": {
+    "winRate": 50.0,
+    "useRate": 1.05,
+    "n": 2
+   },
+   "leon": {
+    "winRate": 100.0,
+    "useRate": 1.05,
+    "n": 2
+   },
+   "draco": {
+    "winRate": 66.67,
+    "useRate": 1.58,
+    "n": 3
+   },
+   "kenji": {
+    "winRate": 0.0,
+    "useRate": 1.58,
+    "n": 3
+   },
+   "kit": {
+    "winRate": 71.43,
+    "useRate": 3.68,
+    "n": 7
+   },
+   "hank": {
+    "winRate": 100.0,
+    "useRate": 1.05,
+    "n": 2
+   },
+   "rosa": {
+    "winRate": 0.0,
+    "useRate": 1.05,
+    "n": 2
+   },
+   "nita": {
+    "winRate": 100.0,
+    "useRate": 0.53,
+    "n": 1
+   },
+   "spike": {
+    "winRate": 30.0,
+    "useRate": 21.05,
+    "n": 40
+   },
+   "mandy": {
+    "winRate": 38.46,
+    "useRate": 6.84,
+    "n": 13
+   },
+   "cosmo": {
+    "winRate": 61.9,
+    "useRate": 11.05,
+    "n": 21
+   },
+   "mina": {
+    "winRate": 47.06,
+    "useRate": 8.95,
+    "n": 17
+   },
+   "juju": {
+    "winRate": 35.71,
+    "useRate": 7.37,
+    "n": 14
+   },
+   "jessie": {
+    "winRate": 85.71,
+    "useRate": 3.68,
+    "n": 7
+   },
+   "squeak": {
+    "winRate": 26.09,
+    "useRate": 12.11,
+    "n": 23
+   },
+   "melodie": {
+    "winRate": 50.0,
+    "useRate": 13.68,
+    "n": 26
+   },
+   "alli": {
+    "winRate": 63.64,
+    "useRate": 5.79,
+    "n": 11
+   },
+   "otis": {
+    "winRate": 33.33,
+    "useRate": 1.58,
+    "n": 3
+   },
+   "chester": {
+    "winRate": 58.18,
+    "useRate": 28.95,
+    "n": 55
+   },
+   "najia": {
+    "winRate": 0.0,
+    "useRate": 1.58,
+    "n": 3
+   },
+   "gus": {
+    "winRate": 63.64,
+    "useRate": 5.79,
+    "n": 11
+   },
+   "max": {
+    "winRate": 50.0,
+    "useRate": 8.42,
+    "n": 16
+   },
+   "glowy": {
+    "winRate": 33.33,
+    "useRate": 1.58,
+    "n": 3
+   },
+   "meeple": {
+    "winRate": 100.0,
+    "useRate": 1.05,
+    "n": 2
+   },
+   "rico": {
+    "winRate": 38.1,
+    "useRate": 11.05,
+    "n": 21
+   },
+   "sprout": {
+    "winRate": 66.67,
+    "useRate": 1.58,
+    "n": 3
+   },
+   "lou": {
+    "winRate": 62.5,
+    "useRate": 16.84,
+    "n": 32
+   },
+   "byron": {
+    "winRate": 77.78,
+    "useRate": 4.74,
+    "n": 9
+   },
+   "emz": {
+    "winRate": 31.58,
+    "useRate": 10.0,
+    "n": 19
+   },
+   "edgar": {
+    "winRate": 47.37,
+    "useRate": 10.0,
+    "n": 19
+   },
+   "trunk": {
+    "winRate": 0.0,
+    "useRate": 1.05,
+    "n": 2
+   },
+   "tara": {
+    "winRate": 50.0,
+    "useRate": 2.11,
+    "n": 4
+   },
+   "griff": {
+    "winRate": 59.52,
+    "useRate": 22.11,
+    "n": 42
+   },
+   "frank": {
+    "winRate": 46.15,
+    "useRate": 6.84,
+    "n": 13
+   }
+  },
+  "out-in-the-open": {
+   "bonnie": {
+    "winRate": 36.84,
+    "useRate": 9.84,
+    "n": 19
+   },
+   "finx": {
+    "winRate": 100.0,
+    "useRate": 0.52,
+    "n": 1
+   },
+   "gray": {
+    "winRate": 55.88,
+    "useRate": 17.62,
+    "n": 34
+   },
+   "tick": {
+    "winRate": 33.33,
+    "useRate": 3.11,
+    "n": 6
+   },
+   "carl": {
+    "winRate": 53.33,
+    "useRate": 7.77,
+    "n": 15
+   },
+   "fang": {
+    "winRate": 40.0,
+    "useRate": 2.59,
+    "n": 5
+   },
+   "starr-nova": {
+    "winRate": 66.67,
+    "useRate": 1.55,
+    "n": 3
+   },
+   "nori": {
+    "winRate": 50.0,
+    "useRate": 2.07,
+    "n": 4
+   },
+   "dynamike": {
+    "winRate": 25.0,
+    "useRate": 2.07,
+    "n": 4
+   },
+   "stu": {
+    "winRate": 25.0,
+    "useRate": 2.07,
+    "n": 4
+   },
+   "8-bit": {
+    "winRate": 66.67,
+    "useRate": 3.11,
+    "n": 6
+   },
+   "amber": {
+    "winRate": 41.67,
+    "useRate": 12.44,
+    "n": 24
+   },
+   "maisie": {
+    "winRate": 0.0,
+    "useRate": 1.04,
+    "n": 2
+   },
+   "darryl": {
+    "winRate": 55.56,
+    "useRate": 4.66,
+    "n": 9
+   },
+   "doug": {
+    "winRate": 100.0,
+    "useRate": 1.04,
+    "n": 2
+   },
+   "piper": {
+    "winRate": 58.24,
+    "useRate": 47.15,
+    "n": 91
+   },
+   "gale": {
+    "winRate": 75.0,
+    "useRate": 2.07,
+    "n": 4
+   },
+   "colette": {
+    "winRate": 55.56,
+    "useRate": 4.66,
+    "n": 9
+   },
+   "ruffs": {
+    "winRate": 75.0,
+    "useRate": 4.15,
+    "n": 8
+   },
+   "buster": {
+    "winRate": 50.0,
+    "useRate": 2.07,
+    "n": 4
+   },
+   "pearl": {
+    "winRate": 46.15,
+    "useRate": 26.94,
+    "n": 52
+   },
+   "bibi": {
+    "winRate": 0.0,
+    "useRate": 1.55,
+    "n": 3
+   },
+   "r-t": {
+    "winRate": 28.57,
+    "useRate": 3.63,
+    "n": 7
+   },
+   "berry": {
+    "winRate": 50.0,
+    "useRate": 1.04,
+    "n": 2
+   },
+   "sirius": {
+    "winRate": 50.0,
+    "useRate": 1.04,
+    "n": 2
+   },
+   "mortis": {
+    "winRate": 0.0,
+    "useRate": 1.55,
+    "n": 3
+   },
+   "pam": {
+    "winRate": 66.67,
+    "useRate": 1.55,
+    "n": 3
+   },
+   "vince": {
+    "winRate": 56.67,
+    "useRate": 15.54,
+    "n": 30
+   },
+   "mr-p": {
+    "winRate": 62.07,
+    "useRate": 15.03,
+    "n": 29
+   },
+   "brock": {
+    "winRate": 55.26,
+    "useRate": 39.38,
+    "n": 76
+   },
+   "eve": {
+    "winRate": 65.0,
+    "useRate": 10.36,
+    "n": 20
+   },
+   "crow": {
+    "winRate": 0.0,
+    "useRate": 0.52,
+    "n": 1
+   },
+   "surge": {
+    "winRate": 0.0,
+    "useRate": 1.04,
+    "n": 2
+   },
+   "shelly": {
+    "winRate": 0.0,
+    "useRate": 0.52,
+    "n": 1
+   },
+   "colt": {
+    "winRate": 71.43,
+    "useRate": 7.25,
+    "n": 14
+   },
+   "penny": {
+    "winRate": 66.67,
+    "useRate": 1.55,
+    "n": 3
+   },
+   "belle": {
+    "winRate": 52.17,
+    "useRate": 11.92,
+    "n": 23
+   },
+   "bo": {
+    "winRate": 33.33,
+    "useRate": 3.11,
+    "n": 6
+   },
+   "wendy": {
+    "winRate": 50.0,
+    "useRate": 2.07,
+    "n": 4
+   },
+   "pierce": {
+    "winRate": 25.0,
+    "useRate": 10.36,
+    "n": 20
+   },
+   "bea": {
+    "winRate": 50.0,
+    "useRate": 3.11,
+    "n": 6
+   },
+   "lily": {
+    "winRate": 50.0,
+    "useRate": 1.04,
+    "n": 2
+   },
+   "charlie": {
+    "winRate": 20.0,
+    "useRate": 2.59,
+    "n": 5
+   },
+   "bolt": {
+    "winRate": 42.86,
+    "useRate": 3.63,
+    "n": 7
+   },
+   "grom": {
+    "winRate": 100.0,
+    "useRate": 1.04,
+    "n": 2
+   },
+   "mico": {
+    "winRate": 100.0,
+    "useRate": 1.04,
+    "n": 2
+   },
+   "sam": {
+    "winRate": 0.0,
+    "useRate": 1.04,
+    "n": 2
+   },
+   "leon": {
+    "winRate": 30.0,
+    "useRate": 10.36,
+    "n": 20
+   },
+   "kit": {
+    "winRate": 50.0,
+    "useRate": 2.07,
+    "n": 4
+   },
+   "kenji": {
+    "winRate": 0.0,
+    "useRate": 0.52,
+    "n": 1
+   },
+   "rosa": {
+    "winRate": 66.67,
+    "useRate": 1.55,
+    "n": 3
+   },
+   "spike": {
+    "winRate": 29.17,
+    "useRate": 12.44,
+    "n": 24
+   },
+   "gigi": {
+    "winRate": 40.0,
+    "useRate": 2.59,
+    "n": 5
+   },
+   "mandy": {
+    "winRate": 52.94,
+    "useRate": 35.23,
+    "n": 68
+   },
+   "cosmo": {
+    "winRate": 50.0,
+    "useRate": 4.15,
+    "n": 8
+   },
+   "janet": {
+    "winRate": 100.0,
+    "useRate": 1.55,
+    "n": 3
+   },
+   "mina": {
+    "winRate": 48.39,
+    "useRate": 16.06,
+    "n": 31
+   },
+   "squeak": {
+    "winRate": 44.44,
+    "useRate": 13.99,
+    "n": 27
+   },
+   "nani": {
+    "winRate": 68.75,
+    "useRate": 16.58,
+    "n": 32
+   },
+   "meg": {
+    "winRate": 0.0,
+    "useRate": 0.52,
+    "n": 1
+   },
+   "melodie": {
+    "winRate": 40.0,
+    "useRate": 5.18,
+    "n": 10
+   },
+   "angelo": {
+    "winRate": 53.57,
+    "useRate": 43.52,
+    "n": 84
+   },
+   "gene": {
+    "winRate": 45.83,
+    "useRate": 12.44,
+    "n": 24
+   },
+   "alli": {
+    "winRate": 100.0,
+    "useRate": 1.04,
+    "n": 2
+   },
+   "otis": {
+    "winRate": 20.0,
+    "useRate": 2.59,
+    "n": 5
+   },
+   "chester": {
+    "winRate": 25.0,
+    "useRate": 2.07,
+    "n": 4
+   },
+   "najia": {
+    "winRate": 48.28,
+    "useRate": 15.03,
+    "n": 29
+   },
+   "gus": {
+    "winRate": 48.21,
+    "useRate": 29.02,
+    "n": 56
+   },
+   "max": {
+    "winRate": 37.5,
+    "useRate": 16.58,
+    "n": 32
+   },
+   "glowy": {
+    "winRate": 66.67,
+    "useRate": 1.55,
+    "n": 3
+   },
+   "meeple": {
+    "winRate": 25.0,
+    "useRate": 2.07,
+    "n": 4
+   },
+   "rico": {
+    "winRate": 75.0,
+    "useRate": 4.15,
+    "n": 8
+   },
+   "sprout": {
+    "winRate": 100.0,
+    "useRate": 1.04,
+    "n": 2
+   },
+   "lou": {
+    "winRate": 42.86,
+    "useRate": 7.25,
+    "n": 14
+   },
+   "byron": {
+    "winRate": 39.47,
+    "useRate": 19.69,
+    "n": 38
+   },
+   "edgar": {
+    "winRate": 60.71,
+    "useRate": 14.51,
+    "n": 28
+   },
+   "griff": {
+    "winRate": 28.57,
+    "useRate": 3.63,
+    "n": 7
+   }
+  },
+  "hideout": {
+   "bonnie": {
+    "winRate": 55.56,
+    "useRate": 5.36,
+    "n": 9
+   },
+   "tick": {
+    "winRate": 42.86,
+    "useRate": 4.17,
+    "n": 7
+   },
+   "gray": {
+    "winRate": 46.43,
+    "useRate": 16.67,
+    "n": 28
+   },
+   "fang": {
+    "winRate": 80.0,
+    "useRate": 2.98,
+    "n": 5
+   },
+   "carl": {
+    "winRate": 60.0,
+    "useRate": 2.98,
+    "n": 5
+   },
+   "starr-nova": {
+    "winRate": 0.0,
+    "useRate": 0.6,
+    "n": 1
+   },
+   "ziggy": {
+    "winRate": 0.0,
+    "useRate": 0.6,
+    "n": 1
+   },
+   "nori": {
+    "winRate": 53.85,
+    "useRate": 7.74,
+    "n": 13
+   },
+   "chuck": {
+    "winRate": 0.0,
+    "useRate": 1.19,
+    "n": 2
+   },
+   "stu": {
+    "winRate": 66.67,
+    "useRate": 1.79,
+    "n": 3
+   },
+   "8-bit": {
+    "winRate": 50.0,
+    "useRate": 2.38,
+    "n": 4
+   },
+   "amber": {
+    "winRate": 59.09,
+    "useRate": 13.1,
+    "n": 22
+   },
+   "maisie": {
+    "winRate": 33.33,
+    "useRate": 1.79,
+    "n": 3
+   },
+   "darryl": {
+    "winRate": 0.0,
+    "useRate": 1.19,
+    "n": 2
+   },
+   "doug": {
+    "winRate": 80.0,
+    "useRate": 2.98,
+    "n": 5
+   },
+   "piper": {
+    "winRate": 46.34,
+    "useRate": 48.81,
+    "n": 82
+   },
+   "gale": {
+    "winRate": 0.0,
+    "useRate": 1.19,
+    "n": 2
+   },
+   "colette": {
+    "winRate": 0.0,
+    "useRate": 2.98,
+    "n": 5
+   },
+   "ruffs": {
+    "winRate": 100.0,
+    "useRate": 1.19,
+    "n": 2
+   },
+   "buzz": {
+    "winRate": 33.33,
+    "useRate": 1.79,
+    "n": 3
+   },
+   "pearl": {
+    "winRate": 30.77,
+    "useRate": 7.74,
+    "n": 13
+   },
+   "bibi": {
+    "winRate": 100.0,
+    "useRate": 1.19,
+    "n": 2
+   },
+   "r-t": {
+    "winRate": 28.57,
+    "useRate": 4.17,
+    "n": 7
+   },
+   "sirius": {
+    "winRate": 0.0,
+    "useRate": 0.6,
+    "n": 1
+   },
+   "mortis": {
+    "winRate": 63.16,
+    "useRate": 22.62,
+    "n": 38
+   },
+   "vince": {
+    "winRate": 43.48,
+    "useRate": 13.69,
+    "n": 23
+   },
+   "mr-p": {
+    "winRate": 75.0,
+    "useRate": 11.9,
+    "n": 20
+   },
+   "brock": {
+    "winRate": 50.0,
+    "useRate": 45.24,
+    "n": 76
+   },
+   "eve": {
+    "winRate": 100.0,
+    "useRate": 0.6,
+    "n": 1
+   },
+   "surge": {
+    "winRate": 0.0,
+    "useRate": 1.19,
+    "n": 2
+   },
+   "crow": {
+    "winRate": 0.0,
+    "useRate": 0.6,
+    "n": 1
+   },
+   "colt": {
+    "winRate": 35.71,
+    "useRate": 8.33,
+    "n": 14
+   },
+   "penny": {
+    "winRate": 33.33,
+    "useRate": 1.79,
+    "n": 3
+   },
+   "belle": {
+    "winRate": 44.83,
+    "useRate": 17.26,
+    "n": 29
+   },
+   "bo": {
+    "winRate": 85.71,
+    "useRate": 4.17,
+    "n": 7
+   },
+   "bea": {
+    "winRate": 40.0,
+    "useRate": 8.93,
+    "n": 15
+   },
+   "pierce": {
+    "winRate": 54.17,
+    "useRate": 14.29,
+    "n": 24
+   },
+   "lily": {
+    "winRate": 100.0,
+    "useRate": 1.19,
+    "n": 2
+   },
+   "bolt": {
+    "winRate": 0.0,
+    "useRate": 0.6,
+    "n": 1
+   },
+   "mico": {
+    "winRate": 71.43,
+    "useRate": 4.17,
+    "n": 7
+   },
+   "ollie": {
+    "winRate": 33.33,
+    "useRate": 1.79,
+    "n": 3
+   },
+   "grom": {
+    "winRate": 100.0,
+    "useRate": 0.6,
+    "n": 1
+   },
+   "leon": {
+    "winRate": 35.29,
+    "useRate": 10.12,
+    "n": 17
+   },
+   "kenji": {
+    "winRate": 0.0,
+    "useRate": 1.19,
+    "n": 2
+   },
+   "hank": {
+    "winRate": 66.67,
+    "useRate": 1.79,
+    "n": 3
+   },
+   "nita": {
+    "winRate": 33.33,
+    "useRate": 1.79,
+    "n": 3
+   },
+   "spike": {
+    "winRate": 56.67,
+    "useRate": 17.86,
+    "n": 30
+   },
+   "gigi": {
+    "winRate": 100.0,
+    "useRate": 1.19,
+    "n": 2
+   },
+   "mandy": {
+    "winRate": 44.44,
+    "useRate": 32.14,
+    "n": 54
+   },
+   "janet": {
+    "winRate": 60.0,
+    "useRate": 2.98,
+    "n": 5
+   },
+   "mina": {
+    "winRate": 45.45,
+    "useRate": 19.64,
+    "n": 33
+   },
+   "juju": {
+    "winRate": 0.0,
+    "useRate": 0.6,
+    "n": 1
+   },
+   "jessie": {
+    "winRate": 0.0,
+    "useRate": 0.6,
+    "n": 1
+   },
+   "squeak": {
+    "winRate": 20.0,
+    "useRate": 2.98,
+    "n": 5
+   },
+   "nani": {
+    "winRate": 60.42,
+    "useRate": 28.57,
+    "n": 48
+   },
+   "lola": {
+    "winRate": 33.33,
+    "useRate": 1.79,
+    "n": 3
+   },
+   "melodie": {
+    "winRate": 46.67,
+    "useRate": 8.93,
+    "n": 15
+   },
+   "angelo": {
+    "winRate": 45.0,
+    "useRate": 11.9,
+    "n": 20
+   },
+   "gene": {
+    "winRate": 15.38,
+    "useRate": 7.74,
+    "n": 13
+   },
+   "alli": {
+    "winRate": 0.0,
+    "useRate": 1.79,
+    "n": 3
+   },
+   "kaze": {
+    "winRate": 60.0,
+    "useRate": 5.95,
+    "n": 10
+   },
+   "otis": {
+    "winRate": 50.0,
+    "useRate": 2.38,
+    "n": 4
+   },
+   "chester": {
+    "winRate": 80.0,
+    "useRate": 2.98,
+    "n": 5
+   },
+   "najia": {
+    "winRate": 50.0,
+    "useRate": 27.38,
+    "n": 46
+   },
+   "gus": {
+    "winRate": 60.0,
+    "useRate": 29.76,
+    "n": 50
+   },
+   "max": {
+    "winRate": 54.55,
+    "useRate": 26.19,
+    "n": 44
+   },
+   "glowy": {
+    "winRate": 14.29,
+    "useRate": 4.17,
+    "n": 7
+   },
+   "meeple": {
+    "winRate": 33.33,
+    "useRate": 1.79,
+    "n": 3
+   },
+   "rico": {
+    "winRate": 0.0,
+    "useRate": 1.19,
+    "n": 2
+   },
+   "sprout": {
+    "winRate": 33.33,
+    "useRate": 8.93,
+    "n": 15
+   },
+   "lou": {
+    "winRate": 88.89,
+    "useRate": 5.36,
+    "n": 9
+   },
+   "byron": {
+    "winRate": 56.1,
+    "useRate": 24.4,
+    "n": 41
+   },
+   "edgar": {
+    "winRate": 30.0,
+    "useRate": 5.95,
+    "n": 10
+   },
+   "emz": {
+    "winRate": 100.0,
+    "useRate": 0.6,
+    "n": 1
+   },
+   "barley": {
+    "winRate": 0.0,
+    "useRate": 0.6,
+    "n": 1
+   },
+   "griff": {
+    "winRate": 83.33,
+    "useRate": 3.57,
+    "n": 6
+   },
+   "frank": {
+    "winRate": 100.0,
+    "useRate": 1.19,
+    "n": 2
+   }
+  },
+  "layer-cake": {
+   "bonnie": {
+    "winRate": 42.86,
+    "useRate": 3.85,
+    "n": 7
+   },
+   "gray": {
+    "winRate": 55.88,
+    "useRate": 18.68,
+    "n": 34
+   },
+   "fang": {
+    "winRate": 100.0,
+    "useRate": 0.55,
+    "n": 1
+   },
+   "carl": {
+    "winRate": 40.0,
+    "useRate": 2.75,
+    "n": 5
+   },
+   "tick": {
+    "winRate": 47.37,
+    "useRate": 10.44,
+    "n": 19
+   },
+   "poco": {
+    "winRate": 50.0,
+    "useRate": 2.2,
+    "n": 4
+   },
+   "starr-nova": {
+    "winRate": 40.0,
+    "useRate": 2.75,
+    "n": 5
+   },
+   "ziggy": {
+    "winRate": 100.0,
+    "useRate": 0.55,
+    "n": 1
+   },
+   "larry-lawrie": {
+    "winRate": 50.0,
+    "useRate": 2.2,
+    "n": 4
+   },
+   "dynamike": {
+    "winRate": 40.0,
+    "useRate": 2.75,
+    "n": 5
+   },
+   "nori": {
+    "winRate": 30.43,
+    "useRate": 12.64,
+    "n": 23
+   },
+   "stu": {
+    "winRate": 100.0,
+    "useRate": 1.1,
+    "n": 2
+   },
+   "8-bit": {
+    "winRate": 0.0,
+    "useRate": 0.55,
+    "n": 1
+   },
+   "amber": {
+    "winRate": 51.52,
+    "useRate": 18.13,
+    "n": 33
+   },
+   "maisie": {
+    "winRate": 66.67,
+    "useRate": 1.65,
+    "n": 3
+   },
+   "darryl": {
+    "winRate": 33.33,
+    "useRate": 1.65,
+    "n": 3
+   },
+   "doug": {
+    "winRate": 80.0,
+    "useRate": 2.75,
+    "n": 5
+   },
+   "piper": {
+    "winRate": 30.0,
+    "useRate": 10.99,
+    "n": 20
+   },
+   "gale": {
+    "winRate": 36.36,
+    "useRate": 6.04,
+    "n": 11
+   },
+   "colette": {
+    "winRate": 35.71,
+    "useRate": 7.69,
+    "n": 14
+   },
+   "ruffs": {
+    "winRate": 100.0,
+    "useRate": 1.65,
+    "n": 3
+   },
+   "buster": {
+    "winRate": 80.0,
+    "useRate": 2.75,
+    "n": 5
+   },
+   "buzz": {
+    "winRate": 33.33,
+    "useRate": 1.65,
+    "n": 3
+   },
+   "damian": {
+    "winRate": 0.0,
+    "useRate": 0.55,
+    "n": 1
+   },
+   "clancy": {
+    "winRate": 0.0,
+    "useRate": 0.55,
+    "n": 1
+   },
+   "bibi": {
+    "winRate": 66.67,
+    "useRate": 1.65,
+    "n": 3
+   },
+   "r-t": {
+    "winRate": 66.67,
+    "useRate": 1.65,
+    "n": 3
+   },
+   "berry": {
+    "winRate": 50.0,
+    "useRate": 3.3,
+    "n": 6
+   },
+   "sirius": {
+    "winRate": 28.57,
+    "useRate": 3.85,
+    "n": 7
+   },
+   "mortis": {
+    "winRate": 51.28,
+    "useRate": 21.43,
+    "n": 39
+   },
+   "vince": {
+    "winRate": 84.62,
+    "useRate": 7.14,
+    "n": 13
+   },
+   "mr-p": {
+    "winRate": 65.96,
+    "useRate": 25.82,
+    "n": 47
+   },
+   "el-primo": {
+    "winRate": 0.0,
+    "useRate": 1.1,
+    "n": 2
+   },
+   "cordelius": {
+    "winRate": 66.67,
+    "useRate": 1.65,
+    "n": 3
+   },
+   "brock": {
+    "winRate": 40.23,
+    "useRate": 47.8,
+    "n": 87
+   },
+   "surge": {
+    "winRate": 51.61,
+    "useRate": 17.03,
+    "n": 31
+   },
+   "crow": {
+    "winRate": 0.0,
+    "useRate": 0.55,
+    "n": 1
+   },
+   "shelly": {
+    "winRate": 100.0,
+    "useRate": 1.1,
+    "n": 2
+   },
+   "colt": {
+    "winRate": 37.5,
+    "useRate": 4.4,
+    "n": 8
+   },
+   "penny": {
+    "winRate": 42.86,
+    "useRate": 3.85,
+    "n": 7
+   },
+   "bo": {
+    "winRate": 54.55,
+    "useRate": 6.04,
+    "n": 11
+   },
+   "wendy": {
+    "winRate": 50.0,
+    "useRate": 1.1,
+    "n": 2
+   },
+   "lily": {
+    "winRate": 51.85,
+    "useRate": 14.84,
+    "n": 27
+   },
+   "pierce": {
+    "winRate": 71.43,
+    "useRate": 3.85,
+    "n": 7
+   },
+   "bolt": {
+    "winRate": 66.67,
+    "useRate": 1.65,
+    "n": 3
+   },
+   "jacky": {
+    "winRate": 33.33,
+    "useRate": 1.65,
+    "n": 3
+   },
+   "grom": {
+    "winRate": 25.0,
+    "useRate": 4.4,
+    "n": 8
+   },
+   "mico": {
+    "winRate": 9.09,
+    "useRate": 6.04,
+    "n": 11
+   },
+   "leon": {
+    "winRate": 55.56,
+    "useRate": 4.95,
+    "n": 9
+   },
+   "kit": {
+    "winRate": 66.67,
+    "useRate": 1.65,
+    "n": 3
+   },
+   "kenji": {
+    "winRate": 60.0,
+    "useRate": 5.49,
+    "n": 10
+   },
+   "nita": {
+    "winRate": 0.0,
+    "useRate": 1.1,
+    "n": 2
+   },
+   "shade": {
+    "winRate": 45.16,
+    "useRate": 17.03,
+    "n": 31
+   },
+   "spike": {
+    "winRate": 55.56,
+    "useRate": 24.73,
+    "n": 45
+   },
+   "gigi": {
+    "winRate": 60.0,
+    "useRate": 8.24,
+    "n": 15
+   },
+   "mandy": {
+    "winRate": 54.24,
+    "useRate": 32.42,
+    "n": 59
+   },
+   "mina": {
+    "winRate": 50.0,
+    "useRate": 13.19,
+    "n": 24
+   },
+   "juju": {
+    "winRate": 66.67,
+    "useRate": 4.95,
+    "n": 9
+   },
+   "jessie": {
+    "winRate": 66.67,
+    "useRate": 1.65,
+    "n": 3
+   },
+   "squeak": {
+    "winRate": 52.63,
+    "useRate": 10.44,
+    "n": 19
+   },
+   "nani": {
+    "winRate": 100.0,
+    "useRate": 0.55,
+    "n": 1
+   },
+   "melodie": {
+    "winRate": 60.0,
+    "useRate": 10.99,
+    "n": 20
+   },
+   "sandy": {
+    "winRate": 33.33,
+    "useRate": 1.65,
+    "n": 3
+   },
+   "angelo": {
+    "winRate": 66.67,
+    "useRate": 1.65,
+    "n": 3
+   },
+   "gene": {
+    "winRate": 100.0,
+    "useRate": 3.3,
+    "n": 6
+   },
+   "alli": {
+    "winRate": 53.33,
+    "useRate": 8.24,
+    "n": 15
+   },
+   "kaze": {
+    "winRate": 100.0,
+    "useRate": 1.1,
+    "n": 2
+   },
+   "otis": {
+    "winRate": 0.0,
+    "useRate": 0.55,
+    "n": 1
+   },
+   "chester": {
+    "winRate": 75.0,
+    "useRate": 4.4,
+    "n": 8
+   },
+   "jae-yong": {
+    "winRate": 66.67,
+    "useRate": 1.65,
+    "n": 3
+   },
+   "najia": {
+    "winRate": 45.0,
+    "useRate": 10.99,
+    "n": 20
+   },
+   "max": {
+    "winRate": 51.72,
+    "useRate": 15.93,
+    "n": 29
+   },
+   "gus": {
+    "winRate": 55.0,
+    "useRate": 10.99,
+    "n": 20
+   },
+   "glowy": {
+    "winRate": 0.0,
+    "useRate": 1.1,
+    "n": 2
+   },
+   "meeple": {
+    "winRate": 31.58,
+    "useRate": 10.44,
+    "n": 19
+   },
+   "rico": {
+    "winRate": 36.67,
+    "useRate": 16.48,
+    "n": 30
+   },
+   "sprout": {
+    "winRate": 53.57,
+    "useRate": 15.38,
+    "n": 28
+   },
+   "lou": {
+    "winRate": 47.37,
+    "useRate": 10.44,
+    "n": 19
+   },
+   "byron": {
+    "winRate": 69.23,
+    "useRate": 7.14,
+    "n": 13
+   },
+   "edgar": {
+    "winRate": 47.06,
+    "useRate": 28.02,
+    "n": 51
+   },
+   "emz": {
+    "winRate": 37.5,
+    "useRate": 4.4,
+    "n": 8
+   },
+   "barley": {
+    "winRate": 33.33,
+    "useRate": 1.65,
+    "n": 3
+   },
+   "tara": {
+    "winRate": 33.33,
+    "useRate": 1.65,
+    "n": 3
+   },
+   "griff": {
+    "winRate": 37.5,
+    "useRate": 4.4,
+    "n": 8
+   },
+   "frank": {
+    "winRate": 75.0,
+    "useRate": 2.2,
+    "n": 4
+   }
+  },
+  "hot-potato": {
+   "bonnie": {
+    "winRate": 0.0,
+    "useRate": 1.02,
+    "n": 2
+   },
+   "leon": {
+    "winRate": 100.0,
+    "useRate": 0.51,
+    "n": 1
+   },
+   "lumi": {
+    "winRate": 40.0,
+    "useRate": 2.55,
+    "n": 5
+   },
+   "carl": {
+    "winRate": 51.85,
+    "useRate": 13.78,
+    "n": 27
+   },
+   "draco": {
+    "winRate": 0.0,
+    "useRate": 1.02,
+    "n": 2
+   },
+   "kenji": {
+    "winRate": 0.0,
+    "useRate": 0.51,
+    "n": 1
+   },
+   "starr-nova": {
+    "winRate": 40.0,
+    "useRate": 7.65,
+    "n": 15
+   },
+   "nori": {
+    "winRate": 70.31,
+    "useRate": 32.65,
+    "n": 64
+   },
+   "chuck": {
+    "winRate": 29.63,
+    "useRate": 13.78,
+    "n": 27
+   },
+   "dynamike": {
+    "winRate": 100.0,
+    "useRate": 4.08,
+    "n": 8
+   },
+   "stu": {
+    "winRate": 0.0,
+    "useRate": 1.02,
+    "n": 2
+   },
+   "nita": {
+    "winRate": 37.5,
+    "useRate": 12.24,
+    "n": 24
+   },
+   "8-bit": {
+    "winRate": 37.84,
+    "useRate": 18.88,
+    "n": 37
+   },
+   "shade": {
+    "winRate": 60.0,
+    "useRate": 2.55,
+    "n": 5
+   },
+   "spike": {
+    "winRate": 54.55,
+    "useRate": 5.61,
+    "n": 11
+   },
+   "amber": {
+    "winRate": 47.06,
+    "useRate": 34.69,
+    "n": 68
+   },
+   "gigi": {
+    "winRate": 12.5,
+    "useRate": 8.16,
+    "n": 16
+   },
+   "maisie": {
+    "winRate": 50.0,
+    "useRate": 5.1,
+    "n": 10
+   },
+   "mandy": {
+    "winRate": 23.08,
+    "useRate": 6.63,
+    "n": 13
+   },
+   "darryl": {
+    "winRate": 100.0,
+    "useRate": 1.02,
+    "n": 2
+   },
+   "gale": {
+    "winRate": 23.81,
+    "useRate": 10.71,
+    "n": 21
+   },
+   "colette": {
+    "winRate": 61.9,
+    "useRate": 42.86,
+    "n": 84
+   },
+   "jessie": {
+    "winRate": 47.06,
+    "useRate": 8.67,
+    "n": 17
+   },
+   "squeak": {
+    "winRate": 0.0,
+    "useRate": 2.04,
+    "n": 4
+   },
+   "ruffs": {
+    "winRate": 33.33,
+    "useRate": 4.59,
+    "n": 9
+   },
+   "buzz": {
+    "winRate": 0.0,
+    "useRate": 1.02,
+    "n": 2
+   },
+   "pearl": {
+    "winRate": 40.0,
+    "useRate": 2.55,
+    "n": 5
+   },
+   "melodie": {
+    "winRate": 55.93,
+    "useRate": 30.1,
+    "n": 59
+   },
+   "bibi": {
+    "winRate": 54.84,
+    "useRate": 15.82,
+    "n": 31
+   },
+   "clancy": {
+    "winRate": 42.86,
+    "useRate": 3.57,
+    "n": 7
+   },
+   "nani": {
+    "winRate": 0.0,
+    "useRate": 0.51,
+    "n": 1
+   },
+   "angelo": {
+    "winRate": 0.0,
+    "useRate": 0.51,
+    "n": 1
+   },
+   "r-t": {
+    "winRate": 50.0,
+    "useRate": 2.04,
+    "n": 4
+   },
+   "berry": {
+    "winRate": 39.47,
+    "useRate": 19.39,
+    "n": 38
+   },
+   "kaze": {
+    "winRate": 50.0,
+    "useRate": 11.22,
+    "n": 22
+   },
+   "otis": {
+    "winRate": 47.83,
+    "useRate": 11.73,
+    "n": 23
+   },
+   "sirius": {
+    "winRate": 40.0,
+    "useRate": 2.55,
+    "n": 5
+   },
+   "chester": {
+    "winRate": 45.45,
+    "useRate": 5.61,
+    "n": 11
+   },
+   "vince": {
+    "winRate": 25.0,
+    "useRate": 4.08,
+    "n": 8
+   },
+   "mr-p": {
+    "winRate": 0.0,
+    "useRate": 0.51,
+    "n": 1
+   },
+   "el-primo": {
+    "winRate": 100.0,
+    "useRate": 1.53,
+    "n": 3
+   },
+   "cordelius": {
+    "winRate": 57.14,
+    "useRate": 14.29,
+    "n": 28
+   },
+   "max": {
+    "winRate": 0.0,
+    "useRate": 1.02,
+    "n": 2
+   },
+   "jae-yong": {
+    "winRate": 100.0,
+    "useRate": 1.02,
+    "n": 2
+   },
+   "brock": {
+    "winRate": 47.22,
+    "useRate": 18.37,
+    "n": 36
+   },
+   "surge": {
+    "winRate": 61.54,
+    "useRate": 6.63,
+    "n": 13
+   },
+   "crow": {
+    "winRate": 100.0,
+    "useRate": 0.51,
+    "n": 1
+   },
+   "rico": {
+    "winRate": 50.75,
+    "useRate": 34.18,
+    "n": 67
+   },
+   "shelly": {
+    "winRate": 100.0,
+    "useRate": 1.53,
+    "n": 3
+   },
+   "colt": {
+    "winRate": 52.63,
+    "useRate": 48.47,
+    "n": 95
+   },
+   "lou": {
+    "winRate": 59.09,
+    "useRate": 11.22,
+    "n": 22
+   },
+   "willow": {
+    "winRate": 100.0,
+    "useRate": 1.02,
+    "n": 2
+   },
+   "penny": {
+    "winRate": 50.0,
+    "useRate": 2.04,
+    "n": 4
+   },
+   "bull": {
+    "winRate": 40.0,
+    "useRate": 15.31,
+    "n": 30
+   },
+   "emz": {
+    "winRate": 70.59,
+    "useRate": 8.67,
+    "n": 17
+   },
+   "edgar": {
+    "winRate": 66.67,
+    "useRate": 15.31,
+    "n": 30
+   },
+   "bo": {
+    "winRate": 40.0,
+    "useRate": 2.55,
+    "n": 5
+   },
+   "lily": {
+    "winRate": 20.0,
+    "useRate": 2.55,
+    "n": 5
+   },
+   "pierce": {
+    "winRate": 57.14,
+    "useRate": 3.57,
+    "n": 7
+   },
+   "barley": {
+    "winRate": 33.33,
+    "useRate": 4.59,
+    "n": 9
+   },
+   "mico": {
+    "winRate": 50.88,
+    "useRate": 29.08,
+    "n": 57
+   },
+   "griff": {
+    "winRate": 47.5,
+    "useRate": 20.41,
+    "n": 40
+   },
+   "frank": {
+    "winRate": 80.0,
+    "useRate": 2.55,
+    "n": 5
+   }
+  },
+  "parallel-plays": {
+   "finx": {
+    "winRate": 66.67,
+    "useRate": 1.8,
+    "n": 3
+   },
+   "lumi": {
+    "winRate": 60.0,
+    "useRate": 5.99,
+    "n": 10
+   },
+   "tick": {
+    "winRate": 33.33,
+    "useRate": 1.8,
+    "n": 3
+   },
+   "gray": {
+    "winRate": 0.0,
+    "useRate": 1.2,
+    "n": 2
+   },
+   "carl": {
+    "winRate": 66.67,
+    "useRate": 1.8,
+    "n": 3
+   },
+   "fang": {
+    "winRate": 0.0,
+    "useRate": 1.2,
+    "n": 2
+   },
+   "larry-lawrie": {
+    "winRate": 60.0,
+    "useRate": 8.98,
+    "n": 15
+   },
+   "ziggy": {
+    "winRate": 80.0,
+    "useRate": 2.99,
+    "n": 5
+   },
+   "starr-nova": {
+    "winRate": 33.33,
+    "useRate": 3.59,
+    "n": 6
+   },
+   "dynamike": {
+    "winRate": 62.5,
+    "useRate": 4.79,
+    "n": 8
+   },
+   "chuck": {
+    "winRate": 43.75,
+    "useRate": 9.58,
+    "n": 16
+   },
+   "nori": {
+    "winRate": 50.0,
+    "useRate": 14.37,
+    "n": 24
+   },
+   "stu": {
+    "winRate": 40.91,
+    "useRate": 13.17,
+    "n": 22
+   },
+   "8-bit": {
+    "winRate": 0.0,
+    "useRate": 1.2,
+    "n": 2
+   },
+   "amber": {
+    "winRate": 35.71,
+    "useRate": 25.15,
+    "n": 42
+   },
+   "maisie": {
+    "winRate": 42.86,
+    "useRate": 4.19,
+    "n": 7
+   },
+   "doug": {
+    "winRate": 33.33,
+    "useRate": 8.98,
+    "n": 15
+   },
+   "gale": {
+    "winRate": 56.25,
+    "useRate": 9.58,
+    "n": 16
+   },
+   "colette": {
+    "winRate": 0.0,
+    "useRate": 2.4,
+    "n": 4
+   },
+   "ruffs": {
+    "winRate": 0.0,
+    "useRate": 1.8,
+    "n": 3
+   },
+   "buzz": {
+    "winRate": 64.29,
+    "useRate": 8.38,
+    "n": 14
+   },
+   "damian": {
+    "winRate": 60.0,
+    "useRate": 2.99,
+    "n": 5
+   },
+   "bibi": {
+    "winRate": 60.0,
+    "useRate": 17.96,
+    "n": 30
+   },
+   "moe": {
+    "winRate": 40.0,
+    "useRate": 2.99,
+    "n": 5
+   },
+   "r-t": {
+    "winRate": 78.57,
+    "useRate": 8.38,
+    "n": 14
+   },
+   "berry": {
+    "winRate": 57.14,
+    "useRate": 8.38,
+    "n": 14
+   },
+   "sirius": {
+    "winRate": 60.61,
+    "useRate": 19.76,
+    "n": 33
+   },
+   "mortis": {
+    "winRate": 69.23,
+    "useRate": 7.78,
+    "n": 13
+   },
+   "vince": {
+    "winRate": 42.11,
+    "useRate": 11.38,
+    "n": 19
+   },
+   "mr-p": {
+    "winRate": 47.62,
+    "useRate": 12.57,
+    "n": 21
+   },
+   "el-primo": {
+    "winRate": 36.36,
+    "useRate": 6.59,
+    "n": 11
+   },
+   "cordelius": {
+    "winRate": 21.43,
+    "useRate": 8.38,
+    "n": 14
+   },
+   "ash": {
+    "winRate": 20.0,
+    "useRate": 2.99,
+    "n": 5
+   },
+   "surge": {
+    "winRate": 60.94,
+    "useRate": 38.32,
+    "n": 64
+   },
+   "shelly": {
+    "winRate": 70.0,
+    "useRate": 5.99,
+    "n": 10
+   },
+   "colt": {
+    "winRate": 50.0,
+    "useRate": 2.4,
+    "n": 4
+   },
+   "penny": {
+    "winRate": 100.0,
+    "useRate": 1.2,
+    "n": 2
+   },
+   "bull": {
+    "winRate": 50.0,
+    "useRate": 5.99,
+    "n": 10
+   },
+   "bo": {
+    "winRate": 0.0,
+    "useRate": 0.6,
+    "n": 1
+   },
+   "lily": {
+    "winRate": 0.0,
+    "useRate": 2.4,
+    "n": 4
+   },
+   "bolt": {
+    "winRate": 100.0,
+    "useRate": 1.2,
+    "n": 2
+   },
+   "jacky": {
+    "winRate": 75.0,
+    "useRate": 2.4,
+    "n": 4
+   },
+   "mico": {
+    "winRate": 26.67,
+    "useRate": 8.98,
+    "n": 15
+   },
+   "leon": {
+    "winRate": 50.0,
+    "useRate": 2.4,
+    "n": 4
+   },
+   "kit": {
+    "winRate": 61.54,
+    "useRate": 7.78,
+    "n": 13
+   },
+   "kenji": {
+    "winRate": 42.11,
+    "useRate": 11.38,
+    "n": 19
+   },
+   "hank": {
+    "winRate": 58.06,
+    "useRate": 18.56,
+    "n": 31
+   },
+   "rosa": {
+    "winRate": 100.0,
+    "useRate": 1.2,
+    "n": 2
+   },
+   "nita": {
+    "winRate": 50.0,
+    "useRate": 2.4,
+    "n": 4
+   },
+   "shade": {
+    "winRate": 31.58,
+    "useRate": 11.38,
+    "n": 19
+   },
+   "spike": {
+    "winRate": 45.45,
+    "useRate": 13.17,
+    "n": 22
+   },
+   "gigi": {
+    "winRate": 50.0,
+    "useRate": 2.4,
+    "n": 4
+   },
+   "mandy": {
+    "winRate": 0.0,
+    "useRate": 0.6,
+    "n": 1
+   },
+   "mina": {
+    "winRate": 66.67,
+    "useRate": 3.59,
+    "n": 6
+   },
+   "juju": {
+    "winRate": 45.9,
+    "useRate": 36.53,
+    "n": 61
+   },
+   "squeak": {
+    "winRate": 50.0,
+    "useRate": 3.59,
+    "n": 6
+   },
+   "melodie": {
+    "winRate": 32.14,
+    "useRate": 16.77,
+    "n": 28
+   },
+   "sandy": {
+    "winRate": 0.0,
+    "useRate": 1.2,
+    "n": 2
+   },
+   "alli": {
+    "winRate": 33.33,
+    "useRate": 1.8,
+    "n": 3
+   },
+   "kaze": {
+    "winRate": 40.0,
+    "useRate": 2.99,
+    "n": 5
+   },
+   "otis": {
+    "winRate": 80.0,
+    "useRate": 2.99,
+    "n": 5
+   },
+   "chester": {
+    "winRate": 54.84,
+    "useRate": 18.56,
+    "n": 31
+   },
+   "najia": {
+    "winRate": 100.0,
+    "useRate": 1.2,
+    "n": 2
+   },
+   "max": {
+    "winRate": 0.0,
+    "useRate": 1.2,
+    "n": 2
+   },
+   "gus": {
+    "winRate": 0.0,
+    "useRate": 2.4,
+    "n": 4
+   },
+   "meeple": {
+    "winRate": 58.82,
+    "useRate": 10.18,
+    "n": 17
+   },
+   "rico": {
+    "winRate": 28.57,
+    "useRate": 4.19,
+    "n": 7
+   },
+   "sprout": {
+    "winRate": 0.0,
+    "useRate": 2.4,
+    "n": 4
+   },
+   "lou": {
+    "winRate": 54.35,
+    "useRate": 27.54,
+    "n": 46
+   },
+   "willow": {
+    "winRate": 14.29,
+    "useRate": 4.19,
+    "n": 7
+   },
+   "byron": {
+    "winRate": 100.0,
+    "useRate": 1.2,
+    "n": 2
+   },
+   "emz": {
+    "winRate": 66.67,
+    "useRate": 19.76,
+    "n": 33
+   },
+   "edgar": {
+    "winRate": 75.0,
+    "useRate": 21.56,
+    "n": 36
+   },
+   "barley": {
+    "winRate": 33.33,
+    "useRate": 8.98,
+    "n": 15
+   },
+   "trunk": {
+    "winRate": 46.67,
+    "useRate": 8.98,
+    "n": 15
+   },
+   "griff": {
+    "winRate": 45.0,
+    "useRate": 11.98,
+    "n": 20
+   },
+   "frank": {
+    "winRate": 50.0,
+    "useRate": 2.4,
+    "n": 4
+   }
+  },
+  "flowing-springs": {
+   "mandy": {
+    "winRate": 0.0,
+    "useRate": 20.0,
+    "n": 1
+   },
+   "belle": {
+    "winRate": 0.0,
+    "useRate": 40.0,
+    "n": 2
+   },
+   "gray": {
+    "winRate": 0.0,
+    "useRate": 20.0,
+    "n": 1
+   },
+   "mina": {
+    "winRate": 50.0,
+    "useRate": 80.0,
+    "n": 4
+   },
+   "vince": {
+    "winRate": 100.0,
+    "useRate": 40.0,
+    "n": 2
+   },
+   "squeak": {
+    "winRate": 75.0,
+    "useRate": 80.0,
+    "n": 4
+   },
+   "wendy": {
+    "winRate": 100.0,
+    "useRate": 40.0,
+    "n": 2
+   },
+   "pierce": {
+    "winRate": 0.0,
+    "useRate": 40.0,
+    "n": 2
+   },
+   "bea": {
+    "winRate": 100.0,
+    "useRate": 20.0,
+    "n": 1
+   },
+   "nani": {
+    "winRate": 100.0,
+    "useRate": 40.0,
+    "n": 2
+   },
+   "brock": {
+    "winRate": 50.0,
+    "useRate": 80.0,
+    "n": 4
+   },
+   "eve": {
+    "winRate": 0.0,
+    "useRate": 40.0,
+    "n": 2
+   },
+   "angelo": {
+    "winRate": 33.33,
+    "useRate": 60.0,
+    "n": 3
+   }
+  },
+  "safe-zone": {
+   "sam": {
+    "winRate": 33.33,
+    "useRate": 1.88,
+    "n": 3
+   },
+   "bonnie": {
+    "winRate": 0.0,
+    "useRate": 2.5,
+    "n": 4
+   },
+   "lumi": {
+    "winRate": 40.0,
+    "useRate": 3.12,
+    "n": 5
+   },
+   "fang": {
+    "winRate": 50.0,
+    "useRate": 3.75,
+    "n": 6
+   },
+   "carl": {
+    "winRate": 55.56,
+    "useRate": 11.25,
+    "n": 18
+   },
+   "kenji": {
+    "winRate": 100.0,
+    "useRate": 0.62,
+    "n": 1
+   },
+   "starr-nova": {
+    "winRate": 0.0,
+    "useRate": 0.62,
+    "n": 1
+   },
+   "nori": {
+    "winRate": 41.86,
+    "useRate": 26.88,
+    "n": 43
+   },
+   "chuck": {
+    "winRate": 60.0,
+    "useRate": 9.38,
+    "n": 15
+   },
+   "dynamike": {
+    "winRate": 100.0,
+    "useRate": 0.62,
+    "n": 1
+   },
+   "nita": {
+    "winRate": 42.86,
+    "useRate": 4.38,
+    "n": 7
+   },
+   "8-bit": {
+    "winRate": 46.43,
+    "useRate": 35.0,
+    "n": 56
+   },
+   "shade": {
+    "winRate": 46.15,
+    "useRate": 8.12,
+    "n": 13
+   },
+   "spike": {
+    "winRate": 30.0,
+    "useRate": 6.25,
+    "n": 10
+   },
+   "amber": {
+    "winRate": 40.82,
+    "useRate": 30.62,
+    "n": 49
+   },
+   "mandy": {
+    "winRate": 52.5,
+    "useRate": 25.0,
+    "n": 40
+   },
+   "doug": {
+    "winRate": 100.0,
+    "useRate": 0.62,
+    "n": 1
+   },
+   "piper": {
+    "winRate": 52.94,
+    "useRate": 10.62,
+    "n": 17
+   },
+   "gale": {
+    "winRate": 50.0,
+    "useRate": 2.5,
+    "n": 4
+   },
+   "colette": {
+    "winRate": 45.07,
+    "useRate": 44.38,
+    "n": 71
+   },
+   "jessie": {
+    "winRate": 62.5,
+    "useRate": 10.0,
+    "n": 16
+   },
+   "squeak": {
+    "winRate": 66.67,
+    "useRate": 1.88,
+    "n": 3
+   },
+   "lola": {
+    "winRate": 0.0,
+    "useRate": 0.62,
+    "n": 1
+   },
+   "nani": {
+    "winRate": 66.67,
+    "useRate": 1.88,
+    "n": 3
+   },
+   "melodie": {
+    "winRate": 69.09,
+    "useRate": 34.38,
+    "n": 55
+   },
+   "bibi": {
+    "winRate": 50.0,
+    "useRate": 2.5,
+    "n": 4
+   },
+   "pearl": {
+    "winRate": 0.0,
+    "useRate": 1.25,
+    "n": 2
+   },
+   "angelo": {
+    "winRate": 42.31,
+    "useRate": 16.25,
+    "n": 26
+   },
+   "r-t": {
+    "winRate": 62.5,
+    "useRate": 5.0,
+    "n": 8
+   },
+   "berry": {
+    "winRate": 0.0,
+    "useRate": 1.25,
+    "n": 2
+   },
+   "kaze": {
+    "winRate": 53.33,
+    "useRate": 9.38,
+    "n": 15
+   },
+   "otis": {
+    "winRate": 44.44,
+    "useRate": 5.62,
+    "n": 9
+   },
+   "chester": {
+    "winRate": 100.0,
+    "useRate": 1.25,
+    "n": 2
+   },
+   "vince": {
+    "winRate": 55.56,
+    "useRate": 5.62,
+    "n": 9
+   },
+   "mr-p": {
+    "winRate": 50.0,
+    "useRate": 5.0,
+    "n": 8
+   },
+   "el-primo": {
+    "winRate": 100.0,
+    "useRate": 1.25,
+    "n": 2
+   },
+   "cordelius": {
+    "winRate": 0.0,
+    "useRate": 1.25,
+    "n": 2
+   },
+   "max": {
+    "winRate": 50.0,
+    "useRate": 2.5,
+    "n": 4
+   },
+   "gus": {
+    "winRate": 66.67,
+    "useRate": 1.88,
+    "n": 3
+   },
+   "najia": {
+    "winRate": 50.0,
+    "useRate": 2.5,
+    "n": 4
+   },
+   "brock": {
+    "winRate": 48.78,
+    "useRate": 51.25,
+    "n": 82
+   },
+   "eve": {
+    "winRate": 42.86,
+    "useRate": 4.38,
+    "n": 7
+   },
+   "glowy": {
+    "winRate": 60.0,
+    "useRate": 3.12,
+    "n": 5
+   },
+   "surge": {
+    "winRate": 66.67,
+    "useRate": 3.75,
+    "n": 6
+   },
+   "crow": {
+    "winRate": 100.0,
+    "useRate": 1.25,
+    "n": 2
+   },
+   "rico": {
+    "winRate": 42.11,
+    "useRate": 11.88,
+    "n": 19
+   },
+   "sprout": {
+    "winRate": 66.67,
+    "useRate": 1.88,
+    "n": 3
+   },
+   "lou": {
+    "winRate": 33.33,
+    "useRate": 5.62,
+    "n": 9
+   },
+   "penny": {
+    "winRate": 61.11,
+    "useRate": 33.75,
+    "n": 54
+   },
+   "byron": {
+    "winRate": 83.33,
+    "useRate": 7.5,
+    "n": 12
+   },
+   "colt": {
+    "winRate": 50.0,
+    "useRate": 42.5,
+    "n": 68
+   },
+   "belle": {
+    "winRate": 33.33,
+    "useRate": 3.75,
+    "n": 6
+   },
+   "bull": {
+    "winRate": 88.89,
+    "useRate": 5.62,
+    "n": 9
+   },
+   "edgar": {
+    "winRate": 40.0,
+    "useRate": 12.5,
+    "n": 20
+   },
+   "emz": {
+    "winRate": 100.0,
+    "useRate": 1.88,
+    "n": 3
+   },
+   "bo": {
+    "winRate": 35.71,
+    "useRate": 8.75,
+    "n": 14
+   },
+   "wendy": {
+    "winRate": 100.0,
+    "useRate": 0.62,
+    "n": 1
+   },
+   "pierce": {
+    "winRate": 45.95,
+    "useRate": 23.12,
+    "n": 37
+   },
+   "lily": {
+    "winRate": 33.33,
+    "useRate": 1.88,
+    "n": 3
+   },
+   "mico": {
+    "winRate": 38.46,
+    "useRate": 24.38,
+    "n": 39
+   },
+   "griff": {
+    "winRate": 50.0,
+    "useRate": 7.5,
+    "n": 12
+   },
+   "frank": {
+    "winRate": 50.0,
+    "useRate": 3.75,
+    "n": 6
+   }
+  },
+  "belle-s-rock": {
+   "bonnie": {
+    "winRate": 20.0,
+    "useRate": 2.54,
+    "n": 5
+   },
+   "gray": {
+    "winRate": 52.05,
+    "useRate": 37.06,
+    "n": 73
+   },
+   "tick": {
+    "winRate": 56.0,
+    "useRate": 12.69,
+    "n": 25
+   },
+   "carl": {
+    "winRate": 40.0,
+    "useRate": 2.54,
+    "n": 5
+   },
+   "starr-nova": {
+    "winRate": 40.0,
+    "useRate": 5.08,
+    "n": 10
+   },
+   "nori": {
+    "winRate": 30.0,
+    "useRate": 5.08,
+    "n": 10
+   },
+   "dynamike": {
+    "winRate": 0.0,
+    "useRate": 0.51,
+    "n": 1
+   },
+   "stu": {
+    "winRate": 0.0,
+    "useRate": 1.02,
+    "n": 2
+   },
+   "amber": {
+    "winRate": 42.86,
+    "useRate": 7.11,
+    "n": 14
+   },
+   "maisie": {
+    "winRate": 100.0,
+    "useRate": 0.51,
+    "n": 1
+   },
+   "darryl": {
+    "winRate": 63.64,
+    "useRate": 5.58,
+    "n": 11
+   },
+   "doug": {
+    "winRate": 50.0,
+    "useRate": 2.03,
+    "n": 4
+   },
+   "piper": {
+    "winRate": 49.25,
+    "useRate": 34.01,
+    "n": 67
+   },
+   "gale": {
+    "winRate": 0.0,
+    "useRate": 2.03,
+    "n": 4
+   },
+   "buster": {
+    "winRate": 100.0,
+    "useRate": 1.02,
+    "n": 2
+   },
+   "ruffs": {
+    "winRate": 0.0,
+    "useRate": 1.02,
+    "n": 2
+   },
+   "pearl": {
+    "winRate": 43.75,
+    "useRate": 8.12,
+    "n": 16
+   },
+   "damian": {
+    "winRate": 50.0,
+    "useRate": 2.03,
+    "n": 4
+   },
+   "bibi": {
+    "winRate": 33.33,
+    "useRate": 1.52,
+    "n": 3
+   },
+   "r-t": {
+    "winRate": 62.5,
+    "useRate": 8.12,
+    "n": 16
+   },
+   "berry": {
+    "winRate": 0.0,
+    "useRate": 1.02,
+    "n": 2
+   },
+   "sirius": {
+    "winRate": 40.0,
+    "useRate": 2.54,
+    "n": 5
+   },
+   "mortis": {
+    "winRate": 51.85,
+    "useRate": 13.71,
+    "n": 27
+   },
+   "vince": {
+    "winRate": 59.09,
+    "useRate": 11.17,
+    "n": 22
+   },
+   "mr-p": {
+    "winRate": 73.81,
+    "useRate": 21.32,
+    "n": 42
+   },
+   "el-primo": {
+    "winRate": 60.0,
+    "useRate": 2.54,
+    "n": 5
+   },
+   "brock": {
+    "winRate": 54.64,
+    "useRate": 49.24,
+    "n": 97
+   },
+   "eve": {
+    "winRate": 100.0,
+    "useRate": 1.02,
+    "n": 2
+   },
+   "surge": {
+    "winRate": 80.0,
+    "useRate": 2.54,
+    "n": 5
+   },
+   "crow": {
+    "winRate": 50.0,
+    "useRate": 1.02,
+    "n": 2
+   },
+   "shelly": {
+    "winRate": 100.0,
+    "useRate": 0.51,
+    "n": 1
+   },
+   "colt": {
+    "winRate": 53.33,
+    "useRate": 7.61,
+    "n": 15
+   },
+   "penny": {
+    "winRate": 40.0,
+    "useRate": 2.54,
+    "n": 5
+   },
+   "belle": {
+    "winRate": 40.91,
+    "useRate": 11.17,
+    "n": 22
+   },
+   "bull": {
+    "winRate": 100.0,
+    "useRate": 1.02,
+    "n": 2
+   },
+   "bo": {
+    "winRate": 75.0,
+    "useRate": 2.03,
+    "n": 4
+   },
+   "wendy": {
+    "winRate": 100.0,
+    "useRate": 1.02,
+    "n": 2
+   },
+   "pierce": {
+    "winRate": 50.0,
+    "useRate": 6.09,
+    "n": 12
+   },
+   "bea": {
+    "winRate": 75.0,
+    "useRate": 2.03,
+    "n": 4
+   },
+   "bolt": {
+    "winRate": 40.0,
+    "useRate": 2.54,
+    "n": 5
+   },
+   "mico": {
+    "winRate": 57.14,
+    "useRate": 7.11,
+    "n": 14
+   },
+   "grom": {
+    "winRate": 16.67,
+    "useRate": 3.05,
+    "n": 6
+   },
+   "leon": {
+    "winRate": 50.0,
+    "useRate": 5.08,
+    "n": 10
+   },
+   "kit": {
+    "winRate": 0.0,
+    "useRate": 1.52,
+    "n": 3
+   },
+   "hank": {
+    "winRate": 100.0,
+    "useRate": 1.02,
+    "n": 2
+   },
+   "shade": {
+    "winRate": 33.33,
+    "useRate": 3.05,
+    "n": 6
+   },
+   "spike": {
+    "winRate": 52.38,
+    "useRate": 21.32,
+    "n": 42
+   },
+   "gigi": {
+    "winRate": 50.0,
+    "useRate": 4.06,
+    "n": 8
+   },
+   "mandy": {
+    "winRate": 54.72,
+    "useRate": 26.9,
+    "n": 53
+   },
+   "janet": {
+    "winRate": 57.14,
+    "useRate": 3.55,
+    "n": 7
+   },
+   "mina": {
+    "winRate": 52.94,
+    "useRate": 17.26,
+    "n": 34
+   },
+   "jessie": {
+    "winRate": 50.0,
+    "useRate": 1.02,
+    "n": 2
+   },
+   "squeak": {
+    "winRate": 37.93,
+    "useRate": 14.72,
+    "n": 29
+   },
+   "nani": {
+    "winRate": 0.0,
+    "useRate": 3.55,
+    "n": 7
+   },
+   "meg": {
+    "winRate": 100.0,
+    "useRate": 0.51,
+    "n": 1
+   },
+   "melodie": {
+    "winRate": 50.0,
+    "useRate": 4.06,
+    "n": 8
+   },
+   "lola": {
+    "winRate": 100.0,
+    "useRate": 0.51,
+    "n": 1
+   },
+   "angelo": {
+    "winRate": 20.0,
+    "useRate": 2.54,
+    "n": 5
+   },
+   "gene": {
+    "winRate": 28.57,
+    "useRate": 3.55,
+    "n": 7
+   },
+   "kaze": {
+    "winRate": 0.0,
+    "useRate": 1.02,
+    "n": 2
+   },
+   "otis": {
+    "winRate": 40.0,
+    "useRate": 2.54,
+    "n": 5
+   },
+   "jae-yong": {
+    "winRate": 33.33,
+    "useRate": 1.52,
+    "n": 3
+   },
+   "najia": {
+    "winRate": 57.89,
+    "useRate": 28.93,
+    "n": 57
+   },
+   "gus": {
+    "winRate": 42.86,
+    "useRate": 31.98,
+    "n": 63
+   },
+   "max": {
+    "winRate": 42.86,
+    "useRate": 7.11,
+    "n": 14
+   },
+   "glowy": {
+    "winRate": 0.0,
+    "useRate": 1.02,
+    "n": 2
+   },
+   "meeple": {
+    "winRate": 66.67,
+    "useRate": 3.05,
+    "n": 6
+   },
+   "rico": {
+    "winRate": 41.38,
+    "useRate": 29.44,
+    "n": 58
+   },
+   "sprout": {
+    "winRate": 58.0,
+    "useRate": 25.38,
+    "n": 50
+   },
+   "lou": {
+    "winRate": 44.0,
+    "useRate": 12.69,
+    "n": 25
+   },
+   "willow": {
+    "winRate": 0.0,
+    "useRate": 1.02,
+    "n": 2
+   },
+   "byron": {
+    "winRate": 59.09,
+    "useRate": 11.17,
+    "n": 22
+   },
+   "edgar": {
+    "winRate": 47.37,
+    "useRate": 28.93,
+    "n": 57
+   },
+   "barley": {
+    "winRate": 0.0,
+    "useRate": 2.03,
+    "n": 4
+   },
+   "griff": {
+    "winRate": 44.44,
+    "useRate": 4.57,
+    "n": 9
+   },
+   "frank": {
+    "winRate": 0.0,
+    "useRate": 1.02,
+    "n": 2
+   }
+  },
+  "double-swoosh": {
+   "bonnie": {
+    "winRate": 60.0,
+    "useRate": 2.78,
+    "n": 5
+   },
+   "finx": {
+    "winRate": 0.0,
+    "useRate": 2.22,
+    "n": 4
+   },
+   "lumi": {
+    "winRate": 40.0,
+    "useRate": 2.78,
+    "n": 5
+   },
+   "gray": {
+    "winRate": 100.0,
+    "useRate": 1.11,
+    "n": 2
+   },
+   "poco": {
+    "winRate": 33.33,
+    "useRate": 3.33,
+    "n": 6
+   },
+   "carl": {
+    "winRate": 55.56,
+    "useRate": 5.0,
+    "n": 9
+   },
+   "tick": {
+    "winRate": 0.0,
+    "useRate": 0.56,
+    "n": 1
+   },
+   "starr-nova": {
+    "winRate": 46.67,
+    "useRate": 8.33,
+    "n": 15
+   },
+   "chuck": {
+    "winRate": 20.0,
+    "useRate": 2.78,
+    "n": 5
+   },
+   "dynamike": {
+    "winRate": 25.0,
+    "useRate": 2.22,
+    "n": 4
+   },
+   "nori": {
+    "winRate": 25.0,
+    "useRate": 4.44,
+    "n": 8
+   },
+   "stu": {
+    "winRate": 50.0,
+    "useRate": 18.89,
+    "n": 34
+   },
+   "8-bit": {
+    "winRate": 0.0,
+    "useRate": 1.11,
+    "n": 2
+   },
+   "amber": {
+    "winRate": 44.23,
+    "useRate": 28.89,
+    "n": 52
+   },
+   "doug": {
+    "winRate": 100.0,
+    "useRate": 1.67,
+    "n": 3
+   },
+   "gale": {
+    "winRate": 28.21,
+    "useRate": 21.67,
+    "n": 39
+   },
+   "piper": {
+    "winRate": 66.67,
+    "useRate": 1.67,
+    "n": 3
+   },
+   "colette": {
+    "winRate": 45.83,
+    "useRate": 13.33,
+    "n": 24
+   },
+   "ruffs": {
+    "winRate": 71.43,
+    "useRate": 3.89,
+    "n": 7
+   },
+   "buster": {
+    "winRate": 100.0,
+    "useRate": 1.11,
+    "n": 2
+   },
+   "buzz": {
+    "winRate": 69.23,
+    "useRate": 7.22,
+    "n": 13
+   },
+   "pearl": {
+    "winRate": 36.67,
+    "useRate": 16.67,
+    "n": 30
+   },
+   "damian": {
+    "winRate": 100.0,
+    "useRate": 1.11,
+    "n": 2
+   },
+   "bibi": {
+    "winRate": 20.0,
+    "useRate": 2.78,
+    "n": 5
+   },
+   "clancy": {
+    "winRate": 100.0,
+    "useRate": 0.56,
+    "n": 1
+   },
+   "moe": {
+    "winRate": 43.48,
+    "useRate": 12.78,
+    "n": 23
+   },
+   "mortis": {
+    "winRate": 41.46,
+    "useRate": 22.78,
+    "n": 41
+   },
+   "vince": {
+    "winRate": 60.0,
+    "useRate": 19.44,
+    "n": 35
+   },
+   "mr-p": {
+    "winRate": 68.42,
+    "useRate": 21.11,
+    "n": 38
+   },
+   "el-primo": {
+    "winRate": 33.33,
+    "useRate": 6.67,
+    "n": 12
+   },
+   "cordelius": {
+    "winRate": 75.0,
+    "useRate": 2.22,
+    "n": 4
+   },
+   "brock": {
+    "winRate": 9.09,
+    "useRate": 6.11,
+    "n": 11
+   },
+   "ash": {
+    "winRate": 50.0,
+    "useRate": 4.44,
+    "n": 8
+   },
+   "crow": {
+    "winRate": 85.71,
+    "useRate": 7.78,
+    "n": 14
+   },
+   "surge": {
+    "winRate": 58.82,
+    "useRate": 18.89,
+    "n": 34
+   },
+   "shelly": {
+    "winRate": 50.0,
+    "useRate": 2.22,
+    "n": 4
+   },
+   "colt": {
+    "winRate": 44.44,
+    "useRate": 5.0,
+    "n": 9
+   },
+   "penny": {
+    "winRate": 57.14,
+    "useRate": 7.78,
+    "n": 14
+   },
+   "bull": {
+    "winRate": 37.5,
+    "useRate": 4.44,
+    "n": 8
+   },
+   "bo": {
+    "winRate": 59.38,
+    "useRate": 17.78,
+    "n": 32
+   },
+   "wendy": {
+    "winRate": 33.33,
+    "useRate": 1.67,
+    "n": 3
+   },
+   "lily": {
+    "winRate": 100.0,
+    "useRate": 0.56,
+    "n": 1
+   },
+   "pierce": {
+    "winRate": 25.0,
+    "useRate": 2.22,
+    "n": 4
+   },
+   "bolt": {
+    "winRate": 100.0,
+    "useRate": 1.11,
+    "n": 2
+   },
+   "jacky": {
+    "winRate": 50.0,
+    "useRate": 2.22,
+    "n": 4
+   },
+   "mico": {
+    "winRate": 33.33,
+    "useRate": 3.33,
+    "n": 6
+   },
+   "ollie": {
+    "winRate": 0.0,
+    "useRate": 1.11,
+    "n": 2
+   },
+   "kit": {
+    "winRate": 33.33,
+    "useRate": 1.67,
+    "n": 3
+   },
+   "kenji": {
+    "winRate": 50.0,
+    "useRate": 2.22,
+    "n": 4
+   },
+   "draco": {
+    "winRate": 100.0,
+    "useRate": 1.11,
+    "n": 2
+   },
+   "rosa": {
+    "winRate": 50.0,
+    "useRate": 2.22,
+    "n": 4
+   },
+   "nita": {
+    "winRate": 0.0,
+    "useRate": 1.11,
+    "n": 2
+   },
+   "shade": {
+    "winRate": 33.33,
+    "useRate": 1.67,
+    "n": 3
+   },
+   "spike": {
+    "winRate": 53.85,
+    "useRate": 28.89,
+    "n": 52
+   },
+   "gigi": {
+    "winRate": 66.67,
+    "useRate": 1.67,
+    "n": 3
+   },
+   "mandy": {
+    "winRate": 100.0,
+    "useRate": 1.67,
+    "n": 3
+   },
+   "janet": {
+    "winRate": 43.75,
+    "useRate": 8.89,
+    "n": 16
+   },
+   "cosmo": {
+    "winRate": 100.0,
+    "useRate": 2.22,
+    "n": 4
+   },
+   "mina": {
+    "winRate": 0.0,
+    "useRate": 1.11,
+    "n": 2
+   },
+   "squeak": {
+    "winRate": 37.5,
+    "useRate": 4.44,
+    "n": 8
+   },
+   "meg": {
+    "winRate": 0.0,
+    "useRate": 0.56,
+    "n": 1
+   },
+   "melodie": {
+    "winRate": 53.33,
+    "useRate": 8.33,
+    "n": 15
+   },
+   "alli": {
+    "winRate": 52.38,
+    "useRate": 11.67,
+    "n": 21
+   },
+   "gene": {
+    "winRate": 33.33,
+    "useRate": 1.67,
+    "n": 3
+   },
+   "otis": {
+    "winRate": 52.17,
+    "useRate": 12.78,
+    "n": 23
+   },
+   "chester": {
+    "winRate": 63.24,
+    "useRate": 37.78,
+    "n": 68
+   },
+   "najia": {
+    "winRate": 0.0,
+    "useRate": 0.56,
+    "n": 1
+   },
+   "max": {
+    "winRate": 47.06,
+    "useRate": 9.44,
+    "n": 17
+   },
+   "gus": {
+    "winRate": 44.44,
+    "useRate": 5.0,
+    "n": 9
+   },
+   "meeple": {
+    "winRate": 40.0,
+    "useRate": 2.78,
+    "n": 5
+   },
+   "rico": {
+    "winRate": 52.83,
+    "useRate": 29.44,
+    "n": 53
+   },
+   "lou": {
+    "winRate": 38.1,
+    "useRate": 11.67,
+    "n": 21
+   },
+   "byron": {
+    "winRate": 0.0,
+    "useRate": 1.11,
+    "n": 2
+   },
+   "emz": {
+    "winRate": 48.94,
+    "useRate": 26.11,
+    "n": 47
+   },
+   "edgar": {
+    "winRate": 71.43,
+    "useRate": 7.78,
+    "n": 14
+   },
+   "trunk": {
+    "winRate": 0.0,
+    "useRate": 1.11,
+    "n": 2
+   },
+   "tara": {
+    "winRate": 47.62,
+    "useRate": 11.67,
+    "n": 21
+   },
+   "griff": {
+    "winRate": 50.88,
+    "useRate": 31.67,
+    "n": 57
+   },
+   "frank": {
+    "winRate": 50.0,
+    "useRate": 2.22,
+    "n": 4
+   }
+  },
+  "sneaky-fields": {
+   "lumi": {
+    "winRate": 50.0,
+    "useRate": 6.9,
+    "n": 12
+   },
+   "poco": {
+    "winRate": 0.0,
+    "useRate": 1.72,
+    "n": 3
+   },
+   "carl": {
+    "winRate": 62.5,
+    "useRate": 9.2,
+    "n": 16
+   },
+   "starr-nova": {
+    "winRate": 66.67,
+    "useRate": 5.17,
+    "n": 9
+   },
+   "ziggy": {
+    "winRate": 50.0,
+    "useRate": 2.3,
+    "n": 4
+   },
+   "larry-lawrie": {
+    "winRate": 0.0,
+    "useRate": 2.3,
+    "n": 4
+   },
+   "nori": {
+    "winRate": 50.0,
+    "useRate": 5.75,
+    "n": 10
+   },
+   "dynamike": {
+    "winRate": 57.14,
+    "useRate": 8.05,
+    "n": 14
+   },
+   "stu": {
+    "winRate": 42.86,
+    "useRate": 8.05,
+    "n": 14
+   },
+   "amber": {
+    "winRate": 43.48,
+    "useRate": 26.44,
+    "n": 46
+   },
+   "maisie": {
+    "winRate": 0.0,
+    "useRate": 1.15,
+    "n": 2
+   },
+   "darryl": {
+    "winRate": 100.0,
+    "useRate": 1.15,
+    "n": 2
+   },
+   "doug": {
+    "winRate": 0.0,
+    "useRate": 3.45,
+    "n": 6
+   },
+   "gale": {
+    "winRate": 54.17,
+    "useRate": 27.59,
+    "n": 48
+   },
+   "piper": {
+    "winRate": 37.5,
+    "useRate": 4.6,
+    "n": 8
+   },
+   "colette": {
+    "winRate": 27.27,
+    "useRate": 6.32,
+    "n": 11
+   },
+   "buster": {
+    "winRate": 100.0,
+    "useRate": 1.15,
+    "n": 2
+   },
+   "ruffs": {
+    "winRate": 50.0,
+    "useRate": 2.3,
+    "n": 4
+   },
+   "buzz": {
+    "winRate": 33.33,
+    "useRate": 6.9,
+    "n": 12
+   },
+   "bibi": {
+    "winRate": 80.0,
+    "useRate": 11.49,
+    "n": 20
+   },
+   "clancy": {
+    "winRate": 100.0,
+    "useRate": 1.15,
+    "n": 2
+   },
+   "moe": {
+    "winRate": 37.5,
+    "useRate": 9.2,
+    "n": 16
+   },
+   "r-t": {
+    "winRate": 66.67,
+    "useRate": 1.72,
+    "n": 3
+   },
+   "berry": {
+    "winRate": 20.0,
+    "useRate": 2.87,
+    "n": 5
+   },
+   "sirius": {
+    "winRate": 43.75,
+    "useRate": 9.2,
+    "n": 16
+   },
+   "mortis": {
+    "winRate": 50.0,
+    "useRate": 2.3,
+    "n": 4
+   },
+   "vince": {
+    "winRate": 45.45,
+    "useRate": 6.32,
+    "n": 11
+   },
+   "el-primo": {
+    "winRate": 52.94,
+    "useRate": 19.54,
+    "n": 34
+   },
+   "mr-p": {
+    "winRate": 55.56,
+    "useRate": 5.17,
+    "n": 9
+   },
+   "cordelius": {
+    "winRate": 0.0,
+    "useRate": 1.72,
+    "n": 3
+   },
+   "brock": {
+    "winRate": 0.0,
+    "useRate": 2.3,
+    "n": 4
+   },
+   "ash": {
+    "winRate": 64.71,
+    "useRate": 9.77,
+    "n": 17
+   },
+   "surge": {
+    "winRate": 53.12,
+    "useRate": 36.78,
+    "n": 64
+   },
+   "crow": {
+    "winRate": 0.0,
+    "useRate": 1.15,
+    "n": 2
+   },
+   "shelly": {
+    "winRate": 41.67,
+    "useRate": 6.9,
+    "n": 12
+   },
+   "colt": {
+    "winRate": 40.91,
+    "useRate": 12.64,
+    "n": 22
+   },
+   "bull": {
+    "winRate": 62.96,
+    "useRate": 15.52,
+    "n": 27
+   },
+   "bo": {
+    "winRate": 64.29,
+    "useRate": 8.05,
+    "n": 14
+   },
+   "lily": {
+    "winRate": 33.33,
+    "useRate": 1.72,
+    "n": 3
+   },
+   "jacky": {
+    "winRate": 0.0,
+    "useRate": 1.15,
+    "n": 2
+   },
+   "grom": {
+    "winRate": 100.0,
+    "useRate": 1.15,
+    "n": 2
+   },
+   "mico": {
+    "winRate": 0.0,
+    "useRate": 2.3,
+    "n": 4
+   },
+   "ollie": {
+    "winRate": 100.0,
+    "useRate": 1.15,
+    "n": 2
+   },
+   "kit": {
+    "winRate": 100.0,
+    "useRate": 1.72,
+    "n": 3
+   },
+   "draco": {
+    "winRate": 33.33,
+    "useRate": 1.72,
+    "n": 3
+   },
+   "kenji": {
+    "winRate": 100.0,
+    "useRate": 1.15,
+    "n": 2
+   },
+   "hank": {
+    "winRate": 100.0,
+    "useRate": 2.3,
+    "n": 4
+   },
+   "nita": {
+    "winRate": 60.0,
+    "useRate": 11.49,
+    "n": 20
+   },
+   "rosa": {
+    "winRate": 66.67,
+    "useRate": 3.45,
+    "n": 6
+   },
+   "shade": {
+    "winRate": 26.67,
+    "useRate": 8.62,
+    "n": 15
+   },
+   "spike": {
+    "winRate": 61.22,
+    "useRate": 28.16,
+    "n": 49
+   },
+   "gigi": {
+    "winRate": 45.45,
+    "useRate": 6.32,
+    "n": 11
+   },
+   "mandy": {
+    "winRate": 33.33,
+    "useRate": 1.72,
+    "n": 3
+   },
+   "jessie": {
+    "winRate": 0.0,
+    "useRate": 1.15,
+    "n": 2
+   },
+   "squeak": {
+    "winRate": 55.56,
+    "useRate": 5.17,
+    "n": 9
+   },
+   "meg": {
+    "winRate": 100.0,
+    "useRate": 1.15,
+    "n": 2
+   },
+   "melodie": {
+    "winRate": 60.0,
+    "useRate": 5.75,
+    "n": 10
+   },
+   "sandy": {
+    "winRate": 50.0,
+    "useRate": 3.45,
+    "n": 6
+   },
+   "alli": {
+    "winRate": 20.0,
+    "useRate": 2.87,
+    "n": 5
+   },
+   "otis": {
+    "winRate": 70.0,
+    "useRate": 5.75,
+    "n": 10
+   },
+   "chester": {
+    "winRate": 38.1,
+    "useRate": 24.14,
+    "n": 42
+   },
+   "max": {
+    "winRate": 40.0,
+    "useRate": 5.75,
+    "n": 10
+   },
+   "meeple": {
+    "winRate": 80.0,
+    "useRate": 2.87,
+    "n": 5
+   },
+   "rico": {
+    "winRate": 49.43,
+    "useRate": 50.0,
+    "n": 87
+   },
+   "sprout": {
+    "winRate": 0.0,
+    "useRate": 1.15,
+    "n": 2
+   },
+   "lou": {
+    "winRate": 56.52,
+    "useRate": 13.22,
+    "n": 23
+   },
+   "willow": {
+    "winRate": 50.0,
+    "useRate": 5.75,
+    "n": 10
+   },
+   "edgar": {
+    "winRate": 68.18,
+    "useRate": 12.64,
+    "n": 22
+   },
+   "emz": {
+    "winRate": 57.45,
+    "useRate": 27.01,
+    "n": 47
+   },
+   "barley": {
+    "winRate": 66.67,
+    "useRate": 1.72,
+    "n": 3
+   },
+   "trunk": {
+    "winRate": 42.86,
+    "useRate": 4.02,
+    "n": 7
+   },
+   "tara": {
+    "winRate": 33.33,
+    "useRate": 6.9,
+    "n": 12
+   },
+   "griff": {
+    "winRate": 42.86,
+    "useRate": 40.23,
+    "n": 70
+   },
+   "frank": {
+    "winRate": 36.84,
+    "useRate": 10.92,
+    "n": 19
+   }
+  },
+  "new-horizons": {
+   "bonnie": {
+    "winRate": 0.0,
+    "useRate": 0.58,
+    "n": 1
+   },
+   "gray": {
+    "winRate": 48.89,
+    "useRate": 26.16,
+    "n": 45
+   },
+   "fang": {
+    "winRate": 50.0,
+    "useRate": 4.65,
+    "n": 8
+   },
+   "tick": {
+    "winRate": 46.67,
+    "useRate": 8.72,
+    "n": 15
+   },
+   "carl": {
+    "winRate": 55.56,
+    "useRate": 5.23,
+    "n": 9
+   },
+   "starr-nova": {
+    "winRate": 46.15,
+    "useRate": 7.56,
+    "n": 13
+   },
+   "ziggy": {
+    "winRate": 33.33,
+    "useRate": 1.74,
+    "n": 3
+   },
+   "nori": {
+    "winRate": 20.0,
+    "useRate": 2.91,
+    "n": 5
+   },
+   "dynamike": {
+    "winRate": 80.0,
+    "useRate": 2.91,
+    "n": 5
+   },
+   "stu": {
+    "winRate": 75.0,
+    "useRate": 2.33,
+    "n": 4
+   },
+   "amber": {
+    "winRate": 66.67,
+    "useRate": 3.49,
+    "n": 6
+   },
+   "maisie": {
+    "winRate": 0.0,
+    "useRate": 0.58,
+    "n": 1
+   },
+   "darryl": {
+    "winRate": 0.0,
+    "useRate": 2.91,
+    "n": 5
+   },
+   "doug": {
+    "winRate": 50.0,
+    "useRate": 3.49,
+    "n": 6
+   },
+   "piper": {
+    "winRate": 56.45,
+    "useRate": 36.05,
+    "n": 62
+   },
+   "colette": {
+    "winRate": 71.43,
+    "useRate": 4.07,
+    "n": 7
+   },
+   "buster": {
+    "winRate": 100.0,
+    "useRate": 1.16,
+    "n": 2
+   },
+   "ruffs": {
+    "winRate": 25.0,
+    "useRate": 4.65,
+    "n": 8
+   },
+   "buzz": {
+    "winRate": 40.0,
+    "useRate": 2.91,
+    "n": 5
+   },
+   "pearl": {
+    "winRate": 50.0,
+    "useRate": 12.79,
+    "n": 22
+   },
+   "bibi": {
+    "winRate": 0.0,
+    "useRate": 0.58,
+    "n": 1
+   },
+   "r-t": {
+    "winRate": 66.67,
+    "useRate": 3.49,
+    "n": 6
+   },
+   "berry": {
+    "winRate": 33.33,
+    "useRate": 1.74,
+    "n": 3
+   },
+   "mortis": {
+    "winRate": 20.0,
+    "useRate": 11.63,
+    "n": 20
+   },
+   "vince": {
+    "winRate": 67.74,
+    "useRate": 18.02,
+    "n": 31
+   },
+   "mr-p": {
+    "winRate": 54.17,
+    "useRate": 13.95,
+    "n": 24
+   },
+   "el-primo": {
+    "winRate": 0.0,
+    "useRate": 1.74,
+    "n": 3
+   },
+   "brock": {
+    "winRate": 54.93,
+    "useRate": 41.28,
+    "n": 71
+   },
+   "eve": {
+    "winRate": 85.71,
+    "useRate": 4.07,
+    "n": 7
+   },
+   "crow": {
+    "winRate": 62.5,
+    "useRate": 4.65,
+    "n": 8
+   },
+   "surge": {
+    "winRate": 37.5,
+    "useRate": 4.65,
+    "n": 8
+   },
+   "colt": {
+    "winRate": 38.1,
+    "useRate": 12.21,
+    "n": 21
+   },
+   "belle": {
+    "winRate": 69.23,
+    "useRate": 15.12,
+    "n": 26
+   },
+   "bo": {
+    "winRate": 44.44,
+    "useRate": 5.23,
+    "n": 9
+   },
+   "wendy": {
+    "winRate": 0.0,
+    "useRate": 1.16,
+    "n": 2
+   },
+   "bea": {
+    "winRate": 0.0,
+    "useRate": 2.33,
+    "n": 4
+   },
+   "pierce": {
+    "winRate": 38.46,
+    "useRate": 7.56,
+    "n": 13
+   },
+   "lily": {
+    "winRate": 80.0,
+    "useRate": 2.91,
+    "n": 5
+   },
+   "mico": {
+    "winRate": 66.67,
+    "useRate": 1.74,
+    "n": 3
+   },
+   "ollie": {
+    "winRate": 66.67,
+    "useRate": 3.49,
+    "n": 6
+   },
+   "leon": {
+    "winRate": 76.92,
+    "useRate": 7.56,
+    "n": 13
+   },
+   "kit": {
+    "winRate": 50.0,
+    "useRate": 5.81,
+    "n": 10
+   },
+   "hank": {
+    "winRate": 50.0,
+    "useRate": 3.49,
+    "n": 6
+   },
+   "spike": {
+    "winRate": 53.85,
+    "useRate": 15.12,
+    "n": 26
+   },
+   "gigi": {
+    "winRate": 33.33,
+    "useRate": 3.49,
+    "n": 6
+   },
+   "mandy": {
+    "winRate": 61.54,
+    "useRate": 22.67,
+    "n": 39
+   },
+   "cosmo": {
+    "winRate": 40.0,
+    "useRate": 2.91,
+    "n": 5
+   },
+   "mina": {
+    "winRate": 58.06,
+    "useRate": 18.02,
+    "n": 31
+   },
+   "squeak": {
+    "winRate": 63.16,
+    "useRate": 11.05,
+    "n": 19
+   },
+   "nani": {
+    "winRate": 55.56,
+    "useRate": 10.47,
+    "n": 18
+   },
+   "melodie": {
+    "winRate": 38.89,
+    "useRate": 10.47,
+    "n": 18
+   },
+   "angelo": {
+    "winRate": 29.41,
+    "useRate": 9.88,
+    "n": 17
+   },
+   "alli": {
+    "winRate": 50.0,
+    "useRate": 1.16,
+    "n": 2
+   },
+   "gene": {
+    "winRate": 11.11,
+    "useRate": 5.23,
+    "n": 9
+   },
+   "kaze": {
+    "winRate": 60.0,
+    "useRate": 2.91,
+    "n": 5
+   },
+   "otis": {
+    "winRate": 0.0,
+    "useRate": 2.33,
+    "n": 4
+   },
+   "chester": {
+    "winRate": 0.0,
+    "useRate": 0.58,
+    "n": 1
+   },
+   "najia": {
+    "winRate": 57.78,
+    "useRate": 26.16,
+    "n": 45
+   },
+   "max": {
+    "winRate": 36.11,
+    "useRate": 20.93,
+    "n": 36
+   },
+   "gus": {
+    "winRate": 44.23,
+    "useRate": 30.23,
+    "n": 52
+   },
+   "glowy": {
+    "winRate": 20.0,
+    "useRate": 2.91,
+    "n": 5
+   },
+   "meeple": {
+    "winRate": 66.67,
+    "useRate": 3.49,
+    "n": 6
+   },
+   "rico": {
+    "winRate": 52.94,
+    "useRate": 9.88,
+    "n": 17
+   },
+   "sprout": {
+    "winRate": 48.15,
+    "useRate": 15.7,
+    "n": 27
+   },
+   "lou": {
+    "winRate": 52.94,
+    "useRate": 9.88,
+    "n": 17
+   },
+   "willow": {
+    "winRate": 40.0,
+    "useRate": 2.91,
+    "n": 5
+   },
+   "byron": {
+    "winRate": 37.21,
+    "useRate": 25.0,
+    "n": 43
+   },
+   "edgar": {
+    "winRate": 55.17,
+    "useRate": 16.86,
+    "n": 29
+   },
+   "emz": {
+    "winRate": 25.0,
+    "useRate": 2.33,
+    "n": 4
+   },
+   "barley": {
+    "winRate": 33.33,
+    "useRate": 1.74,
+    "n": 3
+   },
+   "griff": {
+    "winRate": 63.64,
+    "useRate": 6.4,
+    "n": 11
+   }
+  },
+  "shooting-star": {
+   "bonnie": {
+    "winRate": 46.15,
+    "useRate": 5.83,
+    "n": 13
+   },
+   "finx": {
+    "winRate": 33.33,
+    "useRate": 1.35,
+    "n": 3
+   },
+   "gray": {
+    "winRate": 57.14,
+    "useRate": 12.56,
+    "n": 28
+   },
+   "tick": {
+    "winRate": 66.67,
+    "useRate": 4.04,
+    "n": 9
+   },
+   "fang": {
+    "winRate": 0.0,
+    "useRate": 1.79,
+    "n": 4
+   },
+   "carl": {
+    "winRate": 71.43,
+    "useRate": 3.14,
+    "n": 7
+   },
+   "larry-lawrie": {
+    "winRate": 0.0,
+    "useRate": 0.9,
+    "n": 2
+   },
+   "ziggy": {
+    "winRate": 100.0,
+    "useRate": 0.9,
+    "n": 2
+   },
+   "nori": {
+    "winRate": 0.0,
+    "useRate": 1.35,
+    "n": 3
+   },
+   "dynamike": {
+    "winRate": 100.0,
+    "useRate": 0.9,
+    "n": 2
+   },
+   "stu": {
+    "winRate": 33.33,
+    "useRate": 2.69,
+    "n": 6
+   },
+   "8-bit": {
+    "winRate": 50.0,
+    "useRate": 6.28,
+    "n": 14
+   },
+   "amber": {
+    "winRate": 72.73,
+    "useRate": 4.93,
+    "n": 11
+   },
+   "maisie": {
+    "winRate": 100.0,
+    "useRate": 0.45,
+    "n": 1
+   },
+   "doug": {
+    "winRate": 50.0,
+    "useRate": 1.79,
+    "n": 4
+   },
+   "piper": {
+    "winRate": 51.46,
+    "useRate": 46.19,
+    "n": 103
+   },
+   "gale": {
+    "winRate": 66.67,
+    "useRate": 1.35,
+    "n": 3
+   },
+   "colette": {
+    "winRate": 60.0,
+    "useRate": 2.24,
+    "n": 5
+   },
+   "ruffs": {
+    "winRate": 66.67,
+    "useRate": 1.35,
+    "n": 3
+   },
+   "buster": {
+    "winRate": 0.0,
+    "useRate": 0.45,
+    "n": 1
+   },
+   "buzz": {
+    "winRate": 100.0,
+    "useRate": 0.9,
+    "n": 2
+   },
+   "pearl": {
+    "winRate": 28.57,
+    "useRate": 6.28,
+    "n": 14
+   },
+   "r-t": {
+    "winRate": 0.0,
+    "useRate": 0.45,
+    "n": 1
+   },
+   "sirius": {
+    "winRate": 60.0,
+    "useRate": 2.24,
+    "n": 5
+   },
+   "mortis": {
+    "winRate": 52.0,
+    "useRate": 22.42,
+    "n": 50
+   },
+   "vince": {
+    "winRate": 53.33,
+    "useRate": 6.73,
+    "n": 15
+   },
+   "mr-p": {
+    "winRate": 51.28,
+    "useRate": 17.49,
+    "n": 39
+   },
+   "cordelius": {
+    "winRate": 0.0,
+    "useRate": 0.45,
+    "n": 1
+   },
+   "brock": {
+    "winRate": 48.6,
+    "useRate": 47.98,
+    "n": 107
+   },
+   "eve": {
+    "winRate": 60.0,
+    "useRate": 4.48,
+    "n": 10
+   },
+   "surge": {
+    "winRate": 100.0,
+    "useRate": 1.35,
+    "n": 3
+   },
+   "crow": {
+    "winRate": 25.0,
+    "useRate": 1.79,
+    "n": 4
+   },
+   "colt": {
+    "winRate": 43.33,
+    "useRate": 13.45,
+    "n": 30
+   },
+   "penny": {
+    "winRate": 33.33,
+    "useRate": 1.35,
+    "n": 3
+   },
+   "belle": {
+    "winRate": 47.83,
+    "useRate": 20.63,
+    "n": 46
+   },
+   "bo": {
+    "winRate": 66.67,
+    "useRate": 1.35,
+    "n": 3
+   },
+   "wendy": {
+    "winRate": 44.44,
+    "useRate": 4.04,
+    "n": 9
+   },
+   "bea": {
+    "winRate": 17.65,
+    "useRate": 7.62,
+    "n": 17
+   },
+   "pierce": {
+    "winRate": 55.88,
+    "useRate": 15.25,
+    "n": 34
+   },
+   "bolt": {
+    "winRate": 50.0,
+    "useRate": 4.48,
+    "n": 10
+   },
+   "grom": {
+    "winRate": 62.5,
+    "useRate": 3.59,
+    "n": 8
+   },
+   "ollie": {
+    "winRate": 0.0,
+    "useRate": 1.35,
+    "n": 3
+   },
+   "mico": {
+    "winRate": 30.0,
+    "useRate": 4.48,
+    "n": 10
+   },
+   "leon": {
+    "winRate": 58.33,
+    "useRate": 10.76,
+    "n": 24
+   },
+   "kit": {
+    "winRate": 33.33,
+    "useRate": 1.35,
+    "n": 3
+   },
+   "kenji": {
+    "winRate": 0.0,
+    "useRate": 0.45,
+    "n": 1
+   },
+   "hank": {
+    "winRate": 0.0,
+    "useRate": 0.9,
+    "n": 2
+   },
+   "rosa": {
+    "winRate": 33.33,
+    "useRate": 1.35,
+    "n": 3
+   },
+   "spike": {
+    "winRate": 16.67,
+    "useRate": 8.07,
+    "n": 18
+   },
+   "gigi": {
+    "winRate": 62.5,
+    "useRate": 3.59,
+    "n": 8
+   },
+   "mandy": {
+    "winRate": 53.42,
+    "useRate": 32.74,
+    "n": 73
+   },
+   "cosmo": {
+    "winRate": 71.43,
+    "useRate": 3.14,
+    "n": 7
+   },
+   "janet": {
+    "winRate": 100.0,
+    "useRate": 0.45,
+    "n": 1
+   },
+   "mina": {
+    "winRate": 39.02,
+    "useRate": 18.39,
+    "n": 41
+   },
+   "jessie": {
+    "winRate": 0.0,
+    "useRate": 0.9,
+    "n": 2
+   },
+   "squeak": {
+    "winRate": 37.5,
+    "useRate": 7.17,
+    "n": 16
+   },
+   "nani": {
+    "winRate": 45.07,
+    "useRate": 31.84,
+    "n": 71
+   },
+   "melodie": {
+    "winRate": 66.67,
+    "useRate": 13.45,
+    "n": 30
+   },
+   "angelo": {
+    "winRate": 65.22,
+    "useRate": 30.94,
+    "n": 69
+   },
+   "gene": {
+    "winRate": 30.43,
+    "useRate": 10.31,
+    "n": 23
+   },
+   "alli": {
+    "winRate": 100.0,
+    "useRate": 0.9,
+    "n": 2
+   },
+   "kaze": {
+    "winRate": 100.0,
+    "useRate": 0.9,
+    "n": 2
+   },
+   "otis": {
+    "winRate": 100.0,
+    "useRate": 1.35,
+    "n": 3
+   },
+   "chester": {
+    "winRate": 20.0,
+    "useRate": 2.24,
+    "n": 5
+   },
+   "jae-yong": {
+    "winRate": 14.29,
+    "useRate": 3.14,
+    "n": 7
+   },
+   "najia": {
+    "winRate": 61.54,
+    "useRate": 23.32,
+    "n": 52
+   },
+   "max": {
+    "winRate": 46.81,
+    "useRate": 21.08,
+    "n": 47
+   },
+   "gus": {
+    "winRate": 48.57,
+    "useRate": 15.7,
+    "n": 35
+   },
+   "glowy": {
+    "winRate": 100.0,
+    "useRate": 1.79,
+    "n": 4
+   },
+   "meeple": {
+    "winRate": 60.0,
+    "useRate": 2.24,
+    "n": 5
+   },
+   "rico": {
+    "winRate": 33.33,
+    "useRate": 1.35,
+    "n": 3
+   },
+   "sprout": {
+    "winRate": 58.33,
+    "useRate": 10.76,
+    "n": 24
+   },
+   "lou": {
+    "winRate": 84.62,
+    "useRate": 5.83,
+    "n": 13
+   },
+   "byron": {
+    "winRate": 45.83,
+    "useRate": 32.29,
+    "n": 72
+   },
+   "edgar": {
+    "winRate": 31.25,
+    "useRate": 7.17,
+    "n": 16
+   },
+   "emz": {
+    "winRate": 100.0,
+    "useRate": 0.9,
+    "n": 2
+   },
+   "griff": {
+    "winRate": 0.0,
+    "useRate": 0.9,
+    "n": 2
+   },
+   "frank": {
+    "winRate": 25.0,
+    "useRate": 1.79,
+    "n": 4
+   }
+  },
+  "gem-fort": {
+   "bonnie": {
+    "winRate": 66.67,
+    "useRate": 1.71,
+    "n": 3
+   },
+   "lumi": {
+    "winRate": 100.0,
+    "useRate": 1.14,
+    "n": 2
+   },
+   "fang": {
+    "winRate": 60.0,
+    "useRate": 2.86,
+    "n": 5
+   },
+   "poco": {
+    "winRate": 50.0,
+    "useRate": 4.57,
+    "n": 8
+   },
+   "carl": {
+    "winRate": 66.67,
+    "useRate": 3.43,
+    "n": 6
+   },
+   "tick": {
+    "winRate": 100.0,
+    "useRate": 0.57,
+    "n": 1
+   },
+   "starr-nova": {
+    "winRate": 42.86,
+    "useRate": 4.0,
+    "n": 7
+   },
+   "nori": {
+    "winRate": 26.67,
+    "useRate": 8.57,
+    "n": 15
+   },
+   "chuck": {
+    "winRate": 66.67,
+    "useRate": 1.71,
+    "n": 3
+   },
+   "stu": {
+    "winRate": 36.67,
+    "useRate": 17.14,
+    "n": 30
+   },
+   "8-bit": {
+    "winRate": 100.0,
+    "useRate": 1.14,
+    "n": 2
+   },
+   "amber": {
+    "winRate": 58.7,
+    "useRate": 26.29,
+    "n": 46
+   },
+   "maisie": {
+    "winRate": 0.0,
+    "useRate": 1.14,
+    "n": 2
+   },
+   "darryl": {
+    "winRate": 50.0,
+    "useRate": 4.57,
+    "n": 8
+   },
+   "doug": {
+    "winRate": 0.0,
+    "useRate": 1.14,
+    "n": 2
+   },
+   "gale": {
+    "winRate": 50.0,
+    "useRate": 17.14,
+    "n": 30
+   },
+   "piper": {
+    "winRate": 33.33,
+    "useRate": 1.71,
+    "n": 3
+   },
+   "colette": {
+    "winRate": 44.44,
+    "useRate": 10.29,
+    "n": 18
+   },
+   "ruffs": {
+    "winRate": 60.0,
+    "useRate": 8.57,
+    "n": 15
+   },
+   "buster": {
+    "winRate": 0.0,
+    "useRate": 1.14,
+    "n": 2
+   },
+   "buzz": {
+    "winRate": 62.5,
+    "useRate": 4.57,
+    "n": 8
+   },
+   "pearl": {
+    "winRate": 28.57,
+    "useRate": 4.0,
+    "n": 7
+   },
+   "damian": {
+    "winRate": 71.43,
+    "useRate": 4.0,
+    "n": 7
+   },
+   "bibi": {
+    "winRate": 16.67,
+    "useRate": 3.43,
+    "n": 6
+   },
+   "clancy": {
+    "winRate": 0.0,
+    "useRate": 1.14,
+    "n": 2
+   },
+   "moe": {
+    "winRate": 42.86,
+    "useRate": 4.0,
+    "n": 7
+   },
+   "berry": {
+    "winRate": 100.0,
+    "useRate": 0.57,
+    "n": 1
+   },
+   "sirius": {
+    "winRate": 55.56,
+    "useRate": 5.14,
+    "n": 9
+   },
+   "mortis": {
+    "winRate": 62.5,
+    "useRate": 13.71,
+    "n": 24
+   },
+   "vince": {
+    "winRate": 48.0,
+    "useRate": 14.29,
+    "n": 25
+   },
+   "mr-p": {
+    "winRate": 33.33,
+    "useRate": 8.57,
+    "n": 15
+   },
+   "el-primo": {
+    "winRate": 88.89,
+    "useRate": 5.14,
+    "n": 9
+   },
+   "cordelius": {
+    "winRate": 61.54,
+    "useRate": 7.43,
+    "n": 13
+   },
+   "brock": {
+    "winRate": 42.86,
+    "useRate": 4.0,
+    "n": 7
+   },
+   "eve": {
+    "winRate": 33.33,
+    "useRate": 1.71,
+    "n": 3
+   },
+   "ash": {
+    "winRate": 35.71,
+    "useRate": 8.0,
+    "n": 14
+   },
+   "surge": {
+    "winRate": 56.92,
+    "useRate": 37.14,
+    "n": 65
+   },
+   "crow": {
+    "winRate": 100.0,
+    "useRate": 3.43,
+    "n": 6
+   },
+   "shelly": {
+    "winRate": 20.0,
+    "useRate": 2.86,
+    "n": 5
+   },
+   "colt": {
+    "winRate": 12.5,
+    "useRate": 4.57,
+    "n": 8
+   },
+   "bull": {
+    "winRate": 58.33,
+    "useRate": 6.86,
+    "n": 12
+   },
+   "bo": {
+    "winRate": 48.78,
+    "useRate": 23.43,
+    "n": 41
+   },
+   "lily": {
+    "winRate": 100.0,
+    "useRate": 3.43,
+    "n": 6
+   },
+   "pierce": {
+    "winRate": 0.0,
+    "useRate": 0.57,
+    "n": 1
+   },
+   "bea": {
+    "winRate": 20.0,
+    "useRate": 2.86,
+    "n": 5
+   },
+   "charlie": {
+    "winRate": 66.67,
+    "useRate": 1.71,
+    "n": 3
+   },
+   "bolt": {
+    "winRate": 50.0,
+    "useRate": 3.43,
+    "n": 6
+   },
+   "mico": {
+    "winRate": 38.46,
+    "useRate": 7.43,
+    "n": 13
+   },
+   "grom": {
+    "winRate": 100.0,
+    "useRate": 0.57,
+    "n": 1
+   },
+   "leon": {
+    "winRate": 0.0,
+    "useRate": 0.57,
+    "n": 1
+   },
+   "kit": {
+    "winRate": 16.67,
+    "useRate": 3.43,
+    "n": 6
+   },
+   "draco": {
+    "winRate": 33.33,
+    "useRate": 1.71,
+    "n": 3
+   },
+   "kenji": {
+    "winRate": 100.0,
+    "useRate": 1.14,
+    "n": 2
+   },
+   "hank": {
+    "winRate": 66.67,
+    "useRate": 1.71,
+    "n": 3
+   },
+   "rosa": {
+    "winRate": 80.0,
+    "useRate": 2.86,
+    "n": 5
+   },
+   "nita": {
+    "winRate": 0.0,
+    "useRate": 0.57,
+    "n": 1
+   },
+   "shade": {
+    "winRate": 16.67,
+    "useRate": 3.43,
+    "n": 6
+   },
+   "spike": {
+    "winRate": 34.29,
+    "useRate": 20.0,
+    "n": 35
+   },
+   "gigi": {
+    "winRate": 25.0,
+    "useRate": 4.57,
+    "n": 8
+   },
+   "mandy": {
+    "winRate": 66.67,
+    "useRate": 3.43,
+    "n": 6
+   },
+   "janet": {
+    "winRate": 47.62,
+    "useRate": 12.0,
+    "n": 21
+   },
+   "mina": {
+    "winRate": 76.92,
+    "useRate": 7.43,
+    "n": 13
+   },
+   "jessie": {
+    "winRate": 66.67,
+    "useRate": 3.43,
+    "n": 6
+   },
+   "squeak": {
+    "winRate": 40.0,
+    "useRate": 5.71,
+    "n": 10
+   },
+   "meg": {
+    "winRate": 100.0,
+    "useRate": 0.57,
+    "n": 1
+   },
+   "melodie": {
+    "winRate": 38.1,
+    "useRate": 12.0,
+    "n": 21
+   },
+   "alli": {
+    "winRate": 54.17,
+    "useRate": 13.71,
+    "n": 24
+   },
+   "otis": {
+    "winRate": 68.75,
+    "useRate": 9.14,
+    "n": 16
+   },
+   "chester": {
+    "winRate": 51.61,
+    "useRate": 35.43,
+    "n": 62
+   },
+   "najia": {
+    "winRate": 33.33,
+    "useRate": 1.71,
+    "n": 3
+   },
+   "gus": {
+    "winRate": 57.14,
+    "useRate": 12.0,
+    "n": 21
+   },
+   "max": {
+    "winRate": 41.18,
+    "useRate": 9.71,
+    "n": 17
+   },
+   "rico": {
+    "winRate": 47.17,
+    "useRate": 30.29,
+    "n": 53
+   },
+   "lou": {
+    "winRate": 63.64,
+    "useRate": 18.86,
+    "n": 33
+   },
+   "willow": {
+    "winRate": 100.0,
+    "useRate": 1.14,
+    "n": 2
+   },
+   "byron": {
+    "winRate": 100.0,
+    "useRate": 1.14,
+    "n": 2
+   },
+   "emz": {
+    "winRate": 35.9,
+    "useRate": 22.29,
+    "n": 39
+   },
+   "edgar": {
+    "winRate": 65.22,
+    "useRate": 13.14,
+    "n": 23
+   },
+   "barley": {
+    "winRate": 0.0,
+    "useRate": 0.57,
+    "n": 1
+   },
+   "tara": {
+    "winRate": 48.0,
+    "useRate": 14.29,
+    "n": 25
+   },
+   "griff": {
+    "winRate": 48.78,
+    "useRate": 23.43,
+    "n": 41
+   },
+   "frank": {
+    "winRate": 33.33,
+    "useRate": 1.71,
+    "n": 3
+   }
+  },
+  "flaring-phoenix": {
+   "bonnie": {
+    "winRate": 75.0,
+    "useRate": 3.86,
+    "n": 8
+   },
+   "lumi": {
+    "winRate": 33.33,
+    "useRate": 1.45,
+    "n": 3
+   },
+   "tick": {
+    "winRate": 42.86,
+    "useRate": 10.14,
+    "n": 21
+   },
+   "gray": {
+    "winRate": 53.97,
+    "useRate": 30.43,
+    "n": 63
+   },
+   "carl": {
+    "winRate": 60.0,
+    "useRate": 4.83,
+    "n": 10
+   },
+   "larry-lawrie": {
+    "winRate": 50.0,
+    "useRate": 0.97,
+    "n": 2
+   },
+   "ziggy": {
+    "winRate": 100.0,
+    "useRate": 0.48,
+    "n": 1
+   },
+   "starr-nova": {
+    "winRate": 66.67,
+    "useRate": 2.9,
+    "n": 6
+   },
+   "nori": {
+    "winRate": 60.0,
+    "useRate": 7.25,
+    "n": 15
+   },
+   "dynamike": {
+    "winRate": 50.0,
+    "useRate": 1.93,
+    "n": 4
+   },
+   "stu": {
+    "winRate": 0.0,
+    "useRate": 0.48,
+    "n": 1
+   },
+   "8-bit": {
+    "winRate": 40.0,
+    "useRate": 2.42,
+    "n": 5
+   },
+   "amber": {
+    "winRate": 51.35,
+    "useRate": 17.87,
+    "n": 37
+   },
+   "maisie": {
+    "winRate": 100.0,
+    "useRate": 0.48,
+    "n": 1
+   },
+   "darryl": {
+    "winRate": 63.64,
+    "useRate": 5.31,
+    "n": 11
+   },
+   "doug": {
+    "winRate": 92.31,
+    "useRate": 6.28,
+    "n": 13
+   },
+   "piper": {
+    "winRate": 45.83,
+    "useRate": 23.19,
+    "n": 48
+   },
+   "gale": {
+    "winRate": 33.33,
+    "useRate": 2.9,
+    "n": 6
+   },
+   "colette": {
+    "winRate": 11.11,
+    "useRate": 4.35,
+    "n": 9
+   },
+   "buster": {
+    "winRate": 66.67,
+    "useRate": 2.9,
+    "n": 6
+   },
+   "ruffs": {
+    "winRate": 0.0,
+    "useRate": 0.97,
+    "n": 2
+   },
+   "buzz": {
+    "winRate": 50.0,
+    "useRate": 1.93,
+    "n": 4
+   },
+   "pearl": {
+    "winRate": 50.0,
+    "useRate": 13.53,
+    "n": 28
+   },
+   "damian": {
+    "winRate": 33.33,
+    "useRate": 1.45,
+    "n": 3
+   },
+   "bibi": {
+    "winRate": 0.0,
+    "useRate": 0.48,
+    "n": 1
+   },
+   "r-t": {
+    "winRate": 66.67,
+    "useRate": 7.25,
+    "n": 15
+   },
+   "berry": {
+    "winRate": 20.0,
+    "useRate": 2.42,
+    "n": 5
+   },
+   "sirius": {
+    "winRate": 44.44,
+    "useRate": 4.35,
+    "n": 9
+   },
+   "mortis": {
+    "winRate": 60.0,
+    "useRate": 7.25,
+    "n": 15
+   },
+   "vince": {
+    "winRate": 59.46,
+    "useRate": 17.87,
+    "n": 37
+   },
+   "mr-p": {
+    "winRate": 57.14,
+    "useRate": 10.14,
+    "n": 21
+   },
+   "el-primo": {
+    "winRate": 50.0,
+    "useRate": 2.9,
+    "n": 6
+   },
+   "cordelius": {
+    "winRate": 50.0,
+    "useRate": 0.97,
+    "n": 2
+   },
+   "brock": {
+    "winRate": 55.86,
+    "useRate": 53.62,
+    "n": 111
+   },
+   "surge": {
+    "winRate": 28.57,
+    "useRate": 3.38,
+    "n": 7
+   },
+   "crow": {
+    "winRate": 0.0,
+    "useRate": 0.48,
+    "n": 1
+   },
+   "colt": {
+    "winRate": 22.22,
+    "useRate": 4.35,
+    "n": 9
+   },
+   "penny": {
+    "winRate": 0.0,
+    "useRate": 1.45,
+    "n": 3
+   },
+   "belle": {
+    "winRate": 39.13,
+    "useRate": 11.11,
+    "n": 23
+   },
+   "bull": {
+    "winRate": 55.56,
+    "useRate": 4.35,
+    "n": 9
+   },
+   "bo": {
+    "winRate": 50.0,
+    "useRate": 2.9,
+    "n": 6
+   },
+   "pierce": {
+    "winRate": 50.0,
+    "useRate": 15.46,
+    "n": 32
+   },
+   "bea": {
+    "winRate": 60.0,
+    "useRate": 2.42,
+    "n": 5
+   },
+   "lily": {
+    "winRate": 72.73,
+    "useRate": 5.31,
+    "n": 11
+   },
+   "charlie": {
+    "winRate": 25.0,
+    "useRate": 1.93,
+    "n": 4
+   },
+   "bolt": {
+    "winRate": 57.14,
+    "useRate": 3.38,
+    "n": 7
+   },
+   "grom": {
+    "winRate": 42.11,
+    "useRate": 9.18,
+    "n": 19
+   },
+   "mico": {
+    "winRate": 42.86,
+    "useRate": 6.76,
+    "n": 14
+   },
+   "leon": {
+    "winRate": 50.0,
+    "useRate": 4.83,
+    "n": 10
+   },
+   "kit": {
+    "winRate": 62.5,
+    "useRate": 3.86,
+    "n": 8
+   },
+   "hank": {
+    "winRate": 100.0,
+    "useRate": 0.97,
+    "n": 2
+   },
+   "rosa": {
+    "winRate": 0.0,
+    "useRate": 0.97,
+    "n": 2
+   },
+   "shade": {
+    "winRate": 41.67,
+    "useRate": 5.8,
+    "n": 12
+   },
+   "spike": {
+    "winRate": 32.0,
+    "useRate": 12.08,
+    "n": 25
+   },
+   "gigi": {
+    "winRate": 40.0,
+    "useRate": 4.83,
+    "n": 10
+   },
+   "mandy": {
+    "winRate": 48.53,
+    "useRate": 32.85,
+    "n": 68
+   },
+   "cosmo": {
+    "winRate": 0.0,
+    "useRate": 0.97,
+    "n": 2
+   },
+   "janet": {
+    "winRate": 57.14,
+    "useRate": 3.38,
+    "n": 7
+   },
+   "mina": {
+    "winRate": 61.11,
+    "useRate": 8.7,
+    "n": 18
+   },
+   "juju": {
+    "winRate": 38.89,
+    "useRate": 8.7,
+    "n": 18
+   },
+   "jessie": {
+    "winRate": 0.0,
+    "useRate": 0.48,
+    "n": 1
+   },
+   "squeak": {
+    "winRate": 44.12,
+    "useRate": 16.43,
+    "n": 34
+   },
+   "nani": {
+    "winRate": 46.15,
+    "useRate": 6.28,
+    "n": 13
+   },
+   "melodie": {
+    "winRate": 25.0,
+    "useRate": 3.86,
+    "n": 8
+   },
+   "alli": {
+    "winRate": 80.0,
+    "useRate": 2.42,
+    "n": 5
+   },
+   "angelo": {
+    "winRate": 68.75,
+    "useRate": 7.73,
+    "n": 16
+   },
+   "gene": {
+    "winRate": 62.5,
+    "useRate": 15.46,
+    "n": 32
+   },
+   "kaze": {
+    "winRate": 50.0,
+    "useRate": 1.93,
+    "n": 4
+   },
+   "otis": {
+    "winRate": 33.33,
+    "useRate": 1.45,
+    "n": 3
+   },
+   "chester": {
+    "winRate": 100.0,
+    "useRate": 0.97,
+    "n": 2
+   },
+   "jae-yong": {
+    "winRate": 100.0,
+    "useRate": 0.97,
+    "n": 2
+   },
+   "najia": {
+    "winRate": 34.88,
+    "useRate": 20.77,
+    "n": 43
+   },
+   "gus": {
+    "winRate": 45.61,
+    "useRate": 27.54,
+    "n": 57
+   },
+   "max": {
+    "winRate": 50.0,
+    "useRate": 12.56,
+    "n": 26
+   },
+   "meeple": {
+    "winRate": 33.33,
+    "useRate": 1.45,
+    "n": 3
+   },
+   "rico": {
+    "winRate": 46.15,
+    "useRate": 6.28,
+    "n": 13
+   },
+   "sprout": {
+    "winRate": 60.0,
+    "useRate": 14.49,
+    "n": 30
+   },
+   "lou": {
+    "winRate": 53.85,
+    "useRate": 6.28,
+    "n": 13
+   },
+   "willow": {
+    "winRate": 50.0,
+    "useRate": 1.93,
+    "n": 4
+   },
+   "byron": {
+    "winRate": 21.05,
+    "useRate": 9.18,
+    "n": 19
+   },
+   "edgar": {
+    "winRate": 60.0,
+    "useRate": 19.32,
+    "n": 40
+   },
+   "emz": {
+    "winRate": 50.0,
+    "useRate": 1.93,
+    "n": 4
+   },
+   "barley": {
+    "winRate": 0.0,
+    "useRate": 0.97,
+    "n": 2
+   },
+   "griff": {
+    "winRate": 20.0,
+    "useRate": 2.42,
+    "n": 5
+   },
+   "frank": {
+    "winRate": 100.0,
+    "useRate": 0.97,
+    "n": 2
+   }
+  },
+  "goldarm-gulch": {
+   "sam": {
+    "winRate": 100.0,
+    "useRate": 22.22,
+    "n": 2
+   },
+   "leon": {
+    "winRate": 100.0,
+    "useRate": 22.22,
+    "n": 2
+   },
+   "chester": {
+    "winRate": 100.0,
+    "useRate": 22.22,
+    "n": 2
+   },
+   "mr-p": {
+    "winRate": 42.86,
+    "useRate": 77.78,
+    "n": 7
+   },
+   "najia": {
+    "winRate": 66.67,
+    "useRate": 33.33,
+    "n": 3
+   },
+   "max": {
+    "winRate": 0.0,
+    "useRate": 44.44,
+    "n": 4
+   },
+   "gus": {
+    "winRate": 100.0,
+    "useRate": 22.22,
+    "n": 2
+   },
+   "brock": {
+    "winRate": 100.0,
+    "useRate": 22.22,
+    "n": 2
+   },
+   "eve": {
+    "winRate": 0.0,
+    "useRate": 22.22,
+    "n": 2
+   },
+   "surge": {
+    "winRate": 0.0,
+    "useRate": 22.22,
+    "n": 2
+   },
+   "rico": {
+    "winRate": 40.0,
+    "useRate": 55.56,
+    "n": 5
+   },
+   "amber": {
+    "winRate": 66.67,
+    "useRate": 33.33,
+    "n": 3
+   },
+   "mandy": {
+    "winRate": 0.0,
+    "useRate": 22.22,
+    "n": 2
+   },
+   "sprout": {
+    "winRate": 0.0,
+    "useRate": 22.22,
+    "n": 2
+   },
+   "byron": {
+    "winRate": 100.0,
+    "useRate": 22.22,
+    "n": 2
+   },
+   "darryl": {
+    "winRate": 33.33,
+    "useRate": 33.33,
+    "n": 3
+   },
+   "piper": {
+    "winRate": 50.0,
+    "useRate": 44.44,
+    "n": 4
+   },
+   "squeak": {
+    "winRate": 33.33,
+    "useRate": 33.33,
+    "n": 3
+   },
+   "trunk": {
+    "winRate": 100.0,
+    "useRate": 22.22,
+    "n": 2
+   }
+  },
+  "pinball-dreams": {
+   "lumi": {
+    "winRate": 50.0,
+    "useRate": 3.68,
+    "n": 6
+   },
+   "fang": {
+    "winRate": 20.0,
+    "useRate": 3.07,
+    "n": 5
+   },
+   "poco": {
+    "winRate": 0.0,
+    "useRate": 3.07,
+    "n": 5
+   },
+   "carl": {
+    "winRate": 30.77,
+    "useRate": 7.98,
+    "n": 13
+   },
+   "larry-lawrie": {
+    "winRate": 66.67,
+    "useRate": 3.68,
+    "n": 6
+   },
+   "starr-nova": {
+    "winRate": 100.0,
+    "useRate": 1.23,
+    "n": 2
+   },
+   "nori": {
+    "winRate": 35.71,
+    "useRate": 8.59,
+    "n": 14
+   },
+   "chuck": {
+    "winRate": 40.0,
+    "useRate": 3.07,
+    "n": 5
+   },
+   "dynamike": {
+    "winRate": 30.77,
+    "useRate": 7.98,
+    "n": 13
+   },
+   "stu": {
+    "winRate": 51.06,
+    "useRate": 28.83,
+    "n": 47
+   },
+   "8-bit": {
+    "winRate": 100.0,
+    "useRate": 1.23,
+    "n": 2
+   },
+   "amber": {
+    "winRate": 54.9,
+    "useRate": 31.29,
+    "n": 51
+   },
+   "darryl": {
+    "winRate": 0.0,
+    "useRate": 1.84,
+    "n": 3
+   },
+   "doug": {
+    "winRate": 0.0,
+    "useRate": 0.61,
+    "n": 1
+   },
+   "gale": {
+    "winRate": 50.0,
+    "useRate": 19.63,
+    "n": 32
+   },
+   "colette": {
+    "winRate": 35.71,
+    "useRate": 8.59,
+    "n": 14
+   },
+   "ruffs": {
+    "winRate": 100.0,
+    "useRate": 1.23,
+    "n": 2
+   },
+   "buzz": {
+    "winRate": 83.33,
+    "useRate": 3.68,
+    "n": 6
+   },
+   "pearl": {
+    "winRate": 28.57,
+    "useRate": 4.29,
+    "n": 7
+   },
+   "damian": {
+    "winRate": 100.0,
+    "useRate": 2.45,
+    "n": 4
+   },
+   "bibi": {
+    "winRate": 58.33,
+    "useRate": 7.36,
+    "n": 12
+   },
+   "clancy": {
+    "winRate": 50.0,
+    "useRate": 3.68,
+    "n": 6
+   },
+   "moe": {
+    "winRate": 0.0,
+    "useRate": 1.23,
+    "n": 2
+   },
+   "berry": {
+    "winRate": 50.0,
+    "useRate": 6.13,
+    "n": 10
+   },
+   "sirius": {
+    "winRate": 55.56,
+    "useRate": 5.52,
+    "n": 9
+   },
+   "mortis": {
+    "winRate": 20.0,
+    "useRate": 9.2,
+    "n": 15
+   },
+   "vince": {
+    "winRate": 71.43,
+    "useRate": 8.59,
+    "n": 14
+   },
+   "el-primo": {
+    "winRate": 58.33,
+    "useRate": 14.72,
+    "n": 24
+   },
+   "mr-p": {
+    "winRate": 91.67,
+    "useRate": 7.36,
+    "n": 12
+   },
+   "cordelius": {
+    "winRate": 33.33,
+    "useRate": 3.68,
+    "n": 6
+   },
+   "brock": {
+    "winRate": 44.12,
+    "useRate": 20.86,
+    "n": 34
+   },
+   "ash": {
+    "winRate": 50.0,
+    "useRate": 2.45,
+    "n": 4
+   },
+   "surge": {
+    "winRate": 53.45,
+    "useRate": 35.58,
+    "n": 58
+   },
+   "crow": {
+    "winRate": 0.0,
+    "useRate": 1.23,
+    "n": 2
+   },
+   "shelly": {
+    "winRate": 50.0,
+    "useRate": 6.13,
+    "n": 10
+   },
+   "colt": {
+    "winRate": 48.39,
+    "useRate": 19.02,
+    "n": 31
+   },
+   "penny": {
+    "winRate": 100.0,
+    "useRate": 1.23,
+    "n": 2
+   },
+   "bull": {
+    "winRate": 35.71,
+    "useRate": 8.59,
+    "n": 14
+   },
+   "bo": {
+    "winRate": 75.0,
+    "useRate": 4.91,
+    "n": 8
+   },
+   "wendy": {
+    "winRate": 66.67,
+    "useRate": 1.84,
+    "n": 3
+   },
+   "pierce": {
+    "winRate": 0.0,
+    "useRate": 1.23,
+    "n": 2
+   },
+   "charlie": {
+    "winRate": 0.0,
+    "useRate": 0.61,
+    "n": 1
+   },
+   "bolt": {
+    "winRate": 0.0,
+    "useRate": 1.23,
+    "n": 2
+   },
+   "mico": {
+    "winRate": 0.0,
+    "useRate": 1.23,
+    "n": 2
+   },
+   "ollie": {
+    "winRate": 100.0,
+    "useRate": 1.84,
+    "n": 3
+   },
+   "leon": {
+    "winRate": 66.67,
+    "useRate": 1.84,
+    "n": 3
+   },
+   "draco": {
+    "winRate": 100.0,
+    "useRate": 0.61,
+    "n": 1
+   },
+   "kit": {
+    "winRate": 66.67,
+    "useRate": 1.84,
+    "n": 3
+   },
+   "kenji": {
+    "winRate": 0.0,
+    "useRate": 3.07,
+    "n": 5
+   },
+   "hank": {
+    "winRate": 33.33,
+    "useRate": 1.84,
+    "n": 3
+   },
+   "nita": {
+    "winRate": 50.0,
+    "useRate": 2.45,
+    "n": 4
+   },
+   "shade": {
+    "winRate": 41.67,
+    "useRate": 7.36,
+    "n": 12
+   },
+   "spike": {
+    "winRate": 60.71,
+    "useRate": 17.18,
+    "n": 28
+   },
+   "gigi": {
+    "winRate": 42.86,
+    "useRate": 4.29,
+    "n": 7
+   },
+   "mandy": {
+    "winRate": 57.14,
+    "useRate": 4.29,
+    "n": 7
+   },
+   "janet": {
+    "winRate": 100.0,
+    "useRate": 1.23,
+    "n": 2
+   },
+   "mina": {
+    "winRate": 77.78,
+    "useRate": 5.52,
+    "n": 9
+   },
+   "squeak": {
+    "winRate": 25.0,
+    "useRate": 4.91,
+    "n": 8
+   },
+   "melodie": {
+    "winRate": 52.94,
+    "useRate": 10.43,
+    "n": 17
+   },
+   "otis": {
+    "winRate": 57.14,
+    "useRate": 4.29,
+    "n": 7
+   },
+   "chester": {
+    "winRate": 48.15,
+    "useRate": 33.13,
+    "n": 54
+   },
+   "max": {
+    "winRate": 36.36,
+    "useRate": 6.75,
+    "n": 11
+   },
+   "gus": {
+    "winRate": 52.94,
+    "useRate": 10.43,
+    "n": 17
+   },
+   "meeple": {
+    "winRate": 0.0,
+    "useRate": 1.23,
+    "n": 2
+   },
+   "rico": {
+    "winRate": 55.36,
+    "useRate": 34.36,
+    "n": 56
+   },
+   "sprout": {
+    "winRate": 100.0,
+    "useRate": 2.45,
+    "n": 4
+   },
+   "lou": {
+    "winRate": 66.67,
+    "useRate": 20.25,
+    "n": 33
+   },
+   "willow": {
+    "winRate": 51.61,
+    "useRate": 19.02,
+    "n": 31
+   },
+   "edgar": {
+    "winRate": 39.39,
+    "useRate": 20.25,
+    "n": 33
+   },
+   "emz": {
+    "winRate": 60.87,
+    "useRate": 14.11,
+    "n": 23
+   },
+   "barley": {
+    "winRate": 50.0,
+    "useRate": 6.13,
+    "n": 10
+   },
+   "trunk": {
+    "winRate": 0.0,
+    "useRate": 1.23,
+    "n": 2
+   },
+   "tara": {
+    "winRate": 0.0,
+    "useRate": 1.84,
+    "n": 3
+   },
+   "griff": {
+    "winRate": 45.83,
+    "useRate": 29.45,
+    "n": 48
+   },
+   "frank": {
+    "winRate": 27.27,
+    "useRate": 6.75,
+    "n": 11
+   }
+  },
+  "dry-season": {
+   "bonnie": {
+    "winRate": 66.67,
+    "useRate": 4.09,
+    "n": 9
+   },
+   "finx": {
+    "winRate": 100.0,
+    "useRate": 0.45,
+    "n": 1
+   },
+   "gray": {
+    "winRate": 57.14,
+    "useRate": 19.09,
+    "n": 42
+   },
+   "tick": {
+    "winRate": 75.0,
+    "useRate": 5.45,
+    "n": 12
+   },
+   "carl": {
+    "winRate": 27.27,
+    "useRate": 5.0,
+    "n": 11
+   },
+   "fang": {
+    "winRate": 50.0,
+    "useRate": 2.73,
+    "n": 6
+   },
+   "starr-nova": {
+    "winRate": 37.5,
+    "useRate": 3.64,
+    "n": 8
+   },
+   "nori": {
+    "winRate": 40.0,
+    "useRate": 4.55,
+    "n": 10
+   },
+   "dynamike": {
+    "winRate": 0.0,
+    "useRate": 0.45,
+    "n": 1
+   },
+   "chuck": {
+    "winRate": 60.0,
+    "useRate": 2.27,
+    "n": 5
+   },
+   "stu": {
+    "winRate": 50.0,
+    "useRate": 1.82,
+    "n": 4
+   },
+   "8-bit": {
+    "winRate": 69.23,
+    "useRate": 5.91,
+    "n": 13
+   },
+   "amber": {
+    "winRate": 51.28,
+    "useRate": 17.73,
+    "n": 39
+   },
+   "darryl": {
+    "winRate": 0.0,
+    "useRate": 0.91,
+    "n": 2
+   },
+   "doug": {
+    "winRate": 53.85,
+    "useRate": 5.91,
+    "n": 13
+   },
+   "piper": {
+    "winRate": 52.86,
+    "useRate": 31.82,
+    "n": 70
+   },
+   "gale": {
+    "winRate": 40.0,
+    "useRate": 2.27,
+    "n": 5
+   },
+   "colette": {
+    "winRate": 42.86,
+    "useRate": 3.18,
+    "n": 7
+   },
+   "ruffs": {
+    "winRate": 54.55,
+    "useRate": 5.0,
+    "n": 11
+   },
+   "buzz": {
+    "winRate": 40.0,
+    "useRate": 4.55,
+    "n": 10
+   },
+   "pearl": {
+    "winRate": 64.71,
+    "useRate": 7.73,
+    "n": 17
+   },
+   "r-t": {
+    "winRate": 33.33,
+    "useRate": 1.36,
+    "n": 3
+   },
+   "berry": {
+    "winRate": 40.0,
+    "useRate": 2.27,
+    "n": 5
+   },
+   "sirius": {
+    "winRate": 0.0,
+    "useRate": 0.45,
+    "n": 1
+   },
+   "mortis": {
+    "winRate": 49.37,
+    "useRate": 35.91,
+    "n": 79
+   },
+   "pam": {
+    "winRate": 0.0,
+    "useRate": 0.91,
+    "n": 2
+   },
+   "vince": {
+    "winRate": 48.57,
+    "useRate": 15.91,
+    "n": 35
+   },
+   "mr-p": {
+    "winRate": 61.11,
+    "useRate": 16.36,
+    "n": 36
+   },
+   "brock": {
+    "winRate": 53.66,
+    "useRate": 55.91,
+    "n": 123
+   },
+   "eve": {
+    "winRate": 33.33,
+    "useRate": 1.36,
+    "n": 3
+   },
+   "surge": {
+    "winRate": 18.75,
+    "useRate": 7.27,
+    "n": 16
+   },
+   "crow": {
+    "winRate": 66.67,
+    "useRate": 1.36,
+    "n": 3
+   },
+   "colt": {
+    "winRate": 75.0,
+    "useRate": 5.45,
+    "n": 12
+   },
+   "penny": {
+    "winRate": 42.86,
+    "useRate": 3.18,
+    "n": 7
+   },
+   "belle": {
+    "winRate": 50.0,
+    "useRate": 10.0,
+    "n": 22
+   },
+   "bull": {
+    "winRate": 50.0,
+    "useRate": 0.91,
+    "n": 2
+   },
+   "bo": {
+    "winRate": 60.0,
+    "useRate": 4.55,
+    "n": 10
+   },
+   "bea": {
+    "winRate": 16.67,
+    "useRate": 2.73,
+    "n": 6
+   },
+   "pierce": {
+    "winRate": 57.14,
+    "useRate": 12.73,
+    "n": 28
+   },
+   "lily": {
+    "winRate": 50.0,
+    "useRate": 0.91,
+    "n": 2
+   },
+   "charlie": {
+    "winRate": 33.33,
+    "useRate": 1.36,
+    "n": 3
+   },
+   "bolt": {
+    "winRate": 0.0,
+    "useRate": 0.91,
+    "n": 2
+   },
+   "grom": {
+    "winRate": 50.0,
+    "useRate": 1.82,
+    "n": 4
+   },
+   "mico": {
+    "winRate": 14.29,
+    "useRate": 3.18,
+    "n": 7
+   },
+   "ollie": {
+    "winRate": 0.0,
+    "useRate": 0.91,
+    "n": 2
+   },
+   "leon": {
+    "winRate": 54.55,
+    "useRate": 5.0,
+    "n": 11
+   },
+   "draco": {
+    "winRate": 33.33,
+    "useRate": 1.36,
+    "n": 3
+   },
+   "kenji": {
+    "winRate": 75.0,
+    "useRate": 1.82,
+    "n": 4
+   },
+   "kit": {
+    "winRate": 66.67,
+    "useRate": 1.36,
+    "n": 3
+   },
+   "hank": {
+    "winRate": 0.0,
+    "useRate": 0.91,
+    "n": 2
+   },
+   "rosa": {
+    "winRate": 0.0,
+    "useRate": 0.45,
+    "n": 1
+   },
+   "spike": {
+    "winRate": 30.77,
+    "useRate": 11.82,
+    "n": 26
+   },
+   "gigi": {
+    "winRate": 25.0,
+    "useRate": 3.64,
+    "n": 8
+   },
+   "mandy": {
+    "winRate": 50.0,
+    "useRate": 33.64,
+    "n": 74
+   },
+   "janet": {
+    "winRate": 0.0,
+    "useRate": 0.45,
+    "n": 1
+   },
+   "mina": {
+    "winRate": 52.63,
+    "useRate": 17.27,
+    "n": 38
+   },
+   "squeak": {
+    "winRate": 45.45,
+    "useRate": 10.0,
+    "n": 22
+   },
+   "nani": {
+    "winRate": 16.67,
+    "useRate": 8.18,
+    "n": 18
+   },
+   "melodie": {
+    "winRate": 57.14,
+    "useRate": 15.91,
+    "n": 35
+   },
+   "sandy": {
+    "winRate": 100.0,
+    "useRate": 0.45,
+    "n": 1
+   },
+   "angelo": {
+    "winRate": 57.14,
+    "useRate": 3.18,
+    "n": 7
+   },
+   "gene": {
+    "winRate": 40.0,
+    "useRate": 6.82,
+    "n": 15
+   },
+   "alli": {
+    "winRate": 0.0,
+    "useRate": 0.91,
+    "n": 2
+   },
+   "kaze": {
+    "winRate": 64.29,
+    "useRate": 6.36,
+    "n": 14
+   },
+   "otis": {
+    "winRate": 40.0,
+    "useRate": 2.27,
+    "n": 5
+   },
+   "chester": {
+    "winRate": 57.14,
+    "useRate": 3.18,
+    "n": 7
+   },
+   "jae-yong": {
+    "winRate": 33.33,
+    "useRate": 1.36,
+    "n": 3
+   },
+   "najia": {
+    "winRate": 45.76,
+    "useRate": 26.82,
+    "n": 59
+   },
+   "max": {
+    "winRate": 54.55,
+    "useRate": 20.0,
+    "n": 44
+   },
+   "gus": {
+    "winRate": 57.45,
+    "useRate": 21.36,
+    "n": 47
+   },
+   "glowy": {
+    "winRate": 16.67,
+    "useRate": 2.73,
+    "n": 6
+   },
+   "meeple": {
+    "winRate": 9.09,
+    "useRate": 5.0,
+    "n": 11
+   },
+   "rico": {
+    "winRate": 50.0,
+    "useRate": 7.27,
+    "n": 16
+   },
+   "sprout": {
+    "winRate": 54.55,
+    "useRate": 5.0,
+    "n": 11
+   },
+   "lou": {
+    "winRate": 60.0,
+    "useRate": 9.09,
+    "n": 20
+   },
+   "byron": {
+    "winRate": 57.78,
+    "useRate": 20.45,
+    "n": 45
+   },
+   "edgar": {
+    "winRate": 52.78,
+    "useRate": 16.36,
+    "n": 36
+   },
+   "emz": {
+    "winRate": 100.0,
+    "useRate": 0.45,
+    "n": 1
+   },
+   "griff": {
+    "winRate": 50.0,
+    "useRate": 6.36,
+    "n": 14
+   },
+   "frank": {
+    "winRate": 0.0,
+    "useRate": 0.45,
+    "n": 1
+   }
+  },
+  "hard-rock-mine": {
+   "lumi": {
+    "winRate": 50.0,
+    "useRate": 3.37,
+    "n": 6
+   },
+   "fang": {
+    "winRate": 0.0,
+    "useRate": 1.12,
+    "n": 2
+   },
+   "poco": {
+    "winRate": 0.0,
+    "useRate": 2.25,
+    "n": 4
+   },
+   "carl": {
+    "winRate": 57.14,
+    "useRate": 3.93,
+    "n": 7
+   },
+   "tick": {
+    "winRate": 100.0,
+    "useRate": 1.12,
+    "n": 2
+   },
+   "gray": {
+    "winRate": 33.33,
+    "useRate": 1.69,
+    "n": 3
+   },
+   "starr-nova": {
+    "winRate": 42.86,
+    "useRate": 3.93,
+    "n": 7
+   },
+   "ziggy": {
+    "winRate": 100.0,
+    "useRate": 1.12,
+    "n": 2
+   },
+   "nori": {
+    "winRate": 42.31,
+    "useRate": 14.61,
+    "n": 26
+   },
+   "dynamike": {
+    "winRate": 0.0,
+    "useRate": 1.12,
+    "n": 2
+   },
+   "stu": {
+    "winRate": 41.67,
+    "useRate": 13.48,
+    "n": 24
+   },
+   "8-bit": {
+    "winRate": 37.5,
+    "useRate": 4.49,
+    "n": 8
+   },
+   "amber": {
+    "winRate": 36.73,
+    "useRate": 27.53,
+    "n": 49
+   },
+   "darryl": {
+    "winRate": 100.0,
+    "useRate": 1.12,
+    "n": 2
+   },
+   "piper": {
+    "winRate": 0.0,
+    "useRate": 1.12,
+    "n": 2
+   },
+   "gale": {
+    "winRate": 23.08,
+    "useRate": 14.61,
+    "n": 26
+   },
+   "colette": {
+    "winRate": 36.84,
+    "useRate": 10.67,
+    "n": 19
+   },
+   "ruffs": {
+    "winRate": 30.77,
+    "useRate": 7.3,
+    "n": 13
+   },
+   "buzz": {
+    "winRate": 53.85,
+    "useRate": 7.3,
+    "n": 13
+   },
+   "pearl": {
+    "winRate": 20.0,
+    "useRate": 2.81,
+    "n": 5
+   },
+   "damian": {
+    "winRate": 100.0,
+    "useRate": 1.12,
+    "n": 2
+   },
+   "bibi": {
+    "winRate": 68.18,
+    "useRate": 12.36,
+    "n": 22
+   },
+   "clancy": {
+    "winRate": 60.0,
+    "useRate": 2.81,
+    "n": 5
+   },
+   "moe": {
+    "winRate": 57.14,
+    "useRate": 7.87,
+    "n": 14
+   },
+   "berry": {
+    "winRate": 33.33,
+    "useRate": 3.37,
+    "n": 6
+   },
+   "sirius": {
+    "winRate": 33.33,
+    "useRate": 6.74,
+    "n": 12
+   },
+   "mortis": {
+    "winRate": 53.66,
+    "useRate": 23.03,
+    "n": 41
+   },
+   "vince": {
+    "winRate": 54.29,
+    "useRate": 19.66,
+    "n": 35
+   },
+   "mr-p": {
+    "winRate": 55.0,
+    "useRate": 11.24,
+    "n": 20
+   },
+   "el-primo": {
+    "winRate": 20.0,
+    "useRate": 5.62,
+    "n": 10
+   },
+   "cordelius": {
+    "winRate": 50.0,
+    "useRate": 1.12,
+    "n": 2
+   },
+   "brock": {
+    "winRate": 0.0,
+    "useRate": 0.56,
+    "n": 1
+   },
+   "ash": {
+    "winRate": 68.75,
+    "useRate": 8.99,
+    "n": 16
+   },
+   "surge": {
+    "winRate": 64.41,
+    "useRate": 33.15,
+    "n": 59
+   },
+   "crow": {
+    "winRate": 50.0,
+    "useRate": 1.12,
+    "n": 2
+   },
+   "shelly": {
+    "winRate": 33.33,
+    "useRate": 1.69,
+    "n": 3
+   },
+   "colt": {
+    "winRate": 77.78,
+    "useRate": 5.06,
+    "n": 9
+   },
+   "belle": {
+    "winRate": 100.0,
+    "useRate": 1.12,
+    "n": 2
+   },
+   "bull": {
+    "winRate": 57.14,
+    "useRate": 3.93,
+    "n": 7
+   },
+   "bo": {
+    "winRate": 58.62,
+    "useRate": 32.58,
+    "n": 58
+   },
+   "wendy": {
+    "winRate": 0.0,
+    "useRate": 1.12,
+    "n": 2
+   },
+   "pierce": {
+    "winRate": 28.57,
+    "useRate": 3.93,
+    "n": 7
+   },
+   "lily": {
+    "winRate": 25.0,
+    "useRate": 2.25,
+    "n": 4
+   },
+   "bea": {
+    "winRate": 50.0,
+    "useRate": 3.37,
+    "n": 6
+   },
+   "charlie": {
+    "winRate": 0.0,
+    "useRate": 1.12,
+    "n": 2
+   },
+   "bolt": {
+    "winRate": 33.33,
+    "useRate": 1.69,
+    "n": 3
+   },
+   "mico": {
+    "winRate": 0.0,
+    "useRate": 0.56,
+    "n": 1
+   },
+   "sam": {
+    "winRate": 100.0,
+    "useRate": 1.12,
+    "n": 2
+   },
+   "leon": {
+    "winRate": 71.43,
+    "useRate": 3.93,
+    "n": 7
+   },
+   "kit": {
+    "winRate": 31.25,
+    "useRate": 8.99,
+    "n": 16
+   },
+   "hank": {
+    "winRate": 66.67,
+    "useRate": 1.69,
+    "n": 3
+   },
+   "rosa": {
+    "winRate": 80.0,
+    "useRate": 5.62,
+    "n": 10
+   },
+   "nita": {
+    "winRate": 100.0,
+    "useRate": 0.56,
+    "n": 1
+   },
+   "shade": {
+    "winRate": 46.15,
+    "useRate": 7.3,
+    "n": 13
+   },
+   "spike": {
+    "winRate": 53.12,
+    "useRate": 17.98,
+    "n": 32
+   },
+   "gigi": {
+    "winRate": 50.0,
+    "useRate": 5.62,
+    "n": 10
+   },
+   "mandy": {
+    "winRate": 40.0,
+    "useRate": 5.62,
+    "n": 10
+   },
+   "janet": {
+    "winRate": 60.0,
+    "useRate": 8.43,
+    "n": 15
+   },
+   "mina": {
+    "winRate": 50.0,
+    "useRate": 4.49,
+    "n": 8
+   },
+   "juju": {
+    "winRate": 100.0,
+    "useRate": 1.12,
+    "n": 2
+   },
+   "squeak": {
+    "winRate": 33.33,
+    "useRate": 3.37,
+    "n": 6
+   },
+   "melodie": {
+    "winRate": 41.67,
+    "useRate": 6.74,
+    "n": 12
+   },
+   "sandy": {
+    "winRate": 50.0,
+    "useRate": 3.37,
+    "n": 6
+   },
+   "alli": {
+    "winRate": 43.75,
+    "useRate": 8.99,
+    "n": 16
+   },
+   "gene": {
+    "winRate": 80.0,
+    "useRate": 2.81,
+    "n": 5
+   },
+   "otis": {
+    "winRate": 11.11,
+    "useRate": 5.06,
+    "n": 9
+   },
+   "chester": {
+    "winRate": 45.76,
+    "useRate": 33.15,
+    "n": 59
+   },
+   "najia": {
+    "winRate": 66.67,
+    "useRate": 1.69,
+    "n": 3
+   },
+   "gus": {
+    "winRate": 65.0,
+    "useRate": 22.47,
+    "n": 40
+   },
+   "max": {
+    "winRate": 30.77,
+    "useRate": 7.3,
+    "n": 13
+   },
+   "glowy": {
+    "winRate": 66.67,
+    "useRate": 1.69,
+    "n": 3
+   },
+   "meeple": {
+    "winRate": 100.0,
+    "useRate": 1.12,
+    "n": 2
+   },
+   "rico": {
+    "winRate": 61.36,
+    "useRate": 24.72,
+    "n": 44
+   },
+   "lou": {
+    "winRate": 68.42,
+    "useRate": 21.35,
+    "n": 38
+   },
+   "byron": {
+    "winRate": 40.0,
+    "useRate": 2.81,
+    "n": 5
+   },
+   "emz": {
+    "winRate": 40.74,
+    "useRate": 15.17,
+    "n": 27
+   },
+   "edgar": {
+    "winRate": 65.52,
+    "useRate": 16.29,
+    "n": 29
+   },
+   "trunk": {
+    "winRate": 0.0,
+    "useRate": 1.12,
+    "n": 2
+   },
+   "tara": {
+    "winRate": 42.86,
+    "useRate": 3.93,
+    "n": 7
+   },
+   "griff": {
+    "winRate": 30.3,
+    "useRate": 18.54,
+    "n": 33
+   },
+   "frank": {
+    "winRate": 42.86,
+    "useRate": 3.93,
+    "n": 7
+   }
+  },
+  "center-stage": {
+   "lumi": {
+    "winRate": 45.0,
+    "useRate": 10.53,
+    "n": 20
+   },
+   "gray": {
+    "winRate": 0.0,
+    "useRate": 1.05,
+    "n": 2
+   },
+   "poco": {
+    "winRate": 60.0,
+    "useRate": 2.63,
+    "n": 5
+   },
+   "carl": {
+    "winRate": 58.82,
+    "useRate": 8.95,
+    "n": 17
+   },
+   "fang": {
+    "winRate": 80.0,
+    "useRate": 2.63,
+    "n": 5
+   },
+   "starr-nova": {
+    "winRate": 63.64,
+    "useRate": 5.79,
+    "n": 11
+   },
+   "nori": {
+    "winRate": 28.57,
+    "useRate": 3.68,
+    "n": 7
+   },
+   "chuck": {
+    "winRate": 60.0,
+    "useRate": 2.63,
+    "n": 5
+   },
+   "dynamike": {
+    "winRate": 66.67,
+    "useRate": 1.58,
+    "n": 3
+   },
+   "stu": {
+    "winRate": 54.55,
+    "useRate": 17.37,
+    "n": 33
+   },
+   "amber": {
+    "winRate": 50.0,
+    "useRate": 35.79,
+    "n": 68
+   },
+   "maisie": {
+    "winRate": 28.57,
+    "useRate": 3.68,
+    "n": 7
+   },
+   "darryl": {
+    "winRate": 33.33,
+    "useRate": 1.58,
+    "n": 3
+   },
+   "gale": {
+    "winRate": 45.45,
+    "useRate": 17.37,
+    "n": 33
+   },
+   "colette": {
+    "winRate": 61.11,
+    "useRate": 9.47,
+    "n": 18
+   },
+   "ruffs": {
+    "winRate": 37.5,
+    "useRate": 8.42,
+    "n": 16
+   },
+   "buster": {
+    "winRate": 50.0,
+    "useRate": 2.11,
+    "n": 4
+   },
+   "buzz": {
+    "winRate": 58.33,
+    "useRate": 6.32,
+    "n": 12
+   },
+   "damian": {
+    "winRate": 50.0,
+    "useRate": 1.05,
+    "n": 2
+   },
+   "pearl": {
+    "winRate": 60.0,
+    "useRate": 7.89,
+    "n": 15
+   },
+   "bibi": {
+    "winRate": 80.0,
+    "useRate": 2.63,
+    "n": 5
+   },
+   "moe": {
+    "winRate": 38.1,
+    "useRate": 11.05,
+    "n": 21
+   },
+   "berry": {
+    "winRate": 50.0,
+    "useRate": 3.16,
+    "n": 6
+   },
+   "sirius": {
+    "winRate": 40.0,
+    "useRate": 2.63,
+    "n": 5
+   },
+   "mortis": {
+    "winRate": 47.83,
+    "useRate": 12.11,
+    "n": 23
+   },
+   "vince": {
+    "winRate": 60.87,
+    "useRate": 12.11,
+    "n": 23
+   },
+   "el-primo": {
+    "winRate": 66.67,
+    "useRate": 9.47,
+    "n": 18
+   },
+   "mr-p": {
+    "winRate": 73.91,
+    "useRate": 12.11,
+    "n": 23
+   },
+   "cordelius": {
+    "winRate": 100.0,
+    "useRate": 0.53,
+    "n": 1
+   },
+   "brock": {
+    "winRate": 54.55,
+    "useRate": 5.79,
+    "n": 11
+   },
+   "ash": {
+    "winRate": 20.0,
+    "useRate": 5.26,
+    "n": 10
+   },
+   "surge": {
+    "winRate": 52.38,
+    "useRate": 22.11,
+    "n": 42
+   },
+   "crow": {
+    "winRate": 0.0,
+    "useRate": 2.11,
+    "n": 4
+   },
+   "shelly": {
+    "winRate": 57.14,
+    "useRate": 7.37,
+    "n": 14
+   },
+   "colt": {
+    "winRate": 55.26,
+    "useRate": 20.0,
+    "n": 38
+   },
+   "penny": {
+    "winRate": 0.0,
+    "useRate": 1.05,
+    "n": 2
+   },
+   "bull": {
+    "winRate": 28.57,
+    "useRate": 3.68,
+    "n": 7
+   },
+   "bo": {
+    "winRate": 35.29,
+    "useRate": 8.95,
+    "n": 17
+   },
+   "pierce": {
+    "winRate": 33.33,
+    "useRate": 1.58,
+    "n": 3
+   },
+   "lily": {
+    "winRate": 66.67,
+    "useRate": 1.58,
+    "n": 3
+   },
+   "bea": {
+    "winRate": 0.0,
+    "useRate": 0.53,
+    "n": 1
+   },
+   "charlie": {
+    "winRate": 20.0,
+    "useRate": 2.63,
+    "n": 5
+   },
+   "mico": {
+    "winRate": 75.0,
+    "useRate": 2.11,
+    "n": 4
+   },
+   "draco": {
+    "winRate": 0.0,
+    "useRate": 0.53,
+    "n": 1
+   },
+   "kenji": {
+    "winRate": 20.0,
+    "useRate": 2.63,
+    "n": 5
+   },
+   "rosa": {
+    "winRate": 33.33,
+    "useRate": 4.74,
+    "n": 9
+   },
+   "nita": {
+    "winRate": 66.67,
+    "useRate": 1.58,
+    "n": 3
+   },
+   "shade": {
+    "winRate": 100.0,
+    "useRate": 0.53,
+    "n": 1
+   },
+   "spike": {
+    "winRate": 44.78,
+    "useRate": 35.26,
+    "n": 67
+   },
+   "gigi": {
+    "winRate": 37.5,
+    "useRate": 8.42,
+    "n": 16
+   },
+   "janet": {
+    "winRate": 57.14,
+    "useRate": 3.68,
+    "n": 7
+   },
+   "mina": {
+    "winRate": 50.0,
+    "useRate": 3.16,
+    "n": 6
+   },
+   "jessie": {
+    "winRate": 50.0,
+    "useRate": 2.11,
+    "n": 4
+   },
+   "squeak": {
+    "winRate": 45.95,
+    "useRate": 19.47,
+    "n": 37
+   },
+   "lola": {
+    "winRate": 33.33,
+    "useRate": 1.58,
+    "n": 3
+   },
+   "meg": {
+    "winRate": 0.0,
+    "useRate": 0.53,
+    "n": 1
+   },
+   "melodie": {
+    "winRate": 46.67,
+    "useRate": 7.89,
+    "n": 15
+   },
+   "sandy": {
+    "winRate": 33.33,
+    "useRate": 1.58,
+    "n": 3
+   },
+   "alli": {
+    "winRate": 88.89,
+    "useRate": 4.74,
+    "n": 9
+   },
+   "gene": {
+    "winRate": 66.67,
+    "useRate": 1.58,
+    "n": 3
+   },
+   "otis": {
+    "winRate": 53.49,
+    "useRate": 22.63,
+    "n": 43
+   },
+   "chester": {
+    "winRate": 54.17,
+    "useRate": 37.89,
+    "n": 72
+   },
+   "gus": {
+    "winRate": 33.33,
+    "useRate": 6.32,
+    "n": 12
+   },
+   "max": {
+    "winRate": 37.5,
+    "useRate": 8.42,
+    "n": 16
+   },
+   "glowy": {
+    "winRate": 100.0,
+    "useRate": 0.53,
+    "n": 1
+   },
+   "meeple": {
+    "winRate": 66.67,
+    "useRate": 1.58,
+    "n": 3
+   },
+   "rico": {
+    "winRate": 52.0,
+    "useRate": 26.32,
+    "n": 50
+   },
+   "sprout": {
+    "winRate": 50.0,
+    "useRate": 2.11,
+    "n": 4
+   },
+   "lou": {
+    "winRate": 48.89,
+    "useRate": 23.68,
+    "n": 45
+   },
+   "willow": {
+    "winRate": 0.0,
+    "useRate": 1.05,
+    "n": 2
+   },
+   "byron": {
+    "winRate": 66.67,
+    "useRate": 1.58,
+    "n": 3
+   },
+   "emz": {
+    "winRate": 43.75,
+    "useRate": 16.84,
+    "n": 32
+   },
+   "edgar": {
+    "winRate": 60.0,
+    "useRate": 15.79,
+    "n": 30
+   },
+   "tara": {
+    "winRate": 50.0,
+    "useRate": 1.05,
+    "n": 2
+   },
+   "griff": {
+    "winRate": 51.02,
+    "useRate": 25.79,
+    "n": 49
+   },
+   "frank": {
+    "winRate": 35.71,
+    "useRate": 7.37,
+    "n": 14
+   }
+  },
+  "triple-dribble": {
+   "lumi": {
+    "winRate": 50.0,
+    "useRate": 5.56,
+    "n": 10
+   },
+   "tick": {
+    "winRate": 33.33,
+    "useRate": 3.33,
+    "n": 6
+   },
+   "gray": {
+    "winRate": 66.67,
+    "useRate": 3.33,
+    "n": 6
+   },
+   "carl": {
+    "winRate": 50.0,
+    "useRate": 3.33,
+    "n": 6
+   },
+   "fang": {
+    "winRate": 100.0,
+    "useRate": 0.56,
+    "n": 1
+   },
+   "larry-lawrie": {
+    "winRate": 61.11,
+    "useRate": 10.0,
+    "n": 18
+   },
+   "ziggy": {
+    "winRate": 66.67,
+    "useRate": 3.33,
+    "n": 6
+   },
+   "starr-nova": {
+    "winRate": 61.54,
+    "useRate": 7.22,
+    "n": 13
+   },
+   "dynamike": {
+    "winRate": 36.36,
+    "useRate": 6.11,
+    "n": 11
+   },
+   "nori": {
+    "winRate": 47.06,
+    "useRate": 9.44,
+    "n": 17
+   },
+   "chuck": {
+    "winRate": 50.0,
+    "useRate": 1.11,
+    "n": 2
+   },
+   "stu": {
+    "winRate": 46.15,
+    "useRate": 21.67,
+    "n": 39
+   },
+   "amber": {
+    "winRate": 51.02,
+    "useRate": 27.22,
+    "n": 49
+   },
+   "darryl": {
+    "winRate": 75.0,
+    "useRate": 2.22,
+    "n": 4
+   },
+   "doug": {
+    "winRate": 0.0,
+    "useRate": 1.11,
+    "n": 2
+   },
+   "gale": {
+    "winRate": 47.17,
+    "useRate": 29.44,
+    "n": 53
+   },
+   "colette": {
+    "winRate": 41.67,
+    "useRate": 6.67,
+    "n": 12
+   },
+   "ruffs": {
+    "winRate": 0.0,
+    "useRate": 2.22,
+    "n": 4
+   },
+   "buzz": {
+    "winRate": 60.0,
+    "useRate": 2.78,
+    "n": 5
+   },
+   "pearl": {
+    "winRate": 14.29,
+    "useRate": 3.89,
+    "n": 7
+   },
+   "damian": {
+    "winRate": 42.86,
+    "useRate": 3.89,
+    "n": 7
+   },
+   "bibi": {
+    "winRate": 61.54,
+    "useRate": 14.44,
+    "n": 26
+   },
+   "clancy": {
+    "winRate": 66.67,
+    "useRate": 3.33,
+    "n": 6
+   },
+   "moe": {
+    "winRate": 60.0,
+    "useRate": 2.78,
+    "n": 5
+   },
+   "berry": {
+    "winRate": 27.78,
+    "useRate": 10.0,
+    "n": 18
+   },
+   "sirius": {
+    "winRate": 25.0,
+    "useRate": 8.89,
+    "n": 16
+   },
+   "mortis": {
+    "winRate": 33.33,
+    "useRate": 10.0,
+    "n": 18
+   },
+   "vince": {
+    "winRate": 43.48,
+    "useRate": 12.78,
+    "n": 23
+   },
+   "mr-p": {
+    "winRate": 75.0,
+    "useRate": 4.44,
+    "n": 8
+   },
+   "el-primo": {
+    "winRate": 50.0,
+    "useRate": 5.56,
+    "n": 10
+   },
+   "cordelius": {
+    "winRate": 50.0,
+    "useRate": 4.44,
+    "n": 8
+   },
+   "brock": {
+    "winRate": 0.0,
+    "useRate": 0.56,
+    "n": 1
+   },
+   "ash": {
+    "winRate": 40.0,
+    "useRate": 2.78,
+    "n": 5
+   },
+   "surge": {
+    "winRate": 52.56,
+    "useRate": 43.33,
+    "n": 78
+   },
+   "shelly": {
+    "winRate": 0.0,
+    "useRate": 1.67,
+    "n": 3
+   },
+   "colt": {
+    "winRate": 100.0,
+    "useRate": 0.56,
+    "n": 1
+   },
+   "bull": {
+    "winRate": 42.86,
+    "useRate": 7.78,
+    "n": 14
+   },
+   "bo": {
+    "winRate": 50.0,
+    "useRate": 2.22,
+    "n": 4
+   },
+   "pierce": {
+    "winRate": 100.0,
+    "useRate": 0.56,
+    "n": 1
+   },
+   "lily": {
+    "winRate": 33.33,
+    "useRate": 3.33,
+    "n": 6
+   },
+   "bea": {
+    "winRate": 0.0,
+    "useRate": 1.11,
+    "n": 2
+   },
+   "charlie": {
+    "winRate": 66.67,
+    "useRate": 1.67,
+    "n": 3
+   },
+   "jacky": {
+    "winRate": 0.0,
+    "useRate": 1.11,
+    "n": 2
+   },
+   "mico": {
+    "winRate": 62.5,
+    "useRate": 4.44,
+    "n": 8
+   },
+   "ollie": {
+    "winRate": 66.67,
+    "useRate": 1.67,
+    "n": 3
+   },
+   "kit": {
+    "winRate": 0.0,
+    "useRate": 1.11,
+    "n": 2
+   },
+   "kenji": {
+    "winRate": 57.14,
+    "useRate": 3.89,
+    "n": 7
+   },
+   "hank": {
+    "winRate": 54.55,
+    "useRate": 6.11,
+    "n": 11
+   },
+   "nita": {
+    "winRate": 0.0,
+    "useRate": 1.11,
+    "n": 2
+   },
+   "shade": {
+    "winRate": 38.89,
+    "useRate": 10.0,
+    "n": 18
+   },
+   "spike": {
+    "winRate": 40.91,
+    "useRate": 24.44,
+    "n": 44
+   },
+   "gigi": {
+    "winRate": 20.0,
+    "useRate": 2.78,
+    "n": 5
+   },
+   "mandy": {
+    "winRate": 0.0,
+    "useRate": 0.56,
+    "n": 1
+   },
+   "mina": {
+    "winRate": 26.67,
+    "useRate": 8.33,
+    "n": 15
+   },
+   "juju": {
+    "winRate": 88.89,
+    "useRate": 5.0,
+    "n": 9
+   },
+   "squeak": {
+    "winRate": 60.0,
+    "useRate": 5.56,
+    "n": 10
+   },
+   "melodie": {
+    "winRate": 66.67,
+    "useRate": 11.67,
+    "n": 21
+   },
+   "alli": {
+    "winRate": 33.33,
+    "useRate": 1.67,
+    "n": 3
+   },
+   "otis": {
+    "winRate": 0.0,
+    "useRate": 3.33,
+    "n": 6
+   },
+   "chester": {
+    "winRate": 51.06,
+    "useRate": 26.11,
+    "n": 47
+   },
+   "gus": {
+    "winRate": 55.56,
+    "useRate": 5.0,
+    "n": 9
+   },
+   "max": {
+    "winRate": 50.0,
+    "useRate": 3.33,
+    "n": 6
+   },
+   "meeple": {
+    "winRate": 20.0,
+    "useRate": 2.78,
+    "n": 5
+   },
+   "rico": {
+    "winRate": 51.25,
+    "useRate": 44.44,
+    "n": 80
+   },
+   "sprout": {
+    "winRate": 20.0,
+    "useRate": 2.78,
+    "n": 5
+   },
+   "lou": {
+    "winRate": 72.41,
+    "useRate": 16.11,
+    "n": 29
+   },
+   "willow": {
+    "winRate": 68.63,
+    "useRate": 28.33,
+    "n": 51
+   },
+   "byron": {
+    "winRate": 100.0,
+    "useRate": 1.11,
+    "n": 2
+   },
+   "emz": {
+    "winRate": 63.41,
+    "useRate": 22.78,
+    "n": 41
+   },
+   "edgar": {
+    "winRate": 54.17,
+    "useRate": 13.33,
+    "n": 24
+   },
+   "barley": {
+    "winRate": 48.0,
+    "useRate": 13.89,
+    "n": 25
+   },
+   "trunk": {
+    "winRate": 0.0,
+    "useRate": 1.11,
+    "n": 2
+   },
+   "tara": {
+    "winRate": 33.33,
+    "useRate": 1.67,
+    "n": 3
+   },
+   "griff": {
+    "winRate": 48.57,
+    "useRate": 19.44,
+    "n": 35
+   },
+   "frank": {
+    "winRate": 53.33,
+    "useRate": 8.33,
+    "n": 15
+   }
+  },
+  "dueling-beetles": {
+   "finx": {
+    "winRate": 50.0,
+    "useRate": 2.41,
+    "n": 4
+   },
+   "lumi": {
+    "winRate": 27.27,
+    "useRate": 6.63,
+    "n": 11
+   },
+   "tick": {
+    "winRate": 50.0,
+    "useRate": 4.82,
+    "n": 8
+   },
+   "poco": {
+    "winRate": 35.71,
+    "useRate": 8.43,
+    "n": 14
+   },
+   "carl": {
+    "winRate": 46.15,
+    "useRate": 7.83,
+    "n": 13
+   },
+   "gray": {
+    "winRate": 45.45,
+    "useRate": 13.25,
+    "n": 22
+   },
+   "fang": {
+    "winRate": 83.33,
+    "useRate": 3.61,
+    "n": 6
+   },
+   "starr-nova": {
+    "winRate": 60.0,
+    "useRate": 6.02,
+    "n": 10
+   },
+   "ziggy": {
+    "winRate": 50.0,
+    "useRate": 3.61,
+    "n": 6
+   },
+   "chuck": {
+    "winRate": 64.29,
+    "useRate": 8.43,
+    "n": 14
+   },
+   "nori": {
+    "winRate": 47.37,
+    "useRate": 11.45,
+    "n": 19
+   },
+   "dynamike": {
+    "winRate": 0.0,
+    "useRate": 1.81,
+    "n": 3
+   },
+   "stu": {
+    "winRate": 50.0,
+    "useRate": 13.25,
+    "n": 22
+   },
+   "8-bit": {
+    "winRate": 0.0,
+    "useRate": 3.61,
+    "n": 6
+   },
+   "amber": {
+    "winRate": 50.0,
+    "useRate": 36.14,
+    "n": 60
+   },
+   "maisie": {
+    "winRate": 42.86,
+    "useRate": 4.22,
+    "n": 7
+   },
+   "darryl": {
+    "winRate": 0.0,
+    "useRate": 1.2,
+    "n": 2
+   },
+   "doug": {
+    "winRate": 100.0,
+    "useRate": 0.6,
+    "n": 1
+   },
+   "gale": {
+    "winRate": 47.22,
+    "useRate": 21.69,
+    "n": 36
+   },
+   "colette": {
+    "winRate": 64.29,
+    "useRate": 8.43,
+    "n": 14
+   },
+   "buster": {
+    "winRate": 0.0,
+    "useRate": 1.2,
+    "n": 2
+   },
+   "ruffs": {
+    "winRate": 60.0,
+    "useRate": 3.01,
+    "n": 5
+   },
+   "pearl": {
+    "winRate": 50.0,
+    "useRate": 2.41,
+    "n": 4
+   },
+   "damian": {
+    "winRate": 100.0,
+    "useRate": 2.41,
+    "n": 4
+   },
+   "bibi": {
+    "winRate": 50.0,
+    "useRate": 2.41,
+    "n": 4
+   },
+   "moe": {
+    "winRate": 0.0,
+    "useRate": 1.2,
+    "n": 2
+   },
+   "berry": {
+    "winRate": 41.18,
+    "useRate": 10.24,
+    "n": 17
+   },
+   "sirius": {
+    "winRate": 50.0,
+    "useRate": 4.82,
+    "n": 8
+   },
+   "mortis": {
+    "winRate": 51.72,
+    "useRate": 17.47,
+    "n": 29
+   },
+   "vince": {
+    "winRate": 48.48,
+    "useRate": 19.88,
+    "n": 33
+   },
+   "mr-p": {
+    "winRate": 63.16,
+    "useRate": 11.45,
+    "n": 19
+   },
+   "el-primo": {
+    "winRate": 71.43,
+    "useRate": 4.22,
+    "n": 7
+   },
+   "brock": {
+    "winRate": 16.67,
+    "useRate": 3.61,
+    "n": 6
+   },
+   "ash": {
+    "winRate": 0.0,
+    "useRate": 0.6,
+    "n": 1
+   },
+   "surge": {
+    "winRate": 47.5,
+    "useRate": 24.1,
+    "n": 40
+   },
+   "crow": {
+    "winRate": 60.0,
+    "useRate": 3.01,
+    "n": 5
+   },
+   "colt": {
+    "winRate": 25.0,
+    "useRate": 4.82,
+    "n": 8
+   },
+   "penny": {
+    "winRate": 53.85,
+    "useRate": 7.83,
+    "n": 13
+   },
+   "bull": {
+    "winRate": 75.0,
+    "useRate": 2.41,
+    "n": 4
+   },
+   "bo": {
+    "winRate": 55.32,
+    "useRate": 28.31,
+    "n": 47
+   },
+   "pierce": {
+    "winRate": 50.0,
+    "useRate": 8.43,
+    "n": 14
+   },
+   "grom": {
+    "winRate": 0.0,
+    "useRate": 1.2,
+    "n": 2
+   },
+   "mico": {
+    "winRate": 28.57,
+    "useRate": 4.22,
+    "n": 7
+   },
+   "draco": {
+    "winRate": 20.0,
+    "useRate": 3.01,
+    "n": 5
+   },
+   "kenji": {
+    "winRate": 62.5,
+    "useRate": 9.64,
+    "n": 16
+   },
+   "kit": {
+    "winRate": 25.0,
+    "useRate": 4.82,
+    "n": 8
+   },
+   "hank": {
+    "winRate": 33.33,
+    "useRate": 3.61,
+    "n": 6
+   },
+   "rosa": {
+    "winRate": 66.67,
+    "useRate": 1.81,
+    "n": 3
+   },
+   "shade": {
+    "winRate": 50.0,
+    "useRate": 2.41,
+    "n": 4
+   },
+   "spike": {
+    "winRate": 67.39,
+    "useRate": 27.71,
+    "n": 46
+   },
+   "gigi": {
+    "winRate": 100.0,
+    "useRate": 1.2,
+    "n": 2
+   },
+   "cosmo": {
+    "winRate": 50.0,
+    "useRate": 2.41,
+    "n": 4
+   },
+   "mina": {
+    "winRate": 71.43,
+    "useRate": 4.22,
+    "n": 7
+   },
+   "jessie": {
+    "winRate": 50.0,
+    "useRate": 1.2,
+    "n": 2
+   },
+   "squeak": {
+    "winRate": 37.93,
+    "useRate": 17.47,
+    "n": 29
+   },
+   "meg": {
+    "winRate": 100.0,
+    "useRate": 0.6,
+    "n": 1
+   },
+   "melodie": {
+    "winRate": 52.94,
+    "useRate": 10.24,
+    "n": 17
+   },
+   "sandy": {
+    "winRate": 75.0,
+    "useRate": 2.41,
+    "n": 4
+   },
+   "otis": {
+    "winRate": 33.33,
+    "useRate": 1.81,
+    "n": 3
+   },
+   "chester": {
+    "winRate": 50.0,
+    "useRate": 22.89,
+    "n": 38
+   },
+   "max": {
+    "winRate": 33.33,
+    "useRate": 1.81,
+    "n": 3
+   },
+   "gus": {
+    "winRate": 0.0,
+    "useRate": 1.2,
+    "n": 2
+   },
+   "glowy": {
+    "winRate": 20.0,
+    "useRate": 3.01,
+    "n": 5
+   },
+   "meeple": {
+    "winRate": 45.45,
+    "useRate": 6.63,
+    "n": 11
+   },
+   "rico": {
+    "winRate": 15.38,
+    "useRate": 7.83,
+    "n": 13
+   },
+   "sprout": {
+    "winRate": 37.5,
+    "useRate": 4.82,
+    "n": 8
+   },
+   "lou": {
+    "winRate": 65.85,
+    "useRate": 24.7,
+    "n": 41
+   },
+   "willow": {
+    "winRate": 0.0,
+    "useRate": 1.2,
+    "n": 2
+   },
+   "emz": {
+    "winRate": 55.26,
+    "useRate": 22.89,
+    "n": 38
+   },
+   "edgar": {
+    "winRate": 42.86,
+    "useRate": 21.08,
+    "n": 35
+   },
+   "barley": {
+    "winRate": 73.91,
+    "useRate": 13.86,
+    "n": 23
+   },
+   "tara": {
+    "winRate": 66.67,
+    "useRate": 1.81,
+    "n": 3
+   },
+   "griff": {
+    "winRate": 44.9,
+    "useRate": 29.52,
+    "n": 49
+   },
+   "frank": {
+    "winRate": 55.56,
+    "useRate": 5.42,
+    "n": 9
+   }
+  },
+  "undermine": {
+   "bonnie": {
+    "winRate": 0.0,
+    "useRate": 1.23,
+    "n": 2
+   },
+   "finx": {
+    "winRate": 42.86,
+    "useRate": 4.32,
+    "n": 7
+   },
+   "lumi": {
+    "winRate": 77.78,
+    "useRate": 5.56,
+    "n": 9
+   },
+   "tick": {
+    "winRate": 50.0,
+    "useRate": 1.23,
+    "n": 2
+   },
+   "poco": {
+    "winRate": 20.0,
+    "useRate": 3.09,
+    "n": 5
+   },
+   "carl": {
+    "winRate": 55.56,
+    "useRate": 5.56,
+    "n": 9
+   },
+   "fang": {
+    "winRate": 25.0,
+    "useRate": 4.94,
+    "n": 8
+   },
+   "starr-nova": {
+    "winRate": 62.5,
+    "useRate": 9.88,
+    "n": 16
+   },
+   "nori": {
+    "winRate": 37.5,
+    "useRate": 4.94,
+    "n": 8
+   },
+   "stu": {
+    "winRate": 72.97,
+    "useRate": 22.84,
+    "n": 37
+   },
+   "8-bit": {
+    "winRate": 0.0,
+    "useRate": 3.7,
+    "n": 6
+   },
+   "amber": {
+    "winRate": 53.49,
+    "useRate": 26.54,
+    "n": 43
+   },
+   "maisie": {
+    "winRate": 0.0,
+    "useRate": 0.62,
+    "n": 1
+   },
+   "doug": {
+    "winRate": 0.0,
+    "useRate": 1.23,
+    "n": 2
+   },
+   "gale": {
+    "winRate": 52.27,
+    "useRate": 27.16,
+    "n": 44
+   },
+   "piper": {
+    "winRate": 28.57,
+    "useRate": 4.32,
+    "n": 7
+   },
+   "colette": {
+    "winRate": 83.33,
+    "useRate": 7.41,
+    "n": 12
+   },
+   "ruffs": {
+    "winRate": 0.0,
+    "useRate": 4.94,
+    "n": 8
+   },
+   "pearl": {
+    "winRate": 50.0,
+    "useRate": 12.35,
+    "n": 20
+   },
+   "bibi": {
+    "winRate": 0.0,
+    "useRate": 1.85,
+    "n": 3
+   },
+   "clancy": {
+    "winRate": 100.0,
+    "useRate": 1.23,
+    "n": 2
+   },
+   "moe": {
+    "winRate": 72.73,
+    "useRate": 6.79,
+    "n": 11
+   },
+   "berry": {
+    "winRate": 20.0,
+    "useRate": 3.09,
+    "n": 5
+   },
+   "sirius": {
+    "winRate": 100.0,
+    "useRate": 1.23,
+    "n": 2
+   },
+   "mortis": {
+    "winRate": 76.92,
+    "useRate": 16.05,
+    "n": 26
+   },
+   "vince": {
+    "winRate": 33.33,
+    "useRate": 22.22,
+    "n": 36
+   },
+   "mr-p": {
+    "winRate": 33.33,
+    "useRate": 5.56,
+    "n": 9
+   },
+   "el-primo": {
+    "winRate": 20.0,
+    "useRate": 3.09,
+    "n": 5
+   },
+   "cordelius": {
+    "winRate": 100.0,
+    "useRate": 2.47,
+    "n": 4
+   },
+   "brock": {
+    "winRate": 18.18,
+    "useRate": 6.79,
+    "n": 11
+   },
+   "ash": {
+    "winRate": 60.0,
+    "useRate": 3.09,
+    "n": 5
+   },
+   "surge": {
+    "winRate": 59.65,
+    "useRate": 35.19,
+    "n": 57
+   },
+   "crow": {
+    "winRate": 66.67,
+    "useRate": 1.85,
+    "n": 3
+   },
+   "shelly": {
+    "winRate": 50.0,
+    "useRate": 2.47,
+    "n": 4
+   },
+   "colt": {
+    "winRate": 38.46,
+    "useRate": 8.02,
+    "n": 13
+   },
+   "penny": {
+    "winRate": 66.67,
+    "useRate": 3.7,
+    "n": 6
+   },
+   "bull": {
+    "winRate": 0.0,
+    "useRate": 3.09,
+    "n": 5
+   },
+   "bo": {
+    "winRate": 53.19,
+    "useRate": 29.01,
+    "n": 47
+   },
+   "wendy": {
+    "winRate": 100.0,
+    "useRate": 1.23,
+    "n": 2
+   },
+   "bea": {
+    "winRate": 100.0,
+    "useRate": 1.23,
+    "n": 2
+   },
+   "lily": {
+    "winRate": 33.33,
+    "useRate": 5.56,
+    "n": 9
+   },
+   "bolt": {
+    "winRate": 100.0,
+    "useRate": 2.47,
+    "n": 4
+   },
+   "mico": {
+    "winRate": 33.33,
+    "useRate": 3.7,
+    "n": 6
+   },
+   "leon": {
+    "winRate": 54.55,
+    "useRate": 6.79,
+    "n": 11
+   },
+   "kit": {
+    "winRate": 62.5,
+    "useRate": 4.94,
+    "n": 8
+   },
+   "kenji": {
+    "winRate": 50.0,
+    "useRate": 6.17,
+    "n": 10
+   },
+   "hank": {
+    "winRate": 0.0,
+    "useRate": 1.23,
+    "n": 2
+   },
+   "rosa": {
+    "winRate": 100.0,
+    "useRate": 1.23,
+    "n": 2
+   },
+   "nita": {
+    "winRate": 100.0,
+    "useRate": 1.23,
+    "n": 2
+   },
+   "spike": {
+    "winRate": 55.26,
+    "useRate": 23.46,
+    "n": 38
+   },
+   "gigi": {
+    "winRate": 57.14,
+    "useRate": 8.64,
+    "n": 14
+   },
+   "mandy": {
+    "winRate": 33.33,
+    "useRate": 1.85,
+    "n": 3
+   },
+   "janet": {
+    "winRate": 30.77,
+    "useRate": 8.02,
+    "n": 13
+   },
+   "cosmo": {
+    "winRate": 33.33,
+    "useRate": 1.85,
+    "n": 3
+   },
+   "mina": {
+    "winRate": 60.0,
+    "useRate": 6.17,
+    "n": 10
+   },
+   "jessie": {
+    "winRate": 100.0,
+    "useRate": 0.62,
+    "n": 1
+   },
+   "squeak": {
+    "winRate": 50.0,
+    "useRate": 2.47,
+    "n": 4
+   },
+   "nani": {
+    "winRate": 0.0,
+    "useRate": 1.23,
+    "n": 2
+   },
+   "melodie": {
+    "winRate": 40.0,
+    "useRate": 3.09,
+    "n": 5
+   },
+   "sandy": {
+    "winRate": 100.0,
+    "useRate": 1.23,
+    "n": 2
+   },
+   "alli": {
+    "winRate": 27.78,
+    "useRate": 11.11,
+    "n": 18
+   },
+   "gene": {
+    "winRate": 40.0,
+    "useRate": 3.09,
+    "n": 5
+   },
+   "kaze": {
+    "winRate": 25.0,
+    "useRate": 2.47,
+    "n": 4
+   },
+   "otis": {
+    "winRate": 53.85,
+    "useRate": 8.02,
+    "n": 13
+   },
+   "chester": {
+    "winRate": 44.68,
+    "useRate": 29.01,
+    "n": 47
+   },
+   "najia": {
+    "winRate": 0.0,
+    "useRate": 1.85,
+    "n": 3
+   },
+   "max": {
+    "winRate": 43.75,
+    "useRate": 9.88,
+    "n": 16
+   },
+   "gus": {
+    "winRate": 42.86,
+    "useRate": 12.96,
+    "n": 21
+   },
+   "glowy": {
+    "winRate": 0.0,
+    "useRate": 1.23,
+    "n": 2
+   },
+   "rico": {
+    "winRate": 40.74,
+    "useRate": 33.33,
+    "n": 54
+   },
+   "sprout": {
+    "winRate": 0.0,
+    "useRate": 1.85,
+    "n": 3
+   },
+   "lou": {
+    "winRate": 47.22,
+    "useRate": 22.22,
+    "n": 36
+   },
+   "edgar": {
+    "winRate": 53.33,
+    "useRate": 9.26,
+    "n": 15
+   },
+   "emz": {
+    "winRate": 81.25,
+    "useRate": 9.88,
+    "n": 16
+   },
+   "trunk": {
+    "winRate": 0.0,
+    "useRate": 1.23,
+    "n": 2
+   },
+   "tara": {
+    "winRate": 52.63,
+    "useRate": 11.73,
+    "n": 19
+   },
+   "griff": {
+    "winRate": 59.46,
+    "useRate": 22.84,
+    "n": 37
+   },
+   "frank": {
+    "winRate": 50.0,
+    "useRate": 4.94,
+    "n": 8
+   }
+  }
+ },
+ "matchups": {
+  "mina": {
+   "gus": -6.27,
+   "byron": -1.74,
+   "brock": -2.56,
+   "piper": 0.95,
+   "amber": 7.48
+  },
+  "brock": {
+   "mr-p": -3.99,
+   "gus": 3.97,
+   "byron": -0.91,
+   "mina": 2.61,
+   "angelo": -4.69,
+   "vince": -1.17,
+   "piper": 1.18,
+   "amber": 0.51,
+   "belle": 6.81,
+   "pierce": -1.82,
+   "mandy": 2.43,
+   "melodie": -2.87,
+   "gray": -6.12,
+   "rico": 6.51,
+   "pearl": -0.62,
+   "najia": 8.16,
+   "squeak": 0.66,
+   "spike": 3.88,
+   "edgar": 2.72,
+   "max": 2.53,
+   "nori": -0.27,
+   "griff": 1.2,
+   "colt": -6.18,
+   "mortis": -0.9,
+   "nani": 1.65,
+   "colette": -1.51,
+   "8-bit": 0.72,
+   "surge": -4.29,
+   "mico": -0.99,
+   "lou": 0.03
+  },
+  "mr-p": {
+   "brock": -2.02,
+   "amber": -3.78,
+   "rico": 1.62,
+   "spike": 6.65,
+   "edgar": -5.85,
+   "chester": 1.92,
+   "mortis": -3.22,
+   "mandy": 4.32
+  },
+  "gus": {
+   "mina": 5.58,
+   "brock": -3.22,
+   "amber": 9.11,
+   "byron": -2.42,
+   "gray": -5.21,
+   "rico": 3.83,
+   "piper": -1.01,
+   "spike": -5.07,
+   "lou": -8.92,
+   "mandy": -0.64,
+   "chester": 1.07,
+   "najia": 3.58
+  },
+  "byron": {
+   "mina": 1.01,
+   "brock": 1.54,
+   "gus": 2.17,
+   "piper": -6.71,
+   "mandy": -0.16
+  },
+  "nani": {
+   "angelo": -2.29,
+   "piper": -0.48,
+   "brock": 0.79
+  },
+  "angelo": {
+   "brock": 3.26,
+   "nani": 1.96,
+   "mandy": -0.84,
+   "piper": -4.71
+  },
+  "vince": {
+   "edgar": -11.19,
+   "brock": 1.33,
+   "amber": -3.23,
+   "chester": -4.03,
+   "gray": 7.16,
+   "mortis": 4.04,
+   "spike": 2.83,
+   "rico": 7.64,
+   "piper": 1.89,
+   "surge": 0.59
+  },
+  "edgar": {
+   "vince": 8.21,
+   "squeak": -0.05,
+   "brock": -5.02,
+   "mr-p": -3.15,
+   "piper": -6.35,
+   "mandy": -5.66,
+   "amber": 8.37,
+   "lou": -1.38,
+   "griff": -6.2,
+   "spike": -0.44,
+   "rico": 4.96,
+   "colt": -1.78,
+   "surge": -8.77
+  },
+  "amber": {
+   "vince": 3.97,
+   "mr-p": -1.36,
+   "gale": 5.05,
+   "squeak": 12.43,
+   "chester": 3.86,
+   "gus": -7.96,
+   "max": 14.47,
+   "brock": 1.84,
+   "mandy": 4.2,
+   "melodie": 1.42,
+   "8-bit": -0.88,
+   "mortis": -1.07,
+   "spike": -4.01,
+   "lou": -5.86,
+   "colette": -9.53,
+   "carl": -4.41,
+   "rico": -0.67,
+   "stu": 3.24,
+   "surge": 0.53,
+   "colt": 1.78,
+   "nori": -1.1,
+   "griff": 3.27,
+   "emz": -7.96,
+   "piper": 5.18,
+   "edgar": -9.97,
+   "gray": -5.22,
+   "bo": -5.32,
+   "gigi": 4.28,
+   "mina": -6.98
+  },
+  "gale": {
+   "amber": 0.33,
+   "rico": -0.33,
+   "bo": -3.62,
+   "chester": -2.93,
+   "stu": 0.45,
+   "surge": -4.75,
+   "griff": -4.27,
+   "emz": -3.82,
+   "melodie": -6.27,
+   "spike": 7.65
+  },
+  "squeak": {
+   "amber": -7.24,
+   "rico": -3.31,
+   "mortis": -3.04,
+   "brock": 3.63,
+   "edgar": 1.2
+  },
+  "chester": {
+   "amber": -3.87,
+   "rico": 7.63,
+   "vince": 2.21,
+   "gale": 5.51,
+   "melodie": 6.88,
+   "spike": -2.52,
+   "surge": -2.18,
+   "mortis": -12.26,
+   "stu": -3.58,
+   "griff": 0.5,
+   "lou": -6.51,
+   "emz": -6.86,
+   "mr-p": -8.75,
+   "gus": -2.27,
+   "bo": 1.58
+  },
+  "rico": {
+   "gale": 5.02,
+   "squeak": 7.8,
+   "chester": -7.82,
+   "mr-p": -6.49,
+   "brock": -4.58,
+   "amber": 3.43,
+   "lou": -2.98,
+   "nori": 6.05,
+   "stu": 3.2,
+   "gus": -2.94,
+   "vince": -7.17,
+   "griff": 4.33,
+   "mandy": 2.14,
+   "spike": 0.42,
+   "emz": 4.23,
+   "bo": -2.52,
+   "colette": 4.86,
+   "colt": -2.37,
+   "surge": 1.29,
+   "edgar": -6.65,
+   "mortis": -1.81
+  },
+  "lou": {
+   "bo": -2.92,
+   "melodie": -6.98,
+   "amber": 2.09,
+   "surge": -8.46,
+   "griff": 2.2,
+   "rico": -0.7,
+   "gus": 4.78,
+   "edgar": -5.35,
+   "chester": 0.93,
+   "colt": 10.33,
+   "stu": -1.27,
+   "brock": -3.45
+  },
+  "bo": {
+   "gale": 4.83,
+   "lou": -3.19,
+   "rico": 1.46,
+   "griff": 0.19,
+   "surge": -1.87,
+   "amber": 4.25,
+   "mortis": -5.83,
+   "emz": -0.99,
+   "colt": -5.0,
+   "chester": -4.87
+  },
+  "piper": {
+   "pearl": 7.99,
+   "gray": 3.29,
+   "brock": -0.28,
+   "nani": 2.16,
+   "byron": 6.47,
+   "angelo": 2.45,
+   "mina": -1.62,
+   "edgar": 3.8,
+   "mandy": -2.78,
+   "amber": -3.97,
+   "gus": 0.84,
+   "mortis": 0.44,
+   "vince": -2.42,
+   "pierce": -2.17,
+   "colt": 2.09,
+   "najia": 0.44,
+   "sprout": -4.36
+  },
+  "pearl": {
+   "piper": -4.91,
+   "brock": 4.37
+  },
+  "gray": {
+   "piper": -4.94,
+   "vince": -9.02,
+   "brock": 5.13,
+   "gus": 3.57,
+   "najia": -2.05,
+   "amber": 4.95,
+   "mandy": 1.47
+  },
+  "max": {
+   "amber": -10.78,
+   "mandy": 4.52,
+   "brock": 2.09
+  },
+  "melodie": {
+   "chester": -10.01,
+   "amber": -2.34,
+   "brock": 1.36,
+   "lou": 1.14,
+   "colette": 1.61,
+   "spike": 4.17,
+   "nori": -0.04,
+   "colt": 4.2,
+   "gale": 7.53
+  },
+  "belle": {
+   "brock": -5.13
+  },
+  "pierce": {
+   "brock": 3.84,
+   "colette": -4.95,
+   "8-bit": 2.19,
+   "piper": 3.23,
+   "mandy": 1.59
+  },
+  "mortis": {
+   "mandy": -1.12,
+   "squeak": 5.73,
+   "amber": 1.76,
+   "vince": -5.11,
+   "surge": -4.28,
+   "piper": -1.12,
+   "brock": 0.98,
+   "spike": 1.43,
+   "chester": 10.45,
+   "bo": 3.0,
+   "griff": -3.38,
+   "rico": 2.24,
+   "najia": 0.72,
+   "mr-p": -4.03
+  },
+  "mandy": {
+   "amber": -2.8,
+   "brock": -1.31,
+   "mortis": 0.65,
+   "angelo": -0.93,
+   "max": -1.56,
+   "rico": -1.07,
+   "edgar": 3.08,
+   "byron": 0.14,
+   "piper": 2.91,
+   "gray": -2.75,
+   "colt": -3.06,
+   "gus": 0.67,
+   "pierce": -0.48,
+   "najia": -7.26,
+   "colette": 0.12,
+   "mr-p": -10.1
+  },
+  "colette": {
+   "melodie": -4.94,
+   "8-bit": 1.5,
+   "colt": -4.36,
+   "amber": 9.41,
+   "mico": 1.74,
+   "rico": -5.12,
+   "spike": 0.56,
+   "pierce": 4.76,
+   "brock": 0.8,
+   "nori": -3.38,
+   "mandy": -1.13
+  },
+  "8-bit": {
+   "colette": -2.3,
+   "amber": 2.7,
+   "pierce": -0.64,
+   "brock": 0.65,
+   "colt": 4.25
+  },
+  "spike": {
+   "amber": 7.49,
+   "vince": -1.66,
+   "surge": -0.72,
+   "chester": 3.09,
+   "stu": -0.8,
+   "brock": -1.1,
+   "mr-p": -10.74,
+   "colt": 2.08,
+   "melodie": -4.46,
+   "gus": 6.78,
+   "rico": 2.74,
+   "griff": 4.65,
+   "colette": -0.26,
+   "mortis": -0.35,
+   "edgar": -0.49,
+   "gale": -2.62,
+   "emz": -1.65
+  },
+  "surge": {
+   "mortis": 0.93,
+   "spike": -0.65,
+   "lou": 0.42,
+   "gale": 5.51,
+   "amber": -2.5,
+   "chester": -3.03,
+   "emz": -0.53,
+   "bo": -3.42,
+   "rico": -3.39,
+   "brock": 2.28,
+   "griff": 5.65,
+   "stu": 2.56,
+   "vince": -3.75,
+   "edgar": 3.31
+  },
+  "carl": {
+   "amber": 3.07
+  },
+  "colt": {
+   "colette": 3.05,
+   "nori": -6.06,
+   "amber": -0.13,
+   "spike": -0.36,
+   "brock": 7.4,
+   "rico": 3.75,
+   "mandy": 3.46,
+   "8-bit": -3.27,
+   "melodie": -6.06,
+   "piper": -1.83,
+   "lou": -13.96,
+   "bo": 3.33,
+   "edgar": -0.34,
+   "mico": 0.25
+  },
+  "griff": {
+   "lou": -5.75,
+   "gale": 8.21,
+   "rico": -2.34,
+   "amber": -1.04,
+   "brock": 0.07,
+   "spike": -1.93,
+   "bo": -1.83,
+   "chester": -1.21,
+   "edgar": 4.17,
+   "emz": -0.21,
+   "mortis": 3.39,
+   "surge": -8.15
+  },
+  "nori": {
+   "rico": -4.09,
+   "colt": 7.48,
+   "amber": 3.46,
+   "brock": 2.04,
+   "melodie": -0.84,
+   "colette": 3.07
+  },
+  "stu": {
+   "gale": 2.7,
+   "amber": -1.76,
+   "rico": -1.95,
+   "spike": 2.54,
+   "chester": 2.51,
+   "surge": -5.3,
+   "lou": -3.15
+  },
+  "mico": {
+   "colette": 0.1,
+   "brock": 4.87,
+   "colt": 3.01
+  },
+  "najia": {
+   "brock": -7.47,
+   "gray": 0.43,
+   "mandy": 7.32,
+   "gus": -3.76,
+   "mortis": -1.46,
+   "piper": -0.57
+  },
+  "emz": {
+   "gale": 4.31,
+   "amber": 6.07,
+   "rico": -6.06,
+   "surge": -5.85,
+   "chester": 2.41,
+   "bo": -3.88,
+   "griff": -2.31,
+   "spike": 0.44
+  },
+  "gigi": {
+   "amber": 1.17
+  },
+  "sprout": {
+   "piper": 3.76
+  }
+ },
+ "synergies": {
+  "mina": {
+   "brock": -2.08,
+   "piper": -3.04
+  },
+  "brock": {
+   "mina": -0.67,
+   "edgar": 5.4,
+   "gray": 4.43,
+   "gus": 2.28,
+   "max": -1.16,
+   "amber": 0.25,
+   "mortis": 2.61,
+   "angelo": -2.84,
+   "melodie": 8.42,
+   "sprout": 4.58,
+   "mr-p": 10.19,
+   "byron": 0.15,
+   "najia": -6.53,
+   "mandy": 9.72,
+   "spike": -3.69,
+   "piper": 0.38,
+   "rico": -5.86,
+   "colt": -4.41,
+   "colette": -7.22,
+   "nori": -2.09,
+   "mico": -4.06
+  },
+  "edgar": {
+   "brock": 1.65,
+   "spike": -1.51,
+   "griff": 0.85,
+   "surge": 5.28,
+   "gus": 2.76,
+   "colt": -0.99,
+   "amber": 2.61,
+   "rico": -6.69
+  },
+  "amber": {
+   "colette": 0.75,
+   "rico": -4.08,
+   "vince": 2.25,
+   "brock": 0.8,
+   "mortis": 6.29,
+   "surge": 3.64,
+   "mandy": -5.04,
+   "colt": -4.9,
+   "gale": -6.98,
+   "nori": 5.3,
+   "griff": -4.0,
+   "spike": 2.76,
+   "melodie": 4.43,
+   "lou": 0.47,
+   "edgar": 6.77,
+   "chester": -0.6
+  },
+  "colette": {
+   "amber": -1.87,
+   "nori": 0.96,
+   "chester": 1.11,
+   "colt": 4.5,
+   "brock": -9.21
+  },
+  "gale": {
+   "chester": 2.76,
+   "amber": -5.04,
+   "rico": -0.68,
+   "surge": 0.99,
+   "griff": -10.39
+  },
+  "chester": {
+   "gale": -1.71,
+   "spike": -8.5,
+   "colette": 1.21,
+   "rico": 2.0,
+   "surge": 1.38,
+   "amber": -3.18
+  },
+  "rico": {
+   "amber": -4.23,
+   "melodie": 2.11,
+   "griff": 3.26,
+   "spike": -3.11,
+   "gale": -2.94,
+   "brock": -5.5,
+   "chester": 4.23,
+   "stu": 5.24,
+   "lou": 1.55,
+   "surge": 4.27,
+   "edgar": -2.91
+  },
+  "vince": {
+   "amber": 0.53,
+   "piper": 4.94,
+   "surge": 3.52,
+   "griff": -2.32
+  },
+  "piper": {
+   "vince": 5.38,
+   "mina": -2.54,
+   "mandy": -1.26,
+   "brock": -0.46,
+   "gus": -3.81,
+   "mr-p": 8.71,
+   "colt": 5.77,
+   "melodie": 1.77,
+   "gray": 3.71,
+   "angelo": 2.29,
+   "max": -0.57
+  },
+  "gray": {
+   "brock": 2.29,
+   "mandy": -3.66,
+   "piper": 2.45,
+   "gus": 3.7
+  },
+  "gus": {
+   "brock": 1.51,
+   "mandy": -1.79,
+   "piper": -3.87,
+   "edgar": 4.91,
+   "gray": 4.91,
+   "sprout": -1.94
+  },
+  "max": {
+   "brock": 1.32,
+   "piper": 2.45
+  },
+  "mortis": {
+   "amber": 4.61,
+   "brock": 1.24,
+   "spike": -6.02,
+   "lou": 5.65,
+   "mandy": -1.73,
+   "surge": 8.75
+  },
+  "mandy": {
+   "gus": -1.56,
+   "gray": -2.09,
+   "amber": -6.05,
+   "mortis": -1.07,
+   "brock": 9.08,
+   "piper": -1.1
+  },
+  "angelo": {
+   "brock": -5.51,
+   "piper": 0.55
+  },
+  "spike": {
+   "mortis": -3.82,
+   "lou": 1.61,
+   "rico": -2.5,
+   "edgar": 2.7,
+   "chester": -5.63,
+   "brock": -2.74,
+   "nori": -4.64,
+   "amber": 3.22,
+   "griff": -3.35,
+   "surge": -1.43
+  },
+  "lou": {
+   "mortis": 1.8,
+   "spike": -4.31,
+   "surge": 8.72,
+   "rico": -3.55,
+   "melodie": 4.93,
+   "amber": -4.56
+  },
+  "surge": {
+   "amber": -1.2,
+   "vince": 1.46,
+   "lou": 10.3,
+   "mortis": 6.76,
+   "gale": -5.36,
+   "mr-p": 8.66,
+   "spike": -5.46,
+   "edgar": 5.13,
+   "bo": 4.69,
+   "rico": 0.03,
+   "chester": 0.0,
+   "griff": -2.23
+  },
+  "melodie": {
+   "brock": 5.73,
+   "rico": -0.84,
+   "amber": 1.34,
+   "piper": 0.04,
+   "lou": 7.23
+  },
+  "sprout": {
+   "brock": 3.33,
+   "gus": -2.41
+  },
+  "colt": {
+   "amber": -5.84,
+   "brock": -4.86,
+   "piper": 6.07,
+   "colette": 6.17,
+   "edgar": 1.49,
+   "nori": 5.32
+  },
+  "griff": {
+   "rico": 2.85,
+   "amber": -4.59,
+   "edgar": 3.92,
+   "emz": 1.76,
+   "spike": -4.35,
+   "vince": -1.32,
+   "surge": 1.14,
+   "gale": -12.87
+  },
+  "nori": {
+   "colette": 3.19,
+   "amber": 5.12,
+   "spike": -5.2,
+   "brock": -1.77,
+   "colt": 6.02
+  },
+  "mr-p": {
+   "brock": 3.59,
+   "piper": 3.34,
+   "surge": 5.45
+  },
+  "byron": {
+   "brock": -0.69
+  },
+  "najia": {
+   "brock": -7.21
+  },
+  "emz": {
+   "griff": -1.34
+  },
+  "stu": {
+   "rico": 4.52
+  },
+  "bo": {
+   "surge": 5.22
+  },
+  "mico": {
+   "brock": -1.41
+  }
+ },
  "patches": []
 }
