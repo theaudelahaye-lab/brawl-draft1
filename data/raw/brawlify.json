@@ -1,0 +1,2863 @@
+{
+ "brawlers": [
+  {
+   "id": "vince",
+   "name": "Vince",
+   "className": "Damage Dealer"
+  },
+  {
+   "id": "cosmo",
+   "name": "Cosmo",
+   "className": "Controller"
+  },
+  {
+   "id": "wendy",
+   "name": "Wendy",
+   "className": "Support"
+  },
+  {
+   "id": "nori",
+   "name": "Nori",
+   "className": "Assassin"
+  },
+  {
+   "id": "bolt",
+   "name": "Bolt",
+   "className": "Tank"
+  },
+  {
+   "id": "starr-nova",
+   "name": "Starr Nova",
+   "className": "Assassin"
+  },
+  {
+   "id": "damian",
+   "name": "Damian",
+   "className": "Tank"
+  },
+  {
+   "id": "najia",
+   "name": "Najia",
+   "className": "Damage Dealer"
+  },
+  {
+   "id": "sirius",
+   "name": "Sirius",
+   "className": "Controller"
+  },
+  {
+   "id": "glowy",
+   "name": "Glowy",
+   "className": "Support"
+  },
+  {
+   "id": "gigi",
+   "name": "Gigi",
+   "className": "Assassin"
+  },
+  {
+   "id": "pierce",
+   "name": "Pierce",
+   "className": "Marksman"
+  },
+  {
+   "id": "ziggy",
+   "name": "Ziggy",
+   "className": "Controller"
+  },
+  {
+   "id": "mina",
+   "name": "Mina",
+   "className": "Damage Dealer"
+  },
+  {
+   "id": "trunk",
+   "name": "Trunk",
+   "className": "Tank"
+  },
+  {
+   "id": "alli",
+   "name": "Alli",
+   "className": "Assassin"
+  },
+  {
+   "id": "kaze",
+   "name": "Kaze",
+   "className": "Assassin"
+  },
+  {
+   "id": "jae-yong",
+   "name": "Jae Yong",
+   "className": "Support"
+  },
+  {
+   "id": "finx",
+   "name": "Finx",
+   "className": "Controller"
+  },
+  {
+   "id": "lumi",
+   "name": "Lumi",
+   "className": "Damage Dealer"
+  },
+  {
+   "id": "ollie",
+   "name": "Ollie",
+   "className": "Tank"
+  },
+  {
+   "id": "meeple",
+   "name": "Meeple",
+   "className": "Controller"
+  },
+  {
+   "id": "buzz-lightyear",
+   "name": "Buzz Lightyear",
+   "className": "Damage Dealer"
+  },
+  {
+   "id": "juju",
+   "name": "Juju",
+   "className": "Artillery"
+  },
+  {
+   "id": "shade",
+   "name": "Shade",
+   "className": "Assassin"
+  },
+  {
+   "id": "kenji",
+   "name": "Kenji",
+   "className": "Assassin"
+  },
+  {
+   "id": "moe",
+   "name": "Moe",
+   "className": "Damage Dealer"
+  },
+  {
+   "id": "clancy",
+   "name": "Clancy",
+   "className": "Damage Dealer"
+  },
+  {
+   "id": "berry",
+   "name": "Berry",
+   "className": "Support"
+  },
+  {
+   "id": "lily",
+   "name": "Lily",
+   "className": "Assassin"
+  },
+  {
+   "id": "draco",
+   "name": "Draco",
+   "className": "Tank"
+  },
+  {
+   "id": "angelo",
+   "name": "Angelo",
+   "className": "Marksman"
+  },
+  {
+   "id": "melodie",
+   "name": "Melodie",
+   "className": "Assassin"
+  },
+  {
+   "id": "larry-lawrie",
+   "name": "Larry & Lawrie",
+   "className": "Artillery"
+  },
+  {
+   "id": "kit",
+   "name": "Kit",
+   "className": "Support"
+  },
+  {
+   "id": "mico",
+   "name": "Mico",
+   "className": "Assassin"
+  },
+  {
+   "id": "charlie",
+   "name": "Charlie",
+   "className": "Controller"
+  },
+  {
+   "id": "chuck",
+   "name": "Chuck",
+   "className": "Controller"
+  },
+  {
+   "id": "pearl",
+   "name": "Pearl",
+   "className": "Damage Dealer"
+  },
+  {
+   "id": "doug",
+   "name": "Doug",
+   "className": "Support"
+  },
+  {
+   "id": "cordelius",
+   "name": "Cordelius",
+   "className": "Assassin"
+  },
+  {
+   "id": "hank",
+   "name": "Hank",
+   "className": "Tank"
+  },
+  {
+   "id": "maisie",
+   "name": "Maisie",
+   "className": "Marksman"
+  },
+  {
+   "id": "willow",
+   "name": "Willow",
+   "className": "Controller"
+  },
+  {
+   "id": "r-t",
+   "name": "R T",
+   "className": "Damage Dealer"
+  },
+  {
+   "id": "mandy",
+   "name": "Mandy",
+   "className": "Marksman"
+  },
+  {
+   "id": "gray",
+   "name": "Gray",
+   "className": "Support"
+  },
+  {
+   "id": "chester",
+   "name": "Chester",
+   "className": "Damage Dealer"
+  },
+  {
+   "id": "buster",
+   "name": "Buster",
+   "className": "Tank"
+  },
+  {
+   "id": "gus",
+   "name": "Gus",
+   "className": "Support"
+  },
+  {
+   "id": "sam",
+   "name": "Sam",
+   "className": "Assassin"
+  },
+  {
+   "id": "otis",
+   "name": "Otis",
+   "className": "Controller"
+  },
+  {
+   "id": "bonnie",
+   "name": "Bonnie",
+   "className": "Marksman"
+  },
+  {
+   "id": "janet",
+   "name": "Janet",
+   "className": "Marksman"
+  },
+  {
+   "id": "eve",
+   "name": "Eve",
+   "className": "Damage Dealer"
+  },
+  {
+   "id": "fang",
+   "name": "Fang",
+   "className": "Assassin"
+  },
+  {
+   "id": "lola",
+   "name": "Lola",
+   "className": "Damage Dealer"
+  },
+  {
+   "id": "meg",
+   "name": "Meg",
+   "className": "Tank"
+  },
+  {
+   "id": "ash",
+   "name": "Ash",
+   "className": "Tank"
+  },
+  {
+   "id": "griff",
+   "name": "Griff",
+   "className": "Controller"
+  },
+  {
+   "id": "buzz",
+   "name": "Buzz",
+   "className": "Assassin"
+  },
+  {
+   "id": "grom",
+   "name": "Grom",
+   "className": "Artillery"
+  },
+  {
+   "id": "squeak",
+   "name": "Squeak",
+   "className": "Controller"
+  },
+  {
+   "id": "belle",
+   "name": "Belle",
+   "className": "Marksman"
+  },
+  {
+   "id": "stu",
+   "name": "Stu",
+   "className": "Assassin"
+  },
+  {
+   "id": "ruffs",
+   "name": "Ruffs",
+   "className": "Support"
+  },
+  {
+   "id": "edgar",
+   "name": "Edgar",
+   "className": "Assassin"
+  },
+  {
+   "id": "byron",
+   "name": "Byron",
+   "className": "Support"
+  },
+  {
+   "id": "lou",
+   "name": "Lou",
+   "className": "Controller"
+  },
+  {
+   "id": "amber",
+   "name": "Amber",
+   "className": "Controller"
+  },
+  {
+   "id": "colette",
+   "name": "Colette",
+   "className": "Damage Dealer"
+  },
+  {
+   "id": "surge",
+   "name": "Surge",
+   "className": "Damage Dealer"
+  },
+  {
+   "id": "sprout",
+   "name": "Sprout",
+   "className": "Artillery"
+  },
+  {
+   "id": "nani",
+   "name": "Nani",
+   "className": "Marksman"
+  },
+  {
+   "id": "gale",
+   "name": "Gale",
+   "className": "Controller"
+  },
+  {
+   "id": "jacky",
+   "name": "Jacky",
+   "className": "Tank"
+  },
+  {
+   "id": "max",
+   "name": "Max",
+   "className": "Support"
+  },
+  {
+   "id": "mr-p",
+   "name": "Mr P",
+   "className": "Controller"
+  },
+  {
+   "id": "emz",
+   "name": "Emz",
+   "className": "Controller"
+  },
+  {
+   "id": "bea",
+   "name": "Bea",
+   "className": "Marksman"
+  },
+  {
+   "id": "sandy",
+   "name": "Sandy",
+   "className": "Controller"
+  },
+  {
+   "id": "8-bit",
+   "name": "8 Bit",
+   "className": "Damage Dealer"
+  },
+  {
+   "id": "bibi",
+   "name": "Bibi",
+   "className": "Tank"
+  },
+  {
+   "id": "carl",
+   "name": "Carl",
+   "className": "Damage Dealer"
+  },
+  {
+   "id": "rosa",
+   "name": "Rosa",
+   "className": "Tank"
+  },
+  {
+   "id": "leon",
+   "name": "Leon",
+   "className": "Assassin"
+  },
+  {
+   "id": "tick",
+   "name": "Tick",
+   "className": "Artillery"
+  },
+  {
+   "id": "gene",
+   "name": "Gene",
+   "className": "Controller"
+  },
+  {
+   "id": "frank",
+   "name": "Frank",
+   "className": "Tank"
+  },
+  {
+   "id": "penny",
+   "name": "Penny",
+   "className": "Controller"
+  },
+  {
+   "id": "darryl",
+   "name": "Darryl",
+   "className": "Tank"
+  },
+  {
+   "id": "tara",
+   "name": "Tara",
+   "className": "Damage Dealer"
+  },
+  {
+   "id": "pam",
+   "name": "Pam",
+   "className": "Support"
+  },
+  {
+   "id": "piper",
+   "name": "Piper",
+   "className": "Marksman"
+  },
+  {
+   "id": "bo",
+   "name": "Bo",
+   "className": "Controller"
+  },
+  {
+   "id": "poco",
+   "name": "Poco",
+   "className": "Support"
+  },
+  {
+   "id": "crow",
+   "name": "Crow",
+   "className": "Assassin"
+  },
+  {
+   "id": "mortis",
+   "name": "Mortis",
+   "className": "Assassin"
+  },
+  {
+   "id": "el-primo",
+   "name": "El Primo",
+   "className": "Tank"
+  },
+  {
+   "id": "dynamike",
+   "name": "Dynamike",
+   "className": "Artillery"
+  },
+  {
+   "id": "nita",
+   "name": "Nita",
+   "className": "Damage Dealer"
+  },
+  {
+   "id": "jessie",
+   "name": "Jessie",
+   "className": "Controller"
+  },
+  {
+   "id": "barley",
+   "name": "Barley",
+   "className": "Artillery"
+  },
+  {
+   "id": "spike",
+   "name": "Spike",
+   "className": "Damage Dealer"
+  },
+  {
+   "id": "rico",
+   "name": "Rico",
+   "className": "Damage Dealer"
+  },
+  {
+   "id": "brock",
+   "name": "Brock",
+   "className": "Marksman"
+  },
+  {
+   "id": "bull",
+   "name": "Bull",
+   "className": "Tank"
+  },
+  {
+   "id": "colt",
+   "name": "Colt",
+   "className": "Damage Dealer"
+  },
+  {
+   "id": "shelly",
+   "name": "Shelly",
+   "className": "Damage Dealer"
+  }
+ ],
+ "maps": [
+  {
+   "id": "shooting-star",
+   "name": "Shooting Star",
+   "mode": "Bounty"
+  },
+  {
+   "id": "hard-rock-mine",
+   "name": "Hard Rock Mine",
+   "mode": "Gem Grab"
+  },
+  {
+   "id": "crystal-arcade",
+   "name": "Crystal Arcade",
+   "mode": "Gem Grab"
+  },
+  {
+   "id": "deathcap-trap",
+   "name": "Deathcap Trap",
+   "mode": "Gem Grab"
+  },
+  {
+   "id": "gem-fort",
+   "name": "Gem Fort",
+   "mode": "Gem Grab"
+  },
+  {
+   "id": "undermine",
+   "name": "Undermine",
+   "mode": "Gem Grab"
+  },
+  {
+   "id": "kaboom-canyon",
+   "name": "Kaboom Canyon",
+   "mode": "Heist"
+  },
+  {
+   "id": "safe-zone",
+   "name": "Safe Zone",
+   "mode": "Heist"
+  },
+  {
+   "id": "hideout",
+   "name": "Hideout",
+   "mode": "Bounty"
+  },
+  {
+   "id": "backyard-bowl",
+   "name": "Backyard Bowl",
+   "mode": "Brawl Ball"
+  },
+  {
+   "id": "triple-dribble",
+   "name": "Triple Dribble",
+   "mode": "Brawl Ball"
+  },
+  {
+   "id": "pinhole-punt",
+   "name": "Pinhole Punt",
+   "mode": "Brawl Ball"
+  },
+  {
+   "id": "sneaky-fields",
+   "name": "Sneaky Fields",
+   "mode": "Brawl Ball"
+  },
+  {
+   "id": "super-beach",
+   "name": "Super Beach",
+   "mode": "Brawl Ball"
+  },
+  {
+   "id": "hot-potato",
+   "name": "Hot Potato",
+   "mode": "Heist"
+  },
+  {
+   "id": "bridge-too-far",
+   "name": "Bridge Too Far",
+   "mode": "Heist"
+  },
+  {
+   "id": "layer-cake",
+   "name": "Layer Cake",
+   "mode": "Bounty"
+  },
+  {
+   "id": "dry-season",
+   "name": "Dry Season",
+   "mode": "Bounty"
+  },
+  {
+   "id": "double-swoosh",
+   "name": "Double Swoosh",
+   "mode": "Gem Grab"
+  },
+  {
+   "id": "pinball-dreams",
+   "name": "Pinball Dreams",
+   "mode": "Brawl Ball"
+  },
+  {
+   "id": "center-stage",
+   "name": "Center Stage",
+   "mode": "Brawl Ball"
+  },
+  {
+   "id": "pit-stop",
+   "name": "Pit Stop",
+   "mode": "Heist"
+  },
+  {
+   "id": "beach-ball",
+   "name": "Beach Ball",
+   "mode": "Brawl Ball"
+  },
+  {
+   "id": "sunny-soccer",
+   "name": "Sunny Soccer",
+   "mode": "Brawl Ball"
+  },
+  {
+   "id": "open-business",
+   "name": "Open Business",
+   "mode": "Hot Zone"
+  },
+  {
+   "id": "parallel-plays",
+   "name": "Parallel Plays",
+   "mode": "Hot Zone"
+  },
+  {
+   "id": "no-excuses",
+   "name": "No Excuses",
+   "mode": "Bounty"
+  },
+  {
+   "id": "ring-of-fire",
+   "name": "Ring Of Fire",
+   "mode": "Hot Zone"
+  },
+  {
+   "id": "dueling-beetles",
+   "name": "Dueling Beetles",
+   "mode": "Hot Zone"
+  },
+  {
+   "id": "rustic-arcade",
+   "name": "Rustic Arcade",
+   "mode": "Gem Grab"
+  },
+  {
+   "id": "goldarm-gulch",
+   "name": "Goldarm Gulch",
+   "mode": "Knockout"
+  },
+  {
+   "id": "belles-rock",
+   "name": "Belles Rock",
+   "mode": "Knockout"
+  },
+  {
+   "id": "tiger-leap",
+   "name": "Tiger Leap",
+   "mode": "Volley Brawl"
+  },
+  {
+   "id": "block-party",
+   "name": "Block Party",
+   "mode": "Volley Brawl"
+  },
+  {
+   "id": "power-alley",
+   "name": "Power Alley",
+   "mode": "Volley Brawl"
+  },
+  {
+   "id": "strong-side",
+   "name": "Strong Side",
+   "mode": "Volley Brawl"
+  },
+  {
+   "id": "pancake",
+   "name": "Pancake",
+   "mode": "Volley Brawl"
+  },
+  {
+   "id": "jungle-ball",
+   "name": "Jungle Ball",
+   "mode": "Volley Brawl"
+  },
+  {
+   "id": "floater",
+   "name": "Floater",
+   "mode": "Volley Brawl"
+  },
+  {
+   "id": "ball-hog",
+   "name": "Ball Hog",
+   "mode": "Basket Brawl"
+  },
+  {
+   "id": "reversal",
+   "name": "Reversal",
+   "mode": "Basket Brawl"
+  },
+  {
+   "id": "pocket-pass",
+   "name": "Pocket Pass",
+   "mode": "Basket Brawl"
+  },
+  {
+   "id": "turnover",
+   "name": "Turnover",
+   "mode": "Basket Brawl"
+  },
+  {
+   "id": "alley-oop",
+   "name": "Alley Oop",
+   "mode": "Basket Brawl"
+  },
+  {
+   "id": "slam-dunk",
+   "name": "Slam Dunk",
+   "mode": "Basket Brawl"
+  },
+  {
+   "id": "triple-double",
+   "name": "Triple-Double",
+   "mode": "Basket Brawl"
+  },
+  {
+   "id": "deep-end",
+   "name": "Deep End",
+   "mode": "Knockout"
+  },
+  {
+   "id": "flaring-phoenix",
+   "name": "Flaring Phoenix",
+   "mode": "Knockout"
+  },
+  {
+   "id": "flaring-phoenix",
+   "name": "Flaring Phoenix",
+   "mode": "Duels"
+  },
+  {
+   "id": "no-surrender",
+   "name": "No Surrender",
+   "mode": "Duels"
+  },
+  {
+   "id": "shrouding-serpent",
+   "name": "Shrouding Serpent",
+   "mode": "Duels"
+  },
+  {
+   "id": "warriors-way",
+   "name": "Warriors Way",
+   "mode": "Duels"
+  },
+  {
+   "id": "monkey-maze",
+   "name": "Monkey Maze",
+   "mode": "Duels"
+  },
+  {
+   "id": "open-space",
+   "name": "Open Space",
+   "mode": "Gem Grab"
+  },
+  {
+   "id": "flowing-springs",
+   "name": "Flowing Springs",
+   "mode": "Knockout"
+  },
+  {
+   "id": "open-zone",
+   "name": "Open Zone",
+   "mode": "Hot Zone"
+  },
+  {
+   "id": "new-perspective",
+   "name": "New Perspective",
+   "mode": "Knockout"
+  },
+  {
+   "id": "out-in-the-open",
+   "name": "Out In The Open",
+   "mode": "Knockout"
+  },
+  {
+   "id": "dont-turn-around",
+   "name": "Dont Turn Around",
+   "mode": "Bounty"
+  },
+  {
+   "id": "side-by-side",
+   "name": "Side By Side",
+   "mode": "Bounty"
+  },
+  {
+   "id": "healthy-middle-ground",
+   "name": "Healthy Middle Ground",
+   "mode": "Knockout"
+  },
+  {
+   "id": "slippery-road",
+   "name": "Slippery Road",
+   "mode": "Wipeout 5v5"
+  },
+  {
+   "id": "icy-ice-park",
+   "name": "Icy Ice Park",
+   "mode": "Wipeout 5v5"
+  },
+  {
+   "id": "frosty-tracks",
+   "name": "Frosty Tracks",
+   "mode": "Wipeout 5v5"
+  },
+  {
+   "id": "new-horizons",
+   "name": "New Horizons",
+   "mode": "Knockout"
+  },
+  {
+   "id": "four-levels",
+   "name": "Four Levels",
+   "mode": "Knockout"
+  },
+  {
+   "id": "rusty-rebound",
+   "name": "Rusty Rebound",
+   "mode": "Paint Brawl"
+  },
+  {
+   "id": "skull-creek",
+   "name": "Skull Creek",
+   "mode": "Trio Showdown"
+  },
+  {
+   "id": "paperback-pond",
+   "name": "Paperback Pond",
+   "mode": "Soul Collector"
+  },
+  {
+   "id": "final-four-duo",
+   "name": "Final Four",
+   "mode": "Duo Showdown"
+  },
+  {
+   "id": "ring-o-brawlin",
+   "name": "Ring O Brawlin",
+   "mode": "Trio Showdown"
+  },
+  {
+   "id": "foursquare-fortress",
+   "name": "Foursquare Fortress",
+   "mode": "Soul Collector"
+  },
+  {
+   "id": "broiler-room",
+   "name": "Broiler Room",
+   "mode": "Soul Collector"
+  },
+  {
+   "id": "hoop-boot-hill",
+   "name": "Hoop Boot Hill",
+   "mode": "Soul Collector"
+  },
+  {
+   "id": "kooky-gates",
+   "name": "Kooky Gates",
+   "mode": "Soul Collector"
+  },
+  {
+   "id": "afterpiece-arena",
+   "name": "Afterpiece Arena",
+   "mode": "Soul Collector"
+  },
+  {
+   "id": "divine-descent",
+   "name": "Divine Descent",
+   "mode": "Spirit Wars"
+  },
+  {
+   "id": "hellish-harvest",
+   "name": "Hellish Harvest",
+   "mode": "Spirit Wars"
+  },
+  {
+   "id": "final-frontier",
+   "name": "Final Frontier",
+   "mode": "Spirit Wars"
+  },
+  {
+   "id": "infernal-invasion",
+   "name": "Infernal Invasion",
+   "mode": "Spirit Wars"
+  },
+  {
+   "id": "celestial-crusade",
+   "name": "Celestial Crusade",
+   "mode": "Spirit Wars"
+  },
+  {
+   "id": "abyssal-assault",
+   "name": "Abyssal Assault",
+   "mode": "Spirit Wars"
+  },
+  {
+   "id": "radiant-rampage",
+   "name": "Radiant Rampage",
+   "mode": "Spirit Wars"
+  },
+  {
+   "id": "underworld-uprising",
+   "name": "Underworld Uprising",
+   "mode": "Spirit Wars"
+  },
+  {
+   "id": "super-center",
+   "name": "Super Center",
+   "mode": "Brawl Hockey"
+  },
+  {
+   "id": "slippery-slap",
+   "name": "Slippery Slap",
+   "mode": "Brawl Hockey"
+  },
+  {
+   "id": "bouncy-bowl",
+   "name": "Bouncy Bowl",
+   "mode": "Brawl Hockey"
+  },
+  {
+   "id": "below-zero",
+   "name": "Below Zero",
+   "mode": "Brawl Hockey"
+  },
+  {
+   "id": "cool-box",
+   "name": "Cool Box",
+   "mode": "Brawl Hockey"
+  },
+  {
+   "id": "starr-garden",
+   "name": "Starr Garden",
+   "mode": "Brawl Hockey"
+  },
+  {
+   "id": "h-for",
+   "name": "H For...",
+   "mode": "Knockout"
+  },
+  {
+   "id": "gg-20",
+   "name": "Gg 2.0",
+   "mode": "Heist"
+  },
+  {
+   "id": "wild-greens",
+   "name": "Wild Greens",
+   "mode": "Token Run"
+  },
+  {
+   "id": "hidden-in-plain-sight",
+   "name": "Hidden In Plain Sight",
+   "mode": "Treasure Hunt"
+  },
+  {
+   "id": "reverse-crossing",
+   "name": "Reverse Crossing",
+   "mode": "Token Run"
+  },
+  {
+   "id": "skipyard",
+   "name": "Skipyard",
+   "mode": "Token Run"
+  },
+  {
+   "id": "middle-management",
+   "name": "Middle Management",
+   "mode": "Treasure Hunt"
+  },
+  {
+   "id": "treasure-marks-the-spot",
+   "name": "Treasure Marks The Spot",
+   "mode": "Treasure Hunt"
+  },
+  {
+   "id": "ancient-treasure",
+   "name": "Ancient Treasure",
+   "mode": "Treasure Hunt"
+  },
+  {
+   "id": "excellent-excavations",
+   "name": "Excellent Excavations",
+   "mode": "Treasure Hunt"
+  },
+  {
+   "id": "can-you-dig-it",
+   "name": "Can You Dig It",
+   "mode": "Treasure Hunt"
+  },
+  {
+   "id": "stockpile-stadium",
+   "name": "Stockpile Stadium",
+   "mode": "Brawl Ball 5v5"
+  },
+  {
+   "id": "big-battle-basin",
+   "name": "Big Battle Basin",
+   "mode": "Wipeout 5v5"
+  },
+  {
+   "id": "unhappy-arena",
+   "name": "Unhappy Arena",
+   "mode": "Knockout 5v5"
+  },
+  {
+   "id": "brawl-starrgate",
+   "name": "Brawl Starrgate",
+   "mode": "Treasure Hunt"
+  },
+  {
+   "id": "snowcone-square",
+   "name": "Snowcone Square",
+   "mode": "Brawl Hockey"
+  },
+  {
+   "id": "fishing-bed",
+   "name": "Fishing Bed",
+   "mode": "Hot Zone"
+  },
+  {
+   "id": "priceless-cactus",
+   "name": "Priceless Cactus",
+   "mode": "Brawl Ball"
+  },
+  {
+   "id": "rooftop-runners",
+   "name": "Rooftop Runners",
+   "mode": "Brawl Ball"
+  },
+  {
+   "id": "lilygear-lake",
+   "name": "Lilygear Lake",
+   "mode": "Gem Grab"
+  },
+  {
+   "id": "local-restaurants",
+   "name": "Local Restaurants",
+   "mode": "Gem Grab"
+  },
+  {
+   "id": "plain-text",
+   "name": "Plain Text",
+   "mode": "Heist"
+  },
+  {
+   "id": "brace-for-impact",
+   "name": "Brace For Impact",
+   "mode": "Bounty"
+  },
+  {
+   "id": "skull-creek",
+   "name": "Skull Creek",
+   "mode": "Solo Showdown"
+  },
+  {
+   "id": "skull-creek-duo",
+   "name": "Skull Creek",
+   "mode": "Duo Showdown"
+  },
+  {
+   "id": "skull-creek",
+   "name": "Skull Creek",
+   "mode": "Trio Showdown"
+  },
+  {
+   "id": "rockwall-brawl",
+   "name": "Rockwall Brawl",
+   "mode": "Solo Showdown"
+  },
+  {
+   "id": "rockwall-brawl-duo",
+   "name": "Rockwall Brawl",
+   "mode": "Duo Showdown"
+  },
+  {
+   "id": "rockwall-brawl",
+   "name": "Rockwall Brawl",
+   "mode": "Trio Showdown"
+  },
+  {
+   "id": "feast-or-famine",
+   "name": "Feast Or Famine",
+   "mode": "Solo Showdown"
+  },
+  {
+   "id": "feast-or-famine-duo",
+   "name": "Feast Or Famine",
+   "mode": "Duo Showdown"
+  },
+  {
+   "id": "feast-or-famine",
+   "name": "Feast Or Famine",
+   "mode": "Trio Showdown"
+  },
+  {
+   "id": "cavern-churn",
+   "name": "Cavern Churn",
+   "mode": "Solo Showdown"
+  },
+  {
+   "id": "cavern-churn-duo",
+   "name": "Cavern Churn",
+   "mode": "Duo Showdown"
+  },
+  {
+   "id": "cavern-churn",
+   "name": "Cavern Churn",
+   "mode": "Trio Showdown"
+  },
+  {
+   "id": "acid-lakes",
+   "name": "Acid Lakes",
+   "mode": "Solo Showdown"
+  },
+  {
+   "id": "acid-lakes-duo",
+   "name": "Acid Lakes",
+   "mode": "Duo Showdown"
+  },
+  {
+   "id": "acid-lakes",
+   "name": "Acid Lakes",
+   "mode": "Trio Showdown"
+  },
+  {
+   "id": "flying-fantasies",
+   "name": "Flying Fantasies",
+   "mode": "Solo Showdown"
+  },
+  {
+   "id": "flying-fantasies-duo",
+   "name": "Flying Fantasies",
+   "mode": "Duo Showdown"
+  },
+  {
+   "id": "flying-fantasies",
+   "name": "Flying Fantasies",
+   "mode": "Trio Showdown"
+  },
+  {
+   "id": "double-trouble",
+   "name": "Double Trouble",
+   "mode": "Solo Showdown"
+  },
+  {
+   "id": "double-trouble-duo",
+   "name": "Double Trouble",
+   "mode": "Duo Showdown"
+  },
+  {
+   "id": "double-trouble",
+   "name": "Double Trouble",
+   "mode": "Trio Showdown"
+  },
+  {
+   "id": "safety-center",
+   "name": "Safety Center",
+   "mode": "Solo Showdown"
+  },
+  {
+   "id": "safety-center-duo",
+   "name": "Safety Center",
+   "mode": "Duo Showdown"
+  },
+  {
+   "id": "safety-center",
+   "name": "Safety Center",
+   "mode": "Trio Showdown"
+  },
+  {
+   "id": "siberian-stand-off",
+   "name": "Siberian Stand Off",
+   "mode": "Brawl Ball 5v5"
+  },
+  {
+   "id": "mirages-of-madness",
+   "name": "Mirages Of Madness",
+   "mode": "Wipeout 5v5"
+  },
+  {
+   "id": "survival-of-the-meanest",
+   "name": "Survival Of The Meanest",
+   "mode": "Knockout 5v5"
+  },
+  {
+   "id": "arctic-ambush",
+   "name": "Arctic Ambush",
+   "mode": "Gem Grab 5v5"
+  },
+  {
+   "id": "treasure-island",
+   "name": "Treasure Island",
+   "mode": "Gem Grab 5v5"
+  },
+  {
+   "id": "waveform",
+   "name": "Waveform",
+   "mode": "Solo Showdown"
+  },
+  {
+   "id": "waveform-duo",
+   "name": "Waveform",
+   "mode": "Duo Showdown"
+  },
+  {
+   "id": "waveform",
+   "name": "Waveform",
+   "mode": "Trio Showdown"
+  },
+  {
+   "id": "core-of-orbit",
+   "name": "Core Of Orbit",
+   "mode": "Solo Showdown"
+  },
+  {
+   "id": "core-of-orbit-duo",
+   "name": "Core Of Orbit",
+   "mode": "Duo Showdown"
+  },
+  {
+   "id": "core-of-orbit",
+   "name": "Core Of Orbit",
+   "mode": "Trio Showdown"
+  },
+  {
+   "id": "lilypond-grove",
+   "name": "Lilypond Grove",
+   "mode": "Solo Showdown"
+  },
+  {
+   "id": "lilypond-grove-duo",
+   "name": "Lilypond Grove",
+   "mode": "Duo Showdown"
+  },
+  {
+   "id": "lilypond-grove",
+   "name": "Lilypond Grove",
+   "mode": "Trio Showdown"
+  },
+  {
+   "id": "kaiju-lake",
+   "name": "Kaiju Lake",
+   "mode": "Brawl Arena"
+  },
+  {
+   "id": "arena-of-glory",
+   "name": "Arena Of Glory",
+   "mode": "Brawl Arena"
+  },
+  {
+   "id": "mirage-arena",
+   "name": "Mirage Arena",
+   "mode": "Brawl Arena"
+  },
+  {
+   "id": "crystal-eye-castle",
+   "name": "Crystal Eye Castle",
+   "mode": "Solo Showdown"
+  },
+  {
+   "id": "crystal-eye-castle-duo",
+   "name": "Crystal Eye Castle",
+   "mode": "Duo Showdown"
+  },
+  {
+   "id": "crystal-eye-castle",
+   "name": "Crystal Eye Castle",
+   "mode": "Trio Showdown"
+  },
+  {
+   "id": "seeker",
+   "name": "Seeker",
+   "mode": "Solo Showdown"
+  },
+  {
+   "id": "seeker-duo",
+   "name": "Seeker",
+   "mode": "Duo Showdown"
+  },
+  {
+   "id": "seeker",
+   "name": "Seeker",
+   "mode": "Trio Showdown"
+  },
+  {
+   "id": "double-decker",
+   "name": "Double Decker",
+   "mode": "Knockout"
+  },
+  {
+   "id": "streets-with-no-name",
+   "name": "Streets With No Name",
+   "mode": "Knockout"
+  },
+  {
+   "id": "grass-knot",
+   "name": "Grass Knot",
+   "mode": "Brawl Ball"
+  },
+  {
+   "id": "spiraling-out",
+   "name": "Spiraling Out",
+   "mode": "Brawl Ball"
+  },
+  {
+   "id": "abracadabra",
+   "name": "Abracadabra",
+   "mode": "Hot Zone"
+  },
+  {
+   "id": "in-the-liminal",
+   "name": "In The Liminal",
+   "mode": "Hot Zone"
+  },
+  {
+   "id": "subway-turfers",
+   "name": "Subway Turfers",
+   "mode": "Heist"
+  },
+  {
+   "id": "on-a-roll",
+   "name": "On A Roll",
+   "mode": "Gem Grab"
+  },
+  {
+   "id": "storage-sector",
+   "name": "Storage Sector",
+   "mode": "Gem Grab"
+  },
+  {
+   "id": "moonbark-meadow",
+   "name": "Moonbark Meadow",
+   "mode": "Dodgebrawl"
+  },
+  {
+   "id": "case-of-the-mondays",
+   "name": "Case Of The Mondays",
+   "mode": "Present Plunder"
+  },
+  {
+   "id": "jump-to-conclusions",
+   "name": "Jump To Conclusions",
+   "mode": "Present Plunder"
+  },
+  {
+   "id": "rebound-ring",
+   "name": "Rebound Ring",
+   "mode": "Dodgebrawl"
+  },
+  {
+   "id": "hug-or-hurl",
+   "name": "Hug Or Hurl",
+   "mode": "Dodgebrawl"
+  },
+  {
+   "id": "massive-meltdown",
+   "name": "Massive Meltdown",
+   "mode": "Brawl Hockey"
+  },
+  {
+   "id": "frostbite-rink",
+   "name": "Frostbite Rink",
+   "mode": "Brawl Hockey"
+  },
+  {
+   "id": "thin-walls",
+   "name": "Thin Walls",
+   "mode": "Present Plunder"
+  },
+  {
+   "id": "paper-jam",
+   "name": "Paper Jam",
+   "mode": "Present Plunder"
+  },
+  {
+   "id": "side-hustle",
+   "name": "Side Hustle",
+   "mode": "Dodgebrawl"
+  },
+  {
+   "id": "squish-court",
+   "name": "Squish Court",
+   "mode": "Dodgebrawl"
+  },
+  {
+   "id": "wispwillow-ward",
+   "name": "Wispwillow Ward",
+   "mode": "Dodgebrawl"
+  },
+  {
+   "id": "cold-snap",
+   "name": "Cold Snap",
+   "mode": "Brawl Hockey"
+  },
+  {
+   "id": "toot-town",
+   "name": "Toot Town",
+   "mode": "Subway Run"
+  },
+  {
+   "id": "insane-streamer",
+   "name": "Insane Streamer",
+   "mode": "Brawl Ball 5v5"
+  },
+  {
+   "id": "pocket-pleasures",
+   "name": "Pocket Pleasures",
+   "mode": "Brawl Ball 5v5"
+  },
+  {
+   "id": "cobblestone-swamp",
+   "name": "Cobblestone Swamp",
+   "mode": "Gem Grab 5v5"
+  },
+  {
+   "id": "public-transport",
+   "name": "Public Transport",
+   "mode": "Gem Grab 5v5"
+  },
+  {
+   "id": "brawlerverse",
+   "name": "Brawlerverse",
+   "mode": "Knockout 5v5"
+  },
+  {
+   "id": "the-emptiness-machine",
+   "name": "The Emptiness Machine",
+   "mode": "Knockout 5v5"
+  },
+  {
+   "id": "hee-hee",
+   "name": "Hee Hee",
+   "mode": "Wipeout 5v5"
+  },
+  {
+   "id": "island-of-finality",
+   "name": "Island Of Finality",
+   "mode": "Wipeout 5v5"
+  },
+  {
+   "id": "whisper-vale",
+   "name": "Whisper Vale",
+   "mode": "Gem Grab"
+  },
+  {
+   "id": "extreme-nonchalance",
+   "name": "Extreme Nonchalance",
+   "mode": "Gem Grab"
+  },
+  {
+   "id": "sidetrack",
+   "name": "Sidetrack",
+   "mode": "Brawl Ball"
+  },
+  {
+   "id": "match-1123581321",
+   "name": "Match 1123581321",
+   "mode": "Brawl Ball"
+  },
+  {
+   "id": "twentyfive-to-two",
+   "name": "Twentyfive To Two",
+   "mode": "Wipeout"
+  },
+  {
+   "id": "time-flies",
+   "name": "Time Flies",
+   "mode": "Wipeout"
+  },
+  {
+   "id": "playmaker",
+   "name": "Playmaker",
+   "mode": "Hot Zone"
+  },
+  {
+   "id": "think-ahead",
+   "name": "Think Ahead",
+   "mode": "Knockout"
+  },
+  {
+   "id": "call-of-the-water",
+   "name": "Call Of The Water",
+   "mode": "Knockout"
+  },
+  {
+   "id": "coin-flip",
+   "name": "Coin Flip",
+   "mode": "Duels"
+  },
+  {
+   "id": "search-and-destroy",
+   "name": "Search And Destroy",
+   "mode": "Duels"
+  },
+  {
+   "id": "zip-zap-zoom",
+   "name": "Zip Zap Zoom",
+   "mode": "Heist"
+  },
+  {
+   "id": "corner-cave",
+   "name": "Corner Cave",
+   "mode": "Heist"
+  },
+  {
+   "id": "knockout-grounds",
+   "name": "Knockout Grounds",
+   "mode": "Brawl Arena"
+  },
+  {
+   "id": "the-smackdome",
+   "name": "The Smackdome",
+   "mode": "Brawl Arena"
+  },
+  {
+   "id": "starrburst",
+   "name": "Starrburst",
+   "mode": "Bounty"
+  },
+  {
+   "id": "million-dollars",
+   "name": "Million Dollars",
+   "mode": "Present Plunder"
+  },
+  {
+   "id": "metro-mayhem",
+   "name": "Metro Mayhem",
+   "mode": "Subway Run"
+  },
+  {
+   "id": "backtrack-attack",
+   "name": "Backtrack Attack",
+   "mode": "Subway Run"
+  },
+  {
+   "id": "loopy-line",
+   "name": "Loopy Line",
+   "mode": "Subway Run"
+  },
+  {
+   "id": "trainbow-road",
+   "name": "Trainbow Road",
+   "mode": "Subway Run"
+  },
+  {
+   "id": "choo-choo-showdown",
+   "name": "Choo Choo Showdown",
+   "mode": "Subway Run"
+  },
+  {
+   "id": "insert-victory",
+   "name": "Insert Victory",
+   "mode": "Token Run"
+  },
+  {
+   "id": "invaded-space",
+   "name": "Invaded Space",
+   "mode": "Token Run"
+  },
+  {
+   "id": "1-2-3-play",
+   "name": "1-2-3 Play",
+   "mode": "Token Run"
+  },
+  {
+   "id": "prize-pushing",
+   "name": "Prize Pushing",
+   "mode": "Token Run"
+  },
+  {
+   "id": "crazy-for-credits",
+   "name": "Crazy For Credits",
+   "mode": "Token Run"
+  },
+  {
+   "id": "t-rail-rush",
+   "name": "T-Rail Rush",
+   "mode": "Subway Run"
+  },
+  {
+   "id": "dodge-or-die",
+   "name": "Dodge Or Die",
+   "mode": "Dodgebrawl"
+  },
+  {
+   "id": "truth",
+   "name": "Truth",
+   "mode": "Solo Showdown"
+  },
+  {
+   "id": "twisting-vines",
+   "name": "Twisting Vines",
+   "mode": "Solo Showdown"
+  },
+  {
+   "id": "atlas",
+   "name": "Atlas",
+   "mode": "Gem Grab"
+  },
+  {
+   "id": "afterparty",
+   "name": "Afterparty",
+   "mode": "Gem Grab"
+  },
+  {
+   "id": "just-another-race-to-anywhere",
+   "name": "Just Another Race To Anywhere",
+   "mode": "Hot Zone"
+  },
+  {
+   "id": "back-shuffle",
+   "name": "Back Shuffle",
+   "mode": "Hot Zone"
+  },
+  {
+   "id": "flute-chutes",
+   "name": "Flute Chutes",
+   "mode": "Brawl Ball"
+  },
+  {
+   "id": "grab-the-moment",
+   "name": "Grab The Moment",
+   "mode": "Brawl Ball"
+  },
+  {
+   "id": "party-for-you",
+   "name": "Party For You",
+   "mode": "Knockout"
+  },
+  {
+   "id": "a-ballad-about-minced-cutlets",
+   "name": "A Ballad About Minced Cutlets",
+   "mode": "Knockout"
+  },
+  {
+   "id": "the-great-mighty-lou",
+   "name": "The Great Mighty Lou",
+   "mode": "Duels"
+  },
+  {
+   "id": "all-things-wicked",
+   "name": "All Things Wicked",
+   "mode": "Heist"
+  },
+  {
+   "id": "photic-doom",
+   "name": "Photic Doom",
+   "mode": "Heist"
+  },
+  {
+   "id": "serpentshrine-island",
+   "name": "Serpentshrine Island",
+   "mode": "Knockout 5v5"
+  },
+  {
+   "id": "crescendo",
+   "name": "Crescendo",
+   "mode": "Knockout 5v5"
+  },
+  {
+   "id": "journey-of-a-thousand-steps",
+   "name": "Journey Of A Thousand Steps",
+   "mode": "Knockout 5v5"
+  },
+  {
+   "id": "catacombs",
+   "name": "Catacombs",
+   "mode": "Wipeout"
+  },
+  {
+   "id": "deathmatch",
+   "name": "Deathmatch",
+   "mode": "Wipeout"
+  },
+  {
+   "id": "pound-of-mass",
+   "name": "Pound Of Mass",
+   "mode": "Wipeout"
+  },
+  {
+   "id": "wonderland",
+   "name": "Wonderland",
+   "mode": "Wipeout"
+  },
+  {
+   "id": "truth-duo",
+   "name": "Truth",
+   "mode": "Duo Showdown"
+  },
+  {
+   "id": "twisting-vines-duo",
+   "name": "Twisting Vines",
+   "mode": "Duo Showdown"
+  },
+  {
+   "id": "truth",
+   "name": "Truth",
+   "mode": "Trio Showdown"
+  },
+  {
+   "id": "twisting-vines",
+   "name": "Twisting Vines",
+   "mode": "Trio Showdown"
+  },
+  {
+   "id": "slay-bay",
+   "name": "Slay Bay",
+   "mode": "Trio Wipeout"
+  },
+  {
+   "id": "overpower-outpost",
+   "name": "Overpower Outpost",
+   "mode": "Trio Wipeout"
+  },
+  {
+   "id": "nippy-narrows",
+   "name": "Nippy Narrows",
+   "mode": "Trio Wipeout"
+  },
+  {
+   "id": "kroket",
+   "name": "Kroket",
+   "mode": "Solo Showdown"
+  },
+  {
+   "id": "lotus",
+   "name": "Lotus",
+   "mode": "Solo Showdown"
+  },
+  {
+   "id": "gated-community",
+   "name": "Gated Community",
+   "mode": "Solo Showdown"
+  },
+  {
+   "id": "makeshift-scaffolding",
+   "name": "Makeshift Scaffolding",
+   "mode": "Solo Showdown"
+  },
+  {
+   "id": "railroad-robbery",
+   "name": "Railroad Robbery",
+   "mode": "Gem Grab"
+  },
+  {
+   "id": "zone-splitting",
+   "name": "Zone Splitting",
+   "mode": "Hot Zone"
+  },
+  {
+   "id": "ticket-to-die",
+   "name": "Ticket To Die",
+   "mode": "Hot Zone"
+  },
+  {
+   "id": "chivalry",
+   "name": "Chivalry",
+   "mode": "Knockout"
+  },
+  {
+   "id": "polar-payoff",
+   "name": "Polar Payoff",
+   "mode": "Trio Gem Grab"
+  },
+  {
+   "id": "mine-all-mine",
+   "name": "Mine All Mine",
+   "mode": "Trio Gem Grab"
+  },
+  {
+   "id": "treasure-pressure",
+   "name": "Treasure Pressure",
+   "mode": "Trio Gem Grab"
+  },
+  {
+   "id": "kroket",
+   "name": "Kroket",
+   "mode": "Upside Showdown"
+  },
+  {
+   "id": "lotus",
+   "name": "Lotus",
+   "mode": "Upside Showdown"
+  },
+  {
+   "id": "gated-community",
+   "name": "Gated Community",
+   "mode": "Upside Showdown"
+  },
+  {
+   "id": "cold-cash",
+   "name": "Cold Cash",
+   "mode": "Trio Gem Grab"
+  },
+  {
+   "id": "permafrost-bayou",
+   "name": "Permafrost Bayou",
+   "mode": "Trio Wipeout"
+  },
+  {
+   "id": "kroket-duo",
+   "name": "Kroket",
+   "mode": "Duo Showdown"
+  },
+  {
+   "id": "lotus-duo",
+   "name": "Lotus",
+   "mode": "Duo Showdown"
+  },
+  {
+   "id": "gated-community-duo",
+   "name": "Gated Community",
+   "mode": "Duo Showdown"
+  },
+  {
+   "id": "makeshift-scaffolding-duo",
+   "name": "Makeshift Scaffolding",
+   "mode": "Duo Showdown"
+  },
+  {
+   "id": "kroket",
+   "name": "Kroket",
+   "mode": "Trio Showdown"
+  },
+  {
+   "id": "lotus",
+   "name": "Lotus",
+   "mode": "Trio Showdown"
+  },
+  {
+   "id": "gated-community",
+   "name": "Gated Community",
+   "mode": "Trio Showdown"
+  },
+  {
+   "id": "makeshift-scaffolding",
+   "name": "Makeshift Scaffolding",
+   "mode": "Trio Showdown"
+  },
+  {
+   "id": "lovers-lane",
+   "name": "Lovers Lane",
+   "mode": "Love Bombing"
+  },
+  {
+   "id": "caged-hearts",
+   "name": "Caged Hearts",
+   "mode": "Love Bombing"
+  },
+  {
+   "id": "mega-love-potion-squeak",
+   "name": "Mega Love Potion Squeak",
+   "mode": "Duo Mega Boss"
+  },
+  {
+   "id": "mega-bear-shade",
+   "name": "Mega Bear Shade",
+   "mode": "Duo Mega Boss"
+  },
+  {
+   "id": "mega-brawlentines-angelo",
+   "name": "Mega Brawlentines Angelo",
+   "mode": "Duo Mega Boss"
+  },
+  {
+   "id": "mega-heartbroken-rico",
+   "name": "Mega Heartbroken Rico",
+   "mode": "Duo Mega Boss"
+  },
+  {
+   "id": "kiss-kaboom",
+   "name": "Kiss Kaboom",
+   "mode": "Love Bombing"
+  },
+  {
+   "id": "fuseyard",
+   "name": "Fuseyard",
+   "mode": "Safe Blast"
+  },
+  {
+   "id": "gunpowder-gangway",
+   "name": "Gunpowder Gangway",
+   "mode": "Safe Blast"
+  },
+  {
+   "id": "crush-burn",
+   "name": "Crush & Burn",
+   "mode": "Love Bombing"
+  },
+  {
+   "id": "safe-bet",
+   "name": "Safe Bet",
+   "mode": "Safe Blast"
+  },
+  {
+   "id": "fast-blast-alley",
+   "name": "Fast Blast Alley",
+   "mode": "Safe Blast"
+  },
+  {
+   "id": "violent-withdrawal",
+   "name": "Violent Withdrawal",
+   "mode": "Safe Blast"
+  },
+  {
+   "id": "rastermind",
+   "name": "Rastermind",
+   "mode": "Knockout 5v5"
+  },
+  {
+   "id": "walking-on-hot-sand",
+   "name": "Walking On Hot Sand",
+   "mode": "Wipeout"
+  },
+  {
+   "id": "too-gimmicky-2",
+   "name": "Too Gimmicky 2",
+   "mode": "Wipeout"
+  },
+  {
+   "id": "tax-evasion",
+   "name": "Tax Evasion",
+   "mode": "Hot Zone"
+  },
+  {
+   "id": "the-seven-pillars-of-humanity",
+   "name": "The Seven Pillars Of Humanity",
+   "mode": "Hot Zone"
+  },
+  {
+   "id": "singed-earth",
+   "name": "Singed Earth",
+   "mode": "Brawl Ball"
+  },
+  {
+   "id": "nutmeg",
+   "name": "Nutmeg",
+   "mode": "Brawl Ball"
+  },
+  {
+   "id": "aridity",
+   "name": "Aridity",
+   "mode": "Heist"
+  },
+  {
+   "id": "quintillion",
+   "name": "Quintillion",
+   "mode": "Heist"
+  },
+  {
+   "id": "snake-pit",
+   "name": "Snake Pit",
+   "mode": "Gem Grab"
+  },
+  {
+   "id": "fortress-fall",
+   "name": "Fortress Fall",
+   "mode": "Gem Grab"
+  },
+  {
+   "id": "konnakol",
+   "name": "Konnakol",
+   "mode": "Knockout"
+  },
+  {
+   "id": "paralysis-pen",
+   "name": "Paralysis Pen",
+   "mode": "Duels"
+  },
+  {
+   "id": "wall-hugging",
+   "name": "Wall Hugging",
+   "mode": "Bounty"
+  },
+  {
+   "id": "choral-chambers",
+   "name": "Choral Chambers",
+   "mode": "Bounty"
+  },
+  {
+   "id": "h-is-for-holiday",
+   "name": "H Is For Holiday",
+   "mode": "Brawl Hockey"
+  },
+  {
+   "id": "hyperspace",
+   "name": "Hyperspace",
+   "mode": "Brawl Hockey"
+  },
+  {
+   "id": "pinned-down",
+   "name": "Pinned Down",
+   "mode": "Knockout"
+  },
+  {
+   "id": "north-park-station",
+   "name": "North Park Station",
+   "mode": "Solo Showdown"
+  },
+  {
+   "id": "north-park-station-duo",
+   "name": "North Park Station",
+   "mode": "Duo Showdown"
+  },
+  {
+   "id": "north-park-station",
+   "name": "North Park Station",
+   "mode": "Trio Showdown"
+  },
+  {
+   "id": "moonveil-mansion",
+   "name": "Moonveil Mansion",
+   "mode": "Shadow Smash"
+  },
+  {
+   "id": "silver-shadow-circus",
+   "name": "Silver Shadow Circus",
+   "mode": "Shadow Smash"
+  },
+  {
+   "id": "illusion-alley",
+   "name": "Illusion Alley",
+   "mode": "Shadow Smash"
+  },
+  {
+   "id": "doppelzone",
+   "name": "Doppelzone",
+   "mode": "Shadow Smash"
+  },
+  {
+   "id": "train-erasure",
+   "name": "Train Erasure",
+   "mode": "Treasure Hunt"
+  },
+  {
+   "id": "less-is-more",
+   "name": "Less Is More",
+   "mode": "Treasure Hunt"
+  },
+  {
+   "id": "skull-creek",
+   "name": "Skull Creek",
+   "mode": "Loaded Showdown"
+  },
+  {
+   "id": "rockwall-brawl",
+   "name": "Rockwall Brawl",
+   "mode": "Loaded Showdown"
+  },
+  {
+   "id": "cavern-churn",
+   "name": "Cavern Churn",
+   "mode": "Loaded Showdown"
+  },
+  {
+   "id": "hot-maze",
+   "name": "Hot Maze",
+   "mode": "Loaded Showdown"
+  },
+  {
+   "id": "side-quests",
+   "name": "Side Quests",
+   "mode": "Treasure Hunt"
+  },
+  {
+   "id": "huddle-puddle",
+   "name": "Huddle Puddle",
+   "mode": "Treasure Hunt"
+  },
+  {
+   "id": "hello-always-ends-with-a-goodbye",
+   "name": "Hello Always Ends With A Goodbye",
+   "mode": "Wipeout"
+  },
+  {
+   "id": "palette-hangout",
+   "name": "Palette Hangout",
+   "mode": "Wipeout"
+  },
+  {
+   "id": "golden-bay",
+   "name": "Golden Bay",
+   "mode": "Hot Zone"
+  },
+  {
+   "id": "hyacinth-house",
+   "name": "Hyacinth House",
+   "mode": "Hot Zone"
+  },
+  {
+   "id": "goalies",
+   "name": "Goalies",
+   "mode": "Brawl Ball"
+  },
+  {
+   "id": "no-good-deed",
+   "name": "No Good Deed",
+   "mode": "Brawl Ball"
+  },
+  {
+   "id": "tuning-fork",
+   "name": "Tuning Fork",
+   "mode": "Heist"
+  },
+  {
+   "id": "perpetual-motion",
+   "name": "Perpetual Motion",
+   "mode": "Heist"
+  },
+  {
+   "id": "picturesque",
+   "name": "Picturesque",
+   "mode": "Gem Grab"
+  },
+  {
+   "id": "satomi-springs",
+   "name": "Satomi Springs",
+   "mode": "Gem Grab"
+  },
+  {
+   "id": "opening-move",
+   "name": "Opening Move",
+   "mode": "Knockout"
+  },
+  {
+   "id": "crab-claws",
+   "name": "Crab Claws",
+   "mode": "Knockout"
+  },
+  {
+   "id": "jumpscare-lair",
+   "name": "Jumpscare Lair",
+   "mode": "Duels"
+  },
+  {
+   "id": "molten-to-the-core",
+   "name": "Molten To The Core",
+   "mode": "Solo Showdown"
+  },
+  {
+   "id": "molten-to-the-core-duo",
+   "name": "Molten To The Core",
+   "mode": "Duo Showdown"
+  },
+  {
+   "id": "molten-to-the-core",
+   "name": "Molten To The Core",
+   "mode": "Trio Showdown"
+  },
+  {
+   "id": "starfruit-supernova",
+   "name": "Starfruit Supernova",
+   "mode": "Solo Showdown"
+  },
+  {
+   "id": "starfruit-supernova-duo",
+   "name": "Starfruit Supernova",
+   "mode": "Duo Showdown"
+  },
+  {
+   "id": "starfruit-supernova",
+   "name": "Starfruit Supernova",
+   "mode": "Trio Showdown"
+  },
+  {
+   "id": "watermelons",
+   "name": "Watermelons",
+   "mode": "Bounty"
+  },
+  {
+   "id": "hit-and-run",
+   "name": "Hit And Run",
+   "mode": "Bounty"
+  },
+  {
+   "id": "tip-toe",
+   "name": "Tip Toe",
+   "mode": "Brawl Hockey"
+  },
+  {
+   "id": "cabin-fever",
+   "name": "Cabin Fever",
+   "mode": "Brawl Hockey"
+  },
+  {
+   "id": "web-of-shadows",
+   "name": "Web Of Shadows",
+   "mode": "Shadow Smash"
+  },
+  {
+   "id": "the-big-top",
+   "name": "The Big Top",
+   "mode": "Shadow Smash"
+  },
+  {
+   "id": "imposter-pathway",
+   "name": "Imposter Pathway",
+   "mode": "Shadow Smash"
+  },
+  {
+   "id": "copycat-carnival",
+   "name": "Copycat Carnival",
+   "mode": "Shadow Smash"
+  },
+  {
+   "id": "molten-to-the-core",
+   "name": "Molten To The Core",
+   "mode": "Loaded Showdown"
+  },
+  {
+   "id": "starfruit-supernova",
+   "name": "Starfruit Supernova",
+   "mode": "Loaded Showdown"
+  },
+  {
+   "id": "keepers-corner",
+   "name": "Keepers Corner",
+   "mode": "Super Ball"
+  },
+  {
+   "id": "backnet-bonanza",
+   "name": "Backnet Bonanza",
+   "mode": "Super Ball"
+  },
+  {
+   "id": "goalmouth-scramble",
+   "name": "Goalmouth Scramble",
+   "mode": "Super Ball"
+  },
+  {
+   "id": "fox-in-the-box",
+   "name": "Fox In The Box",
+   "mode": "Super Ball"
+  },
+  {
+   "id": "penalty-park",
+   "name": "Penalty Park",
+   "mode": "Super Ball"
+  },
+  {
+   "id": "kickoff-coliseum",
+   "name": "Kickoff Coliseum",
+   "mode": "Super Ball"
+  },
+  {
+   "id": "midfield-madness",
+   "name": "Midfield Madness",
+   "mode": "Super Ball"
+  },
+  {
+   "id": "skull-creek",
+   "name": "Skull Creek",
+   "mode": "Loaded Duo Showdown"
+  },
+  {
+   "id": "crimson-divide",
+   "name": "Crimson Divide",
+   "mode": "Brawl Arena"
+  },
+  {
+   "id": "silver-highlands",
+   "name": "Silver Highlands",
+   "mode": "Brawl Arena"
+  },
+  {
+   "id": "impossible-arena",
+   "name": "Impossible Arena",
+   "mode": "Super Ball"
+  },
+  {
+   "id": "attrition",
+   "name": "Attrition",
+   "mode": "Wipeout"
+  },
+  {
+   "id": "eating-good",
+   "name": "Eating Good",
+   "mode": "Heist"
+  },
+  {
+   "id": "ancestral-roots",
+   "name": "Ancestral Roots",
+   "mode": "Gem Grab"
+  },
+  {
+   "id": "please-remain-standing",
+   "name": "Please Remain Standing",
+   "mode": "Knockout"
+  },
+  {
+   "id": "slippery-showdown",
+   "name": "Slippery Showdown",
+   "mode": "Brawl Hockey"
+  },
+  {
+   "id": "arabesque",
+   "name": "Arabesque",
+   "mode": "Brawl Hockey"
+  },
+  {
+   "id": "rockwall-brawl",
+   "name": "Rockwall Brawl",
+   "mode": "Loaded Duo Showdown"
+  },
+  {
+   "id": "cavern-churn",
+   "name": "Cavern Churn",
+   "mode": "Loaded Duo Showdown"
+  },
+  {
+   "id": "hot-maze",
+   "name": "Hot Maze",
+   "mode": "Loaded Duo Showdown"
+  },
+  {
+   "id": "woktopia",
+   "name": "Woktopia",
+   "mode": "Food Fight"
+  },
+  {
+   "id": "you-gotta-push-it",
+   "name": "You Gotta Push It",
+   "mode": "Mecha Guard"
+  },
+  {
+   "id": "cloud-kitchen",
+   "name": "Cloud Kitchen",
+   "mode": "Food Fight"
+  },
+  {
+   "id": "undercooked",
+   "name": "Undercooked",
+   "mode": "Combat Cooking"
+  },
+  {
+   "id": "mill-chill",
+   "name": "Mill & Chill",
+   "mode": "Food Fight"
+  },
+  {
+   "id": "turbine-terrace",
+   "name": "Turbine Terrace",
+   "mode": "Food Fight"
+  },
+  {
+   "id": "feel-the-shock",
+   "name": "Feel The Shock",
+   "mode": "Mecha Guard"
+  },
+  {
+   "id": "quantum-kitchen",
+   "name": "Quantum Kitchen",
+   "mode": "Combat Cooking"
+  },
+  {
+   "id": "wok-roll",
+   "name": "Wok & Roll",
+   "mode": "Combat Cooking"
+  },
+  {
+   "id": "nullscapes",
+   "name": "Nullscapes",
+   "mode": "Brawl Hockey"
+  },
+  {
+   "id": "raging-ocean",
+   "name": "Raging Ocean",
+   "mode": "Brawl Hockey"
+  },
+  {
+   "id": "solitary-deep-sea-fish",
+   "name": "Solitary Deep Sea Fish",
+   "mode": "Wipeout"
+  },
+  {
+   "id": "reach-for-the-stars",
+   "name": "Reach For The Stars",
+   "mode": "Hot Zone"
+  },
+  {
+   "id": "under-pressure",
+   "name": "Under Pressure",
+   "mode": "Hot Zone"
+  },
+  {
+   "id": "bustling-business",
+   "name": "Bustling Business",
+   "mode": "Brawl Ball"
+  },
+  {
+   "id": "deadlock",
+   "name": "Deadlock",
+   "mode": "Brawl Ball"
+  },
+  {
+   "id": "hot-tubs",
+   "name": "Hot Tubs",
+   "mode": "Heist"
+  },
+  {
+   "id": "jedna",
+   "name": "Jedna",
+   "mode": "Heist"
+  },
+  {
+   "id": "bottom-two",
+   "name": "Bottom Two",
+   "mode": "Gem Grab"
+  },
+  {
+   "id": "let-me-dance",
+   "name": "Let Me Dance",
+   "mode": "Gem Grab"
+  },
+  {
+   "id": "jungle-top",
+   "name": "Jungle Top",
+   "mode": "Knockout"
+  },
+  {
+   "id": "leaping-dogs",
+   "name": "Leaping Dogs",
+   "mode": "Knockout"
+  },
+  {
+   "id": "crossing-the-coast",
+   "name": "Crossing The Coast",
+   "mode": "Solo Showdown"
+  },
+  {
+   "id": "crossing-the-coast-duo",
+   "name": "Crossing The Coast",
+   "mode": "Duo Showdown"
+  },
+  {
+   "id": "crossing-the-coast",
+   "name": "Crossing The Coast",
+   "mode": "Trio Showdown"
+  },
+  {
+   "id": "doom-shroom",
+   "name": "Doom Shroom",
+   "mode": "Solo Showdown"
+  },
+  {
+   "id": "doom-shroom-duo",
+   "name": "Doom Shroom",
+   "mode": "Duo Showdown"
+  },
+  {
+   "id": "doom-shroom",
+   "name": "Doom Shroom",
+   "mode": "Trio Showdown"
+  },
+  {
+   "id": "rice-field",
+   "name": "Rice Field",
+   "mode": "Solo Showdown"
+  },
+  {
+   "id": "rice-field-duo",
+   "name": "Rice Field",
+   "mode": "Duo Showdown"
+  },
+  {
+   "id": "rice-field",
+   "name": "Rice Field",
+   "mode": "Trio Showdown"
+  },
+  {
+   "id": "supercut",
+   "name": "Supercut",
+   "mode": "Bounty"
+  },
+  {
+   "id": "tasty-berry",
+   "name": "Tasty Berry",
+   "mode": "Bounty"
+  },
+  {
+   "id": "stir-station",
+   "name": "Stir Station",
+   "mode": "Combat Cooking"
+  },
+  {
+   "id": "damage-destructor",
+   "name": "Damage Destructor",
+   "mode": "Mecha Guard"
+  },
+  {
+   "id": "seekret-passage",
+   "name": "Seekret Passage",
+   "mode": "Hide & Seek"
+  },
+  {
+   "id": "peekproof",
+   "name": "Peekproof",
+   "mode": "Hide & Seek"
+  },
+  {
+   "id": "mega-boss-duo",
+   "name": "Mega Boss Duo",
+   "mode": "Boss Fight"
+  },
+  {
+   "id": "mega-boss-duo-5-player",
+   "name": "Mega Boss Duo (5 Player)",
+   "mode": "5 Player Void Boss"
+  },
+  {
+   "id": "mega-boss-duo-20-player",
+   "name": "Mega Boss Duo (20 Player)",
+   "mode": "Mega Boss Duo (20 Player)"
+  },
+  {
+   "id": "cavern-churn",
+   "name": "Cavern Churn",
+   "mode": "Solo Showdown"
+  },
+  {
+   "id": "cavern-churn-duo",
+   "name": "Cavern Churn",
+   "mode": "Duo Showdown"
+  },
+  {
+   "id": "cavern-churn",
+   "name": "Cavern Churn",
+   "mode": "Trio Showdown"
+  },
+  {
+   "id": "acid-lakes",
+   "name": "Acid Lakes",
+   "mode": "Solo Showdown"
+  },
+  {
+   "id": "acid-lakes-duo",
+   "name": "Acid Lakes",
+   "mode": "Duo Showdown"
+  },
+  {
+   "id": "acid-lakes",
+   "name": "Acid Lakes",
+   "mode": "Trio Showdown"
+  },
+  {
+   "id": "rockwall-brawl",
+   "name": "Rockwall Brawl",
+   "mode": "Solo Showdown"
+  },
+  {
+   "id": "rockwall-brawl-duo",
+   "name": "Rockwall Brawl",
+   "mode": "Duo Showdown"
+  },
+  {
+   "id": "rockwall-brawl",
+   "name": "Rockwall Brawl",
+   "mode": "Trio Showdown"
+  },
+  {
+   "id": "beach-ball",
+   "name": "Beach Ball",
+   "mode": "Brawl Ball"
+  },
+  {
+   "id": "sneaky-fields",
+   "name": "Sneaky Fields",
+   "mode": "Brawl Ball"
+  },
+  {
+   "id": "triple-dribble",
+   "name": "Triple Dribble",
+   "mode": "Brawl Ball"
+  },
+  {
+   "id": "insane-streamer",
+   "name": "Insane Streamer",
+   "mode": "Brawl Ball 5v5"
+  },
+  {
+   "id": "siberian-stand-off",
+   "name": "Siberian Stand Off",
+   "mode": "Brawl Ball 5v5"
+  },
+  {
+   "id": "stockpile-stadium",
+   "name": "Stockpile Stadium",
+   "mode": "Brawl Ball 5v5"
+  },
+  {
+   "id": "goldarm-gulch",
+   "name": "Goldarm Gulch",
+   "mode": "Knockout"
+  },
+  {
+   "id": "belles-rock",
+   "name": "Belles Rock",
+   "mode": "Knockout"
+  },
+  {
+   "id": "out-in-the-open",
+   "name": "Out In The Open",
+   "mode": "Knockout"
+  },
+  {
+   "id": "hard-rock-mine",
+   "name": "Hard Rock Mine",
+   "mode": "Gem Grab"
+  },
+  {
+   "id": "double-swoosh",
+   "name": "Double Swoosh",
+   "mode": "Gem Grab"
+  },
+  {
+   "id": "undermine",
+   "name": "Undermine",
+   "mode": "Gem Grab"
+  },
+  {
+   "id": "hide-tide",
+   "name": "Hide Tide",
+   "mode": "Hide & Seek"
+  },
+  {
+   "id": "triple-threat",
+   "name": "Triple Threat",
+   "mode": "Brawl Arena"
+  },
+  {
+   "id": "brawlers-rift",
+   "name": "Brawlers Rift",
+   "mode": "Brawl Arena"
+  },
+  {
+   "id": "barrel-bluff",
+   "name": "Barrel Bluff",
+   "mode": "Hide & Seek"
+  },
+  {
+   "id": "diagonal-dribble",
+   "name": "Diagonal Dribble",
+   "mode": "Super Ball"
+  },
+  {
+   "id": "corner-kickoff",
+   "name": "Corner Kickoff",
+   "mode": "Super Ball"
+  },
+  {
+   "id": "hideout-havoc",
+   "name": "Hideout Havoc",
+   "mode": "Hide & Seek"
+  },
+  {
+   "id": "tread-carefully",
+   "name": "Tread Carefully",
+   "mode": "Hot Zone"
+  },
+  {
+   "id": "in-demand",
+   "name": "In Demand",
+   "mode": "Brawl Ball"
+  },
+  {
+   "id": "pump-it-up",
+   "name": "Pump It Up",
+   "mode": "Brawl Ball"
+  },
+  {
+   "id": "dungeon-train",
+   "name": "Dungeon Train",
+   "mode": "Gem Grab"
+  },
+  {
+   "id": "stroke-of-luck",
+   "name": "Stroke Of Luck",
+   "mode": "Knockout"
+  },
+  {
+   "id": "stone-skipping",
+   "name": "Stone Skipping",
+   "mode": "Duels"
+  },
+  {
+   "id": "false-sense-of-security",
+   "name": "False Sense Of Security",
+   "mode": "Duels"
+  },
+  {
+   "id": "alchemy",
+   "name": "Alchemy",
+   "mode": "Bounty"
+  },
+  {
+   "id": "nothing-suspicious",
+   "name": "Nothing Suspicious",
+   "mode": "Hide & Seek"
+  },
+  {
+   "id": "net-presence",
+   "name": "Net Presence",
+   "mode": "Brawl Hockey"
+  },
+  {
+   "id": "seekret-passage",
+   "name": "Seekret Passage",
+   "mode": "Hide & Seek"
+  },
+  {
+   "id": "peekproof",
+   "name": "Peekproof",
+   "mode": "Hide & Seek"
+  },
+  {
+   "id": "hide-tide",
+   "name": "Hide Tide",
+   "mode": "Hide & Seek"
+  },
+  {
+   "id": "barrel-bluff",
+   "name": "Barrel Bluff",
+   "mode": "Hide & Seek"
+  },
+  {
+   "id": "hideout-havoc",
+   "name": "Hideout Havoc",
+   "mode": "Hide & Seek"
+  },
+  {
+   "id": "nothing-suspicious",
+   "name": "Nothing Suspicious",
+   "mode": "Hide & Seek"
+  },
+  {
+   "id": "seekret-passage",
+   "name": "Seekret Passage",
+   "mode": "Hide & Seek"
+  },
+  {
+   "id": "peekproof",
+   "name": "Peekproof",
+   "mode": "Hide & Seek"
+  },
+  {
+   "id": "hide-tide",
+   "name": "Hide Tide",
+   "mode": "Hide & Seek"
+  },
+  {
+   "id": "barrel-bluff",
+   "name": "Barrel Bluff",
+   "mode": "Hide & Seek"
+  },
+  {
+   "id": "hideout-havoc",
+   "name": "Hideout Havoc",
+   "mode": "Hide & Seek"
+  },
+  {
+   "id": "nothing-suspicious",
+   "name": "Nothing Suspicious",
+   "mode": "Hide & Seek"
+  },
+  {
+   "id": "seekret-passage",
+   "name": "Seekret Passage",
+   "mode": "Hide & Seek"
+  },
+  {
+   "id": "peekproof",
+   "name": "Peekproof",
+   "mode": "Hide & Seek"
+  },
+  {
+   "id": "hide-tide",
+   "name": "Hide Tide",
+   "mode": "Hide & Seek"
+  },
+  {
+   "id": "barrel-bluff",
+   "name": "Barrel Bluff",
+   "mode": "Hide & Seek"
+  },
+  {
+   "id": "hideout-havoc",
+   "name": "Hideout Havoc",
+   "mode": "Hide & Seek"
+  },
+  {
+   "id": "nothing-suspicious",
+   "name": "Nothing Suspicious",
+   "mode": "Hide & Seek"
+  }
+ ],
+ "mapStats": {},
+ "activeMaps": []
+}
