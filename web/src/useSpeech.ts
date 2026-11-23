@@ -7,7 +7,8 @@ type SR = {
   interimResults: boolean;
   start(): void;
   stop(): void;
-  onresult: ((e: { resultIndex: number; results: ArrayLike<{ isFinal: boolean; 0: { transcript: string } }> }) => void) | null;
+  maxAlternatives: number;
+  onresult: ((e: { resultIndex: number; results: ArrayLike<{ isFinal: boolean; length: number } & ArrayLike<{ transcript: string }>> }) => void) | null;
   onend: (() => void) | null;
   onerror: ((e: { error: string }) => void) | null;
 };
@@ -17,7 +18,8 @@ function getCtor(): (new () => SR) | null {
   return (w.SpeechRecognition ?? w.webkitSpeechRecognition ?? null) as (new () => SR) | null;
 }
 
-export function useSpeech(onFinal: (text: string) => void) {
+/** onFinal reçoit les variantes comprises, de la plus probable à la moins probable. */
+export function useSpeech(onFinal: (alternatives: string[]) => void) {
   const [listening, setListening] = useState(false);
   const [interim, setInterim] = useState("");
   const [error, setError] = useState<string | null>(null);
@@ -36,11 +38,12 @@ export function useSpeech(onFinal: (text: string) => void) {
     rec.lang = "fr-FR";
     rec.continuous = true;
     rec.interimResults = true;
+    rec.maxAlternatives = 5;
     rec.onresult = (e) => {
       let tmp = "";
       for (let i = e.resultIndex; i < e.results.length; i++) {
         const r = e.results[i];
-        if (r.isFinal) cbRef.current(r[0].transcript);
+        if (r.isFinal) cbRef.current(Array.from({ length: r.length }, (_, k) => r[k].transcript));
         else tmp += r[0].transcript;
       }
       setInterim(tmp);

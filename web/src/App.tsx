@@ -1,7 +1,7 @@
 import { useCallback, useEffect, useMemo, useState } from "react";
 import type { Db, DraftState } from "./types";
 import { currentPhase, enemyThreats, picksThisTurn, recommendBans, recommendPicks, type Reco } from "./engine";
-import { normalize, parseUtterance, type Command } from "./voice";
+import { confidentMap, matchMaps, normalize, parseUtterance, RANKED_MODES, type Command, type MapMatch } from "./voice";
 import { useSpeech } from "./useSpeech";
 import "./App.css";
 
@@ -34,10 +34,9 @@ function applyCommand(s: DraftState, c: Command): DraftState {
   switch (c.intent) {
     case "reset":
       return { ...EMPTY, weHaveFirstPick: s.weHaveFirstPick };
-    case "map":
-      return { ...s, mapId: c.ids[0] };
+    case "changeMap":
+      return { ...s, mapId: null };
     case "undo":
-    case "unban":
       return without(c.ids);
     case "ban": {
       const n = without(c.ids);
@@ -115,17 +114,63 @@ export default function App() {
   const name = useCallback((id: string) => db?.brawlers.find((b) => b.id === id)?.name ?? id, [db]);
   const ownedSet = useMemo(() => new Set(owned), [owned]);
 
-  const onHeard = useCallback(
-    (text: string) => {
+  const [learned, setLearned] = useState<Record<string, string>>(() => load("mapAliases", {}));
+  useEffect(() => save("mapAliases", learned), [learned]);
+  const [suggestions, setSuggestions] = useState<MapMatch[]>([]);
+  const [pendingQuery, setPendingQuery] = useState("");
+  const [notice, setNotice] = useState("");
+
+  const chooseMap = useCallback((id: string, fromQuery?: string) => {
+    setState((s) => ({ ...s, mapId: id }));
+    // Si la map a été choisie après une phrase mal comprise, on retient la phrase.
+    if (fromQuery && normalize(fromQuery)) setLearned((l) => ({ ...l, [normalize(fromQuery)]: id }));
+    setSuggestions([]);
+    setPendingQuery("");
+    setQuery("");
+    setNotice("");
+  }, []);
+
+  /** Une phrase dite ou écrite. Étape map : on ne cherche QUE des maps. Ensuite : QUE des brawlers. */
+  const handleInput = useCallback(
+    (alternatives: string[]) => {
       if (!db) return;
-      setLastHeard(text);
+      const alts = alternatives.map((a) => a.trim()).filter(Boolean);
+      if (!alts.length) return;
+      setLastHeard(alts[0]);
+      if (!state.mapId) {
+        let best: { text: string; matches: MapMatch[] } | null = null;
+        for (const t of alts) {
+          const m = matchMaps(t, db, learned);
+          if (m.length && (!best || m[0].score > best.matches[0].score)) best = { text: t, matches: m };
+        }
+        if (!best) {
+          setNotice(`Je n'ai reconnu aucune map dans « ${alts[0]} ». Réessayez ou touchez la bonne map.`);
+          setSuggestions([]);
+          return;
+        }
+        const sure = confidentMap(best.matches);
+        if (sure) chooseMap(sure);
+        else {
+          setSuggestions(best.matches.slice(0, 6));
+          setPendingQuery(best.text);
+          setNotice("Laquelle est-ce ? Touchez la bonne map, je m'en souviendrai.");
+        }
+        return;
+      }
       const fallback = slot === "ban" ? "ban" : slot === "ally" ? "ally" : "enemy";
-      const cmds = parseUtterance(text, db, fallback);
-      setState((s) => cmds.reduce(applyCommand, s));
+      for (const t of alts) {
+        const cmds = parseUtterance(t, db, fallback);
+        if (cmds.length) {
+          setState((s) => cmds.reduce(applyCommand, s));
+          setNotice("");
+          return;
+        }
+      }
+      setNotice(`Aucun brawler reconnu dans « ${alts[0]} ».`);
     },
-    [db, slot],
+    [db, slot, state.mapId, learned, chooseMap],
   );
-  const speech = useSpeech(onHeard);
+  const speech = useSpeech(handleInput);
 
   const picks = useMemo(() => (db ? recommendPicks(db, state, ownedSet) : []), [db, state, ownedSet]);
   const bans = useMemo(() => (db ? recommendBans(db, state) : []), [db, state]);
@@ -145,8 +190,18 @@ export default function App() {
 
   const map = db.maps.find((m) => m.id === state.mapId);
   const q = normalize(query);
-  const mapResults = q ? db.maps.filter((m) => normalize(`${m.name} ${m.mode}`).includes(q)).slice(0, 8) : [];
-  const brawlerResults = db.brawlers.filter((b) => !q || normalize(b.name).includes(q));
+  const mapById = (id: string) => db.maps.find((m) => m.id === id);
+  const typedMaps = q && !state.mapId ? matchMaps(query, db, learned).slice(0, 6) : [];
+  const shownSuggestions = typedMaps.length ? typedMaps : suggestions;
+  const rankedByMode = RANKED_MODES.map((mode) => ({
+    mode,
+    maps: db.maps
+      .filter((m) => m.mode === mode && db.mapStats[m.id])
+      .sort((a, b) => a.name.localeCompare(b.name, "fr")),
+  })).filter((g) => g.maps.length);
+  const brawlerResults = db.brawlers.filter(
+    (b) => !q || [b.name, ...(b.aliases ?? [])].some((n) => normalize(n).includes(q)),
+  );
   const taken = new Set([...state.bans, ...state.allies, ...state.enemies]);
 
   const add = (id: string) => setState((s) => applyCommand(s, { intent: slot, ids: [id] }));
@@ -201,87 +256,133 @@ export default function App() {
           <p className="warn">Reconnaissance vocale non disponible : utilisez Chrome ou Edge.</p>
         )}
         <p className="heard">
-          {speech.interim || lastHeard || "Ex. : « map Zone sécurisée, bannis Mortis et Spike, en face Colt »"}
+          {speech.interim ||
+            lastHeard ||
+            (state.mapId ? "Ex. : « bannis Mortis et Spike », « en face Colt », « on prend Polly »" : "Ex. : « Hors-jeu, rocher de la Belle »")}
         </p>
         {speech.error && <p className="warn">Micro : {speech.error}</p>}
       </section>
 
-      <section className="status">
-        <div>
-          <strong>{map ? `${map.name} · ${map.mode}` : "Map inconnue"}</strong>
-          <span className="phase">{phaseText[phase]}</span>
-        </div>
-        <div className="board">
-          {(
-            [
-              ["ban", "Bannis", state.bans],
-              ["ally", "Nous", state.allies],
-              ["enemy", "Eux", state.enemies],
-            ] as [Slot, string, string[]][]
-          ).map(([k, label, ids]) => (
-            <div key={k} className={`col ${k} ${slot === k ? "active" : ""}`} onClick={() => setSlot(k)}>
-              <h3>{label}</h3>
-              {ids.map((id) => (
-                <Chip key={id} id={id} name={name(id)} onRemove={() => remove(id)} />
-              ))}
+      {notice && <p className="notice">{notice}</p>}
+
+      {!state.mapId ? (
+        <section className="mapstep">
+          <h2>Étape 1 · La map</h2>
+          <input
+            className="bigInput"
+            autoFocus
+            placeholder="Écrivez la map (ou le mode puis la map), puis Entrée"
+            value={query}
+            onChange={(e) => setQuery(e.target.value)}
+            onKeyDown={(e) => {
+              if (e.key === "Enter" && query.trim()) handleInput([query]);
+            }}
+          />
+          {shownSuggestions.length > 0 && (
+            <div className="grid suggest">
+              {shownSuggestions.map((m) => {
+                const mm = mapById(m.id);
+                return mm ? (
+                  <button key={m.id} className="btn-yellow" onClick={() => chooseMap(m.id, typedMaps.length ? undefined : pendingQuery)}>
+                    {mm.name} <small>{mm.mode}</small>
+                  </button>
+                ) : null;
+              })}
+            </div>
+          )}
+          {rankedByMode.map((g) => (
+            <div key={g.mode} className="modegroup">
+              <h3>{g.mode}</h3>
+              <div className="grid">
+                {g.maps.map((m) => (
+                  <button key={m.id} onClick={() => chooseMap(m.id, pendingQuery || undefined)}>
+                    {m.name}
+                  </button>
+                ))}
+              </div>
             </div>
           ))}
-        </div>
-      </section>
+        </section>
+      ) : (
+        <>
+          <section className="status">
+            <div>
+              <strong>
+                {map ? `${map.name} · ${map.mode}` : "Map inconnue"}{" "}
+                <button className="small" onClick={() => setState((s) => ({ ...s, mapId: null }))}>
+                  Changer de map
+                </button>
+              </strong>
+              <span className="phase">{phaseText[phase]}</span>
+            </div>
+            <div className="board">
+              {(
+                [
+                  ["ban", "Bannis", state.bans],
+                  ["ally", "Nous", state.allies],
+                  ["enemy", "Eux", state.enemies],
+                ] as [Slot, string, string[]][]
+              ).map(([k, label, ids]) => (
+                <div key={k} className={`col ${k} ${slot === k ? "active" : ""}`} onClick={() => setSlot(k)}>
+                  <h3>{label}</h3>
+                  {ids.map((id) => (
+                    <Chip key={id} id={id} name={name(id)} onRemove={() => remove(id)} />
+                  ))}
+                </div>
+              ))}
+            </div>
+          </section>
 
-      <section className="reco">
-        <h2>{mainList.title}</h2>
-        {phase === "map" && <p>Choisissez ou dites la map pour obtenir des conseils.</p>}
-        <ol>
-          {mainList.items.slice(0, 8).map((r) => (
-            <li key={r.brawlerId} onClick={() => add(r.brawlerId)}>
-              <Chip id={r.brawlerId} name={name(r.brawlerId)} />
-              <span className={`score ${r.score < 0 ? "neg" : ""}`}>{r.score >= 0 ? "+" : ""}{r.score.toFixed(1)}</span>
-              <span className="why">
-                {r.reasons
-                  .filter((x) => Math.abs(x.value) >= 0.3)
-                  .map((x) => `${x.label} ${x.value >= 0 ? "+" : ""}${x.value.toFixed(1)}`)
-                  .join(" · ")}
-              </span>
-            </li>
-          ))}
-        </ol>
-        {phase !== "ban" && phase !== "map" && phase !== "done" && phase !== "ourPick" && picks.length > 0 && (
-          <p className="hint">
-            Pour notre prochain tour : <b>{picks.slice(0, 3).map((r) => name(r.brawlerId)).join(", ")}</b>
-          </p>
-        )}
-      </section>
+          <section className="reco">
+            <h2>{mainList.title}</h2>
+            {map && !db.mapStats[map.id] && (
+              <p className="hint">Pas encore de statistiques pour cette map : les conseils reposent sur les contres et synergies seulement.</p>
+            )}
+            <ol>
+              {mainList.items.slice(0, 8).map((r) => (
+                <li key={r.brawlerId} onClick={() => add(r.brawlerId)}>
+                  <Chip id={r.brawlerId} name={name(r.brawlerId)} />
+                  <span className={`score ${r.score < 0 ? "neg" : ""}`}>{r.score >= 0 ? "+" : ""}{r.score.toFixed(1)}</span>
+                  <span className="why">
+                    {r.reasons
+                      .filter((x) => Math.abs(x.value) >= 0.3)
+                      .map((x) => `${x.label} ${x.value >= 0 ? "+" : ""}${x.value.toFixed(1)}`)
+                      .join(" · ")}
+                  </span>
+                </li>
+              ))}
+            </ol>
+            {phase === "theirPick" && picks.length > 0 && (
+              <p className="hint">
+                Pour notre prochain tour : <b>{picks.slice(0, 3).map((r) => name(r.brawlerId)).join(", ")}</b>
+              </p>
+            )}
+          </section>
 
-      <section className="picker">
-        <input
-          placeholder={`Rechercher une map ou un brawler (ajout dans « ${slot === "ban" ? "Bannis" : slot === "ally" ? "Nous" : "Eux"} »)`}
-          value={query}
-          onChange={(e) => setQuery(e.target.value)}
-        />
-        {mapResults.length > 0 && (
-          <div className="grid">
-            {mapResults.map((m) => (
-              <button
-                key={m.id}
-                onClick={() => {
-                  setState((s) => ({ ...s, mapId: m.id }));
-                  setQuery("");
-                }}
-              >
-                {m.name} <small>{m.mode}</small>
-              </button>
-            ))}
-          </div>
-        )}
-        <div className="grid">
-          {brawlerResults.map((b) => (
-            <button key={b.id} disabled={taken.has(b.id)} onClick={() => (add(b.id), setQuery(""))}>
-              {b.name}
-            </button>
-          ))}
-        </div>
-      </section>
+          <section className="picker">
+            <input
+              className="bigInput"
+              placeholder={`Écrivez un brawler ou une phrase (« bannis Colt »), puis Entrée · ajout dans « ${slot === "ban" ? "Bannis" : slot === "ally" ? "Nous" : "Eux"} »`}
+              value={query}
+              onChange={(e) => setQuery(e.target.value)}
+              onKeyDown={(e) => {
+                if (e.key !== "Enter" || !query.trim()) return;
+                const cmds = parseUtterance(query, db, slot);
+                if (cmds.length) setState((s) => cmds.reduce(applyCommand, s));
+                else if (brawlerResults[0] && !taken.has(brawlerResults[0].id)) add(brawlerResults[0].id);
+                setQuery("");
+              }}
+            />
+            <div className="grid">
+              {brawlerResults.map((b) => (
+                <button key={b.id} disabled={taken.has(b.id)} onClick={() => (add(b.id), setQuery(""))}>
+                  {b.name}
+                </button>
+              ))}
+            </div>
+          </section>
+        </>
+      )}
 
       {showOwned && (
         <section className="owned">

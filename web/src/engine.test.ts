@@ -71,10 +71,9 @@ describe("recommandations", () => {
 });
 
 describe("voix", () => {
-  it("comprend une phrase complète", () => {
-    const cmds = parseUtterance("map safe zone, bannis mortis et spike, en face colt", db);
+  it("comprend une phrase de draft", () => {
+    const cmds = parseUtterance("bannis mortis et spike, en face colt", db);
     expect(cmds).toEqual([
-      { intent: "map", ids: ["safe-zone"] },
       { intent: "ban", ids: ["mortis", "spike"] },
       { intent: "enemy", ids: ["colt"] },
     ]);
@@ -82,5 +81,9 @@ describe("voix", () => {
   it("tolère les approximations", () => {
     expect(parseUtterance("on prend él primau", db)).toEqual([{ intent: "ally", ids: ["el-primo"] }]);
     expect(parseUtterance("ils ont pris pipeur", db)).toEqual([{ intent: "enemy", ids: ["piper"] }]);
+  });
+  it("ne cherche jamais de map pendant la draft", () => {
+    expect(parseUtterance("safe zone", db)).toEqual([]);
+    expect(parseUtterance("changer de map", db)).toEqual([{ intent: "changeMap", ids: [] }]);
   });
 });
