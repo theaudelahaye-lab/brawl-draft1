@@ -61,7 +61,7 @@ def battle_record(item: dict, owner_tag: str) -> dict | None:
 
 
 def main() -> None:
-    key = os.environ.get("BRAWLSTARS_API_KEY")
+    key = "".join((os.environ.get("BRAWLSTARS_API_KEY") or "").split())  # tolère espaces et retours à la ligne collés
     if not key:
         print("BRAWLSTARS_API_KEY absente : étape ignorée.")
         return
