@@ -7,6 +7,7 @@ Ordre conseillé (voir .github/workflows/update-data.yml) :
 """
 from __future__ import annotations
 
+import re
 from datetime import datetime, timezone
 
 from aggregate import aggregate
@@ -28,6 +29,22 @@ def merge_stat(ext: dict | None, own: dict | None) -> dict:
     }
 
 
+def _key(s: str) -> str:
+    return re.sub(r"[^a-z0-9]", "", re.sub(r"([a-z])([A-Z])", r"\1 \2", s or "").lower())
+
+
+def translate_fr(maps, fr: dict) -> None:
+    """Noms français pour les maps et les modes ; l'anglais reste un alias vocal."""
+    modes = {_key(k): v for k, v in fr.get("modes", {}).items()}
+    names = {_key(k): v for k, v in fr.get("maps", {}).items()}
+    for m in maps:
+        m["mode"] = modes.get(_key(m.get("mode", "")), m.get("mode", ""))
+        fr_name = names.get(_key(m["name"]))
+        if fr_name and fr_name != m["name"]:
+            m["aliases"] = sorted(set(m.get("aliases", []) + [m["name"]]))
+            m["name"] = fr_name
+
+
 def main() -> None:
     bf = read_json(RAW / "brawlify.json", {}) or {}
     battles = read_json(RAW / "battles.json", []) or []
@@ -43,9 +60,10 @@ def main() -> None:
 
     maps = {m["id"]: m for m in own["maps"]}
     maps.update({m["id"]: m for m in bf.get("maps", [])})
+    translate_fr(maps.values(), read_json(ROOT / "data" / "fr.json", {}) or {})
     for mid, al in aliases.get("maps", {}).items():
         if mid in maps:
-            maps[mid]["aliases"] = al
+            maps[mid]["aliases"] = sorted(set(maps[mid].get("aliases", []) + al))
 
     map_stats = {}
     for mid in set(bf.get("mapStats", {})) | set(own["mapStats"]):
