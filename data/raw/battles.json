@@ -95038,5 +95038,4485 @@
    ]
   ],
   "winner": 1
+ },
+ {
+  "key": "20261123T155700.000Z|#20L88L2J,#28GV20PRG,#2VPY08RVY2,#9LUUYG29,#PGGCQGYGQ,#R0V0VRPG2",
+  "time": "20261123T155700.000Z",
+  "map": "out-in-the-open",
+  "mapName": "Out in the Open",
+  "mode": "knockout",
+  "teams": [
+   [
+    "colt",
+    "gus",
+    "najia"
+   ],
+   [
+    "gene",
+    "piper",
+    "vince"
+   ]
+  ],
+  "winner": 1
+ },
+ {
+  "key": "20261123T155450.000Z|#20L88L2J,#28GV20PRG,#2VPY08RVY2,#9LUUYG29,#PGGCQGYGQ,#R0V0VRPG2",
+  "time": "20261123T155450.000Z",
+  "map": "out-in-the-open",
+  "mapName": "Out in the Open",
+  "mode": "knockout",
+  "teams": [
+   [
+    "colt",
+    "gus",
+    "najia"
+   ],
+   [
+    "gene",
+    "piper",
+    "vince"
+   ]
+  ],
+  "winner": 1
+ },
+ {
+  "key": "20261123T155019.000Z|#20L88L2J,#2QUPR9RPGV,#2YCPG0U0,#LVPQYC8U0,#PGG0GUY22,#Y0CJ0UCGQ",
+  "time": "20261123T155019.000Z",
+  "map": "kaboom-canyon",
+  "mapName": "Kaboom Canyon",
+  "mode": "heist",
+  "teams": [
+   [
+    "alli",
+    "nori",
+    "8-bit"
+   ],
+   [
+    "colt",
+    "r-t",
+    "angelo"
+   ]
+  ],
+  "winner": 0
+ },
+ {
+  "key": "20261123T154741.000Z|#20L88L2J,#2QUPR9RPGV,#2YCPG0U0,#LVPQYC8U0,#PGG0GUY22,#Y0CJ0UCGQ",
+  "time": "20261123T154741.000Z",
+  "map": "kaboom-canyon",
+  "mapName": "Kaboom Canyon",
+  "mode": "heist",
+  "teams": [
+   [
+    "alli",
+    "nori",
+    "8-bit"
+   ],
+   [
+    "colt",
+    "r-t",
+    "angelo"
+   ]
+  ],
+  "winner": 0
+ },
+ {
+  "key": "20261123T154151.000Z|#20L88L2J,#2G8YUYCQQ,#9P9UU2YGG,#JY2QPRYCV,#P90GVUV80,#YJ8UU2P",
+  "time": "20261123T154151.000Z",
+  "map": "ring-of-fire",
+  "mapName": "Ring of Fire",
+  "mode": "hotZone",
+  "teams": [
+   [
+    "melodie",
+    "cosmo",
+    "stu"
+   ],
+   [
+    "byron",
+    "griff",
+    "surge"
+   ]
+  ],
+  "winner": 1
+ },
+ {
+  "key": "20261123T153922.000Z|#20L88L2J,#2G8YUYCQQ,#9P9UU2YGG,#JY2QPRYCV,#P90GVUV80,#YJ8UU2P",
+  "time": "20261123T153922.000Z",
+  "map": "ring-of-fire",
+  "mapName": "Ring of Fire",
+  "mode": "hotZone",
+  "teams": [
+   [
+    "melodie",
+    "cosmo",
+    "stu"
+   ],
+   [
+    "byron",
+    "griff",
+    "surge"
+   ]
+  ],
+  "winner": 1
+ },
+ {
+  "key": "20261123T153425.000Z|#20L88L2J,#2GGR0UGQ0,#P90GVUV80,#PC2VJP0GY,#Q2L8CU298,#Q9VLUJ8RJ",
+  "time": "20261123T153425.000Z",
+  "map": "dueling-beetles",
+  "mapName": "Dueling Beetles",
+  "mode": "hotZone",
+  "teams": [
+   [
+    "gus",
+    "surge",
+    "gray"
+   ],
+   [
+    "squeak",
+    "amber",
+    "edgar"
+   ]
+  ],
+  "winner": 0
+ },
+ {
+  "key": "20261123T153159.000Z|#20L88L2J,#2GGR0UGQ0,#P90GVUV80,#PC2VJP0GY,#Q2L8CU298,#Q9VLUJ8RJ",
+  "time": "20261123T153159.000Z",
+  "map": "dueling-beetles",
+  "mapName": "Dueling Beetles",
+  "mode": "hotZone",
+  "teams": [
+   [
+    "gus",
+    "surge",
+    "gray"
+   ],
+   [
+    "squeak",
+    "amber",
+    "edgar"
+   ]
+  ],
+  "winner": 0
+ },
+ {
+  "key": "20261123T160053.000Z|#2V9LPLJLU,#C2CCYJVY,#QCLJR8JJV,#QUQG2VJYY,#R2JR2GQ22,#Y8QV0QGVP",
+  "time": "20261123T160053.000Z",
+  "map": "hard-rock-mine",
+  "mapName": "Hard Rock Mine",
+  "mode": "gemGrab",
+  "teams": [
+   [
+    "griff",
+    "starr-nova",
+    "mr-p"
+   ],
+   [
+    "amber",
+    "lou",
+    "nori"
+   ]
+  ],
+  "winner": 1
+ },
+ {
+  "key": "20261123T155838.000Z|#2V9LPLJLU,#C2CCYJVY,#QCLJR8JJV,#QUQG2VJYY,#R2JR2GQ22,#Y8QV0QGVP",
+  "time": "20261123T155838.000Z",
+  "map": "hard-rock-mine",
+  "mapName": "Hard Rock Mine",
+  "mode": "gemGrab",
+  "teams": [
+   [
+    "griff",
+    "starr-nova",
+    "mr-p"
+   ],
+   [
+    "amber",
+    "lou",
+    "nori"
+   ]
+  ],
+  "winner": 0
+ },
+ {
+  "key": "20261123T155331.000Z|#2V9LPLJLU,#2VYQQGQJV,#QCLJR8JJV,#QJV2V2GV,#QJYLLQU08,#Y8QV0QGVP",
+  "time": "20261123T155331.000Z",
+  "map": "flaring-phoenix",
+  "mapName": "Flaring Phoenix",
+  "mode": "knockout",
+  "teams": [
+   [
+    "gus",
+    "squeak",
+    "ziggy"
+   ],
+   [
+    "belle",
+    "mandy",
+    "gene"
+   ]
+  ],
+  "winner": 0
+ },
+ {
+  "key": "20261123T155133.000Z|#2V9LPLJLU,#2VYQQGQJV,#QCLJR8JJV,#QJV2V2GV,#QJYLLQU08,#Y8QV0QGVP",
+  "time": "20261123T155133.000Z",
+  "map": "flaring-phoenix",
+  "mapName": "Flaring Phoenix",
+  "mode": "knockout",
+  "teams": [
+   [
+    "gus",
+    "squeak",
+    "ziggy"
+   ],
+   [
+    "belle",
+    "mandy",
+    "gene"
+   ]
+  ],
+  "winner": 1
+ },
+ {
+  "key": "20261123T154911.000Z|#2V9LPLJLU,#2VYQQGQJV,#QCLJR8JJV,#QJV2V2GV,#QJYLLQU08,#Y8QV0QGVP",
+  "time": "20261123T154911.000Z",
+  "map": "flaring-phoenix",
+  "mapName": "Flaring Phoenix",
+  "mode": "knockout",
+  "teams": [
+   [
+    "gus",
+    "squeak",
+    "ziggy"
+   ],
+   [
+    "belle",
+    "mandy",
+    "gene"
+   ]
+  ],
+  "winner": 0
+ },
+ {
+  "key": "20261123T154434.000Z|#2V9LPLJLU,#8RPYVRY8Y,#PGRV8P0Q9,#QCLJR8JJV,#Y8QV0QGVP,#YL8R9CVJR",
+  "time": "20261123T154434.000Z",
+  "map": "hideout",
+  "mapName": "Hideout",
+  "mode": "bounty",
+  "teams": [
+   [
+    "brock",
+    "r-t",
+    "max"
+   ],
+   [
+    "mandy",
+    "gus",
+    "mina"
+   ]
+  ],
+  "winner": 1
+ },
+ {
+  "key": "20261123T154230.000Z|#2V9LPLJLU,#8RPYVRY8Y,#PGRV8P0Q9,#QCLJR8JJV,#Y8QV0QGVP,#YL8R9CVJR",
+  "time": "20261123T154230.000Z",
+  "map": "hideout",
+  "mapName": "Hideout",
+  "mode": "bounty",
+  "teams": [
+   [
+    "brock",
+    "r-t",
+    "max"
+   ],
+   [
+    "mandy",
+    "gus",
+    "mina"
+   ]
+  ],
+  "winner": 1
+ },
+ {
+  "key": "20261123T153000.000Z|#2VGVPVVG0Q,#8RG98L0GG,#P9YRGQLLR,#PGLJR299G,#PPV9RGQRY,#PRVLCPQ2U",
+  "time": "20261123T153000.000Z",
+  "map": "layer-cake",
+  "mapName": "Layer Cake",
+  "mode": "bounty",
+  "teams": [
+   [
+    "mina",
+    "surge",
+    "spike"
+   ],
+   [
+    "emz",
+    "ruffs",
+    "brock"
+   ]
+  ],
+  "winner": 1
+ },
+ {
+  "key": "20261123T154821.000Z|#22L8JYR9R,#2QGR90CRQU,#8LCR2C,#CY0GGU0Q2,#GQRQL0U0,#Y2CU828",
+  "time": "20261123T154821.000Z",
+  "map": "ring-of-fire",
+  "mapName": "Ring of Fire",
+  "mode": "hotZone",
+  "teams": [
+   [
+    "bo",
+    "chuck",
+    "chester"
+   ],
+   [
+    "amber",
+    "griff",
+    "surge"
+   ]
+  ],
+  "winner": 0
+ },
+ {
+  "key": "20261123T154550.000Z|#22L8JYR9R,#2QGR90CRQU,#8LCR2C,#CY0GGU0Q2,#GQRQL0U0,#Y2CU828",
+  "time": "20261123T154550.000Z",
+  "map": "ring-of-fire",
+  "mapName": "Ring of Fire",
+  "mode": "hotZone",
+  "teams": [
+   [
+    "bo",
+    "chuck",
+    "chester"
+   ],
+   [
+    "amber",
+    "griff",
+    "surge"
+   ]
+  ],
+  "winner": 0
+ },
+ {
+  "key": "20261123T154104.000Z|#22L29RVRQ,#2YQPP9J9LP,#9RY8Q8L8Y,#VR8RQRLUQ,#Y2CU828,#YG0208L8C",
+  "time": "20261123T154104.000Z",
+  "map": "ring-of-fire",
+  "mapName": "Ring of Fire",
+  "mode": "hotZone",
+  "teams": [
+   [
+    "amber",
+    "lou",
+    "bo"
+   ],
+   [
+    "griff",
+    "8-bit",
+    "spike"
+   ]
+  ],
+  "winner": 0
+ },
+ {
+  "key": "20261123T153746.000Z|#22L29RVRQ,#2YQPP9J9LP,#9RY8Q8L8Y,#VR8RQRLUQ,#Y2CU828,#YG0208L8C",
+  "time": "20261123T153746.000Z",
+  "map": "ring-of-fire",
+  "mapName": "Ring of Fire",
+  "mode": "hotZone",
+  "teams": [
+   [
+    "amber",
+    "lou",
+    "bo"
+   ],
+   [
+    "griff",
+    "8-bit",
+    "spike"
+   ]
+  ],
+  "winner": 0
+ },
+ {
+  "key": "20261123T153233.000Z|#JQPR0V,#L82P9VPVL,#LVR0LRVR,#RU9L9GJ,#VPCC0U,#Y2CU828",
+  "time": "20261123T153233.000Z",
+  "map": "kaboom-canyon",
+  "mapName": "Kaboom Canyon",
+  "mode": "heist",
+  "teams": [
+   [
+    "colt",
+    "maisie",
+    "nani"
+   ],
+   [
+    "8-bit",
+    "brock",
+    "penny"
+   ]
+  ],
+  "winner": 0
+ },
+ {
+  "key": "20261123T153020.000Z|#JQPR0V,#L82P9VPVL,#LVR0LRVR,#RU9L9GJ,#VPCC0U,#Y2CU828",
+  "time": "20261123T153020.000Z",
+  "map": "kaboom-canyon",
+  "mapName": "Kaboom Canyon",
+  "mode": "heist",
+  "teams": [
+   [
+    "colt",
+    "maisie",
+    "nani"
+   ],
+   [
+    "8-bit",
+    "brock",
+    "penny"
+   ]
+  ],
+  "winner": 0
+ },
+ {
+  "key": "20261123T155740.000Z|#28VPQJLPGJ,#2YUYUQVQC,#8CPG2RLGV,#8JGPPVY8G,#P8PVULC9Y,#P8RY290PQ",
+  "time": "20261123T155740.000Z",
+  "map": "shooting-star",
+  "mapName": "Shooting Star",
+  "mode": "bounty",
+  "teams": [
+   [
+    "piper",
+    "max",
+    "gene"
+   ],
+   [
+    "nani",
+    "bea",
+    "brock"
+   ]
+  ],
+  "winner": 1
+ },
+ {
+  "key": "20261123T155522.000Z|#28VPQJLPGJ,#2YUYUQVQC,#8CPG2RLGV,#8JGPPVY8G,#P8PVULC9Y,#P8RY290PQ",
+  "time": "20261123T155522.000Z",
+  "map": "shooting-star",
+  "mapName": "Shooting Star",
+  "mode": "bounty",
+  "teams": [
+   [
+    "piper",
+    "max",
+    "gene"
+   ],
+   [
+    "nani",
+    "bea",
+    "brock"
+   ]
+  ],
+  "winner": 0
+ },
+ {
+  "key": "20261123T155304.000Z|#28VPQJLPGJ,#2YUYUQVQC,#8CPG2RLGV,#8JGPPVY8G,#P8PVULC9Y,#P8RY290PQ",
+  "time": "20261123T155304.000Z",
+  "map": "shooting-star",
+  "mapName": "Shooting Star",
+  "mode": "bounty",
+  "teams": [
+   [
+    "piper",
+    "max",
+    "gene"
+   ],
+   [
+    "nani",
+    "bea",
+    "brock"
+   ]
+  ],
+  "winner": 1
+ },
+ {
+  "key": "20261123T154822.000Z|#2CJLLRPLYY,#2J9UCQQUPL,#2LVR8URGPP,#89C8VJCJU,#8JGPPVY8G,#P8LL2J8R2",
+  "time": "20261123T154822.000Z",
+  "map": "double-swoosh",
+  "mapName": "Double Swoosh",
+  "mode": "gemGrab",
+  "teams": [
+   [
+    "amber",
+    "gale",
+    "chester"
+   ],
+   [
+    "bolt",
+    "bo",
+    "surge"
+   ]
+  ],
+  "winner": 1
+ },
+ {
+  "key": "20261123T154625.000Z|#2CJLLRPLYY,#2J9UCQQUPL,#2LVR8URGPP,#89C8VJCJU,#8JGPPVY8G,#P8LL2J8R2",
+  "time": "20261123T154625.000Z",
+  "map": "double-swoosh",
+  "mapName": "Double Swoosh",
+  "mode": "gemGrab",
+  "teams": [
+   [
+    "amber",
+    "gale",
+    "chester"
+   ],
+   [
+    "bolt",
+    "bo",
+    "surge"
+   ]
+  ],
+  "winner": 1
+ },
+ {
+  "key": "20261123T154137.000Z|#2CRJCP9V0G,#2P9QC0UY8,#2RRRYYPQV,#8JGPPVY8G,#92C2JCVQL,#YR2Y8J0L",
+  "time": "20261123T154137.000Z",
+  "map": "shooting-star",
+  "mapName": "Shooting Star",
+  "mode": "bounty",
+  "teams": [
+   [
+    "vince",
+    "mr-p",
+    "gus"
+   ],
+   [
+    "melodie",
+    "najia",
+    "piper"
+   ]
+  ],
+  "winner": 0
+ },
+ {
+  "key": "20261123T153918.000Z|#2CRJCP9V0G,#2P9QC0UY8,#2RRRYYPQV,#8JGPPVY8G,#92C2JCVQL,#YR2Y8J0L",
+  "time": "20261123T153918.000Z",
+  "map": "shooting-star",
+  "mapName": "Shooting Star",
+  "mode": "bounty",
+  "teams": [
+   [
+    "vince",
+    "mr-p",
+    "gus"
+   ],
+   [
+    "melodie",
+    "najia",
+    "piper"
+   ]
+  ],
+  "winner": 0
+ },
+ {
+  "key": "20261123T153700.000Z|#2CRJCP9V0G,#2P9QC0UY8,#2RRRYYPQV,#8JGPPVY8G,#92C2JCVQL,#YR2Y8J0L",
+  "time": "20261123T153700.000Z",
+  "map": "shooting-star",
+  "mapName": "Shooting Star",
+  "mode": "bounty",
+  "teams": [
+   [
+    "vince",
+    "mr-p",
+    "gus"
+   ],
+   [
+    "melodie",
+    "najia",
+    "piper"
+   ]
+  ],
+  "winner": 1
+ },
+ {
+  "key": "20261123T153157.000Z|#2C8Y2UR2Q,#2CQ0U882Q,#2YG0CY8UG,#8JGPPVY8G,#CVQ82LUC,#GJ20G8QU",
+  "time": "20261123T153157.000Z",
+  "map": "triple-dribble",
+  "mapName": "Triple Dribble",
+  "mode": "brawlBall",
+  "teams": [
+   [
+    "lumi",
+    "berry",
+    "otis"
+   ],
+   [
+    "buzz",
+    "amber",
+    "griff"
+   ]
+  ],
+  "winner": 1
+ },
+ {
+  "key": "20261123T152931.000Z|#2C8Y2UR2Q,#2CQ0U882Q,#2YG0CY8UG,#8JGPPVY8G,#CVQ82LUC,#GJ20G8QU",
+  "time": "20261123T152931.000Z",
+  "map": "triple-dribble",
+  "mapName": "Triple Dribble",
+  "mode": "brawlBall",
+  "teams": [
+   [
+    "lumi",
+    "berry",
+    "otis"
+   ],
+   [
+    "buzz",
+    "amber",
+    "griff"
+   ]
+  ],
+  "winner": 1
+ },
+ {
+  "key": "20261123T153543.000Z|#2282RYPL92,#28UYUL8Q2G,#2GPP2P0P,#2YVLYQRCL9,#88PVQGGL9,#V2CLQYQQ",
+  "time": "20261123T153543.000Z",
+  "map": "shooting-star",
+  "mapName": "Shooting Star",
+  "mode": "bounty",
+  "teams": [
+   [
+    "carl",
+    "colt",
+    "glowy"
+   ],
+   [
+    "kaze",
+    "brock",
+    "piper"
+   ]
+  ],
+  "winner": 0
+ },
+ {
+  "key": "20261123T153340.000Z|#2282RYPL92,#28UYUL8Q2G,#2GPP2P0P,#2YVLYQRCL9,#88PVQGGL9,#V2CLQYQQ",
+  "time": "20261123T153340.000Z",
+  "map": "shooting-star",
+  "mapName": "Shooting Star",
+  "mode": "bounty",
+  "teams": [
+   [
+    "carl",
+    "colt",
+    "glowy"
+   ],
+   [
+    "kaze",
+    "brock",
+    "piper"
+   ]
+  ],
+  "winner": 0
+ },
+ {
+  "key": "20261123T152948.000Z|#208PJQPL2,#2GPP2P0P,#2L9R990YU8,#2QC8VGRUGU,#99LCUL90G,#G82C0UQ9J",
+  "time": "20261123T152948.000Z",
+  "map": "shooting-star",
+  "mapName": "Shooting Star",
+  "mode": "bounty",
+  "teams": [
+   [
+    "kaze",
+    "pierce",
+    "cosmo"
+   ],
+   [
+    "piper",
+    "brock",
+    "leon"
+   ]
+  ],
+  "winner": 0
+ },
+ {
+  "key": "20261123T153925.000Z|#8JRCYCY2V,#GGR9LJQPJ,#LV9PYP8JG,#PJ0YY89UL,#VGU2C2YR,#YYCJCJCV8",
+  "time": "20261123T153925.000Z",
+  "map": "hideout",
+  "mapName": "Hideout",
+  "mode": "bounty",
+  "teams": [
+   [
+    "najia",
+    "mina",
+    "piper"
+   ],
+   [
+    "colt",
+    "gus",
+    "jae-yong"
+   ]
+  ],
+  "winner": 0
+ },
+ {
+  "key": "20261123T153708.000Z|#8JRCYCY2V,#GGR9LJQPJ,#LV9PYP8JG,#PJ0YY89UL,#VGU2C2YR,#YYCJCJCV8",
+  "time": "20261123T153708.000Z",
+  "map": "hideout",
+  "mapName": "Hideout",
+  "mode": "bounty",
+  "teams": [
+   [
+    "najia",
+    "mina",
+    "piper"
+   ],
+   [
+    "colt",
+    "gus",
+    "jae-yong"
+   ]
+  ],
+  "winner": 0
+ },
+ {
+  "key": "20261123T153205.000Z|#22202LCRR0,#2YGCYQ8JQ8,#8JRCYCY2V,#9CLUP9VP0,#GGJLP0R80,#YYCJCJCV8",
+  "time": "20261123T153205.000Z",
+  "map": "hot-potato",
+  "mapName": "Hot Potato",
+  "mode": "heist",
+  "teams": [
+   [
+    "bull",
+    "gale",
+    "melodie"
+   ],
+   [
+    "bo",
+    "bibi",
+    "colette"
+   ]
+  ],
+  "winner": 0
+ },
+ {
+  "key": "20261123T153042.000Z|#22202LCRR0,#2YGCYQ8JQ8,#8JRCYCY2V,#9CLUP9VP0,#GGJLP0R80,#YYCJCJCV8",
+  "time": "20261123T153042.000Z",
+  "map": "hot-potato",
+  "mapName": "Hot Potato",
+  "mode": "heist",
+  "teams": [
+   [
+    "bull",
+    "gale",
+    "melodie"
+   ],
+   [
+    "bo",
+    "bibi",
+    "colette"
+   ]
+  ],
+  "winner": 1
+ },
+ {
+  "key": "20261123T160211.000Z|#202R0U2J9,#2R0V88VC8,#8YRP8PLP0,#P08QVY,#QUUVQQLJP,#Y2CPP8PRQ",
+  "time": "20261123T160211.000Z",
+  "map": "triple-dribble",
+  "mapName": "Triple Dribble",
+  "mode": "brawlBall",
+  "teams": [
+   [
+    "barley",
+    "lou",
+    "spike"
+   ],
+   [
+    "surge",
+    "otis",
+    "amber"
+   ]
+  ],
+  "winner": 1
+ },
+ {
+  "key": "20261123T153348.000Z|#2UL9RCPLR,#2VGYCCR8R9,#9L8C02U00,#PC9U0GQ9Y,#PJYJUQVPU,#YU0JYRQ92",
+  "time": "20261123T153348.000Z",
+  "map": "new-horizons",
+  "mapName": "New Horizons",
+  "mode": "knockout",
+  "teams": [
+   [
+    "bonnie",
+    "kit",
+    "brock"
+   ],
+   [
+    "buster",
+    "byron",
+    "piper"
+   ]
+  ],
+  "winner": 0
+ },
+ {
+  "key": "20261123T153041.000Z|#2UL9RCPLR,#2VGYCCR8R9,#9L8C02U00,#PC9U0GQ9Y,#PJYJUQVPU,#YU0JYRQ92",
+  "time": "20261123T153041.000Z",
+  "map": "new-horizons",
+  "mapName": "New Horizons",
+  "mode": "knockout",
+  "teams": [
+   [
+    "bonnie",
+    "kit",
+    "brock"
+   ],
+   [
+    "buster",
+    "byron",
+    "piper"
+   ]
+  ],
+  "winner": 1
+ },
+ {
+  "key": "20261123T160226.000Z|#2280RJ0Q9J,#9GJ8YP0JG,#G2VJ2QUL2,#PVR8CR2CV,#PY2GRUJGL,#Q9VUQJ8UG",
+  "time": "20261123T160226.000Z",
+  "map": "pinball-dreams",
+  "mapName": "Pinball Dreams",
+  "mode": "brawlBall",
+  "teams": [
+   [
+    "surge",
+    "nori",
+    "lou"
+   ],
+   [
+    "mortis",
+    "otis",
+    "spike"
+   ]
+  ],
+  "winner": 1
+ },
+ {
+  "key": "20261123T160017.000Z|#2280RJ0Q9J,#9GJ8YP0JG,#G2VJ2QUL2,#PVR8CR2CV,#PY2GRUJGL,#Q9VUQJ8UG",
+  "time": "20261123T160017.000Z",
+  "map": "pinball-dreams",
+  "mapName": "Pinball Dreams",
+  "mode": "brawlBall",
+  "teams": [
+   [
+    "surge",
+    "nori",
+    "lou"
+   ],
+   [
+    "mortis",
+    "otis",
+    "spike"
+   ]
+  ],
+  "winner": 0
+ },
+ {
+  "key": "20261123T155719.000Z|#2280RJ0Q9J,#9GJ8YP0JG,#G2VJ2QUL2,#PVR8CR2CV,#PY2GRUJGL,#Q9VUQJ8UG",
+  "time": "20261123T155719.000Z",
+  "map": "pinball-dreams",
+  "mapName": "Pinball Dreams",
+  "mode": "brawlBall",
+  "teams": [
+   [
+    "surge",
+    "nori",
+    "lou"
+   ],
+   [
+    "mortis",
+    "otis",
+    "spike"
+   ]
+  ],
+  "winner": 1
+ },
+ {
+  "key": "20261123T155239.000Z|#90GQYGY2R,#L8LP2RRU8,#PPJJY2PU9,#PY2GRUJGL,#RV0YL82C0,#YQ9QLYJL",
+  "time": "20261123T155239.000Z",
+  "map": "hard-rock-mine",
+  "mapName": "Hard Rock Mine",
+  "mode": "gemGrab",
+  "teams": [
+   [
+    "pierce",
+    "mortis",
+    "emz"
+   ],
+   [
+    "max",
+    "colette",
+    "cordelius"
+   ]
+  ],
+  "winner": 0
+ },
+ {
+  "key": "20261123T155010.000Z|#90GQYGY2R,#L8LP2RRU8,#PPJJY2PU9,#PY2GRUJGL,#RV0YL82C0,#YQ9QLYJL",
+  "time": "20261123T155010.000Z",
+  "map": "hard-rock-mine",
+  "mapName": "Hard Rock Mine",
+  "mode": "gemGrab",
+  "teams": [
+   [
+    "pierce",
+    "mortis",
+    "emz"
+   ],
+   [
+    "max",
+    "colette",
+    "cordelius"
+   ]
+  ],
+  "winner": 1
+ },
+ {
+  "key": "20261123T154730.000Z|#90GQYGY2R,#L8LP2RRU8,#PPJJY2PU9,#PY2GRUJGL,#RV0YL82C0,#YQ9QLYJL",
+  "time": "20261123T154730.000Z",
+  "map": "hard-rock-mine",
+  "mapName": "Hard Rock Mine",
+  "mode": "gemGrab",
+  "teams": [
+   [
+    "pierce",
+    "mortis",
+    "emz"
+   ],
+   [
+    "max",
+    "colette",
+    "cordelius"
+   ]
+  ],
+  "winner": 0
+ },
+ {
+  "key": "20261123T160041.000Z|#20CVGPRC9,#92ULR2CJ0,#98PR28GRQ,#P9L89LL9J,#P9UUP0P,#R982VCYUL",
+  "time": "20261123T160041.000Z",
+  "map": "belle-s-rock",
+  "mapName": "Belle's Rock",
+  "mode": "knockout",
+  "teams": [
+   [
+    "piper",
+    "gray",
+    "rico"
+   ],
+   [
+    "mina",
+    "mandy",
+    "vince"
+   ]
+  ],
+  "winner": 0
+ },
+ {
+  "key": "20261123T154812.000Z|#20CVGPRC9,#2GJR0C89L,#2P2VJG00Y,#2PJLPPG,#8LRC2P0Y2,#J99G9LGL",
+  "time": "20261123T154812.000Z",
+  "map": "belle-s-rock",
+  "mapName": "Belle's Rock",
+  "mode": "knockout",
+  "teams": [
+   [
+    "piper",
+    "squeak",
+    "najia"
+   ],
+   [
+    "pierce",
+    "rico",
+    "bea"
+   ]
+  ],
+  "winner": 1
+ },
+ {
+  "key": "20261123T154544.000Z|#20CVGPRC9,#2GJR0C89L,#2P2VJG00Y,#2PJLPPG,#8LRC2P0Y2,#J99G9LGL",
+  "time": "20261123T154544.000Z",
+  "map": "belle-s-rock",
+  "mapName": "Belle's Rock",
+  "mode": "knockout",
+  "teams": [
+   [
+    "piper",
+    "squeak",
+    "najia"
+   ],
+   [
+    "pierce",
+    "rico",
+    "bea"
+   ]
+  ],
+  "winner": 0
+ },
+ {
+  "key": "20261123T154259.000Z|#20CVGPRC9,#2GJR0C89L,#2P2VJG00Y,#2PJLPPG,#8LRC2P0Y2,#J99G9LGL",
+  "time": "20261123T154259.000Z",
+  "map": "belle-s-rock",
+  "mapName": "Belle's Rock",
+  "mode": "knockout",
+  "teams": [
+   [
+    "piper",
+    "squeak",
+    "najia"
+   ],
+   [
+    "pierce",
+    "rico",
+    "bea"
+   ]
+  ],
+  "winner": 1
+ },
+ {
+  "key": "20261123T160225.000Z|#2UU2Q0C20R,#8QJ9PQYLL,#98Q8QQ8RC,#9PRGVL88G,#LPCCQRURJ,#QU2GJQ02V",
+  "time": "20261123T160225.000Z",
+  "map": "ring-of-fire",
+  "mapName": "Ring of Fire",
+  "mode": "hotZone",
+  "teams": [
+   [
+    "squeak",
+    "griff",
+    "amber"
+   ],
+   [
+    "gale",
+    "spike",
+    "rico"
+   ]
+  ],
+  "winner": 0
+ },
+ {
+  "key": "20261123T155712.000Z|#2929092VC,#82YPCVQQG,#8QJ9PQYLL,#9U8QGYU8R,#PC89YPPP2,#YGPRPYPY9",
+  "time": "20261123T155712.000Z",
+  "map": "pinball-dreams",
+  "mapName": "Pinball Dreams",
+  "mode": "brawlBall",
+  "teams": [
+   [
+    "surge",
+    "spike",
+    "shade"
+   ],
+   [
+    "griff",
+    "rico",
+    "gale"
+   ]
+  ],
+  "winner": 0
+ },
+ {
+  "key": "20261123T155355.000Z|#2929092VC,#82YPCVQQG,#8QJ9PQYLL,#9U8QGYU8R,#PC89YPPP2,#YGPRPYPY9",
+  "time": "20261123T155355.000Z",
+  "map": "pinball-dreams",
+  "mapName": "Pinball Dreams",
+  "mode": "brawlBall",
+  "teams": [
+   [
+    "surge",
+    "spike",
+    "shade"
+   ],
+   [
+    "griff",
+    "rico",
+    "gale"
+   ]
+  ],
+  "winner": 1
+ },
+ {
+  "key": "20261123T155056.000Z|#2929092VC,#82YPCVQQG,#8QJ9PQYLL,#9U8QGYU8R,#PC89YPPP2,#YGPRPYPY9",
+  "time": "20261123T155056.000Z",
+  "map": "pinball-dreams",
+  "mapName": "Pinball Dreams",
+  "mode": "brawlBall",
+  "teams": [
+   [
+    "surge",
+    "spike",
+    "shade"
+   ],
+   [
+    "griff",
+    "rico",
+    "gale"
+   ]
+  ],
+  "winner": 0
+ },
+ {
+  "key": "20261123T160132.000Z|#2LJV890GVC,#2QLQPLG9L,#8098CJVUG,#LJCJURVJ,#QG09YL8PL,#YYRVU9R89",
+  "time": "20261123T160132.000Z",
+  "map": "shooting-star",
+  "mapName": "Shooting Star",
+  "mode": "bounty",
+  "teams": [
+   [
+    "eve",
+    "piper",
+    "mandy"
+   ],
+   [
+    "belle",
+    "nani",
+    "najia"
+   ]
+  ],
+  "winner": 0
+ },
+ {
+  "key": "20261123T160030.000Z|#88RLUGR92,#8PCUQCPQ8,#90V2J8GUU,#P9YCUURQC,#QJCCULR2,#QJYLLQU08",
+  "time": "20261123T160030.000Z",
+  "map": "open-business",
+  "mapName": "Open Business",
+  "mode": "hotZone",
+  "teams": [
+   [
+    "ziggy",
+    "mr-p",
+    "spike"
+   ],
+   [
+    "bo",
+    "larry-lawrie",
+    "surge"
+   ]
+  ],
+  "winner": 0
+ },
+ {
+  "key": "20261123T155844.000Z|#88RLUGR92,#8PCUQCPQ8,#90V2J8GUU,#P9YCUURQC,#QJCCULR2,#QJYLLQU08",
+  "time": "20261123T155844.000Z",
+  "map": "open-business",
+  "mapName": "Open Business",
+  "mode": "hotZone",
+  "teams": [
+   [
+    "ziggy",
+    "mr-p",
+    "spike"
+   ],
+   [
+    "bo",
+    "larry-lawrie",
+    "surge"
+   ]
+  ],
+  "winner": 1
+ },
+ {
+  "key": "20261123T155305.000Z|#88J8J99P,#90V2J8GUU,#9VP9PJGQJ,#GG08PUPYJ,#QJCCULR2,#Y8RJC2RV9",
+  "time": "20261123T155305.000Z",
+  "map": "flaring-phoenix",
+  "mapName": "Flaring Phoenix",
+  "mode": "knockout",
+  "teams": [
+   [
+    "mr-p",
+    "brock",
+    "gus"
+   ],
+   [
+    "sprout",
+    "vince",
+    "squeak"
+   ]
+  ],
+  "winner": 0
+ },
+ {
+  "key": "20261123T155031.000Z|#88J8J99P,#90V2J8GUU,#9VP9PJGQJ,#GG08PUPYJ,#QJCCULR2,#Y8RJC2RV9",
+  "time": "20261123T155031.000Z",
+  "map": "flaring-phoenix",
+  "mapName": "Flaring Phoenix",
+  "mode": "knockout",
+  "teams": [
+   [
+    "mr-p",
+    "brock",
+    "gus"
+   ],
+   [
+    "sprout",
+    "vince",
+    "squeak"
+   ]
+  ],
+  "winner": 0
+ },
+ {
+  "key": "20261123T154841.000Z|#88J8J99P,#90V2J8GUU,#9VP9PJGQJ,#GG08PUPYJ,#QJCCULR2,#Y8RJC2RV9",
+  "time": "20261123T154841.000Z",
+  "map": "flaring-phoenix",
+  "mapName": "Flaring Phoenix",
+  "mode": "knockout",
+  "teams": [
+   [
+    "mr-p",
+    "brock",
+    "gus"
+   ],
+   [
+    "sprout",
+    "vince",
+    "squeak"
+   ]
+  ],
+  "winner": 1
+ },
+ {
+  "key": "20261123T153956.000Z|#80V98GU28,#90V2J8GUU,#GJVYUU2YP,#L22LRP888,#Q80R800J,#QJCCULR2",
+  "time": "20261123T153956.000Z",
+  "map": "hard-rock-mine",
+  "mapName": "Hard Rock Mine",
+  "mode": "gemGrab",
+  "teams": [
+   [
+    "chester",
+    "edgar",
+    "bo"
+   ],
+   [
+    "otis",
+    "amber",
+    "alli"
+   ]
+  ],
+  "winner": 0
+ },
+ {
+  "key": "20261123T153729.000Z|#80V98GU28,#90V2J8GUU,#GJVYUU2YP,#L22LRP888,#Q80R800J,#QJCCULR2",
+  "time": "20261123T153729.000Z",
+  "map": "hard-rock-mine",
+  "mapName": "Hard Rock Mine",
+  "mode": "gemGrab",
+  "teams": [
+   [
+    "chester",
+    "edgar",
+    "bo"
+   ],
+   [
+    "otis",
+    "amber",
+    "alli"
+   ]
+  ],
+  "winner": 0
+ },
+ {
+  "key": "20261123T153308.000Z|#2V220PYC,#8R9GGPPQ9,#90V2J8GUU,#PY9CVVV2V,#QJCCULR2,#Y9QPPYYJG",
+  "time": "20261123T153308.000Z",
+  "map": "safe-zone",
+  "mapName": "Safe Zone",
+  "mode": "heist",
+  "teams": [
+   [
+    "8-bit",
+    "brock",
+    "colette"
+   ],
+   [
+    "amber",
+    "bo",
+    "pierce"
+   ]
+  ],
+  "winner": 0
+ },
+ {
+  "key": "20261123T153139.000Z|#2V220PYC,#8R9GGPPQ9,#90V2J8GUU,#PY9CVVV2V,#QJCCULR2,#Y9QPPYYJG",
+  "time": "20261123T153139.000Z",
+  "map": "safe-zone",
+  "mapName": "Safe Zone",
+  "mode": "heist",
+  "teams": [
+   [
+    "8-bit",
+    "brock",
+    "colette"
+   ],
+   [
+    "amber",
+    "bo",
+    "pierce"
+   ]
+  ],
+  "winner": 0
+ },
+ {
+  "key": "20261123T155915.000Z|#20Q80CC9P,#89JLLGQYC,#RQQLL9Y98,#V8GP9QL9,#VVQG2QPCR,#YY0VJLV",
+  "time": "20261123T155915.000Z",
+  "map": "hot-potato",
+  "mapName": "Hot Potato",
+  "mode": "heist",
+  "teams": [
+   [
+    "carl",
+    "spike",
+    "rico"
+   ],
+   [
+    "colt",
+    "melodie",
+    "amber"
+   ]
+  ],
+  "winner": 1
+ },
+ {
+  "key": "20261123T155651.000Z|#20Q80CC9P,#89JLLGQYC,#RQQLL9Y98,#V8GP9QL9,#VVQG2QPCR,#YY0VJLV",
+  "time": "20261123T155651.000Z",
+  "map": "hot-potato",
+  "mapName": "Hot Potato",
+  "mode": "heist",
+  "teams": [
+   [
+    "carl",
+    "spike",
+    "rico"
+   ],
+   [
+    "colt",
+    "melodie",
+    "amber"
+   ]
+  ],
+  "winner": 0
+ },
+ {
+  "key": "20261123T155419.000Z|#20Q80CC9P,#89JLLGQYC,#RQQLL9Y98,#V8GP9QL9,#VVQG2QPCR,#YY0VJLV",
+  "time": "20261123T155419.000Z",
+  "map": "hot-potato",
+  "mapName": "Hot Potato",
+  "mode": "heist",
+  "teams": [
+   [
+    "carl",
+    "spike",
+    "rico"
+   ],
+   [
+    "colt",
+    "melodie",
+    "amber"
+   ]
+  ],
+  "winner": 1
+ },
+ {
+  "key": "20261123T154915.000Z|#2VCR089PY,#9J2JLLC8,#9RV898UVV,#RQQLL9Y98,#V8GP9QL9,#VVQG2QPCR",
+  "time": "20261123T154915.000Z",
+  "map": "hard-rock-mine",
+  "mapName": "Hard Rock Mine",
+  "mode": "gemGrab",
+  "teams": [
+   [
+    "spike",
+    "stu",
+    "nori"
+   ],
+   [
+    "lou",
+    "surge",
+    "bo"
+   ]
+  ],
+  "winner": 0
+ },
+ {
+  "key": "20261123T154656.000Z|#2VCR089PY,#9J2JLLC8,#9RV898UVV,#RQQLL9Y98,#V8GP9QL9,#VVQG2QPCR",
+  "time": "20261123T154656.000Z",
+  "map": "hard-rock-mine",
+  "mapName": "Hard Rock Mine",
+  "mode": "gemGrab",
+  "teams": [
+   [
+    "spike",
+    "stu",
+    "nori"
+   ],
+   [
+    "lou",
+    "surge",
+    "bo"
+   ]
+  ],
+  "winner": 0
+ },
+ {
+  "key": "20261123T153053.000Z|#88U2QCQRC,#8CP2PVYPG,#GURVR202J,#P8PYPGJ0U,#RQQLL9Y98,#V8GP9QL9",
+  "time": "20261123T153053.000Z",
+  "map": "gem-fort",
+  "mapName": "Gem Fort",
+  "mode": "gemGrab",
+  "teams": [
+   [
+    "otis",
+    "amber",
+    "mortis"
+   ],
+   [
+    "pearl",
+    "lou",
+    "starr-nova"
+   ]
+  ],
+  "winner": 0
+ },
+ {
+  "key": "20261123T155918.000Z|#208VG9999,#2JQ89V9VC,#2UY80220Y2,#98RYGRRJY,#9VY29URV2,#QP8PP2LGJ",
+  "time": "20261123T155918.000Z",
+  "map": "new-horizons",
+  "mapName": "New Horizons",
+  "mode": "knockout",
+  "teams": [
+   [
+    "doug",
+    "piper",
+    "gray"
+   ],
+   [
+    "mortis",
+    "mandy",
+    "byron"
+   ]
+  ],
+  "winner": 0
+ },
+ {
+  "key": "20261123T155743.000Z|#208VG9999,#2JQ89V9VC,#2UY80220Y2,#98RYGRRJY,#9VY29URV2,#QP8PP2LGJ",
+  "time": "20261123T155743.000Z",
+  "map": "new-horizons",
+  "mapName": "New Horizons",
+  "mode": "knockout",
+  "teams": [
+   [
+    "doug",
+    "piper",
+    "gray"
+   ],
+   [
+    "mortis",
+    "mandy",
+    "byron"
+   ]
+  ],
+  "winner": 0
+ },
+ {
+  "key": "20261123T153101.000Z|#2CY8LGU888,#2GYPP0P02,#828QQ8R89,#PQUG9Y8P9,#QP8PP2LGJ,#YQ22CV0C",
+  "time": "20261123T153101.000Z",
+  "map": "dry-season",
+  "mapName": "Dry Season",
+  "mode": "bounty",
+  "teams": [
+   [
+    "rico",
+    "piper",
+    "gus"
+   ],
+   [
+    "mandy",
+    "mina",
+    "max"
+   ]
+  ],
+  "winner": 0
+ },
+ {
+  "key": "20261123T160219.000Z|#8QRJ9JRL2,#GJ0VVQQR0,#LR82VUGY,#P09CLUVUR,#RR9JRVJV,#Y0CJ0UCGQ",
+  "time": "20261123T160219.000Z",
+  "map": "layer-cake",
+  "mapName": "Layer Cake",
+  "mode": "bounty",
+  "teams": [
+   [
+    "starr-nova",
+    "glowy",
+    "brock"
+   ],
+   [
+    "mortis",
+    "gale",
+    "max"
+   ]
+  ],
+  "winner": 0
+ },
+ {
+  "key": "20261123T155713.000Z|#2R0CRVQCG,#2UPGLYCCQ,#2VLURYQUCL,#LGPC29JJC,#PR8YGUGQQ,#Y0CJ0UCGQ",
+  "time": "20261123T155713.000Z",
+  "map": "layer-cake",
+  "mapName": "Layer Cake",
+  "mode": "bounty",
+  "teams": [
+   [
+    "gray",
+    "max",
+    "amber"
+   ],
+   [
+    "brock",
+    "mortis",
+    "surge"
+   ]
+  ],
+  "winner": 1
+ },
+ {
+  "key": "20261123T155534.000Z|#2R0CRVQCG,#2UPGLYCCQ,#2VLURYQUCL,#LGPC29JJC,#PR8YGUGQQ,#Y0CJ0UCGQ",
+  "time": "20261123T155534.000Z",
+  "map": "layer-cake",
+  "mapName": "Layer Cake",
+  "mode": "bounty",
+  "teams": [
+   [
+    "gray",
+    "max",
+    "amber"
+   ],
+   [
+    "brock",
+    "mortis",
+    "surge"
+   ]
+  ],
+  "winner": 0
+ },
+ {
+  "key": "20261123T155353.000Z|#2R0CRVQCG,#2UPGLYCCQ,#2VLURYQUCL,#LGPC29JJC,#PR8YGUGQQ,#Y0CJ0UCGQ",
+  "time": "20261123T155353.000Z",
+  "map": "layer-cake",
+  "mapName": "Layer Cake",
+  "mode": "bounty",
+  "teams": [
+   [
+    "gray",
+    "max",
+    "amber"
+   ],
+   [
+    "brock",
+    "mortis",
+    "surge"
+   ]
+  ],
+  "winner": 1
+ },
+ {
+  "key": "20261123T160254.000Z|#28Q8LY9YU,#2QPUGCQ0LU,#2UJ0J9UGQQ,#90YYP2PGP,#GCQUUU299,#PLQ2PJJQ9",
+  "time": "20261123T160254.000Z",
+  "map": "out-in-the-open",
+  "mapName": "Out in the Open",
+  "mode": "knockout",
+  "teams": [
+   [
+    "8-bit",
+    "edgar",
+    "tick"
+   ],
+   [
+    "gray",
+    "shelly",
+    "brock"
+   ]
+  ],
+  "winner": 0
+ },
+ {
+  "key": "20261123T155702.000Z|#28Q8LY9YU,#2LRLUUG8RY,#8022GQUJCL,#9U8QJRU9G,#JJU2YUG2P,#L2P9UVJV",
+  "time": "20261123T155702.000Z",
+  "map": "bridge-too-far",
+  "mapName": "Bridge Too Far",
+  "mode": "heist",
+  "teams": [
+   [
+    "brock",
+    "melodie",
+    "amber"
+   ],
+   [
+    "colt",
+    "mandy",
+    "edgar"
+   ]
+  ],
+  "winner": 1
+ },
+ {
+  "key": "20261123T155447.000Z|#28Q8LY9YU,#2LRLUUG8RY,#8022GQUJCL,#9U8QJRU9G,#JJU2YUG2P,#L2P9UVJV",
+  "time": "20261123T155447.000Z",
+  "map": "bridge-too-far",
+  "mapName": "Bridge Too Far",
+  "mode": "heist",
+  "teams": [
+   [
+    "brock",
+    "melodie",
+    "amber"
+   ],
+   [
+    "colt",
+    "mandy",
+    "edgar"
+   ]
+  ],
+  "winner": 1
+ },
+ {
+  "key": "20261123T154951.000Z|#28Q8LY9YU,#2V9CJ0R882,#2YGRRRL8,#P88PY29UU,#RYCUR999,#YP9RL8R8",
+  "time": "20261123T154951.000Z",
+  "map": "shooting-star",
+  "mapName": "Shooting Star",
+  "mode": "bounty",
+  "teams": [
+   [
+    "gene",
+    "nani",
+    "gray"
+   ],
+   [
+    "dynamike",
+    "bibi",
+    "mr-p"
+   ]
+  ],
+  "winner": 0
+ },
+ {
+  "key": "20261123T154737.000Z|#28Q8LY9YU,#2V9CJ0R882,#2YGRRRL8,#P88PY29UU,#RYCUR999,#YP9RL8R8",
+  "time": "20261123T154737.000Z",
+  "map": "shooting-star",
+  "mapName": "Shooting Star",
+  "mode": "bounty",
+  "teams": [
+   [
+    "gene",
+    "nani",
+    "gray"
+   ],
+   [
+    "dynamike",
+    "bibi",
+    "mr-p"
+   ]
+  ],
+  "winner": 0
+ },
+ {
+  "key": "20261123T154339.000Z|#28Q8LY9YU,#2JJQCGJV0L,#90C0PGYGG,#C8L80J80G,#PQ8QJVQJG,#Y2CVL80L",
+  "time": "20261123T154339.000Z",
+  "map": "dueling-beetles",
+  "mapName": "Dueling Beetles",
+  "mode": "hotZone",
+  "teams": [
+   [
+    "bo",
+    "emz",
+    "griff"
+   ],
+   [
+    "moe",
+    "stu",
+    "bibi"
+   ]
+  ],
+  "winner": 0
+ },
+ {
+  "key": "20261123T154057.000Z|#28Q8LY9YU,#2JJQCGJV0L,#90C0PGYGG,#C8L80J80G,#PQ8QJVQJG,#Y2CVL80L",
+  "time": "20261123T154057.000Z",
+  "map": "dueling-beetles",
+  "mapName": "Dueling Beetles",
+  "mode": "hotZone",
+  "teams": [
+   [
+    "bo",
+    "emz",
+    "griff"
+   ],
+   [
+    "moe",
+    "stu",
+    "bibi"
+   ]
+  ],
+  "winner": 0
+ },
+ {
+  "key": "20261123T153542.000Z|#28Q8LY9YU,#2C2YVPGUVY,#2LGP8UJU9C,#92CQP90PY,#GL8UJJVPP,#PG2CLYP98",
+  "time": "20261123T153542.000Z",
+  "map": "flaring-phoenix",
+  "mapName": "Flaring Phoenix",
+  "mode": "knockout",
+  "teams": [
+   [
+    "tick",
+    "stu",
+    "mortis"
+   ],
+   [
+    "lou",
+    "chester",
+    "brock"
+   ]
+  ],
+  "winner": 1
+ },
+ {
+  "key": "20261123T153413.000Z|#28Q8LY9YU,#2C2YVPGUVY,#2LGP8UJU9C,#92CQP90PY,#GL8UJJVPP,#PG2CLYP98",
+  "time": "20261123T153413.000Z",
+  "map": "flaring-phoenix",
+  "mapName": "Flaring Phoenix",
+  "mode": "knockout",
+  "teams": [
+   [
+    "tick",
+    "stu",
+    "mortis"
+   ],
+   [
+    "lou",
+    "chester",
+    "brock"
+   ]
+  ],
+  "winner": 1
+ },
+ {
+  "key": "20261123T153052.000Z|#28Q8LY9YU,#2GP9CYQ0LG,#2U9VJVULJ9,#8QPVLLUY0,#9QCG89C88,#QGRR8PUUJ",
+  "time": "20261123T153052.000Z",
+  "map": "flaring-phoenix",
+  "mapName": "Flaring Phoenix",
+  "mode": "knockout",
+  "teams": [
+   [
+    "mina",
+    "brock",
+    "squeak"
+   ],
+   [
+    "dynamike",
+    "pearl",
+    "piper"
+   ]
+  ],
+  "winner": 0
+ },
+ {
+  "key": "20261123T160247.000Z|#2RCQ9VVQUJ,#2UP9L9RJVJ,#2UQQ0L0YJL,#2V2R08L9RL,#JY9QYQYGR,#PCGLJQ0UG",
+  "time": "20261123T160247.000Z",
+  "map": "belle-s-rock",
+  "mapName": "Belle's Rock",
+  "mode": "knockout",
+  "teams": [
+   [
+    "piper",
+    "emz",
+    "ziggy"
+   ],
+   [
+    "mandy",
+    "kit",
+    "spike"
+   ]
+  ],
+  "winner": 0
+ },
+ {
+  "key": "20261123T155926.000Z|#28L0QPCPVY,#2Q0RL0PPCL,#2RCQ9VVQUJ,#2U9PQ8QCQ,#2YYP8R9V80,#URLUCGV8",
+  "time": "20261123T155926.000Z",
+  "map": "open-business",
+  "mapName": "Open Business",
+  "mode": "hotZone",
+  "teams": [
+   [
+    "jessie",
+    "bibi",
+    "colette"
+   ],
+   [
+    "najia",
+    "jessie",
+    "emz"
+   ]
+  ],
+  "winner": 0
+ },
+ {
+  "key": "20261123T155627.000Z|#28L0QPCPVY,#2RCQ9VVQUJ,#2U2RQQ0QV,#2U9PQ8QCQ,#88LV99GVP,#8YJVVUG2Y",
+  "time": "20261123T155627.000Z",
+  "map": "layer-cake",
+  "mapName": "Layer Cake",
+  "mode": "bounty",
+  "teams": [
+   [
+    "tick",
+    "brock",
+    "nani"
+   ],
+   [
+    "jessie",
+    "squeak",
+    "tick"
+   ]
+  ],
+  "winner": 1
+ },
+ {
+  "key": "20261123T155343.000Z|#2CG0G2U0QY,#2JQ2U0LYV2,#2LJGQ2CLYV,#2RCQ9VVQUJ,#2UCRPUUU9G,#QJRL0RCCC",
+  "time": "20261123T155343.000Z",
+  "map": "flaring-phoenix",
+  "mapName": "Flaring Phoenix",
+  "mode": "knockout",
+  "teams": [
+   [
+    "squeak",
+    "bonnie",
+    "pearl"
+   ],
+   [
+    "nori",
+    "tick",
+    "leon"
+   ]
+  ],
+  "winner": 0
+ },
+ {
+  "key": "20261123T154509.000Z|#29PL8RQL8,#808QGLC9Q,#8YPJP2QGP,#R900CCLQG,#RY0P928Y,#YLRJQGLU",
+  "time": "20261123T154509.000Z",
+  "map": "safe-zone",
+  "mapName": "Safe Zone",
+  "mode": "heist",
+  "teams": [
+   [
+    "pierce",
+    "penny",
+    "jessie"
+   ],
+   [
+    "nori",
+    "brock",
+    "melodie"
+   ]
+  ],
+  "winner": 1
+ },
+ {
+  "key": "20261123T154221.000Z|#29PL8RQL8,#808QGLC9Q,#8YPJP2QGP,#R900CCLQG,#RY0P928Y,#YLRJQGLU",
+  "time": "20261123T154221.000Z",
+  "map": "safe-zone",
+  "mapName": "Safe Zone",
+  "mode": "heist",
+  "teams": [
+   [
+    "pierce",
+    "penny",
+    "jessie"
+   ],
+   [
+    "nori",
+    "brock",
+    "melodie"
+   ]
+  ],
+  "winner": 1
+ },
+ {
+  "key": "20261123T153932.000Z|#29PL8RQL8,#808QGLC9Q,#8YPJP2QGP,#R900CCLQG,#RY0P928Y,#YLRJQGLU",
+  "time": "20261123T153932.000Z",
+  "map": "safe-zone",
+  "mapName": "Safe Zone",
+  "mode": "heist",
+  "teams": [
+   [
+    "pierce",
+    "penny",
+    "jessie"
+   ],
+   [
+    "nori",
+    "brock",
+    "melodie"
+   ]
+  ],
+  "winner": 0
+ },
+ {
+  "key": "20261123T153436.000Z|#29VQ9UG9L,#2VRGQPYRV2,#8YPJP2QGP,#9LVPP0JQU,#J0CG2JC2,#UQ9CPYYV",
+  "time": "20261123T153436.000Z",
+  "map": "safe-zone",
+  "mapName": "Safe Zone",
+  "mode": "heist",
+  "teams": [
+   [
+    "8-bit",
+    "lily",
+    "brock"
+   ],
+   [
+    "mandy",
+    "edgar",
+    "colette"
+   ]
+  ],
+  "winner": 1
+ },
+ {
+  "key": "20261123T153306.000Z|#29VQ9UG9L,#2VRGQPYRV2,#8YPJP2QGP,#9LVPP0JQU,#J0CG2JC2,#UQ9CPYYV",
+  "time": "20261123T153306.000Z",
+  "map": "safe-zone",
+  "mapName": "Safe Zone",
+  "mode": "heist",
+  "teams": [
+   [
+    "8-bit",
+    "lily",
+    "brock"
+   ],
+   [
+    "mandy",
+    "edgar",
+    "colette"
+   ]
+  ],
+  "winner": 1
+ },
+ {
+  "key": "20261123T154218.000Z|#2J0GLL88G8,#2JY0JG0QG,#GJ9RYJQJU,#GPRLJG2G8,#LVJ0QPVVC,#R9CQP8QUG",
+  "time": "20261123T154218.000Z",
+  "map": "dueling-beetles",
+  "mapName": "Dueling Beetles",
+  "mode": "hotZone",
+  "teams": [
+   [
+    "gale",
+    "surge",
+    "penny"
+   ],
+   [
+    "berry",
+    "colette",
+    "tick"
+   ]
+  ],
+  "winner": 0
+ },
+ {
+  "key": "20261123T153938.000Z|#2J0GLL88G8,#2JY0JG0QG,#GJ9RYJQJU,#GPRLJG2G8,#LVJ0QPVVC,#R9CQP8QUG",
+  "time": "20261123T153938.000Z",
+  "map": "dueling-beetles",
+  "mapName": "Dueling Beetles",
+  "mode": "hotZone",
+  "teams": [
+   [
+    "gale",
+    "surge",
+    "penny"
+   ],
+   [
+    "berry",
+    "colette",
+    "tick"
+   ]
+  ],
+  "winner": 0
+ },
+ {
+  "key": "20261123T153457.000Z|#908U8QR28,#GLQV0L0Y,#GV9JLRYQ,#L8CLCY209,#LV9R9JVU,#LVJ0QPVVC",
+  "time": "20261123T153457.000Z",
+  "map": "sneaky-fields",
+  "mapName": "Sneaky Fields",
+  "mode": "brawlBall",
+  "teams": [
+   [
+    "fang",
+    "bibi",
+    "colette"
+   ],
+   [
+    "bo",
+    "el-primo",
+    "nita"
+   ]
+  ],
+  "winner": 1
+ },
+ {
+  "key": "20261123T153317.000Z|#908U8QR28,#GLQV0L0Y,#GV9JLRYQ,#L8CLCY209,#LV9R9JVU,#LVJ0QPVVC",
+  "time": "20261123T153317.000Z",
+  "map": "sneaky-fields",
+  "mapName": "Sneaky Fields",
+  "mode": "brawlBall",
+  "teams": [
+   [
+    "fang",
+    "bibi",
+    "colette"
+   ],
+   [
+    "bo",
+    "el-primo",
+    "nita"
+   ]
+  ],
+  "winner": 1
+ },
+ {
+  "key": "20261123T160354.000Z|#2G0RCVG0CJ,#2JCL8PJCGP,#2JGVLULVJ8,#2UJLGLQ2QQ,#8Q2RPYVJV,#YPLVQGCRU",
+  "time": "20261123T160354.000Z",
+  "map": "ring-of-fire",
+  "mapName": "Ring of Fire",
+  "mode": "hotZone",
+  "teams": [
+   [
+    "max",
+    "piper",
+    "nori"
+   ],
+   [
+    "pierce",
+    "melodie",
+    "amber"
+   ]
+  ],
+  "winner": 0
+ },
+ {
+  "key": "20261123T160142.000Z|#2G0RCVG0CJ,#2JCL8PJCGP,#2JGVLULVJ8,#2UJLGLQ2QQ,#8Q2RPYVJV,#YPLVQGCRU",
+  "time": "20261123T160142.000Z",
+  "map": "ring-of-fire",
+  "mapName": "Ring of Fire",
+  "mode": "hotZone",
+  "teams": [
+   [
+    "max",
+    "piper",
+    "nori"
+   ],
+   [
+    "pierce",
+    "melodie",
+    "amber"
+   ]
+  ],
+  "winner": 0
+ },
+ {
+  "key": "20261123T155658.000Z|#2JGVLULVJ8,#8Q2RPYVJV,#9CCUJJC0R,#PGUJJ0PJV,#PJU2VRJP9,#YPLVQGCRU",
+  "time": "20261123T155658.000Z",
+  "map": "triple-dribble",
+  "mapName": "Triple Dribble",
+  "mode": "brawlBall",
+  "teams": [
+   [
+    "surge",
+    "shade",
+    "mr-p"
+   ],
+   [
+    "spike",
+    "edgar",
+    "amber"
+   ]
+  ],
+  "winner": 0
+ },
+ {
+  "key": "20261123T155401.000Z|#2JGVLULVJ8,#8Q2RPYVJV,#9CCUJJC0R,#PGUJJ0PJV,#PJU2VRJP9,#YPLVQGCRU",
+  "time": "20261123T155401.000Z",
+  "map": "triple-dribble",
+  "mapName": "Triple Dribble",
+  "mode": "brawlBall",
+  "teams": [
+   [
+    "surge",
+    "shade",
+    "mr-p"
+   ],
+   [
+    "spike",
+    "edgar",
+    "amber"
+   ]
+  ],
+  "winner": 0
+ },
+ {
+  "key": "20261123T154915.000Z|#2JGVLULVJ8,#8C2QYC8Q9,#8Q2RPYVJV,#CJ2CUQGG,#RJRYCQJL,#YPLVQGCRU",
+  "time": "20261123T154915.000Z",
+  "map": "out-in-the-open",
+  "mapName": "Out in the Open",
+  "mode": "knockout",
+  "teams": [
+   [
+    "rico",
+    "brock",
+    "amber"
+   ],
+   [
+    "belle",
+    "mina",
+    "lou"
+   ]
+  ],
+  "winner": 0
+ },
+ {
+  "key": "20261123T154758.000Z|#2JGVLULVJ8,#8C2QYC8Q9,#8Q2RPYVJV,#CJ2CUQGG,#RJRYCQJL,#YPLVQGCRU",
+  "time": "20261123T154758.000Z",
+  "map": "out-in-the-open",
+  "mapName": "Out in the Open",
+  "mode": "knockout",
+  "teams": [
+   [
+    "rico",
+    "brock",
+    "amber"
+   ],
+   [
+    "belle",
+    "mina",
+    "lou"
+   ]
+  ],
+  "winner": 0
+ },
+ {
+  "key": "20261123T154631.000Z|#2JGVLULVJ8,#8C2QYC8Q9,#8Q2RPYVJV,#CJ2CUQGG,#RJRYCQJL,#YPLVQGCRU",
+  "time": "20261123T154631.000Z",
+  "map": "out-in-the-open",
+  "mapName": "Out in the Open",
+  "mode": "knockout",
+  "teams": [
+   [
+    "rico",
+    "brock",
+    "amber"
+   ],
+   [
+    "belle",
+    "mina",
+    "lou"
+   ]
+  ],
+  "winner": 1
+ },
+ {
+  "key": "20261123T154132.000Z|#2JGVLULVJ8,#8Q2RPYVJV,#LRPU9GRPU,#R2RG89R2U,#YPGP0VYL9,#YPLVQGCRU",
+  "time": "20261123T154132.000Z",
+  "map": "open-business",
+  "mapName": "Open Business",
+  "mode": "hotZone",
+  "teams": [
+   [
+    "edgar",
+    "max",
+    "surge"
+   ],
+   [
+    "lou",
+    "emz",
+    "sirius"
+   ]
+  ],
+  "winner": 1
+ },
+ {
+  "key": "20261123T153949.000Z|#2JGVLULVJ8,#8Q2RPYVJV,#LRPU9GRPU,#R2RG89R2U,#YPGP0VYL9,#YPLVQGCRU",
+  "time": "20261123T153949.000Z",
+  "map": "open-business",
+  "mapName": "Open Business",
+  "mode": "hotZone",
+  "teams": [
+   [
+    "edgar",
+    "max",
+    "surge"
+   ],
+   [
+    "lou",
+    "emz",
+    "sirius"
+   ]
+  ],
+  "winner": 1
+ },
+ {
+  "key": "20261123T153559.000Z|#20YP2P2JG,#2JGVLULVJ8,#8Q2RPYVJV,#LYPRGUULQ,#UY80RQ9G,#YPLVQGCRU",
+  "time": "20261123T153559.000Z",
+  "map": "layer-cake",
+  "mapName": "Layer Cake",
+  "mode": "bounty",
+  "teams": [
+   [
+    "amber",
+    "surge",
+    "gus"
+   ],
+   [
+    "chester",
+    "brock",
+    "gray"
+   ]
+  ],
+  "winner": 0
+ },
+ {
+  "key": "20261123T153346.000Z|#20YP2P2JG,#2JGVLULVJ8,#8Q2RPYVJV,#LYPRGUULQ,#UY80RQ9G,#YPLVQGCRU",
+  "time": "20261123T153346.000Z",
+  "map": "layer-cake",
+  "mapName": "Layer Cake",
+  "mode": "bounty",
+  "teams": [
+   [
+    "amber",
+    "surge",
+    "gus"
+   ],
+   [
+    "chester",
+    "brock",
+    "gray"
+   ]
+  ],
+  "winner": 0
+ },
+ {
+  "key": "20261123T160335.000Z|#2VJPGR9PPJ,#2Y8J9QLC,#2YRP890GR,#P8Q22LLG0,#PQJJJPGUR,#R9ULY22J8",
+  "time": "20261123T160335.000Z",
+  "map": "pinball-dreams",
+  "mapName": "Pinball Dreams",
+  "mode": "brawlBall",
+  "teams": [
+   [
+    "carl",
+    "rico",
+    "griff"
+   ],
+   [
+    "kit",
+    "surge",
+    "stu"
+   ]
+  ],
+  "winner": 0
+ },
+ {
+  "key": "20261123T160041.000Z|#2CV2PG0G8R,#2UUJR9PJ0P,#9RYU09J02,#QUVL0Y29V,#RLRGLLR9V,#RPR09QUQV",
+  "time": "20261123T160041.000Z",
+  "map": "gem-fort",
+  "mapName": "Gem Fort",
+  "mode": "gemGrab",
+  "teams": [
+   [
+    "gale",
+    "melodie",
+    "griff"
+   ],
+   [
+    "rosa",
+    "spike",
+    "mina"
+   ]
+  ],
+  "winner": 1
+ },
+ {
+  "key": "20261123T155850.000Z|#2CV2PG0G8R,#2UUJR9PJ0P,#9RYU09J02,#QUVL0Y29V,#RLRGLLR9V,#RPR09QUQV",
+  "time": "20261123T155850.000Z",
+  "map": "gem-fort",
+  "mapName": "Gem Fort",
+  "mode": "gemGrab",
+  "teams": [
+   [
+    "gale",
+    "melodie",
+    "griff"
+   ],
+   [
+    "rosa",
+    "spike",
+    "mina"
+   ]
+  ],
+  "winner": 0
+ },
+ {
+  "key": "20261123T155702.000Z|#2CV2PG0G8R,#2UUJR9PJ0P,#9RYU09J02,#QUVL0Y29V,#RLRGLLR9V,#RPR09QUQV",
+  "time": "20261123T155702.000Z",
+  "map": "gem-fort",
+  "mapName": "Gem Fort",
+  "mode": "gemGrab",
+  "teams": [
+   [
+    "gale",
+    "melodie",
+    "griff"
+   ],
+   [
+    "rosa",
+    "spike",
+    "mina"
+   ]
+  ],
+  "winner": 1
+ },
+ {
+  "key": "20261123T155232.000Z|#2C80PG0V,#2CU9R2282Q,#9RPUQLG9Q,#J2YPCJ28R,#RPR09QUQV,#Y0GYCY0QP",
+  "time": "20261123T155232.000Z",
+  "map": "layer-cake",
+  "mapName": "Layer Cake",
+  "mode": "bounty",
+  "teams": [
+   [
+    "brock",
+    "edgar",
+    "chester"
+   ],
+   [
+    "mina",
+    "gray",
+    "mandy"
+   ]
+  ],
+  "winner": 0
+ },
+ {
+  "key": "20261123T155052.000Z|#2C80PG0V,#2CU9R2282Q,#9RPUQLG9Q,#J2YPCJ28R,#RPR09QUQV,#Y0GYCY0QP",
+  "time": "20261123T155052.000Z",
+  "map": "layer-cake",
+  "mapName": "Layer Cake",
+  "mode": "bounty",
+  "teams": [
+   [
+    "brock",
+    "edgar",
+    "chester"
+   ],
+   [
+    "mina",
+    "gray",
+    "mandy"
+   ]
+  ],
+  "winner": 0
+ },
+ {
+  "key": "20261123T154552.000Z|#29G0CQJ9Q,#G8U2VGGRC,#PCCQJPLJ2,#RPR09QUQV,#UCUGVY2Q,#UYG28VLC",
+  "time": "20261123T154552.000Z",
+  "map": "flaring-phoenix",
+  "mapName": "Flaring Phoenix",
+  "mode": "knockout",
+  "teams": [
+   [
+    "mandy",
+    "gene",
+    "brock"
+   ],
+   [
+    "gus",
+    "janet",
+    "willow"
+   ]
+  ],
+  "winner": 0
+ },
+ {
+  "key": "20261123T154345.000Z|#29G0CQJ9Q,#G8U2VGGRC,#PCCQJPLJ2,#RPR09QUQV,#UCUGVY2Q,#UYG28VLC",
+  "time": "20261123T154345.000Z",
+  "map": "flaring-phoenix",
+  "mapName": "Flaring Phoenix",
+  "mode": "knockout",
+  "teams": [
+   [
+    "mandy",
+    "gene",
+    "brock"
+   ],
+   [
+    "gus",
+    "janet",
+    "willow"
+   ]
+  ],
+  "winner": 1
+ },
+ {
+  "key": "20261123T154132.000Z|#29G0CQJ9Q,#G8U2VGGRC,#PCCQJPLJ2,#RPR09QUQV,#UCUGVY2Q,#UYG28VLC",
+  "time": "20261123T154132.000Z",
+  "map": "flaring-phoenix",
+  "mapName": "Flaring Phoenix",
+  "mode": "knockout",
+  "teams": [
+   [
+    "mandy",
+    "gene",
+    "brock"
+   ],
+   [
+    "gus",
+    "janet",
+    "willow"
+   ]
+  ],
+  "winner": 0
+ },
+ {
+  "key": "20261123T153534.000Z|#2CRUQ8C2CQ,#8LQC2YCJQ,#98GVUP022,#JL2QJJ9RU,#P2LUP8CQC,#RPR09QUQV",
+  "time": "20261123T153534.000Z",
+  "map": "hot-potato",
+  "mapName": "Hot Potato",
+  "mode": "heist",
+  "teams": [
+   [
+    "mandy",
+    "colette",
+    "rico"
+   ],
+   [
+    "brock",
+    "barley",
+    "chuck"
+   ]
+  ],
+  "winner": 1
+ },
+ {
+  "key": "20261123T153424.000Z|#2CRUQ8C2CQ,#8LQC2YCJQ,#98GVUP022,#JL2QJJ9RU,#P2LUP8CQC,#RPR09QUQV",
+  "time": "20261123T153424.000Z",
+  "map": "hot-potato",
+  "mapName": "Hot Potato",
+  "mode": "heist",
+  "teams": [
+   [
+    "mandy",
+    "colette",
+    "rico"
+   ],
+   [
+    "brock",
+    "barley",
+    "chuck"
+   ]
+  ],
+  "winner": 1
+ },
+ {
+  "key": "20261123T160134.000Z|#2C0VCUQRR,#2C9QJ002J,#2L2JYCL9Q,#82VRURYC,#88PVLR9R8,#8C29Q0RYR",
+  "time": "20261123T160134.000Z",
+  "map": "undermine",
+  "mapName": "Undermine",
+  "mode": "gemGrab",
+  "teams": [
+   [
+    "amber",
+    "janet",
+    "emz"
+   ],
+   [
+    "max",
+    "melodie",
+    "rico"
+   ]
+  ],
+  "winner": 0
+ },
+ {
+  "key": "20261123T155942.000Z|#2C0VCUQRR,#2C9QJ002J,#2L2JYCL9Q,#82VRURYC,#88PVLR9R8,#8C29Q0RYR",
+  "time": "20261123T155942.000Z",
+  "map": "undermine",
+  "mapName": "Undermine",
+  "mode": "gemGrab",
+  "teams": [
+   [
+    "amber",
+    "janet",
+    "emz"
+   ],
+   [
+    "max",
+    "melodie",
+    "rico"
+   ]
+  ],
+  "winner": 0
+ },
+ {
+  "key": "20261123T155505.000Z|#2GJV08L82,#2L2JYCL9Q,#2LQQLCYU0R,#2YU8L0YU,#8GJPRUQRG,#VG9CRGJV",
+  "time": "20261123T155505.000Z",
+  "map": "sneaky-fields",
+  "mapName": "Sneaky Fields",
+  "mode": "brawlBall",
+  "teams": [
+   [
+    "amber",
+    "vince",
+    "griff"
+   ],
+   [
+    "spike",
+    "surge",
+    "shade"
+   ]
+  ],
+  "winner": 1
+ },
+ {
+  "key": "20261123T155318.000Z|#2GJV08L82,#2L2JYCL9Q,#2LQQLCYU0R,#2YU8L0YU,#8GJPRUQRG,#VG9CRGJV",
+  "time": "20261123T155318.000Z",
+  "map": "sneaky-fields",
+  "mapName": "Sneaky Fields",
+  "mode": "brawlBall",
+  "teams": [
+   [
+    "amber",
+    "vince",
+    "griff"
+   ],
+   [
+    "spike",
+    "surge",
+    "shade"
+   ]
+  ],
+  "winner": 0
+ },
+ {
+  "key": "20261123T155016.000Z|#2GJV08L82,#2L2JYCL9Q,#2LQQLCYU0R,#2YU8L0YU,#8GJPRUQRG,#VG9CRGJV",
+  "time": "20261123T155016.000Z",
+  "map": "sneaky-fields",
+  "mapName": "Sneaky Fields",
+  "mode": "brawlBall",
+  "teams": [
+   [
+    "amber",
+    "vince",
+    "griff"
+   ],
+   [
+    "spike",
+    "surge",
+    "shade"
+   ]
+  ],
+  "winner": 1
+ },
+ {
+  "key": "20261123T154533.000Z|#200UQCYQ,#22JCYLCQ,#2L2JYCL9Q,#2VCJ0GVLJ,#8PL9JUPU,#PVQ9QUY",
+  "time": "20261123T154533.000Z",
+  "map": "hard-rock-mine",
+  "mapName": "Hard Rock Mine",
+  "mode": "gemGrab",
+  "teams": [
+   [
+    "amber",
+    "gus",
+    "buzz"
+   ],
+   [
+    "bolt",
+    "chester",
+    "stu"
+   ]
+  ],
+  "winner": 0
+ },
+ {
+  "key": "20261123T154326.000Z|#200UQCYQ,#22JCYLCQ,#2L2JYCL9Q,#2VCJ0GVLJ,#8PL9JUPU,#PVQ9QUY",
+  "time": "20261123T154326.000Z",
+  "map": "hard-rock-mine",
+  "mapName": "Hard Rock Mine",
+  "mode": "gemGrab",
+  "teams": [
+   [
+    "amber",
+    "gus",
+    "buzz"
+   ],
+   [
+    "bolt",
+    "chester",
+    "stu"
+   ]
+  ],
+  "winner": 0
+ },
+ {
+  "key": "20261123T160523.000Z|#9U8PPLGYU,#CJP9QLUG,#LPCG0QJ0,#PRRQU90PV,#PV9G2VGYC,#R88LYLVUV",
+  "time": "20261123T160523.000Z",
+  "map": "belle-s-rock",
+  "mapName": "Belle's Rock",
+  "mode": "knockout",
+  "teams": [
+   [
+    "spike",
+    "gray",
+    "piper"
+   ],
+   [
+    "mortis",
+    "gus",
+    "vince"
+   ]
+  ],
+  "winner": 0
+ },
+ {
+  "key": "20261123T160038.000Z|#2G9VR9QJJ2,#2GJGYY0U8,#2R8ULQP802,#2Y8CLUGYVJ,#PRRQU90PV,#R8YG229UJ",
+  "time": "20261123T160038.000Z",
+  "map": "ring-of-fire",
+  "mapName": "Ring of Fire",
+  "mode": "hotZone",
+  "teams": [
+   [
+    "chuck",
+    "edgar",
+    "colt"
+   ],
+   [
+    "gale",
+    "8-bit",
+    "amber"
+   ]
+  ],
+  "winner": 1
+ },
+ {
+  "key": "20261123T155856.000Z|#2G9VR9QJJ2,#2GJGYY0U8,#2R8ULQP802,#2Y8CLUGYVJ,#PRRQU90PV,#R8YG229UJ",
+  "time": "20261123T155856.000Z",
+  "map": "ring-of-fire",
+  "mapName": "Ring of Fire",
+  "mode": "hotZone",
+  "teams": [
+   [
+    "chuck",
+    "edgar",
+    "colt"
+   ],
+   [
+    "gale",
+    "8-bit",
+    "amber"
+   ]
+  ],
+  "winner": 1
+ },
+ {
+  "key": "20261123T155438.000Z|#2GV9P8QV99,#2JQUGCCR0C,#8UV8PPY20,#P2R8GJLYU,#PRR2JL0GP,#PRRQU90PV",
+  "time": "20261123T155438.000Z",
+  "map": "hideout",
+  "mapName": "Hideout",
+  "mode": "bounty",
+  "teams": [
+   [
+    "gale",
+    "angelo",
+    "pierce"
+   ],
+   [
+    "mortis",
+    "vince",
+    "nani"
+   ]
+  ],
+  "winner": 1
+ },
+ {
+  "key": "20261123T155225.000Z|#2GV9P8QV99,#2JQUGCCR0C,#8UV8PPY20,#P2R8GJLYU,#PRR2JL0GP,#PRRQU90PV",
+  "time": "20261123T155225.000Z",
+  "map": "hideout",
+  "mapName": "Hideout",
+  "mode": "bounty",
+  "teams": [
+   [
+    "gale",
+    "angelo",
+    "pierce"
+   ],
+   [
+    "mortis",
+    "vince",
+    "nani"
+   ]
+  ],
+  "winner": 1
+ },
+ {
+  "key": "20261123T154806.000Z|#2Y8RVRGYY2,#80QPYYLYV,#89R9CR9PQ,#PRRQU90PV,#YULLPCG0G,#YVUGRVUGU",
+  "time": "20261123T154806.000Z",
+  "map": "dueling-beetles",
+  "mapName": "Dueling Beetles",
+  "mode": "hotZone",
+  "teams": [
+   [
+    "bibi",
+    "tick",
+    "cordelius"
+   ],
+   [
+    "nori",
+    "surge",
+    "edgar"
+   ]
+  ],
+  "winner": 0
+ },
+ {
+  "key": "20261123T154603.000Z|#2Y8RVRGYY2,#80QPYYLYV,#89R9CR9PQ,#PRRQU90PV,#YULLPCG0G,#YVUGRVUGU",
+  "time": "20261123T154603.000Z",
+  "map": "dueling-beetles",
+  "mapName": "Dueling Beetles",
+  "mode": "hotZone",
+  "teams": [
+   [
+    "bibi",
+    "tick",
+    "cordelius"
+   ],
+   [
+    "nori",
+    "surge",
+    "edgar"
+   ]
+  ],
+  "winner": 1
+ },
+ {
+  "key": "20261123T154406.000Z|#2Y8RVRGYY2,#80QPYYLYV,#89R9CR9PQ,#PRRQU90PV,#YULLPCG0G,#YVUGRVUGU",
+  "time": "20261123T154406.000Z",
+  "map": "dueling-beetles",
+  "mapName": "Dueling Beetles",
+  "mode": "hotZone",
+  "teams": [
+   [
+    "bibi",
+    "tick",
+    "cordelius"
+   ],
+   [
+    "nori",
+    "surge",
+    "edgar"
+   ]
+  ],
+  "winner": 0
+ },
+ {
+  "key": "20261123T153834.000Z|#2G9VR9QJJ2,#90GUPYGJR,#GV2VYJJVQ,#LQ8CR0UUC,#PGVRYLJU2,#PRRQU90PV",
+  "time": "20261123T153834.000Z",
+  "map": "center-stage",
+  "mapName": "Center Stage",
+  "mode": "brawlBall",
+  "teams": [
+   [
+    "nita",
+    "colt",
+    "lumi"
+   ],
+   [
+    "chester",
+    "edgar",
+    "bo"
+   ]
+  ],
+  "winner": 1
+ },
+ {
+  "key": "20261123T153643.000Z|#2G9VR9QJJ2,#90GUPYGJR,#GV2VYJJVQ,#LQ8CR0UUC,#PGVRYLJU2,#PRRQU90PV",
+  "time": "20261123T153643.000Z",
+  "map": "center-stage",
+  "mapName": "Center Stage",
+  "mode": "brawlBall",
+  "teams": [
+   [
+    "nita",
+    "colt",
+    "lumi"
+   ],
+   [
+    "chester",
+    "edgar",
+    "bo"
+   ]
+  ],
+  "winner": 1
+ },
+ {
+  "key": "20261123T155251.000Z|#2G0GG80QRU,#2QLJYL9L2P,#2RJPL8RLC9,#2VYQRY8GC,#LG920PVCQ,#QPPVQYLQ",
+  "time": "20261123T155251.000Z",
+  "map": "gem-fort",
+  "mapName": "Gem Fort",
+  "mode": "gemGrab",
+  "teams": [
+   [
+    "gus",
+    "alli",
+    "griff"
+   ],
+   [
+    "mandy",
+    "lou",
+    "surge"
+   ]
+  ],
+  "winner": 0
+ },
+ {
+  "key": "20261123T155014.000Z|#2G0GG80QRU,#2QLJYL9L2P,#2RJPL8RLC9,#2VYQRY8GC,#LG920PVCQ,#QPPVQYLQ",
+  "time": "20261123T155014.000Z",
+  "map": "gem-fort",
+  "mapName": "Gem Fort",
+  "mode": "gemGrab",
+  "teams": [
+   [
+    "gus",
+    "alli",
+    "griff"
+   ],
+   [
+    "mandy",
+    "lou",
+    "surge"
+   ]
+  ],
+  "winner": 1
+ },
+ {
+  "key": "20261123T154808.000Z|#2G0GG80QRU,#2QLJYL9L2P,#2RJPL8RLC9,#2VYQRY8GC,#LG920PVCQ,#QPPVQYLQ",
+  "time": "20261123T154808.000Z",
+  "map": "gem-fort",
+  "mapName": "Gem Fort",
+  "mode": "gemGrab",
+  "teams": [
+   [
+    "gus",
+    "alli",
+    "griff"
+   ],
+   [
+    "mandy",
+    "lou",
+    "surge"
+   ]
+  ],
+  "winner": 0
+ },
+ {
+  "key": "20261123T154433.000Z|#2U2L92PCR,#8P9V8QPUQ,#C0RV82CU,#P2LRPPY,#QPPVQYLQ,#RLLUJQYRJ",
+  "time": "20261123T154433.000Z",
+  "map": "dueling-beetles",
+  "mapName": "Dueling Beetles",
+  "mode": "hotZone",
+  "teams": [
+   [
+    "bo",
+    "barley",
+    "squeak"
+   ],
+   [
+    "griff",
+    "chester",
+    "mortis"
+   ]
+  ],
+  "winner": 0
+ },
+ {
+  "key": "20261123T154149.000Z|#2U2L92PCR,#8P9V8QPUQ,#C0RV82CU,#P2LRPPY,#QPPVQYLQ,#RLLUJQYRJ",
+  "time": "20261123T154149.000Z",
+  "map": "dueling-beetles",
+  "mapName": "Dueling Beetles",
+  "mode": "hotZone",
+  "teams": [
+   [
+    "bo",
+    "barley",
+    "squeak"
+   ],
+   [
+    "griff",
+    "chester",
+    "mortis"
+   ]
+  ],
+  "winner": 0
+ },
+ {
+  "key": "20261123T153445.000Z|#29PY9CR9UQ,#2QC2J98V0L,#9Y92GRUVV,#P2J0UC90V,#QPPVQYLQ,#YVRPG280R",
+  "time": "20261123T153445.000Z",
+  "map": "safe-zone",
+  "mapName": "Safe Zone",
+  "mode": "heist",
+  "teams": [
+   [
+    "pierce",
+    "rico",
+    "penny"
+   ],
+   [
+    "berry",
+    "colette",
+    "carl"
+   ]
+  ],
+  "winner": 0
+ },
+ {
+  "key": "20261123T153240.000Z|#29PY9CR9UQ,#2QC2J98V0L,#9Y92GRUVV,#P2J0UC90V,#QPPVQYLQ,#YVRPG280R",
+  "time": "20261123T153240.000Z",
+  "map": "safe-zone",
+  "mapName": "Safe Zone",
+  "mode": "heist",
+  "teams": [
+   [
+    "pierce",
+    "rico",
+    "penny"
+   ],
+   [
+    "berry",
+    "colette",
+    "carl"
+   ]
+  ],
+  "winner": 0
+ },
+ {
+  "key": "20261123T160350.000Z|#20RRQQVGR,#2JPRLPQLUG,#2U0UG89Y9,#2UPPJPYVJY,#2Y08Y89V9,#LGPUYV22U",
+  "time": "20261123T160350.000Z",
+  "map": "triple-dribble",
+  "mapName": "Triple Dribble",
+  "mode": "brawlBall",
+  "teams": [
+   [
+    "bo",
+    "draco",
+    "buzz"
+   ],
+   [
+    "lou",
+    "mico",
+    "emz"
+   ]
+  ],
+  "winner": 1
+ },
+ {
+  "key": "20261123T160037.000Z|#288LCU9CJG,#2C28J00YGQ,#2G0GVPQ0P,#2U0UG89Y9,#P9RLU8UCU,#YGGJVGPCC",
+  "time": "20261123T160037.000Z",
+  "map": "flaring-phoenix",
+  "mapName": "Flaring Phoenix",
+  "mode": "knockout",
+  "teams": [
+   [
+    "piper",
+    "mandy",
+    "rico"
+   ],
+   [
+    "grom",
+    "lily",
+    "brock"
+   ]
+  ],
+  "winner": 1
+ },
+ {
+  "key": "20261123T155718.000Z|#2LL2PUYLLR,#2QVYJ2U8YR,#2RCR2Q8UQ8,#2U0UG89Y9,#2UPR9YQ8L0,#2V0G0CRY0J",
+  "time": "20261123T155718.000Z",
+  "map": "triple-dribble",
+  "mapName": "Triple Dribble",
+  "mode": "brawlBall",
+  "teams": [
+   [
+    "emz",
+    "griff",
+    "stu"
+   ],
+   [
+    "mr-p",
+    "melodie",
+    "emz"
+   ]
+  ],
+  "winner": 1
+ },
+ {
+  "key": "20261123T155437.000Z|#2U0UG89Y9,#2UVQQJPVP0,#88LJP88J8,#PC882GC0R,#R2LVYC2U9,#RUQUU00P",
+  "time": "20261123T155437.000Z",
+  "map": "out-in-the-open",
+  "mapName": "Out in the Open",
+  "mode": "knockout",
+  "teams": [
+   [
+    "brock",
+    "byron",
+    "maisie"
+   ],
+   [
+    "lily",
+    "bo",
+    "colt"
+   ]
+  ],
+  "winner": 0
+ },
+ {
+  "key": "20261123T155034.000Z|#2J298LQVVR,#2U0UG89Y9,#90PP2CRUQ,#LUG0UL298,#QUQGRPLJ,#UY2QPVCQ",
+  "time": "20261123T155034.000Z",
+  "map": "layer-cake",
+  "mapName": "Layer Cake",
+  "mode": "bounty",
+  "teams": [
+   [
+    "shade",
+    "mandy",
+    "gale"
+   ],
+   [
+    "mortis",
+    "emz",
+    "tick"
+   ]
+  ],
+  "winner": 0
+ },
+ {
+  "key": "20261123T154652.000Z|#29LRYJUG0,#2CLYGQJVPU,#2U0UG89Y9,#2UUJ2CCLGY,#2VQ8LYJYGR,#GL299V9YU",
+  "time": "20261123T154652.000Z",
+  "map": "safe-zone",
+  "mapName": "Safe Zone",
+  "mode": "heist",
+  "teams": [
+   [
+    "shade",
+    "8-bit",
+    "penny"
+   ],
+   [
+    "bo",
+    "nori",
+    "8-bit"
+   ]
+  ],
+  "winner": 1
+ },
+ {
+  "key": "20261123T154325.000Z|#2CJY9980JL,#2JR0LQ9PUQ,#2Q8GQ89GRV,#2U0UG89Y9,#2UY0URLG2G,#2VPJR8LYGG",
+  "time": "20261123T154325.000Z",
+  "map": "open-business",
+  "mapName": "Open Business",
+  "mode": "hotZone",
+  "teams": [
+   [
+    "emz",
+    "tick",
+    "spike"
+   ],
+   [
+    "penny",
+    "emz",
+    "tick"
+   ]
+  ],
+  "winner": 1
+ },
+ {
+  "key": "20261123T153949.000Z|#2288ULPUCQ,#2U0UG89Y9,#2UUCQ2V20P,#2VJ0GYPR0Q,#G9CJQR8C0,#GRCVP9LG0",
+  "time": "20261123T153949.000Z",
+  "map": "open-business",
+  "mapName": "Open Business",
+  "mode": "hotZone",
+  "teams": [
+   [
+    "tick",
+    "frank",
+    "nori"
+   ],
+   [
+    "bo",
+    "chester",
+    "berry"
+   ]
+  ],
+  "winner": 1
+ },
+ {
+  "key": "20261123T153419.000Z|#2C98UQ8RVG,#2CCY0R0PCR,#2CGYCPGRPU,#2R8RLULRJC,#2U0UG89Y9,#L8L2GRPCU",
+  "time": "20261123T153419.000Z",
+  "map": "safe-zone",
+  "mapName": "Safe Zone",
+  "mode": "heist",
+  "teams": [
+   [
+    "mico",
+    "mandy",
+    "colt"
+   ],
+   [
+    "cosmo",
+    "chuck",
+    "8-bit"
+   ]
+  ],
+  "winner": 1
+ },
+ {
+  "key": "20261123T160458.000Z|#2YUJLJLVGY,#LRGYCCPRC,#PYYYPUP09,#Q0U2YU0YQ,#R8VLGGRQL,#Y08LCRVP8",
+  "time": "20261123T160458.000Z",
+  "map": "sneaky-fields",
+  "mapName": "Sneaky Fields",
+  "mode": "brawlBall",
+  "teams": [
+   [
+    "el-primo",
+    "emz",
+    "lumi"
+   ],
+   [
+    "edgar",
+    "lou",
+    "griff"
+   ]
+  ],
+  "winner": 1
+ },
+ {
+  "key": "20261123T160358.000Z|#2YUJLJLVGY,#LRGYCCPRC,#PYYYPUP09,#Q0U2YU0YQ,#R8VLGGRQL,#Y08LCRVP8",
+  "time": "20261123T160358.000Z",
+  "map": "sneaky-fields",
+  "mapName": "Sneaky Fields",
+  "mode": "brawlBall",
+  "teams": [
+   [
+    "el-primo",
+    "emz",
+    "lumi"
+   ],
+   [
+    "edgar",
+    "lou",
+    "griff"
+   ]
+  ],
+  "winner": 1
+ },
+ {
+  "key": "20261123T155842.000Z|#20RRV928G,#2JYRL08UQ0,#2PV2UGGPR,#9C9889QQC,#Q0U2YU0YQ,#QLQJUQ89R",
+  "time": "20261123T155842.000Z",
+  "map": "layer-cake",
+  "mapName": "Layer Cake",
+  "mode": "bounty",
+  "teams": [
+   [
+    "berry",
+    "mortis",
+    "nori"
+   ],
+   [
+    "penny",
+    "rico",
+    "najia"
+   ]
+  ],
+  "winner": 0
+ },
+ {
+  "key": "20261123T155624.000Z|#20RRV928G,#2JYRL08UQ0,#2PV2UGGPR,#9C9889QQC,#Q0U2YU0YQ,#QLQJUQ89R",
+  "time": "20261123T155624.000Z",
+  "map": "layer-cake",
+  "mapName": "Layer Cake",
+  "mode": "bounty",
+  "teams": [
+   [
+    "berry",
+    "mortis",
+    "nori"
+   ],
+   [
+    "penny",
+    "rico",
+    "najia"
+   ]
+  ],
+  "winner": 1
+ },
+ {
+  "key": "20261123T155406.000Z|#20RRV928G,#2JYRL08UQ0,#2PV2UGGPR,#9C9889QQC,#Q0U2YU0YQ,#QLQJUQ89R",
+  "time": "20261123T155406.000Z",
+  "map": "layer-cake",
+  "mapName": "Layer Cake",
+  "mode": "bounty",
+  "teams": [
+   [
+    "berry",
+    "mortis",
+    "nori"
+   ],
+   [
+    "penny",
+    "rico",
+    "najia"
+   ]
+  ],
+  "winner": 0
+ },
+ {
+  "key": "20261123T154926.000Z|#200GP2P00,#2J2UJY0PQY,#2PV2UGGPR,#8P98QCV9U,#9JCQY9J0Y,#Q0U2YU0YQ",
+  "time": "20261123T154926.000Z",
+  "map": "parallel-plays",
+  "mapName": "Parallel Plays",
+  "mode": "hotZone",
+  "teams": [
+   [
+    "nori",
+    "bibi",
+    "rico"
+   ],
+   [
+    "amber",
+    "shade",
+    "hank"
+   ]
+  ],
+  "winner": 1
+ },
+ {
+  "key": "20261123T154650.000Z|#200GP2P00,#2J2UJY0PQY,#2PV2UGGPR,#8P98QCV9U,#9JCQY9J0Y,#Q0U2YU0YQ",
+  "time": "20261123T154650.000Z",
+  "map": "parallel-plays",
+  "mapName": "Parallel Plays",
+  "mode": "hotZone",
+  "teams": [
+   [
+    "nori",
+    "bibi",
+    "rico"
+   ],
+   [
+    "amber",
+    "shade",
+    "hank"
+   ]
+  ],
+  "winner": 1
+ },
+ {
+  "key": "20261123T160554.000Z|#2GCCYP998,#2QYU89UQCJ,#2UPYJY2CV,#2Y8CJ9V8R8,#8UQJQ8PJV,#L8J9P0CP8",
+  "time": "20261123T160554.000Z",
+  "map": "gem-fort",
+  "mapName": "Gem Fort",
+  "mode": "gemGrab",
+  "teams": [
+   [
+    "janet",
+    "pearl",
+    "moe"
+   ],
+   [
+    "chester",
+    "gus",
+    "rico"
+   ]
+  ],
+  "winner": 0
+ },
+ {
+  "key": "20261123T160027.000Z|#2GCCYP998,#2UPYJY2CV,#8UQJQ8PJV,#LVJ8LL0R,#PCLR2UQ8P,#YLRLUCY0V",
+  "time": "20261123T160027.000Z",
+  "map": "shooting-star",
+  "mapName": "Shooting Star",
+  "mode": "bounty",
+  "teams": [
+   [
+    "gus",
+    "brock",
+    "belle"
+   ],
+   [
+    "byron",
+    "piper",
+    "mina"
+   ]
+  ],
+  "winner": 0
+ },
+ {
+  "key": "20261123T155808.000Z|#2GCCYP998,#2UPYJY2CV,#8UQJQ8PJV,#LVJ8LL0R,#PCLR2UQ8P,#YLRLUCY0V",
+  "time": "20261123T155808.000Z",
+  "map": "shooting-star",
+  "mapName": "Shooting Star",
+  "mode": "bounty",
+  "teams": [
+   [
+    "gus",
+    "brock",
+    "belle"
+   ],
+   [
+    "byron",
+    "piper",
+    "mina"
+   ]
+  ],
+  "winner": 0
+ },
+ {
+  "key": "20261123T155310.000Z|#2C9L9GCCJ8,#2GCCYP998,#2GCPC0P8R2,#2QGP99U0CV,#2UPYJY2CV,#P29V9G22",
+  "time": "20261123T155310.000Z",
+  "map": "flaring-phoenix",
+  "mapName": "Flaring Phoenix",
+  "mode": "knockout",
+  "teams": [
+   [
+    "mandy",
+    "mr-p",
+    "doug"
+   ],
+   [
+    "brock",
+    "byron",
+    "edgar"
+   ]
+  ],
+  "winner": 1
+ },
+ {
+  "key": "20261123T155051.000Z|#2C9L9GCCJ8,#2GCCYP998,#2GCPC0P8R2,#2QGP99U0CV,#2UPYJY2CV,#P29V9G22",
+  "time": "20261123T155051.000Z",
+  "map": "flaring-phoenix",
+  "mapName": "Flaring Phoenix",
+  "mode": "knockout",
+  "teams": [
+   [
+    "mandy",
+    "mr-p",
+    "doug"
+   ],
+   [
+    "brock",
+    "byron",
+    "edgar"
+   ]
+  ],
+  "winner": 1
+ },
+ {
+  "key": "20261123T154838.000Z|#2C9L9GCCJ8,#2GCCYP998,#2GCPC0P8R2,#2QGP99U0CV,#2UPYJY2CV,#P29V9G22",
+  "time": "20261123T154838.000Z",
+  "map": "flaring-phoenix",
+  "mapName": "Flaring Phoenix",
+  "mode": "knockout",
+  "teams": [
+   [
+    "mandy",
+    "mr-p",
+    "doug"
+   ],
+   [
+    "brock",
+    "byron",
+    "edgar"
+   ]
+  ],
+  "winner": 0
+ },
+ {
+  "key": "20261123T154327.000Z|#2GC8P22L9G,#2GCCYP998,#2UPYJY2CV,#88QYGRLLV,#9GUGRPQ9U,#YP989UUJL",
+  "time": "20261123T154327.000Z",
+  "map": "open-business",
+  "mapName": "Open Business",
+  "mode": "hotZone",
+  "teams": [
+   [
+    "mr-p",
+    "byron",
+    "clancy"
+   ],
+   [
+    "mortis",
+    "fang",
+    "brock"
+   ]
+  ],
+  "winner": 0
+ },
+ {
+  "key": "20261123T154129.000Z|#2GC8P22L9G,#2GCCYP998,#2UPYJY2CV,#88QYGRLLV,#9GUGRPQ9U,#YP989UUJL",
+  "time": "20261123T154129.000Z",
+  "map": "open-business",
+  "mapName": "Open Business",
+  "mode": "hotZone",
+  "teams": [
+   [
+    "mr-p",
+    "byron",
+    "clancy"
+   ],
+   [
+    "mortis",
+    "fang",
+    "brock"
+   ]
+  ],
+  "winner": 0
+ },
+ {
+  "key": "20261123T153526.000Z|#2GCCYP998,#2QLU02LC9C,#2UPYJY2CV,#2V80LPQQG,#2VUJGQG2CU,#C8CPL8YG",
+  "time": "20261123T153526.000Z",
+  "map": "triple-dribble",
+  "mapName": "Triple Dribble",
+  "mode": "brawlBall",
+  "teams": [
+   [
+    "dynamike",
+    "surge",
+    "colette"
+   ],
+   [
+    "doug",
+    "colt",
+    "amber"
+   ]
+  ],
+  "winner": 0
+ },
+ {
+  "key": "20261123T160535.000Z|#2L02JR88JR,#2UGPVC2RLU,#2YRLQQU9RU,#GR0JR88Y,#Y2880QRLL,#YUYVUJRCJ",
+  "time": "20261123T160535.000Z",
+  "map": "open-business",
+  "mapName": "Open Business",
+  "mode": "hotZone",
+  "teams": [
+   [
+    "melodie",
+    "tara",
+    "gale"
+   ],
+   [
+    "bea",
+    "bo",
+    "juju"
+   ]
+  ],
+  "winner": 1
+ },
+ {
+  "key": "20261123T160341.000Z|#2L02JR88JR,#2UGPVC2RLU,#2YRLQQU9RU,#GR0JR88Y,#Y2880QRLL,#YUYVUJRCJ",
+  "time": "20261123T160341.000Z",
+  "map": "open-business",
+  "mapName": "Open Business",
+  "mode": "hotZone",
+  "teams": [
+   [
+    "melodie",
+    "tara",
+    "gale"
+   ],
+   [
+    "bea",
+    "bo",
+    "juju"
+   ]
+  ],
+  "winner": 1
+ },
+ {
+  "key": "20261123T155816.000Z|#2L02JR88JR,#2UGPVC2RLU,#8UL2QJR9Q,#GP9U2QQLQ,#P9GUC0UQ,#Y2880QRLL",
+  "time": "20261123T155816.000Z",
+  "map": "kaboom-canyon",
+  "mapName": "Kaboom Canyon",
+  "mode": "heist",
+  "teams": [
+   [
+    "nori",
+    "bo",
+    "wendy"
+   ],
+   [
+    "eve",
+    "brock",
+    "colette"
+   ]
+  ],
+  "winner": 0
+ },
+ {
+  "key": "20261123T155534.000Z|#2L02JR88JR,#2UGPVC2RLU,#8UL2QJR9Q,#GP9U2QQLQ,#P9GUC0UQ,#Y2880QRLL",
+  "time": "20261123T155534.000Z",
+  "map": "kaboom-canyon",
+  "mapName": "Kaboom Canyon",
+  "mode": "heist",
+  "teams": [
+   [
+    "nori",
+    "bo",
+    "wendy"
+   ],
+   [
+    "eve",
+    "brock",
+    "colette"
+   ]
+  ],
+  "winner": 0
+ },
+ {
+  "key": "20261123T154952.000Z|#202YRQR9,#28GL8UCYL0,#2UYQ8LJPGC,#Q2C8U2J,#Y2880QRLL,#YLRCY9QL9",
+  "time": "20261123T154952.000Z",
+  "map": "new-horizons",
+  "mapName": "New Horizons",
+  "mode": "knockout",
+  "teams": [
+   [
+    "gene",
+    "brock",
+    "mr-p"
+   ],
+   [
+    "dynamike",
+    "rico",
+    "bonnie"
+   ]
+  ],
+  "winner": 0
+ },
+ {
+  "key": "20261123T154820.000Z|#202YRQR9,#28GL8UCYL0,#2UYQ8LJPGC,#Q2C8U2J,#Y2880QRLL,#YLRCY9QL9",
+  "time": "20261123T154820.000Z",
+  "map": "new-horizons",
+  "mapName": "New Horizons",
+  "mode": "knockout",
+  "teams": [
+   [
+    "gene",
+    "brock",
+    "mr-p"
+   ],
+   [
+    "dynamike",
+    "rico",
+    "bonnie"
+   ]
+  ],
+  "winner": 0
+ },
+ {
+  "key": "20261123T154402.000Z|#2QUPRL2P0V,#2VRCQURUL2,#PJQ98C0UY,#QPY9RPJ0C,#Y2880QRLL,#YLRCY9QL9",
+  "time": "20261123T154402.000Z",
+  "map": "sneaky-fields",
+  "mapName": "Sneaky Fields",
+  "mode": "brawlBall",
+  "teams": [
+   [
+    "griff",
+    "spike",
+    "jessie"
+   ],
+   [
+    "tara",
+    "amber",
+    "surge"
+   ]
+  ],
+  "winner": 1
+ },
+ {
+  "key": "20261123T154042.000Z|#2QUPRL2P0V,#2VRCQURUL2,#PJQ98C0UY,#QPY9RPJ0C,#Y2880QRLL,#YLRCY9QL9",
+  "time": "20261123T154042.000Z",
+  "map": "sneaky-fields",
+  "mapName": "Sneaky Fields",
+  "mode": "brawlBall",
+  "teams": [
+   [
+    "griff",
+    "spike",
+    "jessie"
+   ],
+   [
+    "tara",
+    "amber",
+    "surge"
+   ]
+  ],
+  "winner": 1
+ },
+ {
+  "key": "20261123T153947.000Z|#2QUPRL2P0V,#2VRCQURUL2,#PJQ98C0UY,#QPY9RPJ0C,#Y2880QRLL,#YLRCY9QL9",
+  "time": "20261123T153947.000Z",
+  "map": "sneaky-fields",
+  "mapName": "Sneaky Fields",
+  "mode": "brawlBall",
+  "teams": [
+   [
+    "griff",
+    "spike",
+    "jessie"
+   ],
+   [
+    "tara",
+    "amber",
+    "surge"
+   ]
+  ],
+  "winner": 0
+ },
+ {
+  "key": "20261123T160503.000Z|#2G8R0Q0C2,#2Q0PL09LP,#2UJL9G20UR,#8YGQR22J,#RYGLCQC9,#YV8JPU998",
+  "time": "20261123T160503.000Z",
+  "map": "hideout",
+  "mapName": "Hideout",
+  "mode": "bounty",
+  "teams": [
+   [
+    "colette",
+    "mortis",
+    "gus"
+   ],
+   [
+    "kaze",
+    "byron",
+    "otis"
+   ]
+  ],
+  "winner": 0
+ },
+ {
+  "key": "20261123T160245.000Z|#2G8R0Q0C2,#2Q0PL09LP,#2UJL9G20UR,#8YGQR22J,#RYGLCQC9,#YV8JPU998",
+  "time": "20261123T160245.000Z",
+  "map": "hideout",
+  "mapName": "Hideout",
+  "mode": "bounty",
+  "teams": [
+   [
+    "colette",
+    "mortis",
+    "gus"
+   ],
+   [
+    "kaze",
+    "byron",
+    "otis"
+   ]
+  ],
+  "winner": 0
+ },
+ {
+  "key": "20261123T160026.000Z|#2G8R0Q0C2,#2Q0PL09LP,#2UJL9G20UR,#8YGQR22J,#RYGLCQC9,#YV8JPU998",
+  "time": "20261123T160026.000Z",
+  "map": "hideout",
+  "mapName": "Hideout",
+  "mode": "bounty",
+  "teams": [
+   [
+    "colette",
+    "mortis",
+    "gus"
+   ],
+   [
+    "kaze",
+    "byron",
+    "otis"
+   ]
+  ],
+  "winner": 1
+ },
+ {
+  "key": "20261123T155428.000Z|#2L9GLC00J,#2YLP92C9P2,#PUPPVJVJY,#QQ98RUGVR,#YL9RU8G28,#YV8JPU998",
+  "time": "20261123T155428.000Z",
+  "map": "double-swoosh",
+  "mapName": "Double Swoosh",
+  "mode": "gemGrab",
+  "teams": [
+   [
+    "griff",
+    "mr-p",
+    "tara"
+   ],
+   [
+    "rosa",
+    "lou",
+    "kenji"
+   ]
+  ],
+  "winner": 0
+ },
+ {
+  "key": "20261123T155234.000Z|#2L9GLC00J,#2YLP92C9P2,#PUPPVJVJY,#QQ98RUGVR,#YL9RU8G28,#YV8JPU998",
+  "time": "20261123T155234.000Z",
+  "map": "double-swoosh",
+  "mapName": "Double Swoosh",
+  "mode": "gemGrab",
+  "teams": [
+   [
+    "griff",
+    "mr-p",
+    "tara"
+   ],
+   [
+    "rosa",
+    "lou",
+    "kenji"
+   ]
+  ],
+  "winner": 0
+ },
+ {
+  "key": "20261123T155032.000Z|#2L9GLC00J,#2YLP92C9P2,#PUPPVJVJY,#QQ98RUGVR,#YL9RU8G28,#YV8JPU998",
+  "time": "20261123T155032.000Z",
+  "map": "double-swoosh",
+  "mapName": "Double Swoosh",
+  "mode": "gemGrab",
+  "teams": [
+   [
+    "griff",
+    "mr-p",
+    "tara"
+   ],
+   [
+    "rosa",
+    "lou",
+    "kenji"
+   ]
+  ],
+  "winner": 1
+ },
+ {
+  "key": "20261123T160145.000Z|#22U8G2GQG,#2LLCP9VG2C,#9RVG0R8PJ,#PQ028RV8U,#QYC28PCR9,#RP0UP29YP",
+  "time": "20261123T160145.000Z",
+  "map": "double-swoosh",
+  "mapName": "Double Swoosh",
+  "mode": "gemGrab",
+  "teams": [
+   [
+    "surge",
+    "poco",
+    "griff"
+   ],
+   [
+    "buster",
+    "otis",
+    "amber"
+   ]
+  ],
+  "winner": 1
+ },
+ {
+  "key": "20261123T155930.000Z|#22U8G2GQG,#2LLCP9VG2C,#9RVG0R8PJ,#PQ028RV8U,#QYC28PCR9,#RP0UP29YP",
+  "time": "20261123T155930.000Z",
+  "map": "double-swoosh",
+  "mapName": "Double Swoosh",
+  "mode": "gemGrab",
+  "teams": [
+   [
+    "surge",
+    "poco",
+    "griff"
+   ],
+   [
+    "buster",
+    "otis",
+    "amber"
+   ]
+  ],
+  "winner": 1
+ },
+ {
+  "key": "20261123T154854.000Z|#22U8G2GQG,#2QYGGRJCLV,#2UUJ99YP28,#2Y0J9QPGGC,#G92J0RR9P,#GL8VRJ92Q",
+  "time": "20261123T154854.000Z",
+  "map": "hideout",
+  "mapName": "Hideout",
+  "mode": "bounty",
+  "teams": [
+   [
+    "belle",
+    "mico",
+    "brock"
+   ],
+   [
+    "gus",
+    "juju",
+    "colt"
+   ]
+  ],
+  "winner": 0
+ },
+ {
+  "key": "20261123T154707.000Z|#22U8G2GQG,#2QYGGRJCLV,#2UUJ99YP28,#2Y0J9QPGGC,#G92J0RR9P,#GL8VRJ92Q",
+  "time": "20261123T154707.000Z",
+  "map": "hideout",
+  "mapName": "Hideout",
+  "mode": "bounty",
+  "teams": [
+   [
+    "belle",
+    "mico",
+    "brock"
+   ],
+   [
+    "gus",
+    "juju",
+    "colt"
+   ]
+  ],
+  "winner": 0
+ },
+ {
+  "key": "20261123T154204.000Z|#22U8G2GQG,#2GLPU92C9G,#2RURVVJ2CV,#CLYR0QVR,#PYCV8JJQR,#YP98PUPJJ",
+  "time": "20261123T154204.000Z",
+  "map": "undermine",
+  "mapName": "Undermine",
+  "mode": "gemGrab",
+  "teams": [
+   [
+    "colette",
+    "amber",
+    "alli"
+   ],
+   [
+    "spike",
+    "bibi",
+    "griff"
+   ]
+  ],
+  "winner": 1
+ },
+ {
+  "key": "20261123T153839.000Z|#22U8G2GQG,#2GLPU92C9G,#2RURVVJ2CV,#CLYR0QVR,#PYCV8JJQR,#YP98PUPJJ",
+  "time": "20261123T153839.000Z",
+  "map": "undermine",
+  "mapName": "Undermine",
+  "mode": "gemGrab",
+  "teams": [
+   [
+    "colette",
+    "amber",
+    "alli"
+   ],
+   [
+    "spike",
+    "bibi",
+    "griff"
+   ]
+  ],
+  "winner": 1
+ },
+ {
+  "key": "20261123T160737.000Z|#2CQP09RP2,#2LR98V2YUG,#9229RPVY,#P0JCYL0PJ,#QG9VRUGCG,#QU0PCYLUQ",
+  "time": "20261123T160737.000Z",
+  "map": "belle-s-rock",
+  "mapName": "Belle's Rock",
+  "mode": "knockout",
+  "teams": [
+   [
+    "squeak",
+    "brock",
+    "mandy"
+   ],
+   [
+    "sirius",
+    "piper",
+    "spike"
+   ]
+  ],
+  "winner": 1
+ },
+ {
+  "key": "20261123T160439.000Z|#2CQP09RP2,#2LR98V2YUG,#9229RPVY,#P0JCYL0PJ,#QG9VRUGCG,#QU0PCYLUQ",
+  "time": "20261123T160439.000Z",
+  "map": "belle-s-rock",
+  "mapName": "Belle's Rock",
+  "mode": "knockout",
+  "teams": [
+   [
+    "squeak",
+    "brock",
+    "mandy"
+   ],
+   [
+    "sirius",
+    "piper",
+    "spike"
+   ]
+  ],
+  "winner": 1
+ },
+ {
+  "key": "20261123T160000.000Z|#2LR98V2YUG,#8JY9LQ9RP,#9LVJ2V9YV,#GJ2GQP0GP,#LJQVQ9U80,#UPJ0UUJ",
+  "time": "20261123T160000.000Z",
+  "map": "new-horizons",
+  "mapName": "New Horizons",
+  "mode": "knockout",
+  "teams": [
+   [
+    "edgar",
+    "juju",
+    "mandy"
+   ],
+   [
+    "mr-p",
+    "chuck",
+    "meeple"
+   ]
+  ],
+  "winner": 0
+ },
+ {
+  "key": "20261123T155649.000Z|#2LR98V2YUG,#8JY9LQ9RP,#9LVJ2V9YV,#GJ2GQP0GP,#LJQVQ9U80,#UPJ0UUJ",
+  "time": "20261123T155649.000Z",
+  "map": "new-horizons",
+  "mapName": "New Horizons",
+  "mode": "knockout",
+  "teams": [
+   [
+    "edgar",
+    "juju",
+    "mandy"
+   ],
+   [
+    "mr-p",
+    "chuck",
+    "meeple"
+   ]
+  ],
+  "winner": 0
+ },
+ {
+  "key": "20261123T155239.000Z|#2LR98V2YUG,#2QJ9L29PVG,#2YY8PRQ29U,#9Y22CLYJG,#R8QQLGR9J,#V8GR2PUQ",
+  "time": "20261123T155239.000Z",
+  "map": "dueling-beetles",
+  "mapName": "Dueling Beetles",
+  "mode": "hotZone",
+  "teams": [
+   [
+    "chester",
+    "bo",
+    "edgar"
+   ],
+   [
+    "poco",
+    "piper",
+    "emz"
+   ]
+  ],
+  "winner": 0
+ },
+ {
+  "key": "20261123T155012.000Z|#2LR98V2YUG,#2QJ9L29PVG,#2YY8PRQ29U,#9Y22CLYJG,#R8QQLGR9J,#V8GR2PUQ",
+  "time": "20261123T155012.000Z",
+  "map": "dueling-beetles",
+  "mapName": "Dueling Beetles",
+  "mode": "hotZone",
+  "teams": [
+   [
+    "chester",
+    "bo",
+    "edgar"
+   ],
+   [
+    "poco",
+    "piper",
+    "emz"
+   ]
+  ],
+  "winner": 0
+ },
+ {
+  "key": "20261123T154755.000Z|#2LR98V2YUG,#2QJ9L29PVG,#2YY8PRQ29U,#9Y22CLYJG,#R8QQLGR9J,#V8GR2PUQ",
+  "time": "20261123T154755.000Z",
+  "map": "dueling-beetles",
+  "mapName": "Dueling Beetles",
+  "mode": "hotZone",
+  "teams": [
+   [
+    "chester",
+    "bo",
+    "edgar"
+   ],
+   [
+    "poco",
+    "piper",
+    "emz"
+   ]
+  ],
+  "winner": 1
+ },
+ {
+  "key": "20261123T154317.000Z|#28Y2VR0VQ2,#2LR98V2YUG,#2V9VRYLCV,#8PPPU8980,#922J00RUL,#JRU822R90",
+  "time": "20261123T154317.000Z",
+  "map": "pinball-dreams",
+  "mapName": "Pinball Dreams",
+  "mode": "brawlBall",
+  "teams": [
+   [
+    "kenji",
+    "colt",
+    "emz"
+   ],
+   [
+    "fang",
+    "griff",
+    "pearl"
+   ]
+  ],
+  "winner": 0
+ },
+ {
+  "key": "20261123T154021.000Z|#28Y2VR0VQ2,#2LR98V2YUG,#2V9VRYLCV,#8PPPU8980,#922J00RUL,#JRU822R90",
+  "time": "20261123T154021.000Z",
+  "map": "pinball-dreams",
+  "mapName": "Pinball Dreams",
+  "mode": "brawlBall",
+  "teams": [
+   [
+    "kenji",
+    "colt",
+    "emz"
+   ],
+   [
+    "fang",
+    "griff",
+    "pearl"
+   ]
+  ],
+  "winner": 0
+ },
+ {
+  "key": "20261123T153530.000Z|#208JRUJGCY,#2GQRY8PJPQ,#2LR98V2YUG,#8PPPU8980,#922J00RUL,#YR9CPJGJQ",
+  "time": "20261123T153530.000Z",
+  "map": "dueling-beetles",
+  "mapName": "Dueling Beetles",
+  "mode": "hotZone",
+  "teams": [
+   [
+    "fang",
+    "squeak",
+    "chester"
+   ],
+   [
+    "mortis",
+    "griff",
+    "r-t"
+   ]
+  ],
+  "winner": 0
+ },
+ {
+  "key": "20261123T160519.000Z|#2GLLG2V08L,#2QQVCGP,#2VGCQQYVP9,#80VCUUUJJ,#82J8J809V,#9CVR9GGLG",
+  "time": "20261123T160519.000Z",
+  "map": "open-business",
+  "mapName": "Open Business",
+  "mode": "hotZone",
+  "teams": [
+   [
+    "nori",
+    "rico",
+    "chester"
+   ],
+   [
+    "frank",
+    "colette",
+    "berry"
+   ]
+  ],
+  "winner": 1
+ },
+ {
+  "key": "20261123T154921.000Z|#2CLV0JCJCP,#8CY0YCYYR,#Q0GURJGUP,#QGYGLQUPU,#RQ99JPUR,#RYL99UGR",
+  "time": "20261123T154921.000Z",
+  "map": "ring-of-fire",
+  "mapName": "Ring of Fire",
+  "mode": "hotZone",
+  "teams": [
+   [
+    "alli",
+    "griff",
+    "poco"
+   ],
+   [
+    "pierce",
+    "mortis",
+    "lou"
+   ]
+  ],
+  "winner": 1
+ },
+ {
+  "key": "20261123T154634.000Z|#2CLV0JCJCP,#8CY0YCYYR,#Q0GURJGUP,#QGYGLQUPU,#RQ99JPUR,#RYL99UGR",
+  "time": "20261123T154634.000Z",
+  "map": "ring-of-fire",
+  "mapName": "Ring of Fire",
+  "mode": "hotZone",
+  "teams": [
+   [
+    "alli",
+    "griff",
+    "poco"
+   ],
+   [
+    "pierce",
+    "mortis",
+    "lou"
+   ]
+  ],
+  "winner": 1
+ },
+ {
+  "key": "20261123T154420.000Z|#2CLV0JCJCP,#8CY0YCYYR,#Q0GURJGUP,#QGYGLQUPU,#RQ99JPUR,#RYL99UGR",
+  "time": "20261123T154420.000Z",
+  "map": "ring-of-fire",
+  "mapName": "Ring of Fire",
+  "mode": "hotZone",
+  "teams": [
+   [
+    "alli",
+    "griff",
+    "poco"
+   ],
+   [
+    "pierce",
+    "mortis",
+    "lou"
+   ]
+  ],
+  "winner": 0
+ },
+ {
+  "key": "20261123T153933.000Z|#2C0U29QQCQ,#9LURG2JY2,#C9YPRJV0U,#GRPQ9UUQJ,#LUPVQGC0,#QGYGLQUPU",
+  "time": "20261123T153933.000Z",
+  "map": "gem-fort",
+  "mapName": "Gem Fort",
+  "mode": "gemGrab",
+  "teams": [
+   [
+    "ash",
+    "gale",
+    "mortis"
+   ],
+   [
+    "lou",
+    "emz",
+    "surge"
+   ]
+  ],
+  "winner": 0
+ },
+ {
+  "key": "20261123T153730.000Z|#2C0U29QQCQ,#9LURG2JY2,#C9YPRJV0U,#GRPQ9UUQJ,#LUPVQGC0,#QGYGLQUPU",
+  "time": "20261123T153730.000Z",
+  "map": "gem-fort",
+  "mapName": "Gem Fort",
+  "mode": "gemGrab",
+  "teams": [
+   [
+    "ash",
+    "gale",
+    "mortis"
+   ],
+   [
+    "lou",
+    "emz",
+    "surge"
+   ]
+  ],
+  "winner": 0
+ },
+ {
+  "key": "20261123T160433.000Z|#2JR9YG8RJ,#8V9QGY0RU,#9L28GGQG8,#J00L89C0V,#P0900VV02,#YUQQGCL8G",
+  "time": "20261123T160433.000Z",
+  "map": "dry-season",
+  "mapName": "Dry Season",
+  "mode": "bounty",
+  "teams": [
+   [
+    "melodie",
+    "squeak",
+    "gus"
+   ],
+   [
+    "brock",
+    "otis",
+    "piper"
+   ]
+  ],
+  "winner": 0
+ },
+ {
+  "key": "20261123T160214.000Z|#2JR9YG8RJ,#8V9QGY0RU,#9L28GGQG8,#J00L89C0V,#P0900VV02,#YUQQGCL8G",
+  "time": "20261123T160214.000Z",
+  "map": "dry-season",
+  "mapName": "Dry Season",
+  "mode": "bounty",
+  "teams": [
+   [
+    "melodie",
+    "squeak",
+    "gus"
+   ],
+   [
+    "brock",
+    "otis",
+    "piper"
+   ]
+  ],
+  "winner": 1
+ },
+ {
+  "key": "20261123T155955.000Z|#2JR9YG8RJ,#8V9QGY0RU,#9L28GGQG8,#J00L89C0V,#P0900VV02,#YUQQGCL8G",
+  "time": "20261123T155955.000Z",
+  "map": "dry-season",
+  "mapName": "Dry Season",
+  "mode": "bounty",
+  "teams": [
+   [
+    "melodie",
+    "squeak",
+    "gus"
+   ],
+   [
+    "brock",
+    "otis",
+    "piper"
+   ]
+  ],
+  "winner": 0
+ },
+ {
+  "key": "20261123T160421.000Z|#2CJG900PQ8,#8LURLJUGC,#9Y28JVJ,#PJQLUGY8,#QRL0QY9VP,#YJ2YU0QYY",
+  "time": "20261123T160421.000Z",
+  "map": "layer-cake",
+  "mapName": "Layer Cake",
+  "mode": "bounty",
+  "teams": [
+   [
+    "gray",
+    "mortis",
+    "brock"
+   ],
+   [
+    "ash",
+    "kaze",
+    "mr-p"
+   ]
+  ],
+  "winner": 1
+ },
+ {
+  "key": "20261123T160212.000Z|#2CJG900PQ8,#8LURLJUGC,#9Y28JVJ,#PJQLUGY8,#QRL0QY9VP,#YJ2YU0QYY",
+  "time": "20261123T160212.000Z",
+  "map": "layer-cake",
+  "mapName": "Layer Cake",
+  "mode": "bounty",
+  "teams": [
+   [
+    "gray",
+    "mortis",
+    "brock"
+   ],
+   [
+    "ash",
+    "kaze",
+    "mr-p"
+   ]
+  ],
+  "winner": 1
+ },
+ {
+  "key": "20261123T154709.000Z|#2JJLJCPU9,#GC8PYJLR0,#PJQLUGY8,#QC00YCU89,#UVQUVL0R,#YGQQ9PQVU",
+  "time": "20261123T154709.000Z",
+  "map": "bridge-too-far",
+  "mapName": "Bridge Too Far",
+  "mode": "heist",
+  "teams": [
+   [
+    "brock",
+    "max",
+    "angelo"
+   ],
+   [
+    "nori",
+    "piper",
+    "colt"
+   ]
+  ],
+  "winner": 1
+ },
+ {
+  "key": "20261123T154535.000Z|#2JJLJCPU9,#GC8PYJLR0,#PJQLUGY8,#QC00YCU89,#UVQUVL0R,#YGQQ9PQVU",
+  "time": "20261123T154535.000Z",
+  "map": "bridge-too-far",
+  "mapName": "Bridge Too Far",
+  "mode": "heist",
+  "teams": [
+   [
+    "brock",
+    "max",
+    "angelo"
+   ],
+   [
+    "nori",
+    "piper",
+    "colt"
+   ]
+  ],
+  "winner": 1
+ },
+ {
+  "key": "20261123T154121.000Z|#22QLVV92L,#2R0YLCQRR,#8LVCQGLQ8,#9Q2VGG9C,#PJQLUGY8,#YPG0YP9RC",
+  "time": "20261123T154121.000Z",
+  "map": "safe-zone",
+  "mapName": "Safe Zone",
+  "mode": "heist",
+  "teams": [
+   [
+    "colt",
+    "brock",
+    "buzz"
+   ],
+   [
+    "gale",
+    "pierce",
+    "melodie"
+   ]
+  ],
+  "winner": 1
+ },
+ {
+  "key": "20261123T153836.000Z|#22QLVV92L,#2R0YLCQRR,#8LVCQGLQ8,#9Q2VGG9C,#PJQLUGY8,#YPG0YP9RC",
+  "time": "20261123T153836.000Z",
+  "map": "safe-zone",
+  "mapName": "Safe Zone",
+  "mode": "heist",
+  "teams": [
+   [
+    "colt",
+    "brock",
+    "buzz"
+   ],
+   [
+    "gale",
+    "pierce",
+    "melodie"
+   ]
+  ],
+  "winner": 1
+ },
+ {
+  "key": "20261123T160635.000Z|#20J08LV8,#2CPVVUVPY8,#2G0LYG200Y,#2RJQU8CLPP,#GVLRPJQL,#RR0PLQQ",
+  "time": "20261123T160635.000Z",
+  "map": "undermine",
+  "mapName": "Undermine",
+  "mode": "gemGrab",
+  "teams": [
+   [
+    "emz",
+    "mortis",
+    "spike"
+   ],
+   [
+    "gale",
+    "bo",
+    "frank"
+   ]
+  ],
+  "winner": 1
+ },
+ {
+  "key": "20261123T160332.000Z|#20J08LV8,#2LQC9VYUCG,#2VPY0QCVJY,#8PVJQVPPQ,#PCU9QR8G9,#RV9QVUUL",
+  "time": "20261123T160332.000Z",
+  "map": "out-in-the-open",
+  "mapName": "Out in the Open",
+  "mode": "knockout",
+  "teams": [
+   [
+    "mr-p",
+    "poco",
+    "brock"
+   ],
+   [
+    "tick",
+    "brock",
+    "eve"
+   ]
+  ],
+  "winner": 0
+ },
+ {
+  "key": "20261123T160046.000Z|#20J08LV8,#2LQC9VYUCG,#908YC8Y,#GJVC0L8LR,#GJYCR809V,#GYJGVV22L",
+  "time": "20261123T160046.000Z",
+  "map": "sneaky-fields",
+  "mapName": "Sneaky Fields",
+  "mode": "brawlBall",
+  "teams": [
+   [
+    "el-primo",
+    "poco",
+    "doug"
+   ],
+   [
+    "alli",
+    "max",
+    "griff"
+   ]
+  ],
+  "winner": 0
+ },
+ {
+  "key": "20261123T155841.000Z|#20J08LV8,#22Y2VQ0C0Q,#2RJY90C0Y,#J902YPRV,#QQJRV98U9,#VYVLLUY",
+  "time": "20261123T155841.000Z",
+  "map": "sneaky-fields",
+  "mapName": "Sneaky Fields",
+  "mode": "brawlBall",
+  "teams": [
+   [
+    "el-primo",
+    "surge",
+    "shade"
+   ],
+   [
+    "emz",
+    "bull",
+    "el-primo"
+   ]
+  ],
+  "winner": 1
+ },
+ {
+  "key": "20261123T155648.000Z|#20J08LV8,#280JQYG9G,#2CRVUVCR8J,#2VGY8YYG2L,#9J0PYR20J,#Y8LC9QPUR",
+  "time": "20261123T155648.000Z",
+  "map": "dueling-beetles",
+  "mapName": "Dueling Beetles",
+  "mode": "hotZone",
+  "teams": [
+   [
+    "berry",
+    "surge",
+    "gale"
+   ],
+   [
+    "dynamike",
+    "tick",
+    "max"
+   ]
+  ],
+  "winner": 0
  }
 ]
