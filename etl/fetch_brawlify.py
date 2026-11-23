@@ -29,6 +29,10 @@ def main() -> None:
         })
 
     maps_raw = _list(get_json(f"{BASE}/maps"))
+    if maps_raw:  # trace de la forme des données, utile si l'API évolue
+        sample = maps_raw[0]
+        print("  clés d'une map :", sorted(sample.keys()))
+        print("  extrait stats :", str(sample.get("stats"))[:300])
     maps, map_stats = [], {}
     for m in maps_raw:
         if m.get("disabled"):
@@ -37,15 +41,21 @@ def main() -> None:
         mid = slug(m.get("hash") or m["name"])
         maps.append({"id": mid, "name": m["name"], "mode": mode})
         stats = m.get("stats")
-        if stats is None:  # certaines versions de l'API ne détaillent les stats que par map
+        if not stats:  # la liste ne détaille pas toujours les stats : on lit la fiche de la map
             try:
-                stats = get_json(f"{BASE}/maps/{m['id']}", pause=0.2).get("stats", [])
+                detail = get_json(f"{BASE}/maps/{m['id']}", pause=0.1)
+                stats = detail.get("stats") or []
+                if not map_stats and not stats:
+                    print("  fiche map sans stats, clés :", sorted(detail.keys()))
             except Exception as e:  # une map absente ne doit pas tout casser
                 print(f"  stats indisponibles pour {m['name']}: {e}")
                 stats = []
         per = {}
         for s in stats:
-            bid = id_to_slug.get(s.get("brawler"))
+            raw_b = s.get("brawler")
+            if isinstance(raw_b, dict):
+                raw_b = raw_b.get("id")
+            bid = id_to_slug.get(raw_b) or id_to_slug.get(int(raw_b)) if str(raw_b).isdigit() else id_to_slug.get(raw_b)
             if bid and s.get("winRate") is not None:
                 per[bid] = {"winRate": float(s["winRate"]), "useRate": float(s.get("useRate") or 0)}
         if per:
