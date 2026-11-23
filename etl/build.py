@@ -56,12 +56,20 @@ def main() -> None:
         brawlers.setdefault(bid, {"id": bid, "name": bid.replace("-", " ").title()})
     for bid, al in aliases.get("brawlers", {}).items():
         if bid in brawlers:
-            brawlers[bid]["aliases"] = al
+            brawlers[bid]["aliases"] = sorted(set(brawlers[bid].get("aliases", []) + al))
+
+    fr = read_json(ROOT / "data" / "fr.json", {}) or {}
+    fr_b = {_key(k): v for k, v in fr.get("brawlers", {}).items()}
+    for b in brawlers.values():
+        new = fr_b.get(_key(b["name"]))
+        if new and new != b["name"]:
+            b["aliases"] = sorted(set(b.get("aliases", []) + [b["name"]]))
+            b["name"] = new
 
     maps = {m["id"]: dict(m) for m in bf.get("maps", [])}
     for m in own["maps"]:  # le mode vu en classé prime sur celui de Brawlify
         maps.setdefault(m["id"], dict(m))["mode"] = m["mode"] or maps[m["id"]].get("mode", "")
-    translate_fr(maps.values(), read_json(ROOT / "data" / "fr.json", {}) or {})
+    translate_fr(maps.values(), fr)
     for mid, al in aliases.get("maps", {}).items():
         if mid in maps:
             maps[mid]["aliases"] = sorted(set(maps[mid].get("aliases", []) + al))

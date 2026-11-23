@@ -201,7 +201,7 @@ export default function App() {
           <p className="warn">Reconnaissance vocale non disponible : utilisez Chrome ou Edge.</p>
         )}
         <p className="heard">
-          {speech.interim || lastHeard || "Ex. : « map Safe Zone, bannis Mortis et Spike, en face Colt »"}
+          {speech.interim || lastHeard || "Ex. : « map Zone sécurisée, bannis Mortis et Spike, en face Colt »"}
         </p>
         {speech.error && <p className="warn">Micro : {speech.error}</p>}
       </section>
