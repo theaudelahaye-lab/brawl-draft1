@@ -170,7 +170,7 @@ export default function App() {
   return (
     <main className="app">
       <header>
-        <h1>Draft Coach</h1>
+        <h1>Draft <span>Coach</span></h1>
         <div className="row">
           <label className="toggle">
             <input
@@ -181,7 +181,7 @@ export default function App() {
             Premier pick
           </label>
           <button onClick={() => setShowOwned((v) => !v)}>Ma collection ({owned.length || "toutes"})</button>
-          <button onClick={() => setState((s) => applyCommand(s, { intent: "reset", ids: [] }))}>Nouvelle draft</button>
+          <button className="btn-yellow" onClick={() => setState((s) => applyCommand(s, { intent: "reset", ids: [] }))}>Nouvelle draft</button>
         </div>
       </header>
 
@@ -212,7 +212,7 @@ export default function App() {
               ["enemy", "Eux", state.enemies],
             ] as [Slot, string, string[]][]
           ).map(([k, label, ids]) => (
-            <div key={k} className={`col ${slot === k ? "active" : ""}`} onClick={() => setSlot(k)}>
+            <div key={k} className={`col ${k} ${slot === k ? "active" : ""}`} onClick={() => setSlot(k)}>
               <h3>{label}</h3>
               {ids.map((id) => (
                 <Chip key={id} id={id} name={name(id)} onRemove={() => remove(id)} />
@@ -229,7 +229,7 @@ export default function App() {
           {mainList.items.slice(0, 8).map((r) => (
             <li key={r.brawlerId} onClick={() => add(r.brawlerId)}>
               <Chip id={r.brawlerId} name={name(r.brawlerId)} />
-              <span className="score">{r.score >= 0 ? "+" : ""}{r.score.toFixed(1)}</span>
+              <span className={`score ${r.score < 0 ? "neg" : ""}`}>{r.score >= 0 ? "+" : ""}{r.score.toFixed(1)}</span>
               <span className="why">
                 {r.reasons
                   .filter((x) => Math.abs(x.value) >= 0.3)
@@ -241,7 +241,7 @@ export default function App() {
         </ol>
         {phase !== "ban" && phase !== "map" && phase !== "done" && phase !== "ourPick" && picks.length > 0 && (
           <p className="hint">
-            Pour notre prochain tour : {picks.slice(0, 3).map((r) => name(r.brawlerId)).join(", ")}
+            Pour notre prochain tour : <b>{picks.slice(0, 3).map((r) => name(r.brawlerId)).join(", ")}</b>
           </p>
         )}
       </section>

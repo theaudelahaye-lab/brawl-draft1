@@ -1,10 +1,32 @@
 :root {
-  --bg: #f4f5fb; --fg: #16182a; --card: #ffffff; --btn: #eef0f8; --line: #d9dcea;
-  --accent: #5b4bff; --danger: #e0344f;
-  color-scheme: light dark;
-  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --bg: #1a3fb8;
+  --bg2: #0f2a85;
+  --fg: #ffffff;
+  --ink: #0b0b1a;
+  --card: #2a5bdc;
+  --card2: #2250cc;
+  --btn: #3b6ff0;
+  --line: #0b0b1a;
+  --yellow: #ffd21f;
+  --yellow-dark: #e0a800;
+  --accent: #ffd21f;
+  --danger: #ff3b5c;
+  --green: #3ddc5a;
+  --red-team: #ff4757;
+  --blue-team: #36a2ff;
+  color-scheme: dark;
+  font-family: "Lilita One", "Arial Black", system-ui, sans-serif;
 }
-@media (prefers-color-scheme: dark) {
-  :root { --bg: #0f1020; --fg: #eceefe; --card: #181a30; --btn: #22254a; --line: #2f3360; --accent: #8a7dff; --danger: #ff5c76; }
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  color: var(--fg);
+  background-color: var(--bg);
+  background-image:
+    radial-gradient(circle at 20% 0%, #3d7bff 0, transparent 45%),
+    repeating-linear-gradient(135deg, rgba(255,255,255,.05) 0 18px, transparent 18px 36px),
+    linear-gradient(180deg, var(--bg) 0%, var(--bg2) 100%);
+  background-attachment: fixed;
+  min-height: 100vh;
+  letter-spacing: .02em;
 }
-body { margin: 0; background: var(--bg); color: var(--fg); }
