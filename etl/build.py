@@ -58,8 +58,9 @@ def main() -> None:
         if bid in brawlers:
             brawlers[bid]["aliases"] = al
 
-    maps = {m["id"]: m for m in own["maps"]}
-    maps.update({m["id"]: m for m in bf.get("maps", [])})
+    maps = {m["id"]: dict(m) for m in bf.get("maps", [])}
+    for m in own["maps"]:  # le mode vu en classé prime sur celui de Brawlify
+        maps.setdefault(m["id"], dict(m))["mode"] = m["mode"] or maps[m["id"]].get("mode", "")
     translate_fr(maps.values(), read_json(ROOT / "data" / "fr.json", {}) or {})
     for mid, al in aliases.get("maps", {}).items():
         if mid in maps:
