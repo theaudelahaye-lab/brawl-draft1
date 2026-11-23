@@ -185,6 +185,13 @@ export default function App() {
         </div>
       </header>
 
+      {Object.keys(db.mapStats).length === 0 && (
+        <p className="warn">
+          Statistiques pas encore disponibles : les conseils ne sont pas encore fiables. Ajoutez la clé de l'API
+          officielle (voir DEPLOIEMENT.md, étape 5).
+        </p>
+      )}
+
       <section className="voice">
         {speech.supported ? (
           <button className={`mic ${speech.listening ? "on" : ""}`} onClick={speech.listening ? speech.stop : speech.start}>

@@ -45,8 +45,7 @@ def main() -> None:
             try:
                 detail = get_json(f"{BASE}/maps/{m['id']}", pause=0.1)
                 stats = detail.get("stats") or []
-                if not map_stats and not stats:
-                    print("  fiche map sans stats, clés :", sorted(detail.keys()))
+
             except Exception as e:  # une map absente ne doit pas tout casser
                 print(f"  stats indisponibles pour {m['name']}: {e}")
                 stats = []
