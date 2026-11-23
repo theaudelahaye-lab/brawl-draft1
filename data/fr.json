@@ -114,11 +114,27 @@
   "Back Shuffle": "Un pas en arrière"
  },
  "brawlers": {
-  "Mr P": "Mr. P",
+  "Barley": "Bartaba",
+  "El Primo": "El Costo",
+  "Rico": "Ricochet",
+  "8 Bit": "A.R.K.A.D.",
+  "Piper": "Polly",
+  "Bibi": "Billie",
+  "Bea": "Béa",
+  "Emz": "Eliz@",
+  "Gale": "Gaël",
+  "Larry & Lawrie": "Larry & Lawrie",
+  "Gene": "D'Jinn",
+  "Mr P": "Monsieur M.",
+  "Sprout": "Wally",
+  "Ruffs": "Médor",
   "R T": "R-T",
-  "8 Bit": "8-Bit",
+  "Melodie": "Melody",
   "Jae Yong": "Jae-Yong",
-  "Buzz Lightyear": "Buzz l'Éclair",
-  "Larry & Lawrie": "Larry et Lawrie"
- }
+  "Crow": "Corbac",
+  "Leon": "Léon",
+  "Sandy": "Émeri",
+  "Amber": "Ambre"
+ },
+ "_source_brawlers": "Noms français fournis par Monsieur depuis le jeu (23/11/2026)."
 }

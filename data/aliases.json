@@ -1,11 +1,68 @@
 {
-  "_doc": "Variantes de prononciation pour la reconnaissance vocale. Clé = id du brawler ou de la map (slug du nom anglais).",
-  "brawlers": {
-    "el-primo": ["primo"],
-    "8-bit": ["huit bit", "eight bit", "8 bits"],
-    "mr-p": ["monsieur p", "mister p"],
-    "r-t": ["rt", "air t"],
-    "larry-lawrie": ["larry", "lawrie"]
-  },
-  "maps": {}
+ "_doc": "Variantes de prononciation pour la reconnaissance vocale. Clé = id du brawler ou de la map (slug du nom anglais).",
+ "brawlers": {
+  "8-bit": [
+   "arkad",
+   "arcade",
+   "huit bit",
+   "8 bit"
+  ],
+  "mr-p": [
+   "monsieur m",
+   "mister p",
+   "mr p"
+  ],
+  "r-t": [
+   "rt",
+   "air t"
+  ],
+  "emz": [
+   "eliza",
+   "elisa",
+   "eliz"
+  ],
+  "gene": [
+   "djinn",
+   "dijinn",
+   "gin"
+  ],
+  "el-primo": [
+   "costo",
+   "el costo"
+  ],
+  "larry-lawrie": [
+   "larry",
+   "lawrie",
+   "larry et lawrie"
+  ],
+  "gale": [
+   "gael"
+  ],
+  "ruffs": [
+   "medor"
+  ],
+  "sandy": [
+   "emeri",
+   "emery"
+  ],
+  "rico": [
+   "ricochet"
+  ],
+  "crow": [
+   "corbac"
+  ],
+  "piper": [
+   "polly"
+  ],
+  "sprout": [
+   "wally"
+  ],
+  "bibi": [
+   "billie"
+  ],
+  "barley": [
+   "bartaba"
+  ]
+ },
+ "maps": {}
 }
