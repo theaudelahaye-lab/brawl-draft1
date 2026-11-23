@@ -1,0 +1,62 @@
+name: Mise à jour des données et déploiement
+
+on:
+  schedule:
+    - cron: "17 4 * * *" # chaque nuit
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: data
+  cancel-in-progress: false
+
+jobs:
+  data:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Brawlify (brawlers, maps, stats)
+        run: python etl/fetch_brawlify.py
+      - name: API officielle (historiques des meilleurs joueurs)
+        env:
+          BRAWLSTARS_API_KEY: ${{ secrets.BRAWLSTARS_API_KEY }}
+          BRAWLSTARS_API_BASE: https://bsproxy.royaleapi.dev/v1
+          RANKING_REGIONS: global,fr,us,kr,br
+        run: python etl/fetch_battlelogs.py
+      - name: Construction de la base
+        run: python etl/build.py
+      - name: Sauvegarde des données
+        run: |
+          git config user.name "draft-bot"
+          git config user.email "draft-bot@users.noreply.github.com"
+          git add data web/public/data
+          git diff --cached --quiet || git commit -m "Mise à jour des données $(date -u +%F)"
+          git push
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Build de l'appli
+        working-directory: web
+        run: npm ci && npm test && npm run build
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: web/dist
+
+  deploy:
+    needs: data
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

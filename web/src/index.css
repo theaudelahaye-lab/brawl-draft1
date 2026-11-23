@@ -1,0 +1,10 @@
+:root {
+  --bg: #f4f5fb; --fg: #16182a; --card: #ffffff; --btn: #eef0f8; --line: #d9dcea;
+  --accent: #5b4bff; --danger: #e0344f;
+  color-scheme: light dark;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root { --bg: #0f1020; --fg: #eceefe; --card: #181a30; --btn: #22254a; --line: #2f3360; --accent: #8a7dff; --danger: #ff5c76; }
+}
+body { margin: 0; background: var(--bg); color: var(--fg); }

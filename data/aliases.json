@@ -1,0 +1,11 @@
+{
+  "_doc": "Variantes de prononciation pour la reconnaissance vocale. Clé = id du brawler ou de la map (slug du nom anglais).",
+  "brawlers": {
+    "el-primo": ["primo"],
+    "8-bit": ["huit bit", "eight bit", "8 bits"],
+    "mr-p": ["monsieur p", "mister p"],
+    "r-t": ["rt", "air t"],
+    "larry-lawrie": ["larry", "lawrie"]
+  },
+  "maps": {}
+}
