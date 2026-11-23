@@ -25,6 +25,11 @@ describe.skipIf(!db)("reconnaissance des maps (base réelle)", () => {
     ["stratégie parallèle", "parallel-plays"],
     ["undermine", "undermine"],
     ["champ sournois", "sneaky-fields"],
+    ["mine hard rock", "hard-rock-mine"], ["tunnel de mine", "undermine"], ["flipper", "pinball-dreams"],
+    ["prime cachette secrète", "hideout"], ["canyon boum boum", "kaboom-canyon"], ["mille feuilles", "layer-cake"],
+    ["cercle de feu", "ring-of-fire"], ["ravin du bras d'or", "goldarm-gulch"], ["à découvert", "out-in-the-open"],
+    ["étoile filante", "shooting-star"], ["nouveaux horizons", "new-horizons"], ["duel de scarabées", "dueling-beetles"],
+    ["pont au loin", "bridge-too-far"], ["saison sèche", "dry-season"], ["bruissement", "double-swoosh"],
   ])("« %s »", (said, id) => {
     expect(pick(said)).toBe(id);
   });

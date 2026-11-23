@@ -158,3 +158,5 @@ button.small { font-size: .8rem; padding: 4px 10px; margin-left: 8px; vertical-a
 .col { min-height: 64px; flex-direction: row; flex-wrap: wrap; align-content: flex-start; }
 .col h3 { width: 100%; }
 .col .chip { background: rgba(11,11,26,.35); border-radius: 10px; padding: 3px 6px 3px 3px; }
+.mapstep details summary { cursor: pointer; font: 700 .85rem system-ui, sans-serif; opacity: .85; margin: 4px 0 8px; }
+button.minor { font-size: .85rem; padding: 6px 10px; filter: saturate(.7); }

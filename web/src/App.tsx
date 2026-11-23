@@ -231,12 +231,10 @@ export default function App() {
   const mapById = (id: string) => db.maps.find((m) => m.id === id);
   const typedMaps = q && !state.mapId ? matchMaps(query, db, learned).slice(0, 6) : [];
   const shownSuggestions = typedMaps.length ? typedMaps : suggestions;
-  const rankedByMode = RANKED_MODES.map((mode) => ({
-    mode,
-    maps: db.maps
-      .filter((m) => m.mode === mode && db.mapStats[m.id])
-      .sort((a, b) => a.name.localeCompare(b.name, "fr")),
-  })).filter((g) => g.maps.length);
+  const rankedByMode = RANKED_MODES.map((mode) => {
+    const all = db.maps.filter((m) => m.mode === mode).sort((a, b) => a.name.localeCompare(b.name, "fr"));
+    return { mode, maps: all.filter((m) => db.mapStats[m.id]), others: all.filter((m) => !db.mapStats[m.id]) };
+  }).filter((g) => g.maps.length || g.others.length);
   ROLE_OF = Object.fromEntries(db.brawlers.map((b) => [b.id, b.className]));
   const brawlerResults = filterByPrefix(db.brawlers, query);
   const taken = new Set([...state.bans, ...state.allies, ...state.enemies]);
@@ -341,6 +339,18 @@ export default function App() {
                   </button>
                 ))}
               </div>
+              {g.others.length > 0 && (
+                <details>
+                  <summary>Autres maps du mode ({g.others.length})</summary>
+                  <div className="grid">
+                    {g.others.map((m) => (
+                      <button key={m.id} className="minor" onClick={() => chooseMap(m.id, pendingQuery || undefined)}>
+                        {m.name}
+                      </button>
+                    ))}
+                  </div>
+                </details>
+              )}
             </div>
           ))}
         </section>
