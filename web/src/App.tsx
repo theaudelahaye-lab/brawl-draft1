@@ -1,7 +1,7 @@
-import { useCallback, useEffect, useMemo, useState } from "react";
+import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import type { Db, DraftState } from "./types";
 import { currentPhase, enemyThreats, picksThisTurn, recommendBans, recommendPicks, type Reco } from "./engine";
-import { confidentMap, matchMaps, normalize, parseUtterance, RANKED_MODES, type Command, type MapMatch } from "./voice";
+import { confidentMap, filterByPrefix, matchMaps, normalize, parseUtterance, RANKED_MODES, type Command, type MapMatch } from "./voice";
 import { useSpeech } from "./useSpeech";
 import "./App.css";
 
@@ -68,9 +68,35 @@ function hue(id: string) {
   return h;
 }
 
+/** Couleur et libellé par rôle (illustrations originales, aucun visuel du jeu). */
+const ROLES: Record<string, [number, string]> = {
+  "Damage Dealer": [0, "Dégâts"],
+  Tank: [28, "Tank"],
+  Assassin: [280, "Assassin"],
+  Support: [140, "Soutien"],
+  Controller: [190, "Contrôle"],
+  Marksman: [52, "Tireur"],
+  Artillery: [320, "Artillerie"],
+};
+let ROLE_OF: Record<string, string | undefined> = {};
+const roleHue = (id: string) => ROLES[ROLE_OF[id] ?? ""]?.[0] ?? hue(id);
+
+function Tile({
+  id, name, onClick, disabled, badge, sub,
+}: { id: string; name: string; onClick: () => void; disabled?: boolean; badge?: string; sub?: string }) {
+  return (
+    <button className="tile" disabled={disabled} onClick={onClick} title={sub} style={{ ["--h" as string]: roleHue(id) }}>
+      <span className="tileArt">{initials(name)}</span>
+      <span className="tileName">{name}</span>
+      {badge && <span className="tileBadge">{badge}</span>}
+      {sub && <span className="tileSub">{sub}</span>}
+    </button>
+  );
+}
+
 function Chip({ id, name, onRemove }: { id: string; name: string; onRemove?: () => void }) {
   return (
-    <span className="chip" style={{ ["--h" as string]: hue(id) }}>
+    <span className="chip" style={{ ["--h" as string]: roleHue(id) }}>
       <span className="avatar">{initials(name)}</span>
       {name}
       {onRemove && (
@@ -89,6 +115,18 @@ export default function App() {
   const [owned, setOwned] = useState<string[]>(() => load("owned", []));
   const [slot, setSlot] = useState<Slot>("enemy");
   const [query, setQuery] = useState("");
+  const inputRef = useRef<HTMLInputElement>(null);
+  // Taper une lettre n'importe où envoie directement dans le champ de saisie.
+  useEffect(() => {
+    const onKey = (e: KeyboardEvent) => {
+      const t = e.target as HTMLElement;
+      if (t.tagName === "INPUT" || e.ctrlKey || e.metaKey || e.altKey) return;
+      if (e.key === "Escape") setQuery("");
+      else if (/^[\p{L}0-9]$/u.test(e.key)) inputRef.current?.focus();
+    };
+    window.addEventListener("keydown", onKey);
+    return () => window.removeEventListener("keydown", onKey);
+  }, []);
   const [lastHeard, setLastHeard] = useState("");
   const [showOwned, setShowOwned] = useState(false);
 
@@ -199,9 +237,8 @@ export default function App() {
       .filter((m) => m.mode === mode && db.mapStats[m.id])
       .sort((a, b) => a.name.localeCompare(b.name, "fr")),
   })).filter((g) => g.maps.length);
-  const brawlerResults = db.brawlers.filter(
-    (b) => !q || [b.name, ...(b.aliases ?? [])].some((n) => normalize(n).includes(q)),
-  );
+  ROLE_OF = Object.fromEntries(db.brawlers.map((b) => [b.id, b.className]));
+  const brawlerResults = filterByPrefix(db.brawlers, query);
   const taken = new Set([...state.bans, ...state.allies, ...state.enemies]);
 
   const add = (id: string) => setState((s) => applyCommand(s, { intent: slot, ids: [id] }));
@@ -269,13 +306,17 @@ export default function App() {
         <section className="mapstep">
           <h2>Étape 1 · La map</h2>
           <input
+            ref={inputRef}
             className="bigInput"
             autoFocus
-            placeholder="Écrivez la map (ou le mode puis la map), puis Entrée"
+            placeholder="Tapez quelques lettres de la map… Entrée = 1re proposition"
             value={query}
             onChange={(e) => setQuery(e.target.value)}
             onKeyDown={(e) => {
-              if (e.key === "Enter" && query.trim()) handleInput([query]);
+              if (e.key === "Escape") return setQuery("");
+              if (e.key !== "Enter" || !query.trim()) return;
+              if (typedMaps[0]) chooseMap(typedMaps[0].id);
+              else handleInput([query]);
             }}
           />
           {shownSuggestions.length > 0 && (
@@ -338,20 +379,21 @@ export default function App() {
             {map && !db.mapStats[map.id] && (
               <p className="hint">Pas encore de statistiques pour cette map : les conseils reposent sur les contres et synergies seulement.</p>
             )}
-            <ol>
-              {mainList.items.slice(0, 8).map((r) => (
-                <li key={r.brawlerId} onClick={() => add(r.brawlerId)}>
-                  <Chip id={r.brawlerId} name={name(r.brawlerId)} />
-                  <span className={`score ${r.score < 0 ? "neg" : ""}`}>{r.score >= 0 ? "+" : ""}{r.score.toFixed(1)}</span>
-                  <span className="why">
-                    {r.reasons
-                      .filter((x) => Math.abs(x.value) >= 0.3)
-                      .map((x) => `${x.label} ${x.value >= 0 ? "+" : ""}${x.value.toFixed(1)}`)
-                      .join(" · ")}
-                  </span>
-                </li>
+            <div className="tiles recoTiles">
+              {mainList.items.slice(0, 8).map((r, i) => (
+                <Tile
+                  key={r.brawlerId}
+                  id={r.brawlerId}
+                  name={name(r.brawlerId)}
+                  onClick={() => add(r.brawlerId)}
+                  badge={`${i + 1}`}
+                  sub={r.reasons
+                    .filter((x) => Math.abs(x.value) >= 0.3)
+                    .map((x) => `${x.label} ${x.value >= 0 ? "+" : ""}${x.value.toFixed(1)}`)
+                    .join(" · ")}
+                />
               ))}
-            </ol>
+            </div>
             {phase === "theirPick" && picks.length > 0 && (
               <p className="hint">
                 Pour notre prochain tour : <b>{picks.slice(0, 3).map((r) => name(r.brawlerId)).join(", ")}</b>
@@ -361,23 +403,36 @@ export default function App() {
 
           <section className="picker">
             <input
+              ref={inputRef}
               className="bigInput"
-              placeholder={`Écrivez un brawler ou une phrase (« bannis Colt »), puis Entrée · ajout dans « ${slot === "ban" ? "Bannis" : slot === "ally" ? "Nous" : "Eux"} »`}
+              autoFocus
+              placeholder={`Tapez la 1re lettre… Entrée = 1er résultat · ajout dans « ${slot === "ban" ? "Bannis" : slot === "ally" ? "Nous" : "Eux"} »`}
               value={query}
               onChange={(e) => setQuery(e.target.value)}
               onKeyDown={(e) => {
+                if (e.key === "Escape") return setQuery("");
                 if (e.key !== "Enter" || !query.trim()) return;
-                const cmds = parseUtterance(query, db, slot);
+                const firstFree = brawlerResults.find((b) => !taken.has(b.id));
+                const isPhrase = query.trim().includes(" ");
+                const cmds = isPhrase || !firstFree ? parseUtterance(query, db, slot) : [];
                 if (cmds.length) setState((s) => cmds.reduce(applyCommand, s));
-                else if (brawlerResults[0] && !taken.has(brawlerResults[0].id)) add(brawlerResults[0].id);
+                else if (firstFree) add(firstFree.id);
                 setQuery("");
               }}
             />
-            <div className="grid">
+            <div className="tiles">
               {brawlerResults.map((b) => (
-                <button key={b.id} disabled={taken.has(b.id)} onClick={() => (add(b.id), setQuery(""))}>
-                  {b.name}
-                </button>
+                <Tile
+                  key={b.id}
+                  id={b.id}
+                  name={b.name}
+                  disabled={taken.has(b.id)}
+                  onClick={() => {
+                    add(b.id);
+                    setQuery("");
+                    inputRef.current?.focus();
+                  }}
+                />
               ))}
             </div>
           </section>

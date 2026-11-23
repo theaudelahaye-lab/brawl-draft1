@@ -32,3 +32,24 @@ describe.skipIf(!db)("reconnaissance des maps (base réelle)", () => {
     expect(pick("hors jeu")).toBeNull();
   });
 });
+
+describe.skipIf(!db)("reconnaissance des brawlers (base réelle)", () => {
+  it.each([
+    ["chelly", "shelly"], ["spaïk", "spike"], ["el costo", "el-primo"], ["corbac", "crow"],
+    ["mortisse", "mortis"], ["léon", "leon"], ["ricochet", "rico"], ["arcade", "8-bit"],
+    ["dijinn", "gene"], ["polly", "piper"], ["émeri", "sandy"], ["tic", "tick"], ["eliza", "emz"],
+    ["monsieur m", "mr-p"], ["bartaba", "barley"], ["médor", "ruffs"], ["kit", "kit"], ["frank", "frank"],
+    ["ambre", "amber"], ["mélodie", "melodie"], ["surge", "surge"], ["edgar", "edgar"], ["gaël", "gale"],
+  ])("« %s »", async (said, id) => {
+    const { parseUtterance } = await import("./voice");
+    expect(parseUtterance(said, db!, "enemy")).toEqual([{ intent: "enemy", ids: [id] }]);
+  });
+  it("le filtre par lettre trie par ordre alphabétique", async () => {
+    const { filterByPrefix } = await import("./voice");
+    const t = filterByPrefix(db!.brawlers, "t").map((b) => b.name);
+    const starting = t.filter((n) => n.toLowerCase().startsWith("t"));
+    expect(t.slice(0, starting.length)).toEqual(starting);
+    expect(starting).toEqual([...starting].sort((a, b) => a.localeCompare(b, "fr")));
+    expect(starting).toContain("Tick");
+  });
+});

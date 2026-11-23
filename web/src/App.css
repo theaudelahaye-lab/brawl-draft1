@@ -125,3 +125,36 @@ code { background: var(--ink); padding: 2px 6px; border-radius: 6px; }
 .mapstep .modegroup h3 { -webkit-text-stroke: 1px var(--ink); paint-order: stroke fill; text-shadow: 0 2px 0 var(--ink); }
 .suggest button { font-size: 1.05rem; }
 button.small { font-size: .8rem; padding: 4px 10px; margin-left: 8px; vertical-align: middle; }
+/* Tuiles de sélection rapide */
+.tiles { display: grid; grid-template-columns: repeat(auto-fill, minmax(84px, 1fr)); gap: 8px; }
+.tile {
+  position: relative; display: flex; flex-direction: column; align-items: center; gap: 4px;
+  padding: 8px 4px 6px; border-radius: 14px; min-height: 92px;
+  background: linear-gradient(180deg, hsl(var(--h) 75% 58%), hsl(var(--h) 65% 38%));
+  -webkit-text-stroke: 0; text-shadow: none;
+}
+.tile:disabled { opacity: .22; filter: grayscale(1); }
+.tileArt {
+  width: 44px; height: 44px; border-radius: 12px; display: grid; place-items: center;
+  background: rgba(255,255,255,.22); border: 3px solid var(--ink); font-size: 1.1rem; color: #fff;
+  -webkit-text-stroke: 1px var(--ink); paint-order: stroke fill; text-shadow: 0 2px 0 var(--ink);
+}
+.tileName { font-size: .82rem; line-height: 1.05; color: #fff; -webkit-text-stroke: 1px var(--ink); paint-order: stroke fill; text-shadow: 0 2px 0 var(--ink); text-align: center; }
+.tileBadge {
+  position: absolute; top: -6px; left: -6px; width: 24px; height: 24px; border-radius: 50%;
+  display: grid; place-items: center; background: var(--yellow); color: var(--ink); border: 2px solid var(--ink); font-size: .8rem;
+  -webkit-text-stroke: 0; text-shadow: none;
+}
+.tileSub { display: none; }
+.recoTiles { grid-template-columns: repeat(auto-fill, minmax(96px, 1fr)); }
+.recoTiles .tile { min-height: 100px; box-shadow: 0 4px 0 var(--ink), 0 0 0 3px var(--yellow) inset; }
+.recoTiles .tileSub { display: block; font: 600 .62rem/1.1 system-ui, sans-serif; color: #fff; opacity: .9; text-align: center; }
+@media (max-width: 560px) {
+  .tiles { grid-template-columns: repeat(auto-fill, minmax(70px, 1fr)); gap: 6px; }
+  .tile { min-height: 78px; }
+  .tileArt { width: 36px; height: 36px; font-size: .95rem; }
+  .tileName { font-size: .72rem; }
+}
+.col { min-height: 64px; flex-direction: row; flex-wrap: wrap; align-content: flex-start; }
+.col h3 { width: 100%; }
+.col .chip { background: rgba(11,11,26,.35); border-radius: 10px; padding: 3px 6px 3px 3px; }

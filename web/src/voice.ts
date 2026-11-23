@@ -27,13 +27,19 @@ function levenshtein(a: string, b: string): number {
 /** Clé phonétique grossière pour absorber les transcriptions à la française. */
 export function phonetic(s: string): string {
   return s
+    .replace(/sh|sch/g, "ch")
+    .replace(/ch/g, "x")
     .replace(/eau|au/g, "o")
     .replace(/eu|oe/g, "e")
+    .replace(/ee|ea/g, "i")
+    .replace(/oo/g, "ou")
     .replace(/ph/g, "f")
-    .replace(/qu|ck|c(?=[aou])/g, "k")
+    .replace(/th/g, "t")
+    .replace(/qu|ck|c(?=[aou])|q/g, "k")
     .replace(/y/g, "i")
     .replace(/h/g, "")
-    .replace(/(.)\1+/g, "$1");
+    .replace(/(.)\1+/g, "$1")
+    .replace(/([a-z]{3,})e\b/g, "$1"); // e muet final : « spike » ~ « spaik »
 }
 
 export function similarity(a: string, b: string): number {
@@ -131,12 +137,58 @@ export function parseUtterance(text: string, db: Db, fallback: Intent = "enemy")
       out.push({ intent: seg.intent, ids: [] });
       continue;
     }
-    const brawlers = findEntities(seg.text, db.brawlers);
+    let brawlers = findEntities(seg.text, db.brawlers);
+    if (!brawlers.length) {
+      // Rien de sûr : on tente le brawler le plus ressemblant à toute la phrase (hors mots-clés).
+      const words = seg.text.split(" ").filter((w) => w.length > 1 && !FILLER.has(w));
+      const guess = bestEntity(words, db.brawlers);
+      if (guess) brawlers = [guess];
+    }
     const intent = seg.intent ?? last;
     if (brawlers.length) out.push({ intent, ids: brawlers });
     last = intent;
   }
   return out;
+}
+
+const FILLER = new Set([
+  "bannis", "banni", "bannie", "ban", "bans", "en", "face", "adversaire", "adversaires", "ennemi", "ennemis",
+  "ils", "prennent", "ont", "pris", "choisissent", "eux", "nous", "on", "prend", "joue", "choisit", "moi",
+  "mon", "pote", "ami", "je", "prends", "et", "le", "la", "les", "de", "du", "des", "un", "une", "euh", "alors",
+]);
+
+/** Meilleure correspondance unique, plus permissive que findEntities. */
+export function bestEntity(
+  words: string[],
+  items: { id: string; name: string; aliases?: string[] }[],
+  min = 0.62,
+): string | null {
+  if (!words.length) return null;
+  let best: { id: string; score: number } | null = null;
+  for (let i = 0; i < words.length; i++)
+    for (let len = 1; len <= Math.min(3, words.length - i); len++) {
+      const chunk = words.slice(i, i + len).join(" ");
+      for (const it of items)
+        for (const n of [it.name, ...(it.aliases ?? [])]) {
+          const sc = similarity(chunk, normalize(n));
+          if (!best || sc > best.score) best = { id: it.id, score: sc };
+        }
+    }
+  return best && best.score >= min ? best.id : null;
+}
+
+/** Filtre clavier : « t » -> tous les brawlers dont un mot commence par t, par ordre alphabétique. */
+export function filterByPrefix<T extends { name: string; aliases?: string[] }>(items: T[], query: string): T[] {
+  const q = normalize(query);
+  const sorted = [...items].sort((a, b) => a.name.localeCompare(b.name, "fr"));
+  if (!q) return sorted;
+  const starts = (n: string) => {
+    const nn = normalize(n);
+    return nn.startsWith(q) || nn.split(" ").some((w) => w.startsWith(q));
+  };
+  const first = sorted.filter((b) => normalize(b.name).startsWith(q));
+  const other = sorted.filter((b) => !first.includes(b) && [b.name, ...(b.aliases ?? [])].some(starts));
+  return [...first, ...other];
 }
 
 // ---------------------------------------------------------------- maps
